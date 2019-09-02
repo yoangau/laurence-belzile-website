@@ -1,0 +1,24 @@
+.contact{
+    text-align: left;
+    padding-bottom: 15em;
+    padding-top: 15em;
+
+  }
+  
+  .contact .email{
+    color:black;
+    font-size: 1.5em;
+  }
+  
+  .contact-content{
+    padding-bottom: 4em;
+  }
+  
+  .contact li a{
+    text-decoration: none;
+    color:black;
+  }
+
+  .contact .media-icon {
+      max-width: 30px;
+  }
