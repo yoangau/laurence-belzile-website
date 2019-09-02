@@ -25,7 +25,7 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <Col md={{ span: 8, offset: 2 }} className="contact">
+            <Col id="contact" md={{ span: 8, offset: 2 }} className="contact">
                 <Fade bottom className='contact-content'>
                     <a href={`mailto:${this.email}`} className='email'>{this.email}</a>
                     <Row>

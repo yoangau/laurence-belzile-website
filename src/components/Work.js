@@ -20,7 +20,7 @@ export default class Work extends Component {
 
     render() {
         return (
-            <Col className='work' md={{ span: 8, offset: 2 }}>
+            <Col id="work" className='work' md={{ span: 8, offset: 2 }}>
                 <Row>
                     <h1 className='heading'>
                         <Fade bottom>laurence belzile</Fade>
