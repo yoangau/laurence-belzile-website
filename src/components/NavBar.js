@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar'
 import './NavBar.css'
+
 export default class NavBar extends Component {
 
     render() {
         return (
-
             <Navbar expand="lg" sticky="top">
                 <Nav className="lg-column justify-content-end">
                     <Nav.Link href="#work">travail</Nav.Link>
