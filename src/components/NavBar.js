@@ -8,7 +8,7 @@ export default class NavBar extends Component {
         return (
 
             <Navbar expand="lg" sticky="top">
-                <Nav className="lg-column justify-content-end mr-lg-2">
+                <Nav className="lg-column justify-content-end">
                     <Nav.Link href="#work">travail</Nav.Link>
                     <Nav.Link href="#contact">contact</Nav.Link>
                     <Nav.Link href="https://laulau.s3.ca-central-1.amazonaws.com/laurence-belzile-cv.pdf">cv</Nav.Link>
