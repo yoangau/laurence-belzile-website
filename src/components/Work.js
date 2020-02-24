@@ -9,7 +9,7 @@ export default class Work extends Component {
 
     images_func = () => {
         const images = []
-        for (let i = 36; i > 0; i--) {
+        for (let i = 64; i > 0; i--) {
             images.push({
                 id: i,
                 imageSrc: `https://laulau.s3.ca-central-1.amazonaws.com/LB${i}.jpg`
