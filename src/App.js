@@ -1,25 +1,37 @@
-import React, { Component } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import './App.css';
-import NavBar from './components/NavBar';
-import Work from './components/Work'
-import Contact from './components/Contact'
-import { animateScroll as scroll } from "react-scroll";
+import styled from '@emotion/styled';
+import { NavBar } from './components/NavBar';
+import { Work } from './components/Work';
+import { Contact } from './components/Contact';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { Name } from './components/Name';
+import { Resume } from './components/Resume';
 
+const StyledApp = styled.div`
+  background: white;
+  font-family: Rokkitt, serif;
+  margin-left: 5vw;
+`;
 
-export default class App extends Component {
-
-  componentDidMount() {
-    scroll.scrollToTop();
-  }
-
-  render() {
-    return (
-      <div className="App">
+export const App = () => {
+  return (
+    <StyledApp>
+      <Router>
         <NavBar />
-        <Work />
-        <Contact />
-      </div>
-    )
-  }
-}
+        <Name />
+        <Switch>
+          <Route exact path={['/', '/travail']}>
+            <Work />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/cv">
+            <Resume />
+          </Route>
+        </Switch>
+      </Router>
+    </StyledApp>
+  );
+};
