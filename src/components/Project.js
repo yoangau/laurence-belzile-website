@@ -1,5 +1,4 @@
 import React from 'react';
-import LazyLoad from 'react-lazy-load';
 import styled from '@emotion/styled';
 import Image from 'react-bootstrap/Image';
 
@@ -15,8 +14,6 @@ const StyledProject = styled.div`
 
 export const Project = ({ imageSrc, title }) => (
   <StyledProject>
-    <LazyLoad offsetVertical={512}>
-      <Image src={imageSrc} alt={title} fluid></Image>
-    </LazyLoad>
+    <Image src={imageSrc} alt={title} fluid></Image>
   </StyledProject>
 );
