@@ -8,9 +8,9 @@ const StyledProject = styled.div`
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: flex-start;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  max-width: 85vw;
+  margin-top: 4em;
+  margin-bottom: 8em;
+  max-width: 80vw;
 `;
 
 export const Project = ({ imageSrc, title }) => (

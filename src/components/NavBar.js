@@ -5,12 +5,12 @@ import { animateScroll as scroll } from 'react-scroll';
 import styled from '@emotion/styled';
 
 const StyledLink = styled.p`
-  color: #aaaaaa;
+  color: #000000;
   border-radius: 0.25rem;
   margin: 0 0.25em;
   &:hover,
   &:focus {
-    color: #000000;
+    color: #aaaaaa;
     cursor: pointer;
   }
 `;

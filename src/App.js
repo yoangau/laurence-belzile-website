@@ -11,7 +11,8 @@ import { Resume } from './components/Resume';
 const StyledApp = styled.div`
   background: white;
   font-family: Rokkitt, serif;
-  margin-left: 5vw;
+  margin-left: 10vw;
+  min-height: 100vh;
 `;
 
 export const App = () => {

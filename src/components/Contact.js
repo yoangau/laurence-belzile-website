@@ -2,7 +2,12 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import styled from '@emotion/styled';
 
+const StyledMail = styled.div`
+  margin-bottom: 1vh;
+`;
+
 const StyledMailto = styled.a`
+  font-size: 3vh;
   color: black;
   &:hover,
   &:focus {
@@ -38,7 +43,9 @@ const social = [
 export const Contact = () => (
   <>
     <Fade bottom>
-      <StyledMailto href={`mailto:${email}`}>{email}</StyledMailto>
+      <StyledMail>
+        <StyledMailto href={`mailto:${email}`}>{email}</StyledMailto>
+      </StyledMail>
       <StyledSocialNetworks>
         {social.map((link, i) => (
           <StyledSocialMedia key={`${link.name}-${i}`} href={link.url}>
