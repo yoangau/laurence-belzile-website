@@ -32,6 +32,15 @@ const StyledContentList = styled.div`
   align-content: flex-start;
 `;
 
+const StyledLink = styled.a`
+  color: inherit;
+  &:hover,
+  &:focus {
+    color: #aaaaaa;
+    cursor: pointer;
+  }
+`;
+
 const content = [
   {
     title: 'Études',
@@ -202,7 +211,11 @@ const content = [
     year: [
       {
         date: '',
-        list: ['Galerie Champagne et Paradis, Kamouraska'],
+        list: [
+          <StyledLink href="https://champagneparadis.com/collections/belzile-laurence">
+            Galerie Champagne et Paradis, Kamouraska
+          </StyledLink>,
+        ],
       },
     ],
   },
