@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import styled from '@emotion/styled';
+/** @jsx jsx */
 import { Global } from '@emotion/core';
+import styled from '@emotion/styled';
 import { NavBar } from './components/NavBar';
 import { Work } from './components/Work';
 import { Contact } from './components/Contact';
