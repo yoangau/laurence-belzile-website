@@ -13,6 +13,18 @@ const StyledApp = styled.div`
   font-family: Rokkitt, serif;
   margin-left: 10vw;
   min-height: 100vh;
+  
+  -webkit-scrollbar {
+    width: 0.25rem;
+  }
+
+  -webkit-scrollbar-track {
+    background: white;
+  }
+
+  -webkit-scrollbar-thumb {
+    background: black;
+  }
 `;
 
 export const App = () => {
