@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import styled from '@emotion/styled';
+import { Global } from '@emotion/core';
 import { NavBar } from './components/NavBar';
 import { Work } from './components/Work';
 import { Contact } from './components/Contact';
@@ -8,11 +9,9 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { Name } from './components/Name';
 import { Resume } from './components/Resume';
 
-const StyledApp = styled.div`
+const StyledGlobal = styled(Global)`
   background: white;
   font-family: Rokkitt, serif;
-  margin-left: 10vw;
-  min-height: 100vh;
   
   ::-webkit-scrollbar {
     width: 0.25rem;
@@ -27,24 +26,31 @@ const StyledApp = styled.div`
   }
 `;
 
+const StyledApp = styled.div`
+  margin-left: 10vw;
+  min-height: 100vh;
+`;
+
 export const App = () => {
   return (
-    <StyledApp>
-      <Router>
-        <NavBar />
-        <Name />
-        <Switch>
-          <Route exact path={['/', '/travail']}>
-            <Work />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/cv">
-            <Resume />
-          </Route>
-        </Switch>
-      </Router>
-    </StyledApp>
+    <StyledGlobal>
+      <StyledApp>
+        <Router>
+          <NavBar />
+          <Name />
+          <Switch>
+            <Route exact path={['/', '/travail']}>
+              <Work />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/cv">
+              <Resume />
+            </Route>
+          </Switch>
+        </Router>
+      </StyledApp>
+    </StyledGlobal>
   );
 };
