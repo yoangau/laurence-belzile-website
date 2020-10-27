@@ -13,15 +13,15 @@ const StyledGlobal = styled(Global)`
   background: white;
   font-family: Rokkitt, serif;
   
-  ::-webkit-scrollbar {
+  body::-webkit-scrollbar {
     width: 0.25rem;
   }
 
-  ::-webkit-scrollbar-track {
+  body::-webkit-scrollbar-track {
     background: white;
   }
 
-  ::-webkit-scrollbar-thumb {
+  body::-webkit-scrollbar-thumb {
     background: black;
   }
 `;
@@ -33,24 +33,23 @@ const StyledApp = styled.div`
 
 export const App = () => {
   return (
-    <StyledGlobal>
-      <StyledApp>
-        <Router>
-          <NavBar />
-          <Name />
-          <Switch>
-            <Route exact path={['/', '/travail']}>
-              <Work />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="/cv">
-              <Resume />
-            </Route>
-          </Switch>
-        </Router>
-      </StyledApp>
-    </StyledGlobal>
+    <StyledApp>
+      <StyledGlobal />
+      <Router>
+        <NavBar />
+        <Name />
+        <Switch>
+          <Route exact path={['/', '/travail']}>
+            <Work />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/cv">
+            <Resume />
+          </Route>
+        </Switch>
+      </Router>
+    </StyledApp>
   );
 };
