@@ -1,4 +1,3 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 /** @jsx jsx */
 import { jsx, Global } from '@emotion/core';
