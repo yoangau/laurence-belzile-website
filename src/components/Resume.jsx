@@ -240,7 +240,7 @@ const content = [
     title: 'Bourses',
     year: [
       {
-        date: 2019-2020,
+        date: '2019-2020',
         list: ['Bourses de projet, Première ovation, Manif d’art'],
       },
       {
