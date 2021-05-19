@@ -100,7 +100,7 @@ const content = [
       {
         date: 2020,
         list: [
-          'Participation à la Foire en art actuel de Québec',
+          'Foire en art actuel de Québec, Québec',
           'Foire d’art contemporain de Saint-Lambert, Saint-Lambert',
           '50e du Cégep de Rivière-du-Loup, Salle Gaetan-Blanchet, Rivière-du-Loup',
         ],
