@@ -100,6 +100,7 @@ const content = [
       {
         date: 2020,
         list: [
+          'Participation à la Foire en art actuel de Québec',
           'Foire d’art contemporain de Saint-Lambert, Saint-Lambert',
           '50e du Cégep de Rivière-du-Loup, Salle Gaetan-Blanchet, Rivière-du-Loup',
         ],
@@ -159,7 +160,7 @@ const content = [
     title: 'Emplois',
     year: [
       {
-        date: '2018-2020',
+        date: '2018-2021',
         list: ['Coordonnatrice à la programmation, Folie/Culture'],
       },
       {
@@ -178,7 +179,6 @@ const content = [
       {
         date: 2020,
         list: [
-          'Participation à la Foire en art actuel de Québec',
           'Participation aux encans de la quarantaine',
           'Collaboration avec les éditions OMRI pour le recueil Ramages de Laurence Langlois',
         ],
@@ -188,7 +188,7 @@ const content = [
         list: ['Activités de médiation culturelle et de création avec le Café Centre Art, Boucherville'],
       },
       {
-        date: '2018-2020',
+        date: '2018-2021',
         list: ['Membre du comité de programmation de Folie/Culture'],
       },
       {
@@ -240,8 +240,8 @@ const content = [
     title: 'Bourses',
     year: [
       {
-        date: 2019,
-        list: ['Bourse de projet, Première ovation, Manif d’art'],
+        date: 2019-2020,
+        list: ['Bourses de projet, Première ovation, Manif d’art'],
       },
       {
         date: 2018,
