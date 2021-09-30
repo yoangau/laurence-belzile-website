@@ -64,7 +64,13 @@ const content = [
     year: [
       {
         date: 2022,
-        list: ['Une chute constante au profit de la peinture, Galerie Montcalm, Gatineau'],
+        list: ['S'arracher la douceur, Galerie Montcalm, Gatineau'],
+      },
+      {
+        date: 2021,
+        list: ['Marmonner le vide, Manif d’art, bibliothèque Aliette-Marchand, Québec',
+              'Marmonner le vide, Manif d’art, bibliothèque Claire-Martin, Québec',
+              ],
       },
       {
         date: 2020,
