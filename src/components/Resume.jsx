@@ -64,7 +64,7 @@ const content = [
     year: [
       {
         date: 2022,
-        list: ['S'arracher la douceur, Galerie Montcalm, Gatineau'],
+        list: ["S'arracher la douceur, Galerie Montcalm, Gatineau"],
       },
       {
         date: 2021,
