@@ -103,6 +103,10 @@ const content = [
   {
     title: 'Expositions collectives',
     year: [
+       {
+        date: 2021,
+        list: ['montagnes, local indépendant, Québec'],
+      },
       {
         date: 2020,
         list: [
@@ -148,6 +152,10 @@ const content = [
   {
     title: 'Résidences de création',
     year: [
+          {
+        date: 2022,
+        list: ['Centre de production en art actuel Les Ateliers, Baie-Saint-Paul'],
+      },
       {
         date: 2019,
         list: ['NOUAISONS, Presbytère de Scott, Scott'],
@@ -175,13 +183,17 @@ const content = [
       },
       {
         date: 2017,
-        list: ['Auxiliaire d’enseignement dans le cours Ateliers I au baccalauréat en arts visuels, Université Laval'],
+        list: ['Auxiliaire d’enseignement dans le cours Ateliers I, Université Laval'],
       },
     ],
   },
   {
     title: 'Autres activités',
     year: [
+        {
+        date: 2021,
+        list: ['Membre du conseil d’administration de Folie/Culture'],
+      },
       {
         date: 2020,
         list: [
@@ -226,36 +238,32 @@ const content = [
     ],
   },
   {
-    title: 'Prix',
+    title: 'Prix et bourses',
     year: [
+       {
+        date: '2020',
+        list: ['Bourse au projet pour l’exposition collective montagnes, Première ovation, Manif d’art'],
+      },
+       {
+        date: '2019',
+        list: ['Bourse au projet pour l’exposition individuelle Mesure et démesure, Première ovation, Manif d’art'],
+      },
       {
         date: 2018,
         list: [
-          'Représentante  de l’Université Laval pour le concours Forces Avenir, dans la catégorie projet «Art, lettre 	et culture» pour l’exposition collective Jaune Marine',
+          'Représentante de l’Université Laval pour l’exposition collective Jaune Marine, Forces Avenir, catégorie « Art, lettre et culture »',
+          'Bourse de rayonnement, Université Laval',
         ],
+      },
+      {
+        date: 2017,
+        list: ['Bourse d’études supérieures, Fondation Desjardins'],
       },
       {
         date: 2014,
         list: [
-          '2e prix du concours en arts visuels Polskafree25 (Concours organisé par l’ambassade de la Pologne à 	Montréal et l’Université Concordia)',
+          '2e prix du concours en arts visuels Polskafree25, Ambassade de la Pologne à Montréal et Université Concordia',
         ],
-      },
-    ],
-  },
-  {
-    title: 'Bourses',
-    year: [
-      {
-        date: '2019-2020',
-        list: ['Bourses de projet, Première ovation, Manif d’art'],
-      },
-      {
-        date: 2018,
-        list: ['Bourse de rayonnement, Université Laval'],
-      },
-      {
-        date: 2017,
-        list: ['Bourse d’études supérieures de la Fondation Desjardins'],
       },
     ],
   },
