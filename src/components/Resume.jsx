@@ -172,6 +172,43 @@ const content = [
       },
     ],
   },
+    {
+    title: 'Prix et bourses',
+    year: [
+      {
+        date: '2021',
+        list: ['Bourse au projet pour Territoires (résidence de création au Centre de production en art actuel Les Ateliers), Première ovation, Manif d’art',
+              'Bourse au projet pour Territoires (résidence de création au Centre de production en art actuel Les Ateliers), LOJIQ',
+              'Bourse de recherche et création, Ville de Québec',
+              ],
+      },
+       {
+        date: '2020',
+        list: ['Bourse au projet pour l’exposition collective montagnes, Première ovation, Manif d’art'],
+      },
+       {
+        date: '2019',
+        list: ['Bourse au projet pour l’exposition individuelle Mesure et démesure, Première ovation, Manif d’art'],
+      },
+      {
+        date: 2018,
+        list: [
+          'Représentante de l’Université Laval pour l’exposition collective Jaune Marine, Forces Avenir, catégorie « Art, lettre et culture »',
+          'Bourse de rayonnement, Université Laval',
+        ],
+      },
+      {
+        date: 2017,
+        list: ['Bourse d’études supérieures, Fondation Desjardins'],
+      },
+      {
+        date: 2014,
+        list: [
+          '2e prix du concours en arts visuels Polskafree25, Ambassade de la Pologne à Montréal et Université Concordia',
+        ],
+      },
+    ],
+  },
   {
     title: 'Emplois',
     year: [
@@ -224,43 +261,6 @@ const content = [
       {
         date: '',
         list: ['Ville de Boucherville'],
-      },
-    ],
-  },
-  {
-    title: 'Prix et bourses',
-    year: [
-      {
-        date: '2021',
-        list: ['Bourse au projet pour Territoires (résidence de création au Centre de production en art actuel Les Ateliers), Première ovation, Manif d’art',
-              'Bourse au projet pour Territoires (résidence de création au Centre de production en art actuel Les Ateliers), LOJIQ',
-              'Bourse de recherche et création, Ville de Québec',
-              ],
-      },
-       {
-        date: '2020',
-        list: ['Bourse au projet pour l’exposition collective montagnes, Première ovation, Manif d’art'],
-      },
-       {
-        date: '2019',
-        list: ['Bourse au projet pour l’exposition individuelle Mesure et démesure, Première ovation, Manif d’art'],
-      },
-      {
-        date: 2018,
-        list: [
-          'Représentante de l’Université Laval pour l’exposition collective Jaune Marine, Forces Avenir, catégorie « Art, lettre et culture »',
-          'Bourse de rayonnement, Université Laval',
-        ],
-      },
-      {
-        date: 2017,
-        list: ['Bourse d’études supérieures, Fondation Desjardins'],
-      },
-      {
-        date: 2014,
-        list: [
-          '2e prix du concours en arts visuels Polskafree25, Ambassade de la Pologne à Montréal et Université Concordia',
-        ],
       },
     ],
   },
