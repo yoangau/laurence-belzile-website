@@ -55,6 +55,19 @@ const content = [
       }, 
     ],
   },
+    {
+    title: 'Représentation',
+    year: [
+      {
+        date: '',
+        list: [
+          <StyledLink href="https://champagneparadis.com/collections/belzile-laurence">
+            Galerie Champagne et Paradis, Kamouraska
+          </StyledLink>,
+        ],
+      },
+    ],
+  },
   {
     title: 'Expositions individuelles',
     year: [
@@ -211,19 +224,6 @@ const content = [
       {
         date: '',
         list: ['Ville de Boucherville'],
-      },
-    ],
-  },
-  {
-    title: 'Représentation',
-    year: [
-      {
-        date: '',
-        list: [
-          <StyledLink href="https://champagneparadis.com/collections/belzile-laurence">
-            Galerie Champagne et Paradis, Kamouraska
-          </StyledLink>,
-        ],
       },
     ],
   },
