@@ -52,11 +52,7 @@ const content = [
       {
         date: 2016,
         list: ['Baccalauréat en arts visuels avec majeure en peinture et dessin, Université Concordia'],
-      },
-      {
-        date: 2013,
-        list: ['DEC en arts plastiques, Cégep de Rivière-du-Loup'],
-      },
+      }, 
     ],
   },
   {
@@ -64,7 +60,9 @@ const content = [
     year: [
       {
         date: 2022,
-        list: ["S'arracher la douceur, Galerie Montcalm, Gatineau"],
+        list: ["S'arracher la douceur, Galerie Montcalm, Gatineau",
+              "S'arracher la douceur, Maison des arts et de la culture de Brompton, Sherbrooke",
+              ],
       },
       {
         date: 2021,
@@ -83,15 +81,13 @@ const content = [
         date: 2019,
         list: [
           'Arracher le rouge du jaune, Galerie AVE, Montréal',
-          'Entre espace et objets, Galerie du Café Centre art, Boucherville',
+          'Entre espace et objets, Galerie Jean Letarte, Boucherville',
         ],
       },
       {
         date: 2018,
         list: [
           'La chute des corps, Atelier du roulement à billes, Québec',
-          'Entre toi et moi ; il y a ça et là, Centre culturel Georges P.-Vanier, Chateauguay',
-          'Il y a dans cet autour, parfois, la trace de ce milieu, Salle Alphonse-Desjardins, Université Laval, Québec',
         ],
       },
       {
@@ -116,22 +112,16 @@ const content = [
         ],
       },
       {
-        date: 2019,
-        list: ['Ombre diurne et réverbère, Galerie Champage et Paradis, Kamouraska', 'Festival SOIR, Québec'],
-      },
-      {
         date: 2018,
         list: [
           'Nature, Le livart, Montréal',
           'Voir loin, Centre d’art de Kamouraska, Kamouraska',
-          'Sublime, Salle Alphonse-Desjardins, Université Laval, Québec',
           'Jaune Marine, Ancienne école des beaux-arts de Montréal, Montréal',
         ],
       },
       {
         date: 2017,
         list: [
-          'Coming soon, Atelier du Roulement à billes, Québec ',
           'Exposition collective de Résidence nomade, Atelier du Roulement à billes, Québec',
           'Exposé Noir, Fonderie Darling en partenariat avec Centerfold, Montréal',
           'Abstraction sauvage, Le Livart, Montréal',
@@ -141,7 +131,6 @@ const content = [
       {
         date: 2016,
         list: [
-          'Off-FAAQ/FAAQ-OFF, Atelier du Roulement à billes, Québec',
           'Centerfold 11, Centerfold Gallery, Montréal',
           'Summer exhibition 1/3, VAV Gallery, Montréal',
           'Stay Awhile, Art Matters, Montréal',
@@ -192,7 +181,10 @@ const content = [
     year: [
         {
         date: 2021,
-        list: ['Membre du conseil d’administration de Folie/Culture'],
+        list: ['Trésorière du conseil d’administration de Folie/Culture', 
+              'Don d’une œuvre pour l’encan annuel du Musée du Bas-Saint-Laurent',
+              'Participation au projet de Portfolio collaboratif organisé par l’artiste Julie Bellavance et soutenu par Engramme, l’Université Laval et Première Ovation',
+              ],
       },
       {
         date: 2020,
@@ -207,11 +199,9 @@ const content = [
       },
       {
         date: '2018-2021',
-        list: ['Membre du comité de programmation de Folie/Culture'],
-      },
-      {
-        date: '2018-2021',
-        list: ['Participation aux encans annuels du Centre d’art de Kamouraska'],
+        list: ['Membre du comité de programmation de Folie/Culture',
+              'Participation aux encans annuels du Centre d’art de Kamouraska',
+              ],
       },
     ],
   },
@@ -240,6 +230,13 @@ const content = [
   {
     title: 'Prix et bourses',
     year: [
+      {
+        date: '2021',
+        list: ['Bourse au projet pour Territoires (résidence de création au Centre de production en art actuel Les Ateliers), Première ovation, Manif d’art',
+              'Bourse au projet pour Territoires (résidence de création au Centre de production en art actuel Les Ateliers), LOJIQ',
+              'Bourse de recherche et création, Ville de Québec',
+              ],
+      },
        {
         date: '2020',
         list: ['Bourse au projet pour l’exposition collective montagnes, Première ovation, Manif d’art'],
