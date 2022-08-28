@@ -31,9 +31,17 @@ export const NavBar = () => {
   return (
     <StyledNavbar expand="lg" sticky="top">
       <Nav className="lg-column justify-content-end">
-        <StyledLink onClick={() => handleClick('/travail')}>travail</StyledLink>
-        <StyledLink onClick={() => handleClick('/contact')}>contact</StyledLink>
-        <StyledLink onClick={() => handleClick('/cv')}>cv</StyledLink>
+        <StyledLink onClick={() => handleClick('/travail')}> travail.</StyledLink>
+        <StyledLink
+          onClick={() =>
+            window.open('https://laulau.s3.ca-central-1.amazonaws.com/oeuvres_disponibles.pdf', '_blank').focus()
+          }
+        >
+          {' '}
+          oeuvres disponibles.
+        </StyledLink>
+        <StyledLink onClick={() => handleClick('/contact')}> contact.</StyledLink>
+        <StyledLink onClick={() => handleClick('/cv')}> cv.</StyledLink>
       </Nav>
     </StyledNavbar>
   );
