@@ -13,10 +13,10 @@ const StyledProject = styled.div`
   max-width: 80vw;
 `;
 
-export const Project = ({ imageSrc, title }) => (
+export const Project = ({ src, title }) => (
   <StyledProject>
     <LazyLoad height={1024}>
-      <Image src={imageSrc} alt={title} fluid></Image>
+      <Image src={src} alt={title} fluid></Image>
     </LazyLoad>
   </StyledProject>
 );
