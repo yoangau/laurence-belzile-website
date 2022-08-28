@@ -38,7 +38,7 @@ export const NavBar = () => {
           }
         >
           {' '}
-          oeuvres disponibles.
+          œuvres disponibles.
         </StyledLink>
         <StyledLink onClick={() => handleClick('/contact')}> contact.</StyledLink>
         <StyledLink onClick={() => handleClick('/cv')}> cv.</StyledLink>
