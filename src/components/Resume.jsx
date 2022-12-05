@@ -70,7 +70,7 @@ const content = [
     year: [
       {
         date: 2022,
-        list: [{ val: 'expo-ind-2022-0' }, { val: 'expo-ind-2022-1' }],
+        list: [{ val: 'expo-ind-2022-0' }, { val: 'expo-ind-2022-1' }, { val: 'expo-ind-2022-2' }],
       },
       {
         date: 2021,
