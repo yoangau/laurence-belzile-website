@@ -236,13 +236,7 @@ export const Resume = () => {
               <StyledDate>{year.date}</StyledDate>
               <StyledContentList>
                 {year.list.map(({ val, link }, k) => (
-                  <div key={`${val}-${k}`}>
-                    {link ? (
-                      <StyledLink href="https://champagneparadis.com/collections/belzile-laurence">{t(val)}</StyledLink>
-                    ) : (
-                      t(val)
-                    )}
-                  </div>
+                  <div key={`${val}-${k}`}>{link ? <StyledLink href={link}>{t(val)}</StyledLink> : t(val)}</div>
                 ))}
               </StyledContentList>
             </StyledYear>

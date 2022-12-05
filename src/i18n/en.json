@@ -66,5 +66,10 @@
         "other-2018-2021-1": "Participation in the annual auctions of the Center d'art de Kamouraska",
         "collection-title": "Collection",
         "collection-0": "City of Boucherville"
+    },
+    "work": {
+        "acrylic": "acrrylyqiue",
+        "graphite": "graphite",
+        "on-paper": "on paper"
     }
 }
