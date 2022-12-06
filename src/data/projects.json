@@ -12,7 +12,9 @@
         ],
         "year": 2053,
         "price": 150,
-        "buy-ref": "buy-method-0@@les-autours-123123"
+        "buy-ref": "buy-method-0@@les-autours-123123",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00002",
@@ -23,7 +25,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00003",
@@ -34,7 +38,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00004",
@@ -45,7 +51,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00005",
@@ -56,7 +64,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00006",
@@ -67,7 +77,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00007",
@@ -78,7 +90,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00008",
@@ -89,7 +103,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00009",
@@ -100,7 +116,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00010",
@@ -111,7 +129,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00012",
@@ -122,7 +142,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00013",
@@ -133,7 +155,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00014",
@@ -144,7 +168,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00015",
@@ -155,7 +181,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00016",
@@ -166,7 +194,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00017",
@@ -177,7 +207,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00018",
@@ -188,7 +220,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00019",
@@ -199,7 +233,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00020",
@@ -210,7 +246,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00021",
@@ -221,7 +259,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00022",
@@ -232,7 +272,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00023",
@@ -243,7 +285,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00024",
@@ -254,7 +298,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00025",
@@ -265,7 +311,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00026",
@@ -276,7 +324,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00027",
@@ -287,7 +337,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00028",
@@ -298,7 +350,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00029",
@@ -309,7 +363,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00030",
@@ -320,7 +376,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00031",
@@ -331,7 +389,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00032",
@@ -342,7 +402,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00033",
@@ -353,7 +415,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00034",
@@ -364,7 +428,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00035",
@@ -375,7 +441,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00036",
@@ -386,7 +454,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00037",
@@ -397,7 +467,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00038",
@@ -408,7 +480,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00039",
@@ -419,7 +493,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00040",
@@ -430,7 +506,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00041",
@@ -441,7 +519,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00042",
@@ -452,7 +532,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00043",
@@ -463,7 +545,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00044",
@@ -474,7 +558,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00045",
@@ -485,7 +571,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00046",
@@ -496,7 +584,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00047",
@@ -507,7 +597,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00048",
@@ -518,7 +610,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00049",
@@ -529,7 +623,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00050",
@@ -540,7 +636,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00051",
@@ -551,7 +649,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00052",
@@ -562,7 +662,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00053",
@@ -573,7 +675,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00054",
@@ -584,7 +688,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00055",
@@ -595,7 +701,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00056",
@@ -606,7 +714,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00057",
@@ -617,7 +727,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00058",
@@ -628,7 +740,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00059",
@@ -639,7 +753,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00060",
@@ -650,7 +766,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00061",
@@ -661,7 +779,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00062",
@@ -672,7 +792,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00063",
@@ -683,7 +805,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00064",
@@ -694,7 +818,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00065",
@@ -705,7 +831,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00066",
@@ -716,7 +844,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00067",
@@ -727,7 +857,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00068",
@@ -738,7 +870,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00069",
@@ -749,7 +883,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00070",
@@ -760,7 +896,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00071",
@@ -771,7 +909,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00072",
@@ -782,7 +922,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00073",
@@ -793,7 +935,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00074",
@@ -804,7 +948,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00075",
@@ -815,7 +961,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00076",
@@ -826,7 +974,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00077",
@@ -837,7 +987,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00078",
@@ -848,7 +1000,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00079",
@@ -859,7 +1013,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00080",
@@ -870,7 +1026,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00081",
@@ -881,7 +1039,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00082",
@@ -892,7 +1052,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00083",
@@ -903,7 +1065,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00084",
@@ -914,7 +1078,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00085",
@@ -925,7 +1091,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00086",
@@ -936,7 +1104,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00087",
@@ -947,7 +1117,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00088",
@@ -958,7 +1130,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00089",
@@ -969,7 +1143,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00090",
@@ -980,7 +1156,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00091",
@@ -991,7 +1169,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00092",
@@ -1002,7 +1182,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00093",
@@ -1013,7 +1195,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00094",
@@ -1024,7 +1208,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00095",
@@ -1035,7 +1221,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00096",
@@ -1046,7 +1234,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00097",
@@ -1057,7 +1247,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00098",
@@ -1068,7 +1260,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00099",
@@ -1079,7 +1273,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00100",
@@ -1090,7 +1286,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00101",
@@ -1101,7 +1299,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00102",
@@ -1112,7 +1312,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00103",
@@ -1123,7 +1325,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00104",
@@ -1134,7 +1338,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00105",
@@ -1145,7 +1351,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00106",
@@ -1156,7 +1364,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00107",
@@ -1167,7 +1377,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00112",
@@ -1178,7 +1390,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00113",
@@ -1189,7 +1403,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00117",
@@ -1200,7 +1416,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00118",
@@ -1211,7 +1429,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00119",
@@ -1222,7 +1442,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00122",
@@ -1233,7 +1455,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00124",
@@ -1244,7 +1468,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00108",
@@ -1255,7 +1481,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00109",
@@ -1266,7 +1494,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00110",
@@ -1277,7 +1507,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00111",
@@ -1288,7 +1520,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00114",
@@ -1299,7 +1533,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00115",
@@ -1310,7 +1546,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00116",
@@ -1321,7 +1559,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00120",
@@ -1332,7 +1572,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00121",
@@ -1343,7 +1585,9 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     },
     {
         "id": "LB00123",
@@ -1354,6 +1598,8 @@
         "technique": "",
         "year": 2020,
         "price": 100,
-        "buy-ref": "buy-method-0@@something"
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": ""
     }
 ]
