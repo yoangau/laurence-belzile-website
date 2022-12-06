@@ -283,7 +283,6 @@ export const Resume = () => {
   const { t } = useTranslation('resume');
   return (
     <Fade bottom>
-      <h1>Curriculum vitae</h1>
       {content.map((element, i) => (
         <div key={`${element.title}-${i}`}>
           <StyledTitle>{t(element.title)}</StyledTitle>
