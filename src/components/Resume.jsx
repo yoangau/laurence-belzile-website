@@ -57,15 +57,6 @@ const content = [
     ],
   },
   {
-    title: 'rep-title',
-    year: [
-      {
-        date: '',
-        list: [{ val: 'rep-champagne', link: 'https://champagneparadis.com/collections/belzile-laurence' }],
-      },
-    ],
-  },
-  {
     title: 'expo-ind-title',
     year: [
       {
@@ -86,7 +77,7 @@ const content = [
       },
       {
         date: 2018,
-        list: [{ val: 'expo-ind-2018-0' }],
+        list: [{ val: 'expo-ind-2018-0' }, { val: 'expo-ind-2018-1' }, { val: 'expo-ind-2018-2' }],
       },
       {
         date: 2017,
@@ -98,12 +89,22 @@ const content = [
     title: 'expo-col-title',
     year: [
       {
+        date: 2022,
+        list: [
+          { val: 'expo-col-2022-0' },
+          { val: 'expo-col-2022-1' },
+          { val: 'expo-col-2022-2' },
+          { val: 'expo-col-2022-3' },
+          { val: 'expo-col-2022-4' },
+        ],
+      },
+      {
         date: 2021,
         list: [{ val: 'expo-col-2021-0' }],
       },
       {
         date: 2020,
-        list: [{ val: 'expo-col-2020-0' }, { val: 'expo-col-2020-1' }, { val: 'expo-col-2020-2' }],
+        list: [{ val: 'expo-col-2020-0' }],
       },
       {
         date: 2018,
@@ -111,16 +112,63 @@ const content = [
       },
       {
         date: 2017,
-        list: [
-          { val: 'expo-col-2017-0' },
-          { val: 'expo-col-2017-1' },
-          { val: 'expo-col-2017-2' },
-          { val: 'expo-col-2017-3' },
-        ],
+        list: [{ val: 'expo-col-2017-0' }, { val: 'expo-col-2017-1' }, { val: 'expo-col-2017-2' }],
       },
       {
         date: 2016,
-        list: [{ val: 'expo-col-2016-0' }, { val: 'expo-col-2016-1' }, { val: 'expo-col-2016-2' }],
+        list: [{ val: 'expo-col-2016-0' }, { val: 'expo-col-2016-1' }],
+      },
+    ],
+  },
+  {
+    title: 'fairs-auct-title',
+    year: [
+      {
+        date: 2022,
+        list: [{ val: 'fairs-auct-2022-0' }],
+      },
+      {
+        date: 2020,
+        list: [{ val: 'fairs-auct-2020-0' }, { val: 'fairs-auct-2020-1' }, { val: 'fairs-auct-2020-2' }],
+      },
+      {
+        date: 2019,
+        list: [{ val: 'fairs-auct-2019-0' }],
+      },
+      {
+        date: 2018,
+        list: [{ val: 'fairs-auct-2018-0' }],
+      },
+    ],
+  },
+  {
+    title: 'collection-title',
+    year: [
+      {
+        date: '',
+        list: [{ val: 'collection-0' }, { val: 'collection-1' }, { val: 'collection-2' }],
+      },
+    ],
+  },
+  {
+    title: 'rep-title',
+    year: [
+      {
+        date: '',
+        list: [{ val: 'rep-champagne', link: 'https://champagneparadis.com/collections/belzile-laurence' }],
+      },
+    ],
+  },
+  {
+    title: 'projects-title',
+    year: [
+      {
+        date: 2022,
+        list: [{ val: 'projects-2022-0' }, { val: 'projects-2022-1' }],
+      },
+      {
+        date: 2021,
+        list: [{ val: 'projects-2021-0' }],
       },
     ],
   },
@@ -137,7 +185,7 @@ const content = [
       },
       {
         date: 2018,
-        list: [{ val: 'resid-2018-0' }],
+        list: [{ val: 'resid-2018-0' }, { val: 'resid-2018-1' }],
       },
       {
         date: 2017,
@@ -148,6 +196,10 @@ const content = [
   {
     title: 'awards-title',
     year: [
+      {
+        date: 2022,
+        list: [{ val: 'awards-2022-0' }],
+      },
       {
         date: 2021,
         list: [{ val: 'awards-2021-0' }, { val: 'awards-2021-1' }, { val: 'awards-2021-2' }],
@@ -162,7 +214,7 @@ const content = [
       },
       {
         date: 2018,
-        list: [{ val: 'awards-2018-0' }, { val: 'awards-2018-1' }],
+        list: [{ val: 'awards-2018-0' }],
       },
       {
         date: 2017,
@@ -175,49 +227,53 @@ const content = [
     ],
   },
   {
+    title: 'other-title',
+    year: [
+      {
+        date: '2021-2022',
+        list: [{ val: 'other-2021-2022-0' }],
+      },
+      {
+        date: '2018-2021',
+        list: [{ val: 'other-2018-2021-0' }],
+      },
+      {
+        date: '2017-2018',
+        list: [{ val: 'other-2017-2018-0' }],
+      },
+      {
+        date: '2016-2017',
+        list: [{ val: 'other-2016-2017-0' }],
+      },
+    ],
+  },
+  {
     title: 'jobs-title',
     year: [
       {
         date: '2018-2021',
-        list: [{ val: 'jobs-2018-2021' }],
+        list: [{ val: 'jobs-2018-2021-0' }],
       },
       {
         date: 2018,
-        list: [{ val: 'jobs-2018' }],
+        list: [{ val: 'jobs-2018-0' }],
       },
       {
         date: 2017,
-        list: [{ val: 'jobs-2017' }],
+        list: [{ val: 'jobs-2017-0' }],
       },
     ],
   },
   {
-    title: 'other-title',
+    title: 'illustration-title',
     year: [
       {
-        date: 2021,
-        list: [{ val: 'other-2021-0' }, { val: 'other-2021-1' }, { val: 'other-2021-2' }],
+        date: 2022,
+        list: [{ val: 'illustration-2022-0' }],
       },
       {
         date: 2020,
-        list: [{ val: 'other-2020-0' }, { val: 'other-2020-1' }],
-      },
-      {
-        date: 2019,
-        list: [{ val: 'other-2019-0' }],
-      },
-      {
-        date: '2018-2021',
-        list: [{ val: 'other-2018-2021-0' }, { val: 'other-2018-2021-1' }],
-      },
-    ],
-  },
-  {
-    title: 'collection-title',
-    year: [
-      {
-        date: '',
-        list: ['collection-0'],
+        list: [{ val: 'illustration-2020-0' }],
       },
     ],
   },
