@@ -12,6 +12,6 @@ const StyledName = styled.h1`
 
 export const Name = () => (
   <Fade bottom>
-    <StyledName>laurence belzile</StyledName>
+    <StyledName>Laurence Belzile</StyledName>
   </Fade>
 );
