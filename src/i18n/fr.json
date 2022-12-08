@@ -85,7 +85,21 @@
         "illustration-2020-0": "Mise en images du recueil Ramages de Laurence Langlois, éditions OMRI"
     },
     "work": {
-        "wood-paper": "Acrylique",
+        "acrylic": "acrylique",
+        "oil": "huile",
+        "gouache": "gouache",
+        "watercolor": "aquarelle",
+        "colored-pencil": "crayon de couleur",
+        "graphite": "graphite",
+        "charcoal": "fusain",
+        "dry-pastel": "pastel sec",
+        "on-paper": "sur papier",
+        "on-canvas": "sur toile",
+        "on-masonite": "sur masonite",
+        "on-wood": "sur bois",
+        "paper-masonite": "papier sur masonite",
+        "canvas-masonite": "toile sur masonite",
+        "canvas-wood": "toile sur bois",
         "buy-method-0": "https://camille.csasda/",
         "buy-method-1": "mailto:camille.csasda@gmail.com"
     }

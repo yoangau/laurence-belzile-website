@@ -85,8 +85,20 @@
         "illustration-2020-0": "Illustrations for Ramages, Laurence Langlois, OMRI Publishing House"
     },
     "work": {
-        "acrylic": "acrrylyqiue",
+        "acrylic": "acrylic",
+        "oil": "oil",
+        "gouache": "gouache",
+        "watercolor": "watercolor",
+        "colored-pencil": "colored pencil",
         "graphite": "graphite",
-        "on-paper": "on paper"
+        "charcoal": "charcoal",
+        "dry-pastel": "dry pastel",
+        "on-paper": "on paper",
+        "on-canvas": "on canvas",
+        "on-masonite": "on masonite",
+        "on-wood": "on wood",
+        "paper-masonite": "paper on masonite",
+        "canvas-masonite": "canvas on masonite",
+        "canvas-wood": "canvas on wood"
     }
 }
