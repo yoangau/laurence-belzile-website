@@ -97,10 +97,12 @@
         "on-canvas": "sur toile",
         "on-masonite": "sur masonite",
         "on-wood": "sur bois",
-        "paper-masonite": "papier sur masonite",
-        "canvas-masonite": "toile sur masonite",
+        "paper-masonite": "sur papier monté sur masonite",
+        "canvas-masonite": "sur toile monté sur masonite",
         "canvas-wood": "toile sur bois",
-        "buy-method-0": "https://camille.csasda/",
-        "buy-method-1": "mailto:camille.csasda@gmail.com"
+        "buy-method-0": "https://camille.csasda/@@",
+        "buy-method-1": "mailto:laurence.belzile.arts@gmail.com",
+        "photo-credit-0": "Laurence Belzile",
+        "untitled": "sans titre"
     }
 }
