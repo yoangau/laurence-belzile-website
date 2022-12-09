@@ -2,175 +2,237 @@
     {
         "id": "LB00001",
         "src": "/projects/LB00001.jpg",
-        "available": false,
-        "title": "laulau est en vacances",
-        "dimension": "22 x 22",
+        "available": true,
+        "title": "A 9",
+        "dimension": "4 x 4,5",
         "technique": [
             "acrylic",
-            "graphite",
-            "on-canvas"
+            "canvas-masonite"
         ],
-        "year": 2053,
-        "price": 150,
-        "buy-ref": "buy-method-0@@les-autours-123123",
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00002",
         "src": "/projects/LB00002.jpg",
         "available": true,
-        "title": "LB00002",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "title": "A 13",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00003",
         "src": "/projects/LB00003.jpg",
-        "available": false,
-        "title": "LB00003",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "A 25",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00004",
         "src": "/projects/LB00004.jpg",
-        "available": false,
-        "title": "LB00004",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "A 7",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00005",
         "src": "/projects/LB00005.jpg",
-        "available": false,
-        "title": "LB00005",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "A 24",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00006",
         "src": "/projects/LB00006.jpg",
-        "available": false,
-        "title": "LB00006",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "A 14",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00007",
         "src": "/projects/LB00007.jpg",
-        "available": false,
-        "title": "LB00007",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "A 18",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00008",
         "src": "/projects/LB00008.jpg",
-        "available": false,
-        "title": "LB00008",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "A 20",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00009",
         "src": "/projects/LB00009.jpg",
-        "available": false,
-        "title": "LB00009",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "A 19",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00010",
         "src": "/projects/LB00010.jpg",
-        "available": false,
-        "title": "LB00010",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "A 27",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00011",
+        "src": "/projects/LB00011.jpg",
+        "available": true,
+        "title": "A 10",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00012",
         "src": "/projects/LB00012.jpg",
         "available": false,
-        "title": "LB00012",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
-        "expo-only": false,
-        "expo": ""
+        "title": "Vue de l'installation finale @@",
+        "dimension": null,
+        "technique": null,
+        "year": 2017,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": true,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00013",
         "src": "/projects/LB00013.jpg",
-        "available": false,
-        "title": "LB00013",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "La forme",
+        "dimension": "36 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 1500,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": ""
+        "expo": null,
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00014",
         "src": "/projects/LB00014.jpg",
         "available": false,
-        "title": "LB00014",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "title": "Mouffle",
+        "dimension": "36 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": null,
+        "buy-ref": null,
         "expo-only": false,
-        "expo": ""
+        "expo": null,
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00015",
@@ -183,7 +245,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00016",
@@ -196,7 +259,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00017",
@@ -209,7 +273,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00018",
@@ -222,7 +287,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00019",
@@ -235,7 +301,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00020",
@@ -248,7 +315,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00021",
@@ -261,7 +329,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00022",
@@ -274,7 +343,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00023",
@@ -287,7 +357,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00024",
@@ -300,7 +371,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00025",
@@ -313,7 +385,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00026",
@@ -326,7 +399,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00027",
@@ -339,7 +413,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00028",
@@ -352,7 +427,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00029",
@@ -365,7 +441,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00030",
@@ -378,7 +455,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00031",
@@ -391,7 +469,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00032",
@@ -404,7 +483,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00033",
@@ -417,7 +497,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00034",
@@ -430,7 +511,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00035",
@@ -443,7 +525,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00036",
@@ -456,7 +539,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00037",
@@ -469,7 +553,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00038",
@@ -482,7 +567,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00039",
@@ -495,7 +581,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00040",
@@ -508,7 +595,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00041",
@@ -521,7 +609,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00042",
@@ -534,7 +623,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00043",
@@ -547,7 +637,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00044",
@@ -560,7 +651,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00045",
@@ -573,7 +665,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00046",
@@ -586,7 +679,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00047",
@@ -599,7 +693,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00048",
@@ -612,7 +707,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00049",
@@ -625,7 +721,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00050",
@@ -638,7 +735,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00051",
@@ -651,7 +749,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00052",
@@ -664,7 +763,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00053",
@@ -677,7 +777,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00054",
@@ -690,7 +791,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00055",
@@ -703,7 +805,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00056",
@@ -716,7 +819,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00057",
@@ -729,7 +833,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00058",
@@ -742,7 +847,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00059",
@@ -755,7 +861,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00060",
@@ -768,7 +875,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00061",
@@ -781,7 +889,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00062",
@@ -794,7 +903,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00063",
@@ -807,7 +917,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00064",
@@ -820,7 +931,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00065",
@@ -833,7 +945,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00066",
@@ -846,7 +959,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00067",
@@ -859,7 +973,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00068",
@@ -872,7 +987,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00069",
@@ -885,7 +1001,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00070",
@@ -898,7 +1015,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00071",
@@ -911,7 +1029,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00072",
@@ -924,7 +1043,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00073",
@@ -937,7 +1057,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00074",
@@ -950,7 +1071,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00075",
@@ -963,7 +1085,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00076",
@@ -976,7 +1099,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00077",
@@ -989,7 +1113,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00078",
@@ -1002,7 +1127,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00079",
@@ -1015,7 +1141,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00080",
@@ -1028,7 +1155,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00081",
@@ -1041,7 +1169,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00082",
@@ -1054,7 +1183,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00083",
@@ -1067,7 +1197,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00084",
@@ -1080,7 +1211,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00085",
@@ -1093,7 +1225,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00086",
@@ -1106,7 +1239,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00087",
@@ -1119,7 +1253,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00088",
@@ -1132,7 +1267,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00089",
@@ -1145,7 +1281,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00090",
@@ -1158,7 +1295,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00091",
@@ -1171,7 +1309,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00092",
@@ -1184,7 +1323,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00093",
@@ -1197,7 +1337,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00094",
@@ -1210,7 +1351,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00095",
@@ -1223,7 +1365,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00096",
@@ -1236,7 +1379,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00097",
@@ -1249,7 +1393,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00098",
@@ -1262,7 +1407,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00099",
@@ -1275,7 +1421,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00100",
@@ -1288,7 +1435,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00101",
@@ -1301,7 +1449,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00102",
@@ -1314,7 +1463,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00103",
@@ -1327,7 +1477,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00104",
@@ -1340,7 +1491,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00105",
@@ -1353,7 +1505,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00106",
@@ -1366,7 +1519,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00107",
@@ -1379,7 +1533,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00112",
@@ -1392,7 +1547,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00113",
@@ -1405,7 +1561,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00117",
@@ -1418,7 +1575,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00118",
@@ -1431,7 +1589,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00119",
@@ -1444,7 +1603,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00122",
@@ -1457,7 +1617,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00124",
@@ -1470,7 +1631,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00108",
@@ -1483,7 +1645,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00109",
@@ -1496,7 +1659,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00110",
@@ -1509,7 +1673,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00111",
@@ -1522,7 +1687,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00114",
@@ -1535,7 +1701,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00115",
@@ -1548,7 +1715,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00116",
@@ -1561,7 +1729,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00120",
@@ -1574,7 +1743,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00121",
@@ -1587,7 +1757,8 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00123",
@@ -1600,6 +1771,7 @@
         "price": 100,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
-        "expo": ""
+        "expo": "",
+        "photo-credit": "photo-credit-0"
     }
 ]
