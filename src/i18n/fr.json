@@ -100,9 +100,12 @@
         "paper-masonite": "sur papier monté sur masonite",
         "canvas-masonite": "sur toile monté sur masonite",
         "canvas-wood": "toile sur bois",
+        "paper-wood": "sur papier monté sur bois",
+        "unstretched": "sur toile non monté",
         "buy-method-0": "https://camille.csasda/@@",
         "buy-method-1": "mailto:laurence.belzile.arts@gmail.com",
         "photo-credit-0": "Laurence Belzile",
+        "photo-credit-1": "Galerie Champage et Paradis",
         "untitled": "sans titre"
     }
 }

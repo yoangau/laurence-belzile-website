@@ -100,9 +100,12 @@
         "paper-masonite": "paper on masonite",
         "canvas-masonite": "canvas on masonite",
         "canvas-wood": "canvas on wood",
+        "paper-wood": "paper on wood",
+        "unstretched": "on unstretched canvas",
         "buy-method-0": "https://camille.csasda/@@",
         "buy-method-1": "mailto:laurence.belzile.arts@gmail.com",
         "photo-credit-0": "Laurence Belzile",
+        "photo-credit-1": "Champagne et Paradis Gallery",
         "untitled": "untitled"
     }
 }
