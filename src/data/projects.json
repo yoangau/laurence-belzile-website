@@ -1162,29 +1162,35 @@
     {
         "id": "LB00072",
         "src": "/projects/LB00072.jpg",
-        "available": false,
-        "title": "LB00072",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "Rompre le vaste",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 600,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": "",
+        "expo": "mesure-demesure-jonquiere-2020",
         "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00073",
         "src": "/projects/LB00073.jpg",
         "available": false,
-        "title": "LB00073",
-        "dimension": [],
-        "technique": "",
+        "title": "untitled",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
         "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "price": 600,
+        "buy-ref": null,
         "expo-only": false,
-        "expo": "",
+        "expo": "mesure-demesure-jonquiere-2020",
         "photo-credit": "photo-credit-0"
     },
     {
