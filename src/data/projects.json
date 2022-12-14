@@ -1145,15 +1145,18 @@
     {
         "id": "LB00071",
         "src": "/projects/LB00071.jpg",
-        "available": false,
-        "title": "LB00071",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
+        "available": true,
+        "title": "untitled",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 600,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
-        "expo": "",
+        "expo": null,
         "photo-credit": "photo-credit-0"
     },
     {
