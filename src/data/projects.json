@@ -2063,6 +2063,26 @@
         "photo-credit": "photo-credit-2"
     },
     {
+        "id": "LB00123.3",
+        "src": "/projects/LB00123.3.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "46 x 46",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1800,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": [
+            "l'hiver-dessin-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2"
+    },
+    {
         "id": "LB00124",
         "src": "/projects/LB00124.jpg",
         "available": false,
