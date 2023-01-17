@@ -1768,26 +1768,6 @@
         "photo-credit": "photo-credit-2"
     },
     {
-        "id": "LB00108",
-        "src": "/projects/LB00108.jpg",
-        "available": true,
-        "title": "untitled",
-        "dimension": "11,5 x 11,5",
-        "technique": [
-            "graphite",
-            "paper-wood"
-        ],
-        "year": 2022,
-        "price": 285,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": [
-            "les-attentes-2022",
-            "s'arracher-douceur-2022"
-        ],
-        "photo-credit": "photo-credit-2"
-    },
-    {
         "id": "LB00109",
         "src": "/projects/LB00109.jpg",
         "available": true,
@@ -1845,6 +1825,57 @@
             "s'arracher-douceur-2022"
         ],
         "photo-credit": "photo-credit-2"
+    },
+    {
+        "id": "LB00112.2",
+        "src": "/projects/LB00112.2.jpg",
+        "available": true,
+        "title": "Les gadelles",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00112.3",
+        "src": "/projects/LB00112.3.jpg",
+        "available": true,
+        "title": "Les gadelles",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00112.1",
+        "src": "/projects/LB00112.1.jpg",
+        "available": true,
+        "title": "Les gadelles",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-1"
     },
     {
         "id": "LB00112",
@@ -1972,6 +2003,66 @@
         "photo-credit": "photo-credit-0"
     },
     {
+        "id": "LB00119.2",
+        "src": "/projects/LB00119.2.jpg",
+        "available": false,
+        "title": "Rompre",
+        "dimension": "58 x 96",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 4000,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "alcove-2022",
+            "collection-meduse-2022"
+        ],
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00119.3",
+        "src": "/projects/LB00119.3.jpg",
+        "available": false,
+        "title": "Rompre",
+        "dimension": "58 x 96",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 4000,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "alcove-2022",
+            "collection-meduse-2022"
+        ],
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00119.1",
+        "src": "/projects/LB00119.1.jpg",
+        "available": false,
+        "title": "Rompre",
+        "dimension": "58 x 96",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 4000,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "alcove-2022",
+            "collection-meduse-2022"
+        ],
+        "photo-credit": "photo-credit-0"
+    },
+    {
         "id": "LB00119",
         "src": "/projects/LB00119.jpg",
         "available": false,
@@ -2026,6 +2117,40 @@
         "photo-credit": "photo-credit-1"
     },
     {
+        "id": "LB00122.2",
+        "src": "/projects/LB00122.2.jpg",
+        "available": true,
+        "title": "Effriter les songes",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "l'hiver-dessin-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00122.1",
+        "src": "/projects/LB00122.1.jpg",
+        "available": true,
+        "title": "Effriter les songes",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "l'hiver-dessin-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
         "id": "LB00122",
         "src": "/projects/LB00122.jpg",
         "available": true,
@@ -2043,8 +2168,28 @@
         "photo-credit": "photo-credit-2"
     },
     {
-        "id": "LB00123",
-        "src": "/projects/LB00123.jpg",
+        "id": "LB00123.1",
+        "src": "/projects/LB00123.1.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "46 x 46",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1800,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": [
+            "l'hiver-dessin-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2"
+    },  
+    {
+        "id": "LB00123.2",
+        "src": "/projects/LB00123.2.jpg",
         "available": true,
         "title": "sans titre",
         "dimension": "46 x 46",
@@ -2065,6 +2210,26 @@
     {
         "id": "LB00123.3",
         "src": "/projects/LB00123.3.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "46 x 46",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1800,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": [
+            "l'hiver-dessin-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2"
+    },
+    {
+        "id": "LB00123",
+        "src": "/projects/LB00123.jpg",
         "available": true,
         "title": "sans titre",
         "dimension": "46 x 46",
