@@ -1397,7 +1397,7 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-1"
     },
     {
         "id": "LB00086",
@@ -1608,6 +1608,40 @@
         "photo-credit": "photo-credit-0"
     },
     {
+        "id": "LB00098.1",
+        "src": "/projects/LB00098.1.jpg",
+        "available": false,
+        "title": "Soulever les heures",
+        "dimension": "36 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00098.2",
+        "src": "/projects/LB00098.2.jpg",
+        "available": false,
+        "title": "Soulever les heures",
+        "dimension": "36 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0"
+    },
+    {
         "id": "LB00098",
         "src": "/projects/LB00098.jpg",
         "available": false,
@@ -1645,23 +1679,6 @@
         "photo-credit": "photo-credit-1"
     },
     {
-        "id": "LB00100",
-        "src": "/projects/LB00100.jpg",
-        "available": false,
-        "title": "Se couvrir",
-        "dimension": "8,75 x 10,75",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2021,
-        "price": 260,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "montagne-2021",
-        "photo-credit": "photo-credit-0"
-    },
-    {
         "id": "LB00101",
         "src": "/projects/LB00101.jpg",
         "available": true,
@@ -1678,6 +1695,23 @@
         "expo-only": false,
         "expo": "hommage-stella-2022",
         "photo-credit": "photo-credit-2"
+    },
+    {
+        "id": "LB00100",
+        "src": "/projects/LB00100.jpg",
+        "available": false,
+        "title": "Se couvrir",
+        "dimension": "8,75 x 10,75",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": 260,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0"
     },
     {
         "id": "LB00103",
@@ -1895,27 +1929,6 @@
         "photo-credit": "photo-credit-1"
     },
     {
-        "id": "LB00113",
-        "src": "/projects/LB00113.jpg",
-        "available": true,
-        "title": "untitled",
-        "dimension": "18 x 21",
-        "technique": [
-            "graphite",
-            "dry-pastel",
-            "paper-wood"
-        ],
-        "year": 2022,
-        "price": 680,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": [
-            "s'arracher-douceur-2022",
-            "les-attentes-2022"
-        ],
-        "photo-credit": "photo-credit-2"
-    },
-    {
         "id": "LB00114",
         "src": "/projects/LB00114.jpg",
         "available": false,
@@ -2001,6 +2014,27 @@
             "montagne-2021"
         ],
         "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00113",
+        "src": "/projects/LB00113.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "18 x 21",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 680,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": [
+            "s'arracher-douceur-2022",
+            "les-attentes-2022"
+        ],
+        "photo-credit": "photo-credit-2"
     },
     {
         "id": "LB00119.2",
