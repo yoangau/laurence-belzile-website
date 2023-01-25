@@ -996,6 +996,48 @@
         "photo-credit": "photo-credit-0"
     },
     {
+        "id": "LB00061.1",
+        "src": "/projects/LB00061.1.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00061.2",
+        "src": "/projects/LB00061.2.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00061.3",
+        "src": "/projects/LB00061.3.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0"
+    },
+    {
         "id": "LB00062",
         "src": "/projects/LB00062.jpg",
         "available": false,
