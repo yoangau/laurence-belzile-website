@@ -1055,57 +1055,6 @@
         "photo-credit": "photo-credit-0"
     },
     {
-        "id": "LB00063",
-        "src": "/projects/LB00063.jpg",
-        "available": true,
-        "title": "untitled",
-        "dimension": "4 x 5",
-        "technique": [
-            "acrylic",
-            "unstretched"
-        ],
-        "year": 2019,
-        "price": 100,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0"
-    },
-    {
-        "id": "LB00064",
-        "src": "/projects/LB00064.jpg",
-        "available": true,
-        "title": "untitled",
-        "dimension": "4 x 5",
-        "technique": [
-            "acrylic",
-            "unstretched"
-        ],
-        "year": 2019,
-        "price": 100,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0"
-    },
-    {
-        "id": "LB00065",
-        "src": "/projects/LB00065.jpg",
-        "available": true,
-        "title": "untitled",
-        "dimension": "4 x 5",
-        "technique": [
-            "acrylic",
-            "unstretched"
-        ],
-        "year": 2019,
-        "price": 100,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0"
-    },
-    {
         "id": "LB00066",
         "src": "/projects/LB00066.jpg",
         "available": false,
