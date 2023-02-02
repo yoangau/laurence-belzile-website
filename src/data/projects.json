@@ -705,88 +705,10 @@
         "photo-credit": "photo-credit-0"
     },
     {
-        "id": "LB00044",
-        "src": "/projects/LB00044.jpg",
-        "available": false,
-        "title": "LB00044",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
-        "expo-only": false,
-        "expo": "",
-        "photo-credit": "photo-credit-0"
-    },
-    {
         "id": "LB00045",
         "src": "/projects/LB00045.jpg",
         "available": false,
         "title": "Impression 1",
-        "dimension": "4 x 4",
-        "technique": [
-            "oil",
-            "dry-pastel",
-            "paper-wood"
-        ],
-        "year": 2017,
-        "price": 100,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0"
-    },
-    {
-        "id": "LB00046",
-        "src": "/projects/LB00046.jpg",
-        "available": false,
-        "title": "LB00046",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
-        "expo-only": false,
-        "expo": "",
-        "photo-credit": "photo-credit-0"
-    },
-    {
-        "id": "LB00047",
-        "src": "/projects/LB00047.jpg",
-        "available": false,
-        "title": "Impression 2",
-        "dimension": "4 x 4",
-        "technique": [
-            "oil",
-            "dry-pastel",
-            "paper-wood"
-        ],
-        "year": 2017,
-        "price": 100,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0"
-    },
-    {
-        "id": "LB00048",
-        "src": "/projects/LB00048.jpg",
-        "available": false,
-        "title": "LB00048",
-        "dimension": [],
-        "technique": "",
-        "year": 2020,
-        "price": 100,
-        "buy-ref": "buy-method-0@@something",
-        "expo-only": false,
-        "expo": "",
-        "photo-credit": "photo-credit-0"
-    },
-    {
-        "id": "LB00049",
-        "src": "/projects/LB00049.jpg",
-        "available": false,
-        "title": "Impression 3",
         "dimension": "4 x 4",
         "technique": [
             "oil",
@@ -812,6 +734,23 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00051.1",
+        "src": "/projects/LB00051.1.jpg",
+        "available": true,
+        "title": "Marmonner le vide 2",
+        "dimension": "10 x 12",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": 320,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
         "photo-credit": "photo-credit-0"
     },
     {
