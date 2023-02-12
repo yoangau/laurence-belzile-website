@@ -2609,6 +2609,571 @@
         "expo-only": false,
         "expo": "brompton-2022",
         "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00131.1",
+        "src": "/projects/LB00131.1.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "35 x 55",
+        "technique": [
+            "graphite",
+            "charcoal",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 1600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00131.2",
+        "src": "/projects/LB00131.2.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "35 x 55",
+        "technique": [
+            "graphite",
+            "charcoal",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 1600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00131",
+        "src": "/projects/LB00131.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "35 x 55",
+        "technique": [
+            "graphite",
+            "charcoal",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 1600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00132",
+        "src": "/projects/LB00132.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "11 x 11",
+        "technique": [
+            "gouache",
+            "0n-wood"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00133.2",
+        "src": "/projects/LB00133.2.jpg",
+        "available": true,
+        "title": "Tous les jours",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00133.1",
+        "src": "/projects/LB00133.1.jpg",
+        "available": true,
+        "title": "Tous les jours",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00133",
+        "src": "/projects/LB00133.jpg",
+        "available": true,
+        "title": "Tous les jours",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00134",
+        "src": "/projects/LB00134.jpg",
+        "available": true,
+        "title": "Échapper l'autre",
+        "dimension": "9 1/4 x 10 1/4",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2022,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00135",
+        "src": "/projects/LB00135.jpg",
+        "available": true,
+        "title": "Construire la courbe",
+        "dimension": "9 1/4 x 10 1/4",
+        "technique": [
+            "crayon",
+            "on-paper"
+        ],
+        "year": 2022,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00136",
+        "src": "/projects/LB00136.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "9 1/4 x 10 1/4",
+        "technique": [
+            "graphite",
+            "crayon",
+            "on-paper"
+        ],
+        "year": 2022,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00137",
+        "src": "/projects/LB00137.jpg",
+        "available": true,
+        "title": "Combiner l'attente",
+        "dimension": "9 1/4 x 10 1/4",
+        "technique": [
+            "crayon",
+            "on-paper"
+        ],
+        "year": 2022,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00138.2",
+        "src": "/projects/LB00138.2.jpg",
+        "available": true,
+        "title": "Les autours",
+        "dimension": "24 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1400,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "quatorze-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00138.1",
+        "src": "/projects/LB00138.1.jpg",
+        "available": true,
+        "title": "Les autours",
+        "dimension": "24 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1400,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "quatorze-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00138",
+        "src": "/projects/LB00138.jpg",
+        "available": true,
+        "title": "Les autours",
+        "dimension": "24 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1400,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "quatorze-2022",
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00139",
+        "src": "/projects/LB00139.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "12 x 16",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 400,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00140.4",
+        "src": "/projects/LB00140.4.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0"
+    },    {
+        "id": "LB00140.3",
+        "src": "/projects/LB00140.3.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0"
+    },    {
+        "id": "LB00140.2",
+        "src": "/projects/LB00140.2.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0"
+    },    {
+        "id": "LB00140.1",
+        "src": "/projects/LB00140.1.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00140",
+        "src": "/projects/LB00140.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00141",
+        "src": "/projects/LB00141.jpg",
+        "available": false,
+        "title": "sans titre",
+        "dimension": "8 x 10",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00142",
+        "src": "/projects/LB00142.jpg",
+        "available": false,
+        "title": "sans titre",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00143",
+        "src": "/projects/LB00143.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "11 x 11",
+        "technique": [
+            "gouache",
+            "on-wood"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00144.2",
+        "src": "/projects/LB00144.2.jpg",
+        "available": true,
+        "title": "Rompre les vertiges",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00144.1",
+        "src": "/projects/LB00144.1.jpg",
+        "available": true,
+        "title": "Rompre les vertiges",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00144",
+        "src": "/projects/LB00144.jpg",
+        "available": true,
+        "title": "Rompre les vertiges",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00145",
+        "src": "/projects/LB00145.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "9 x 12",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00146.2",
+        "src": "/projects/LB00146.2.jpg",
+        "available": true,
+        "title": "Rassembler les espaces",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00146.1",
+        "src": "/projects/LB00146.1.jpg",
+        "available": true,
+        "title": "Rassembler les espaces",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00146",
+        "src": "/projects/LB00146.jpg",
+        "available": true,
+        "title": "Rassembler les espaces",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1"
+    },
+    {
+        "id": "LB00147",
+        "src": "/projects/LB00147.jpg",
+        "available": false,
+        "title": "sans titre",
+        "dimension": "12 x 16",
+        "technique": [
+            "acrylic",
+            "dry-pastel",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00148.1",
+        "src": "/projects/LB00148.1.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00148",
+        "src": "/projects/LB00148.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
     }
-
 ]
