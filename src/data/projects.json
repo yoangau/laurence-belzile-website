@@ -170,23 +170,6 @@
         "photo-credit": "photo-credit-0"
     },
     {
-        "id": "LB00011",
-        "src": "/projects/LB00011.jpg",
-        "available": true,
-        "title": "A 10",
-        "dimension": "4 x 4,5",
-        "technique": [
-            "acrylic",
-            "canvas-masonite"
-        ],
-        "year": 2017,
-        "price": 120,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
-    },
-    {
         "id": "LB00012",
         "src": "/projects/LB00012.jpg",
         "available": false,
@@ -510,6 +493,210 @@
         "photo-credit": "photo-credit-0"
     },
     {
+        "id": "LB00031.1",
+        "src": "/projects/LB00031.1.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 1",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.2",
+        "src": "/projects/LB00031.2.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 2",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.3",
+        "src": "/projects/LB00031.3.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 3",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.4",
+        "src": "/projects/LB00031.4.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 4",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.5",
+        "src": "/projects/LB00031.5.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 5",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.6",
+        "src": "/projects/LB00031.6.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 6",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.7",
+        "src": "/projects/LB00031.7.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 7",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.8",
+        "src": "/projects/LB00031.8.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 8",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.9",
+        "src": "/projects/LB00031.9.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 9",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.10",
+        "src": "/projects/LB00031.10.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 10",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.11",
+        "src": "/projects/LB00031.11.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 11",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00031.12",
+        "src": "/projects/LB00031.12.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 12",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
         "id": "LB00032",
         "src": "/projects/LB00032.jpg",
         "available": true,
@@ -709,6 +896,60 @@
         "src": "/projects/LB00045.jpg",
         "available": false,
         "title": "Impression 1",
+        "dimension": "4 x 4",
+        "technique": [
+            "oil",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2017,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00046",
+        "src": "/projects/LB00046.jpg",
+        "available": false,
+        "title": "Impression 2",
+        "dimension": "4 x 4",
+        "technique": [
+            "oil",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2017,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00047",
+        "src": "/projects/LB00047.jpg",
+        "available": false,
+        "title": "Impression 3",
+        "dimension": "4 x 4",
+        "technique": [
+            "oil",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2017,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00048",
+        "src": "/projects/LB00048.jpg",
+        "available": false,
+        "title": "Impression 4",
         "dimension": "4 x 4",
         "technique": [
             "oil",
@@ -2266,5 +2507,108 @@
             "s'arracher-douceur-2022"
         ],
         "photo-credit": "photo-credit-2"
+    },
+    {
+        "id": "LB00125",
+        "src": "/projects/LB00125.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "11 x 11",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref":"buy-method-1" ,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00126",
+        "src": "/projects/LB00126.jpg",
+        "available": false,
+        "title": "untitled",
+        "dimension": "11 x 11",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2022,
+        "price": null,
+        "buy-ref":  null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00127",
+        "src": "/projects/LB00127.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "4 x 6",
+        "technique": [
+            "acrylic",
+            "paper-wood"
+        ],
+        "year": 2019,
+        "price": 130,
+        "buy-ref":  "buy-method-1",
+        "expo-only": false,
+        "expo": "marathon-création",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00128",
+        "src": "/projects/LB00128.jpg",
+        "available": false,
+        "title": "untitled",
+        "dimension": "4 x 6",
+        "technique": [
+            "acrylic",
+            "paper-wood"
+        ],
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "marathon-création",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00129",
+        "src": "/projects/LB00129.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "12 x 16",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 400,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "l'hiver-dessin-2022",
+        "photo-credit": "photo-credit-0"
+    },
+    {
+        "id": "LB00130",
+        "src": "/projects/LB00130.jpg",
+        "available": true,
+        "title": "untitled",
+        "dimension": "18 x 24",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 700,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0"
     }
+
 ]
