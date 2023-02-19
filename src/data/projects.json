@@ -14,7 +14,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00002",
@@ -31,7 +32,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00003",
@@ -48,7 +50,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00004",
@@ -65,7 +68,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00005",
@@ -82,7 +86,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00006",
@@ -99,7 +104,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00007",
@@ -116,7 +122,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00008",
@@ -133,7 +140,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00009",
@@ -150,7 +158,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00010",
@@ -167,7 +176,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00012",
@@ -181,7 +191,8 @@
         "buy-ref": null,
         "expo-only": true,
         "expo": "anticosti-2017",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00013",
@@ -198,7 +209,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00014",
@@ -215,7 +227,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00015",
@@ -232,7 +245,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00016",
@@ -249,7 +263,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00017",
@@ -266,7 +281,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00018",
@@ -280,7 +296,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00019",
@@ -297,7 +314,8 @@
         "buy-ref": "https://camille.csasda/@@",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00020",
@@ -311,7 +329,8 @@
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
         "expo": "",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00021",
@@ -325,7 +344,8 @@
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
         "expo": "",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00022",
@@ -339,7 +359,8 @@
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
         "expo": "",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00023",
@@ -353,7 +374,8 @@
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
         "expo": "",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00024",
@@ -367,7 +389,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00025",
@@ -384,13 +407,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00026",
         "src": "/projects/LB00026.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "4 x 4,5",
         "technique": [
             "graphite",
@@ -401,7 +425,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00027",
@@ -418,7 +443,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "jaune-marine-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00028",
@@ -435,7 +461,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "montagne-2021",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00029",
@@ -454,7 +481,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00030",
@@ -473,7 +501,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031",
@@ -490,7 +519,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "jaune-marine-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.1",
@@ -507,7 +537,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.2",
@@ -524,7 +555,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.3",
@@ -541,7 +573,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.4",
@@ -558,7 +591,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.5",
@@ -575,7 +609,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.6",
@@ -592,7 +627,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.7",
@@ -609,7 +645,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.8",
@@ -626,7 +663,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.9",
@@ -643,7 +681,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.10",
@@ -660,7 +699,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.11",
@@ -677,7 +717,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00031.12",
@@ -694,7 +735,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00032",
@@ -711,7 +753,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00033",
@@ -728,7 +771,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00034",
@@ -745,7 +789,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00035",
@@ -759,13 +804,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00036",
         "src": "/projects/LB00036.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "24 x 24",
         "technique": [
             "oil",
@@ -776,7 +822,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00037",
@@ -790,7 +837,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00038",
@@ -807,13 +855,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00039",
         "src": "/projects/LB00039.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "16 x 20",
         "technique": [
             "oil",
@@ -824,13 +873,14 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00040",
         "src": "/projects/LB00040.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "16 x 20",
         "technique": [
             "acrylic",
@@ -841,13 +891,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00041",
         "src": "/projects/LB00041.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "16 x 20",
         "technique": [
             "oil",
@@ -858,7 +909,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00042",
@@ -872,7 +924,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00043",
@@ -889,7 +942,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00045",
@@ -907,7 +961,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00046",
@@ -925,7 +980,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00047",
@@ -943,7 +999,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00048",
@@ -961,7 +1018,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00050",
@@ -975,7 +1033,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00051.1",
@@ -992,7 +1051,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00051",
@@ -1009,7 +1069,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00052",
@@ -1023,13 +1084,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00053.1",
         "src": "/projects/LB00053.1.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "36 x 60",
         "technique": [
             "oil",
@@ -1040,13 +1102,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00053",
         "src": "/projects/LB00053.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "36 x 60",
         "technique": [
             "oil",
@@ -1057,13 +1120,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00054.1",
         "src": "/projects/LB00054.1.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "4 x 5 3/4",
         "technique": [
             "acrylic",
@@ -1074,7 +1138,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00054",
@@ -1088,7 +1153,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00055",
@@ -1105,7 +1171,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00056",
@@ -1122,7 +1189,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00057",
@@ -1139,7 +1207,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00058",
@@ -1156,7 +1225,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00059",
@@ -1173,7 +1243,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00060",
@@ -1190,7 +1261,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00061",
@@ -1207,13 +1279,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00070",
         "src": "/projects/LB00070.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "16 x 20",
         "technique": [
             "acrylic",
@@ -1224,7 +1297,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00061.1",
@@ -1238,7 +1312,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00061.2",
@@ -1252,7 +1327,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00061.3",
@@ -1266,7 +1342,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00062",
@@ -1283,7 +1360,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00066",
@@ -1300,13 +1378,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00067",
         "src": "/projects/LB00067.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "2,75 x 3,5",
         "technique": [
             "graphite",
@@ -1317,14 +1396,15 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00068",
         "src": "/projects/LB00068.jpg",
         "available": false,
-        "title": "untitled",
-        "dimension":"21 x 39",
+        "title": "@@untitled",
+        "dimension": "21 x 39",
         "technique": [
             "graphite",
             "dry-pastel",
@@ -1334,8 +1414,9 @@
         "price": null,
         "buy-ref": null,
         "expo-only": false,
-        "expo":null,
-        "photo-credit": "photo-credit-1"
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00069.1",
@@ -1349,7 +1430,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00069",
@@ -1363,13 +1445,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00071",
         "src": "/projects/LB00071.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "16 x 20",
         "technique": [
             "oil",
@@ -1380,7 +1463,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00072",
@@ -1397,13 +1481,14 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00073",
         "src": "/projects/LB00073.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "16 x 20",
         "technique": [
             "oil",
@@ -1414,13 +1499,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00074",
         "src": "/projects/LB00074.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "36 x 48",
         "technique": [
             "oil",
@@ -1431,13 +1517,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "mesure-demesure-kamouraska-2020",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00075",
         "src": "/projects/LB00075.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "18 x 24",
         "technique": [
             "acrylic",
@@ -1448,7 +1535,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00076",
@@ -1465,7 +1553,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "les-attentes-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00077",
@@ -1482,13 +1571,14 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00078",
         "src": "/projects/LB00078.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "20 x 30",
         "technique": [
             "acrylic",
@@ -1500,13 +1590,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00079",
         "src": "/projects/LB00079.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "38 x 60",
         "technique": [
             "graphite",
@@ -1518,13 +1609,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "mesure-demesure-kamouraska-2020",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00080",
         "src": "/projects/LB00080.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "38 x 60",
         "technique": [
             "graphite",
@@ -1536,13 +1628,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "mesure-demesure-kamouraska-2020",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00081",
         "src": "/projects/LB00081.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "38 x 60",
         "technique": [
             "graphite",
@@ -1554,13 +1647,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "mesure-demesure-kamouraska-2020",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00082",
         "src": "/projects/LB00082.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "38 x 60",
         "technique": [
             "graphite",
@@ -1572,7 +1666,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "mesure-demesure-kamouraska-2020",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00083",
@@ -1589,7 +1684,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00084",
@@ -1603,7 +1699,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00085.2",
@@ -1620,8 +1717,10 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
-    },    {
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
+    },
+    {
         "id": "LB00085.1",
         "src": "/projects/LB00085.1.jpg",
         "available": true,
@@ -1636,7 +1735,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00085",
@@ -1653,7 +1753,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00086",
@@ -1670,7 +1771,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "marmonner-vide-aliette-2021",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00087",
@@ -1687,7 +1789,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00088",
@@ -1704,13 +1807,14 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "marmonner-vide-claire-2021",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00089",
         "src": "/projects/LB00089.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "24 x 60",
         "technique": [
             "acrylic",
@@ -1722,13 +1826,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00090",
         "src": "/projects/LB00090.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "24 x 60",
         "technique": [
             "acrylic",
@@ -1740,13 +1845,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00091",
         "src": "/projects/LB00091.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "24 x 60",
         "technique": [
             "acrylic",
@@ -1758,7 +1864,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00092",
@@ -1775,13 +1882,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "montagne-2021",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00093",
         "src": "/projects/LB00093.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "18 x 24",
         "technique": [
             "graphite",
@@ -1793,7 +1901,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00094",
@@ -1810,7 +1919,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00095",
@@ -1827,7 +1937,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00096",
@@ -1844,13 +1955,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00097",
         "src": "/projects/LB00097.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "8 x 10",
         "technique": [
             "acrylic",
@@ -1861,7 +1973,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00098.1",
@@ -1878,7 +1991,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "montagne-2021",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00098.2",
@@ -1895,7 +2009,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "montagne-2021",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00098",
@@ -1912,7 +2027,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "montagne-2021",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00099",
@@ -1932,13 +2048,14 @@
             "montagne-2021",
             "post-invisible-2022"
         ],
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00101",
         "src": "/projects/LB00101.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "5,5 x 6",
         "technique": [
             "graphite",
@@ -1950,7 +2067,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "hommage-stella-2022",
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00100",
@@ -1967,13 +2085,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "montagne-2021",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00103",
         "src": "/projects/LB00103.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "19 x 24",
         "technique": [
             "graphite",
@@ -1987,7 +2106,8 @@
             "s'arracher-douceur-2022",
             "les-attentes-2022"
         ],
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00104",
@@ -2004,7 +2124,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00105",
@@ -2021,7 +2142,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00106",
@@ -2038,13 +2160,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00107",
         "src": "/projects/LB00107.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "12 x 16",
         "technique": [
             "acrylic",
@@ -2055,13 +2178,14 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00109",
         "src": "/projects/LB00109.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "11,5 x 11,5",
         "technique": [
             "graphite",
@@ -2076,13 +2200,14 @@
             "les-attentes-2022",
             "s'arracher-douceur-2022"
         ],
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00110",
         "src": "/projects/LB00110.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "11,5 x 11,5",
         "technique": [
             "charcoal",
@@ -2093,13 +2218,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00111",
         "src": "/projects/LB00111.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "11,5 x 11,5",
         "technique": [
             "dry-pastel",
@@ -2114,7 +2240,8 @@
             "les-attentes-2022",
             "s'arracher-douceur-2022"
         ],
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00112.2",
@@ -2131,7 +2258,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00112.3",
@@ -2148,7 +2276,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00112.1",
@@ -2165,7 +2294,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00112",
@@ -2182,13 +2312,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00114",
         "src": "/projects/LB00114.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "4 x 6",
         "technique": [
             "acrylic",
@@ -2199,13 +2330,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00115",
         "src": "/projects/LB00115.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "4 x 6",
         "technique": [
             "acrylic",
@@ -2216,13 +2348,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00116",
         "src": "/projects/LB00116.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "4 x 6",
         "technique": [
             "acrylic",
@@ -2233,13 +2366,14 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00117",
         "src": "/projects/LB00117.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "4 x 6",
         "technique": [
             "acrylic",
@@ -2250,12 +2384,13 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00118",
         "src": "/projects/LB00118.jpg",
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "4 x 6",
         "technique": [
             "acrylic",
@@ -2269,13 +2404,14 @@
             "s'arracher-douceur-2022",
             "montagne-2021"
         ],
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00113",
         "src": "/projects/LB00113.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "18 x 21",
         "technique": [
             "graphite",
@@ -2290,7 +2426,8 @@
             "s'arracher-douceur-2022",
             "les-attentes-2022"
         ],
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00119.2",
@@ -2310,7 +2447,8 @@
             "alcove-2022",
             "collection-meduse-2022"
         ],
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00119.3",
@@ -2330,7 +2468,8 @@
             "alcove-2022",
             "collection-meduse-2022"
         ],
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00119.1",
@@ -2350,7 +2489,8 @@
             "alcove-2022",
             "collection-meduse-2022"
         ],
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00119",
@@ -2370,13 +2510,14 @@
             "alcove-2022",
             "collection-meduse-2022"
         ],
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00120",
         "src": "/projects/LB00120.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "5,5 x 6",
         "technique": [
             "acrylic",
@@ -2387,13 +2528,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "rassembler-espace-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00121",
         "src": "/projects/LB00121.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "5,5 x 6",
         "technique": [
             "acrylic",
@@ -2404,7 +2546,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "rassembler-espace-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00122.2",
@@ -2421,7 +2564,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "l'hiver-dessin-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00122.1",
@@ -2438,7 +2582,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "l'hiver-dessin-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00122",
@@ -2455,7 +2600,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "l'hiver-dessin-2022",
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00123.1",
@@ -2475,8 +2621,9 @@
             "l'hiver-dessin-2022",
             "s'arracher-douceur-2022"
         ],
-        "photo-credit": "photo-credit-2"
-    },  
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
+    },
     {
         "id": "LB00123.2",
         "src": "/projects/LB00123.2.jpg",
@@ -2495,7 +2642,8 @@
             "l'hiver-dessin-2022",
             "s'arracher-douceur-2022"
         ],
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00123.3",
@@ -2515,7 +2663,8 @@
             "l'hiver-dessin-2022",
             "s'arracher-douceur-2022"
         ],
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00123",
@@ -2535,13 +2684,14 @@
             "l'hiver-dessin-2022",
             "s'arracher-douceur-2022"
         ],
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00124",
         "src": "/projects/LB00124.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "5,5 x 6",
         "technique": [
             "graphite",
@@ -2556,13 +2706,14 @@
             "l'hiver-dessin-2022",
             "s'arracher-douceur-2022"
         ],
-        "photo-credit": "photo-credit-2"
+        "photo-credit": "photo-credit-2",
+        "width": "40%"
     },
     {
         "id": "LB00125",
         "src": "/projects/LB00125.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "11 x 11",
         "technique": [
             "crayon",
@@ -2570,16 +2721,17 @@
         ],
         "year": 2022,
         "price": 285,
-        "buy-ref":"buy-method-1" ,
+        "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00126",
         "src": "/projects/LB00126.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "11 x 11",
         "technique": [
             "crayon",
@@ -2587,16 +2739,17 @@
         ],
         "year": 2022,
         "price": null,
-        "buy-ref":  null,
+        "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00127",
         "src": "/projects/LB00127.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "4 x 6",
         "technique": [
             "acrylic",
@@ -2604,16 +2757,17 @@
         ],
         "year": 2019,
         "price": 130,
-        "buy-ref":  "buy-method-1",
+        "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "marathon-création",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00128",
         "src": "/projects/LB00128.jpg",
         "available": false,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "4 x 6",
         "technique": [
             "acrylic",
@@ -2624,13 +2778,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "marathon-création",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00129",
         "src": "/projects/LB00129.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "12 x 16",
         "technique": [
             "acrylic",
@@ -2641,13 +2796,14 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "l'hiver-dessin-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00130",
         "src": "/projects/LB00130.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "18 x 24",
         "technique": [
             "acrylic",
@@ -2658,13 +2814,14 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "brompton-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00131.1",
         "src": "/projects/LB00131.1.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "35 x 55",
         "technique": [
             "graphite",
@@ -2677,13 +2834,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "brompton-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00131.2",
         "src": "/projects/LB00131.2.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "35 x 55",
         "technique": [
             "graphite",
@@ -2696,13 +2854,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "brompton-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00131",
         "src": "/projects/LB00131.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "35 x 55",
         "technique": [
             "graphite",
@@ -2715,13 +2874,14 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "brompton-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00132",
         "src": "/projects/LB00132.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "11 x 11",
         "technique": [
             "gouache",
@@ -2732,7 +2892,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "brompton-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00133.2",
@@ -2749,7 +2910,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "brompton-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00133.1",
@@ -2766,7 +2928,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "brompton-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00133",
@@ -2783,7 +2946,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "brompton-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00134",
@@ -2800,7 +2964,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00135",
@@ -2817,7 +2982,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00136",
@@ -2835,7 +3001,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00137",
@@ -2852,7 +3019,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00138.2",
@@ -2869,7 +3037,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "quatorze-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00138.1",
@@ -2886,7 +3055,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "quatorze-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00138",
@@ -2903,7 +3073,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "quatorze-2022",
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00139",
@@ -2920,7 +3091,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00140.4",
@@ -2937,8 +3109,10 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "montcalm-2022",
-        "photo-credit": "photo-credit-0"
-    },    {
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
         "id": "LB00140.3",
         "src": "/projects/LB00140.3.jpg",
         "available": true,
@@ -2953,8 +3127,10 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "montcalm-2022",
-        "photo-credit": "photo-credit-0"
-    },    {
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
         "id": "LB00140.2",
         "src": "/projects/LB00140.2.jpg",
         "available": true,
@@ -2969,8 +3145,10 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "montcalm-2022",
-        "photo-credit": "photo-credit-0"
-    },    {
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
         "id": "LB00140.1",
         "src": "/projects/LB00140.1.jpg",
         "available": true,
@@ -2985,7 +3163,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "montcalm-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00140",
@@ -3002,7 +3181,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "montcalm-2022",
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00141",
@@ -3019,7 +3199,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00142",
@@ -3036,13 +3217,14 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00143",
         "src": "/projects/LB00143.jpg",
         "available": true,
-        "title": "untitled",
+        "title": "@@untitled",
         "dimension": "11 x 11",
         "technique": [
             "gouache",
@@ -3053,7 +3235,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00144.2",
@@ -3070,7 +3253,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00144.1",
@@ -3087,7 +3271,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00144",
@@ -3104,7 +3289,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00145",
@@ -3121,7 +3307,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00146.2",
@@ -3138,7 +3325,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00146.1",
@@ -3155,7 +3343,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00146",
@@ -3172,7 +3361,8 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1"
+        "photo-credit": "photo-credit-1",
+        "width": "40%"
     },
     {
         "id": "LB00147",
@@ -3190,7 +3380,8 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00148.1",
@@ -3207,7 +3398,8 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     },
     {
         "id": "LB00148",
@@ -3224,6 +3416,7 @@
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0"
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
     }
 ]

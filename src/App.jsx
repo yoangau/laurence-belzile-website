@@ -7,6 +7,7 @@ import { Contact } from './components/Contact';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { Name } from './components/Name';
 import { Resume } from './components/Resume';
+import { Info } from './components/Info';
 
 const StyledApp = styled.div`
   background: white;
@@ -27,6 +28,9 @@ export const App = () => {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/info">
+            <Info />
           </Route>
           <Route path="/cv">
             <Resume />
