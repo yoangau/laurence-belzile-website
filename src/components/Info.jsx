@@ -9,7 +9,7 @@ const StyledInfo = styled.p`
   padding-bottom: 0.5em;
   margin-top: 1.8em;
   margin-left: -0.2em;
-  margin-right: 18em;
+  margin-right: 5em;
 `;
 
 const StyledInfo1 = styled.p`
@@ -17,7 +17,7 @@ const StyledInfo1 = styled.p`
   padding-bottom: 0.5em;
   margin-top: 1em;
   margin-left: -0.2em;
-  margin-right: 18em;
+  margin-right: 7em;
 `;
 
 const StyledInfo2 = styled.p`
@@ -26,20 +26,21 @@ const StyledInfo2 = styled.p`
   padding-bottom: 1.5em;
   margin-top: 6em;
   margin-left: -0.2em;
+  margin-right: 7em;
 `;
 
 const StyledInfo3 = styled.p`
   text-align: justify;
   padding-bottom: 0.5em;
   margin-left: -0.2em;
-  margin-right: 18em;
+  margin-right: 7em;
 `;
 
 const StyledInfo4 = styled.p`
   text-align: justify;
   padding-bottom: 3.5em;
   margin-left: -0.2em;
-  margin-right: 18em;
+  margin-right: 7em;
 `;
 
 export const Info = () => {

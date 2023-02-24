@@ -33,7 +33,7 @@ const StyledContentList = styled.div`
   flex-wrap: nowrap;
   flex-direction: column;
   align-content: flex-start;
-  margin-right: 10em;
+  margin-right: 7em;
 `;
 
 const StyledLink = styled.a`
