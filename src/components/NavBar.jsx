@@ -8,7 +8,7 @@ import i18n from '../i18n';
 
 const StyledLink = styled.p`
   color: #000000;
-  font-size: 17pt;
+  font-size: 15pt;
   border-radius: 0.25rem;
   margin: 0 0.5em;
   &:hover,
