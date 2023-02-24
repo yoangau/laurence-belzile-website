@@ -1,0 +1,3424 @@
+[
+    {
+        "id": "LB00001",
+        "src": "/projects/LB00001.jpg",
+        "available": true,
+        "title": "A 9",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00002",
+        "src": "/projects/LB00002.jpg",
+        "available": true,
+        "title": "A 13",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00003",
+        "src": "/projects/LB00003.jpg",
+        "available": true,
+        "title": "A 25",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00004",
+        "src": "/projects/LB00004.jpg",
+        "available": true,
+        "title": "A 7",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00005",
+        "src": "/projects/LB00005.jpg",
+        "available": true,
+        "title": "A 24",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00006",
+        "src": "/projects/LB00006.jpg",
+        "available": true,
+        "title": "A 14",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00007",
+        "src": "/projects/LB00007.jpg",
+        "available": true,
+        "title": "A 18",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00008",
+        "src": "/projects/LB00008.jpg",
+        "available": true,
+        "title": "A 20",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00009",
+        "src": "/projects/LB00009.jpg",
+        "available": true,
+        "title": "A 19",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00010",
+        "src": "/projects/LB00010.jpg",
+        "available": true,
+        "title": "A 27",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2017,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00012",
+        "src": "/projects/LB00012.jpg",
+        "available": false,
+        "title": "Vue de l'installation finale @@",
+        "dimension": null,
+        "technique": null,
+        "year": 2017,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": true,
+        "expo": "anticosti-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00013",
+        "src": "/projects/LB00013.jpg",
+        "available": true,
+        "title": "La forme",
+        "dimension": "36 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 1500,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00014",
+        "src": "/projects/LB00014.jpg",
+        "available": false,
+        "title": "Mouffle",
+        "dimension": "36 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "85%"
+    },
+    {
+        "id": "LB00015",
+        "src": "/projects/LB00015.jpg",
+        "available": false,
+        "title": "Je divague 3",
+        "dimension": "5,75 x 7,5",
+        "technique": [
+            "graphite",
+            "paper-masonite"
+        ],
+        "year": 2017,
+        "price": 170,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00016",
+        "src": "/projects/LB00016.jpg",
+        "available": false,
+        "title": "Je divague 2",
+        "dimension": "5,75 x 7,5",
+        "technique": [
+            "graphite",
+            "paper-masonite"
+        ],
+        "year": 2017,
+        "price": 170,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00017",
+        "src": "/projects/LB00017.jpg",
+        "available": true,
+        "title": "Je divague 1",
+        "dimension": "5,75 x 7,5",
+        "technique": [
+            "graphite",
+            "paper-masonite"
+        ],
+        "year": 2017,
+        "price": 170,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00018",
+        "src": "/projects/LB00018.jpg",
+        "available": false,
+        "title": "Vue de l'exposition La chutes des corps@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00019",
+        "src": "/projects/LB00019.jpg",
+        "available": true,
+        "title": "Former",
+        "dimension": "48 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 1800,
+        "buy-ref": "https://camille.csasda/@@",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00020",
+        "src": "/projects/LB00020.jpg",
+        "available": false,
+        "title": "LB00020",
+        "dimension": [],
+        "technique": "",
+        "year": 2020,
+        "price": 100,
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": "",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00021",
+        "src": "/projects/LB00021.jpg",
+        "available": false,
+        "title": "LB00021",
+        "dimension": [],
+        "technique": "",
+        "year": 2020,
+        "price": 100,
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": "",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00022",
+        "src": "/projects/LB00022.jpg",
+        "available": false,
+        "title": "LB00022",
+        "dimension": [],
+        "technique": "",
+        "year": 2020,
+        "price": 100,
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": "",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00023",
+        "src": "/projects/LB00023.jpg",
+        "available": false,
+        "title": "LB00023",
+        "dimension": [],
+        "technique": "",
+        "year": 2020,
+        "price": 100,
+        "buy-ref": "buy-method-0@@something",
+        "expo-only": false,
+        "expo": "",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00024",
+        "src": "/projects/LB00024.jpg",
+        "available": false,
+        "title": "Vue de l'exposition La chutes des corps@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00025",
+        "src": "/projects/LB00025.jpg",
+        "available": false,
+        "title": "La dépendance des formes",
+        "dimension": "36 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00026",
+        "src": "/projects/LB00026.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "graphite",
+            "paper-masonite"
+        ],
+        "year": 2018,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00027",
+        "src": "/projects/LB00027.jpg",
+        "available": false,
+        "title": "Affaissement",
+        "dimension": "36 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 1700,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "jaune-marine-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00028",
+        "src": "/projects/LB00028.jpg",
+        "available": false,
+        "title": "La dépendance des formes 2",
+        "dimension": "8 x 10",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": 220,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00029",
+        "src": "/projects/LB00029.jpg",
+        "available": true,
+        "title": "Semblant",
+        "dimension": "24 x 58",
+        "technique": [
+            "dry-pastel",
+            "charcoal",
+            "graphite",
+            "paper-masonite"
+        ],
+        "year": 2018,
+        "price": 1400,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00030",
+        "src": "/projects/LB00030.jpg",
+        "available": false,
+        "title": "Faux-semblant",
+        "dimension": "24 x 58",
+        "technique": [
+            "dry-pastel",
+            "charcoal",
+            "graphite",
+            "paper-masonite"
+        ],
+        "year": 2018,
+        "price": 1400,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00031",
+        "src": "/projects/LB00031.jpg",
+        "available": false,
+        "title": "Chimère invisible",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 600,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "jaune-marine-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00031.1",
+        "src": "/projects/LB00031.1.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 1",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.2",
+        "src": "/projects/LB00031.2.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 2",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.3",
+        "src": "/projects/LB00031.3.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 3",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.4",
+        "src": "/projects/LB00031.4.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 4",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.5",
+        "src": "/projects/LB00031.5.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 5",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.6",
+        "src": "/projects/LB00031.6.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 6",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.7",
+        "src": "/projects/LB00031.7.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 7",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.8",
+        "src": "/projects/LB00031.8.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 8",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.9",
+        "src": "/projects/LB00031.9.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 9",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.10",
+        "src": "/projects/LB00031.10.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 10",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.11",
+        "src": "/projects/LB00031.11.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 11",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00031.12",
+        "src": "/projects/LB00031.12.jpg",
+        "available": false,
+        "title": "Ces lieux où l'on fait traces 12",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "canvas-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00032",
+        "src": "/projects/LB00032.jpg",
+        "available": true,
+        "title": "F 3",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00033",
+        "src": "/projects/LB00033.jpg",
+        "available": true,
+        "title": "F 2",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00034",
+        "src": "/projects/LB00034.jpg",
+        "available": true,
+        "title": "F 1",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00035",
+        "src": "/projects/LB00035.jpg",
+        "available": false,
+        "title": "Vue de l'exposition La chutes des corps@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00036",
+        "src": "/projects/LB00036.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "24 x 24",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00037",
+        "src": "/projects/LB00037.jpg",
+        "available": false,
+        "title": "Vue de l'exposition La chutes des corps@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00038",
+        "src": "/projects/LB00038.jpg",
+        "available": true,
+        "title": "Passage",
+        "dimension": "16 x 20",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": 600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00039",
+        "src": "/projects/LB00039.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00040",
+        "src": "/projects/LB00040.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "16 x 20",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": 600,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00041",
+        "src": "/projects/LB00041.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": 600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00042",
+        "src": "/projects/LB00042.jpg",
+        "available": false,
+        "title": "Vue de l'exposition La chutes des corps@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00043",
+        "src": "/projects/LB00043.jpg",
+        "available": true,
+        "title": "Autoportrait s'autoportant",
+        "dimension": "21 x 30",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2018,
+        "price": 700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00045",
+        "src": "/projects/LB00045.jpg",
+        "available": false,
+        "title": "Impression 1",
+        "dimension": "4 x 4",
+        "technique": [
+            "oil",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2017,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00046",
+        "src": "/projects/LB00046.jpg",
+        "available": false,
+        "title": "Impression 2",
+        "dimension": "4 x 4",
+        "technique": [
+            "oil",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2017,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00047",
+        "src": "/projects/LB00047.jpg",
+        "available": false,
+        "title": "Impression 3",
+        "dimension": "4 x 4",
+        "technique": [
+            "oil",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2017,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00048",
+        "src": "/projects/LB00048.jpg",
+        "available": false,
+        "title": "Impression 4",
+        "dimension": "4 x 4",
+        "technique": [
+            "oil",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2017,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00050",
+        "src": "/projects/LB00050.jpg",
+        "available": false,
+        "title": "Vue de l'exposition La chutes des corps@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00051.1",
+        "src": "/projects/LB00051.1.jpg",
+        "available": true,
+        "title": "Marmonner le vide 2",
+        "dimension": "10 x 12",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": 320,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00051",
+        "src": "/projects/LB00051.jpg",
+        "available": false,
+        "title": "Marmonner le vide 1",
+        "dimension": "10 x 12",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00052",
+        "src": "/projects/LB00052.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Arracher le rouge du jaune @@",
+        "dimension": null,
+        "technique": null,
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00053.1",
+        "src": "/projects/LB00053.1.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "36 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00053",
+        "src": "/projects/LB00053.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "36 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00054.1",
+        "src": "/projects/LB00054.1.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4 x 5 3/4",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2019,
+        "price": 120,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00054",
+        "src": "/projects/LB00054.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Arracher le rouge du jaune @@",
+        "dimension": null,
+        "technique": null,
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00055",
+        "src": "/projects/LB00055.jpg",
+        "available": true,
+        "title": "S'effacer du vide 4",
+        "dimension": "6 x 10",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2019,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "nouaisons-residency-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00056",
+        "src": "/projects/LB00056.jpg",
+        "available": false,
+        "title": "S'effacer du vide 6",
+        "dimension": "6 x 10",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "nouaisons-residency-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00057",
+        "src": "/projects/LB00057.jpg",
+        "available": true,
+        "title": "S'effacer du vide 3",
+        "dimension": "6 x 10",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2019,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "nouaisons-residency-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00058",
+        "src": "/projects/LB00058.jpg",
+        "available": true,
+        "title": "S'effacer du vide 2",
+        "dimension": "6 x 10",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2019,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "nouaisons-residency-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00059",
+        "src": "/projects/LB00059.jpg",
+        "available": true,
+        "title": "S'effacer du vide 1",
+        "dimension": "6 x 10",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2019,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "nouaisons-residency-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00060",
+        "src": "/projects/LB00060.jpg",
+        "available": true,
+        "title": "S'effacer du vide 5",
+        "dimension": "6 x 10",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2019,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "nouaisons-residency-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00061",
+        "src": "/projects/LB00061.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "dimension": null,
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00070",
+        "src": "/projects/LB00070.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16 x 20",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00061.1",
+        "src": "/projects/LB00061.1.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00061.2",
+        "src": "/projects/LB00061.2.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00061.3",
+        "src": "/projects/LB00061.3.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00062",
+        "src": "/projects/LB00062.jpg",
+        "available": false,
+        "title": "Déconstruire le fini",
+        "dimension": "38 x 47,5",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00066",
+        "src": "/projects/LB00066.jpg",
+        "available": false,
+        "title": "S'adonner",
+        "dimension": "16 x 20",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": 600,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00067",
+        "src": "/projects/LB00067.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "2,75 x 3,5",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2019,
+        "price": 410,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "70%"
+    },
+    {
+        "id": "LB00068",
+        "src": "/projects/LB00068.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "21 x 39",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-masonite"
+        ],
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00069.1",
+        "src": "/projects/LB00069.1.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00069",
+        "src": "/projects/LB00069.jpg",
+        "available": false,
+        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "dimension": null,
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00071",
+        "src": "/projects/LB00071.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00072",
+        "src": "/projects/LB00072.jpg",
+        "available": true,
+        "title": "Rompre le vaste",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00073",
+        "src": "/projects/LB00073.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "16 x 20",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": 600,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00074",
+        "src": "/projects/LB00074.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "36 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": 1500,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "mesure-demesure-kamouraska-2020",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00075",
+        "src": "/projects/LB00075.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "18 x 24",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00076",
+        "src": "/projects/LB00076.jpg",
+        "available": false,
+        "title": "Je m'arme",
+        "dimension": "8 x 8",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "les-attentes-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00077",
+        "src": "/projects/LB00077.jpg",
+        "available": true,
+        "title": "Marchander le fini",
+        "dimension": "33,5 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 1700,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00078",
+        "src": "/projects/LB00078.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "20 x 30",
+        "technique": [
+            "acrylic",
+            "dry-pastel",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": 800,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00079",
+        "src": "/projects/LB00079.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "38 x 60",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-masonite"
+        ],
+        "year": 2020,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "mesure-demesure-kamouraska-2020",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00080",
+        "src": "/projects/LB00080.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "38 x 60",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-masonite"
+        ],
+        "year": 2020,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "mesure-demesure-kamouraska-2020",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00081",
+        "src": "/projects/LB00081.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "38 x 60",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-masonite"
+        ],
+        "year": 2020,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "mesure-demesure-kamouraska-2020",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00082",
+        "src": "/projects/LB00082.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "38 x 60",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-masonite"
+        ],
+        "year": 2020,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "mesure-demesure-kamouraska-2020",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00083",
+        "src": "/projects/LB00083.jpg",
+        "available": false,
+        "title": "Toute la même heure",
+        "dimension": "30 x 40",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "65%"
+    },
+    {
+        "id": "LB00084",
+        "src": "/projects/LB00084.jpg",
+        "available": null,
+        "title": null,
+        "dimension": null,
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "100%"
+    },
+    {
+        "id": "LB00085.2",
+        "src": "/projects/LB00085.2.jpg",
+        "available": true,
+        "title": "S'arracher la douceur",
+        "dimension": "33,5 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00085.1",
+        "src": "/projects/LB00085.1.jpg",
+        "available": true,
+        "title": "S'arracher la douceur",
+        "dimension": "33,5 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00085",
+        "src": "/projects/LB00085.jpg",
+        "available": true,
+        "title": "S'arracher la douceur",
+        "dimension": "33,5 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00086",
+        "src": "/projects/LB00086.jpg",
+        "available": false,
+        "title": "sans titre",
+        "dimension": "8,75 x 11",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": 260,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "marmonner-vide-aliette-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00087",
+        "src": "/projects/LB00087.jpg",
+        "available": false,
+        "title": "Sous ta peau",
+        "dimension": "8,75 x 11",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00088",
+        "src": "/projects/LB00088.jpg",
+        "available": true,
+        "title": "Le rouge vient des larmes",
+        "dimension": "8,75 x 11",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": 260,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "marmonner-vide-claire-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00089",
+        "src": "/projects/LB00089.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "24 x 60",
+        "technique": [
+            "acrylic",
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "70%"
+    },
+    {
+        "id": "LB00090",
+        "src": "/projects/LB00090.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "24 x 60",
+        "technique": [
+            "acrylic",
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "70%"
+    },
+    {
+        "id": "LB00091",
+        "src": "/projects/LB00091.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "24 x 60",
+        "technique": [
+            "acrylic",
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "70%"
+    },
+    {
+        "id": "LB00092",
+        "src": "/projects/LB00092.jpg",
+        "available": false,
+        "title": "Astiquer les envies",
+        "dimension": "8 x 10",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00093",
+        "src": "/projects/LB00093.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "18 x 24",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "on-wood"
+        ],
+        "year": 2021,
+        "price": 700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00094",
+        "src": "/projects/LB00094.jpg",
+        "available": false,
+        "title": "Contenir l'oubli",
+        "dimension": "46 x 46",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00095",
+        "src": "/projects/LB00095.jpg",
+        "available": false,
+        "title": "Contenir l'oubli",
+        "dimension": "46 x 46",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00096",
+        "src": "/projects/LB00096.jpg",
+        "available": false,
+        "title": "Contenir l'oubli",
+        "dimension": "46 x 46",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "85%"
+    },
+    {
+        "id": "LB00097",
+        "src": "/projects/LB00097.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "8 x 10",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": 220,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "65%"
+    },
+    {
+        "id": "LB00098.1",
+        "src": "/projects/LB00098.1.jpg",
+        "available": false,
+        "title": "Soulever les heures",
+        "dimension": "36 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00098.2",
+        "src": "/projects/LB00098.2.jpg",
+        "available": false,
+        "title": "Soulever les heures",
+        "dimension": "36 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00098",
+        "src": "/projects/LB00098.jpg",
+        "available": false,
+        "title": "Soulever les heures",
+        "dimension": "36 x 48",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "85%"
+    },
+    {
+        "id": "LB00099",
+        "src": "/projects/LB00099.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": 1500,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": [
+            "montagne-2021",
+            "post-invisible-2022"
+        ],
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00101",
+        "src": "/projects/LB00101.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "5,5 x 6",
+        "technique": [
+            "graphite",
+            "oil",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 160,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "hommage-stella-2022",
+        "photo-credit": "photo-credit-2",
+        "width": "30%"
+    },
+    {
+        "id": "LB00100",
+        "src": "/projects/LB00100.jpg",
+        "available": false,
+        "title": "Se couvrir",
+        "dimension": "8,75 x 10,75",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": 260,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00103",
+        "src": "/projects/LB00103.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "19 x 24",
+        "technique": [
+            "graphite",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 720,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": [
+            "s'arracher-douceur-2022",
+            "les-attentes-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "60%"
+    },
+    {
+        "id": "LB00104",
+        "src": "/projects/LB00104.jpg",
+        "available": false,
+        "title": "Enjamber les eaux III",
+        "dimension": "4 x 6",
+        "technique": [
+            "oil",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00105",
+        "src": "/projects/LB00105.jpg",
+        "available": false,
+        "title": "Enjamber les eaux II",
+        "dimension": "4 x 6",
+        "technique": [
+            "oil",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00106",
+        "src": "/projects/LB00106.jpg",
+        "available": false,
+        "title": "Enjamber les eaux I",
+        "dimension": "4 x 6",
+        "technique": [
+            "oil",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00107",
+        "src": "/projects/LB00107.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "12 x 16",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": 400,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-2",
+        "width": "45%"
+    },
+    {
+        "id": "LB00109",
+        "src": "/projects/LB00109.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "11,5 x 11,5",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": [
+            "les-attentes-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "45%"
+    },
+    {
+        "id": "LB00110",
+        "src": "/projects/LB00110.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "11,5 x 11,5",
+        "technique": [
+            "charcoal",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-2",
+        "width": "45%"
+    },
+    {
+        "id": "LB00111",
+        "src": "/projects/LB00111.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "11,5 x 11,5",
+        "technique": [
+            "dry-pastel",
+            "graphite",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "les-attentes-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "45%"
+    },
+    {
+        "id": "LB00112.2",
+        "src": "/projects/LB00112.2.jpg",
+        "available": true,
+        "title": "Les gadelles",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00112.3",
+        "src": "/projects/LB00112.3.jpg",
+        "available": true,
+        "title": "Les gadelles",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00112.1",
+        "src": "/projects/LB00112.1.jpg",
+        "available": true,
+        "title": "Les gadelles",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00112",
+        "src": "/projects/LB00112.jpg",
+        "available": true,
+        "title": "Les gadelles",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00114",
+        "src": "/projects/LB00114.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4 x 6",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00115",
+        "src": "/projects/LB00115.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4 x 6",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00116",
+        "src": "/projects/LB00116.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4 x 6",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00117",
+        "src": "/projects/LB00117.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4 x 6",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 120,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00118",
+        "src": "/projects/LB00118.jpg",
+        "title": "@@untitled",
+        "dimension": "4 x 6",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 120,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "s'arracher-douceur-2022",
+            "montagne-2021"
+        ],
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00113",
+        "src": "/projects/LB00113.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "18 x 21",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 680,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": [
+            "s'arracher-douceur-2022",
+            "les-attentes-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "60%"
+    },
+    {
+        "id": "LB00119.2",
+        "src": "/projects/LB00119.2.jpg",
+        "available": false,
+        "title": "Rompre",
+        "dimension": "58 x 96",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 4000,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "alcove-2022",
+            "collection-meduse-2022"
+        ],
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00119.3",
+        "src": "/projects/LB00119.3.jpg",
+        "available": false,
+        "title": "Rompre",
+        "dimension": "58 x 96",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 4000,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "alcove-2022",
+            "collection-meduse-2022"
+        ],
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00119.1",
+        "src": "/projects/LB00119.1.jpg",
+        "available": false,
+        "title": "Rompre",
+        "dimension": "58 x 96",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 4000,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "alcove-2022",
+            "collection-meduse-2022"
+        ],
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00119",
+        "src": "/projects/LB00119.jpg",
+        "available": false,
+        "title": "Rompre",
+        "dimension": "58 x 96",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 4000,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "alcove-2022",
+            "collection-meduse-2022"
+        ],
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00120",
+        "src": "/projects/LB00120.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "5,5 x 6",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2022,
+        "price": 160,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "rassembler-espace-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "50%"
+    },
+    {
+        "id": "LB00121",
+        "src": "/projects/LB00121.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "5,5 x 6",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2022,
+        "price": 160,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "rassembler-espace-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "50%"
+    },
+    {
+        "id": "LB00122.2",
+        "src": "/projects/LB00122.2.jpg",
+        "available": true,
+        "title": "Effriter les songes",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "l'hiver-dessin-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00122.1",
+        "src": "/projects/LB00122.1.jpg",
+        "available": true,
+        "title": "Effriter les songes",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "l'hiver-dessin-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00122",
+        "src": "/projects/LB00122.jpg",
+        "available": true,
+        "title": "Effriter les songes",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "l'hiver-dessin-2022",
+        "photo-credit": "photo-credit-2",
+        "width": "85%"
+    },
+    {
+        "id": "LB00123.1",
+        "src": "/projects/LB00123.1.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "46 x 46",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1800,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": [
+            "l'hiver-dessin-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "80%"
+    },
+    {
+        "id": "LB00123.2",
+        "src": "/projects/LB00123.2.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "46 x 46",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1800,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": [
+            "l'hiver-dessin-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "80%"
+    },
+    {
+        "id": "LB00123.3",
+        "src": "/projects/LB00123.3.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "46 x 46",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1800,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": [
+            "l'hiver-dessin-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "80%"
+    },
+    {
+        "id": "LB00123",
+        "src": "/projects/LB00123.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "46 x 46",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1800,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": [
+            "l'hiver-dessin-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "100%"
+    },
+    {
+        "id": "LB00124",
+        "src": "/projects/LB00124.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "5,5 x 6",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "l'hiver-dessin-2022",
+            "s'arracher-douceur-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "30%"
+    },
+    {
+        "id": "LB00125",
+        "src": "/projects/LB00125.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "11 x 11",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "65%"
+    },
+    {
+        "id": "LB00126",
+        "src": "/projects/LB00126.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "11 x 11",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2022,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "65%"
+    },
+    {
+        "id": "LB00127",
+        "src": "/projects/LB00127.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4 x 6",
+        "technique": [
+            "acrylic",
+            "paper-wood"
+        ],
+        "year": 2019,
+        "price": 130,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "marathon-création",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00128",
+        "src": "/projects/LB00128.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4 x 6",
+        "technique": [
+            "acrylic",
+            "paper-wood"
+        ],
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "marathon-création",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00129",
+        "src": "/projects/LB00129.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "12 x 16",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 400,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "l'hiver-dessin-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00130",
+        "src": "/projects/LB00130.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "18 x 24",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 700,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00131.1",
+        "src": "/projects/LB00131.1.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "35 x 55",
+        "technique": [
+            "graphite",
+            "charcoal",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 1600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00131.2",
+        "src": "/projects/LB00131.2.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "35 x 55",
+        "technique": [
+            "graphite",
+            "charcoal",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 1600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00131",
+        "src": "/projects/LB00131.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "35 x 55",
+        "technique": [
+            "graphite",
+            "charcoal",
+            "dry-pastel",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 1600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00132",
+        "src": "/projects/LB00132.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "11 x 11",
+        "technique": [
+            "gouache",
+            "0n-wood"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "65%"
+    },
+    {
+        "id": "LB00133.2",
+        "src": "/projects/LB00133.2.jpg",
+        "available": true,
+        "title": "Tous les jours",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00133.1",
+        "src": "/projects/LB00133.1.jpg",
+        "available": true,
+        "title": "Tous les jours",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00133",
+        "src": "/projects/LB00133.jpg",
+        "available": true,
+        "title": "Tous les jours",
+        "dimension": "36 x 48",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1500,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00134",
+        "src": "/projects/LB00134.jpg",
+        "available": true,
+        "title": "Échapper l'autre",
+        "dimension": "9 1/4 x 10 1/4",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2022,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00135",
+        "src": "/projects/LB00135.jpg",
+        "available": true,
+        "title": "Construire la courbe",
+        "dimension": "9 1/4 x 10 1/4",
+        "technique": [
+            "crayon",
+            "on-paper"
+        ],
+        "year": 2022,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00136",
+        "src": "/projects/LB00136.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "9 1/4 x 10 1/4",
+        "technique": [
+            "graphite",
+            "crayon",
+            "on-paper"
+        ],
+        "year": 2022,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00137",
+        "src": "/projects/LB00137.jpg",
+        "available": true,
+        "title": "Combiner l'attente",
+        "dimension": "9 1/4 x 10 1/4",
+        "technique": [
+            "crayon",
+            "on-paper"
+        ],
+        "year": 2022,
+        "price": 180,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00138.2",
+        "src": "/projects/LB00138.2.jpg",
+        "available": true,
+        "title": "Les autours",
+        "dimension": "24 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1400,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "quatorze-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "70%"
+    },
+    {
+        "id": "LB00138.1",
+        "src": "/projects/LB00138.1.jpg",
+        "available": true,
+        "title": "Les autours",
+        "dimension": "24 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1400,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "quatorze-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "70%"
+    },
+    {
+        "id": "LB00138",
+        "src": "/projects/LB00138.jpg",
+        "available": true,
+        "title": "Les autours",
+        "dimension": "24 x 60",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1400,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "quatorze-2022",
+        "photo-credit": "photo-credit-1",
+        "width": "70%"
+    },
+    {
+        "id": "LB00139",
+        "src": "/projects/LB00139.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "12 x 16",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 400,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00140.3",
+        "src": "/projects/LB00140.3.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00140.2",
+        "src": "/projects/LB00140.2.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00140.1",
+        "src": "/projects/LB00140.1.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00140.4",
+        "src": "/projects/LB00140.4.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00140",
+        "src": "/projects/LB00140.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "36 x 60",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1700,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "montcalm-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00141",
+        "src": "/projects/LB00141.jpg",
+        "available": false,
+        "title": "sans titre",
+        "dimension": "8 x 10",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00142",
+        "src": "/projects/LB00142.jpg",
+        "available": false,
+        "title": "sans titre",
+        "dimension": "4 x 4,5",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00143",
+        "src": "/projects/LB00143.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "11 x 11",
+        "technique": [
+            "gouache",
+            "on-wood"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "45%"
+    },
+    {
+        "id": "LB00144.2",
+        "src": "/projects/LB00144.2.jpg",
+        "available": true,
+        "title": "Rompre les vertiges",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00144.1",
+        "src": "/projects/LB00144.1.jpg",
+        "available": true,
+        "title": "Rompre les vertiges",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00144",
+        "src": "/projects/LB00144.jpg",
+        "available": true,
+        "title": "Rompre les vertiges",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00145",
+        "src": "/projects/LB00145.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "9 x 12",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 285,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00146.2",
+        "src": "/projects/LB00146.2.jpg",
+        "available": true,
+        "title": "Rassembler les espaces",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00146.1",
+        "src": "/projects/LB00146.1.jpg",
+        "available": true,
+        "title": "Rassembler les espaces",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00146",
+        "src": "/projects/LB00146.jpg",
+        "available": true,
+        "title": "Rassembler les espaces",
+        "dimension": "43 x 57",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 2000,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "80%"
+    },
+    {
+        "id": "LB00147",
+        "src": "/projects/LB00147.jpg",
+        "available": false,
+        "title": "sans titre",
+        "dimension": "12 x 16",
+        "technique": [
+            "acrylic",
+            "dry-pastel",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00148.1",
+        "src": "/projects/LB00148.1.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00148",
+        "src": "/projects/LB00148.jpg",
+        "available": true,
+        "title": "sans titre",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": 1000,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    }
+]
+
+

@@ -1,10 +1,13 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import styled from '@emotion/styled';
+import { useTranslation } from 'react-i18next';
+import content from '../data/resume.json';
 
-const StyledTitle = styled.h5`
+const StyledTitle = styled.div`
   margin-bottom: 0.5em;
-  margin-top: 1em;
+  margin-top: 3em;
+  font-weight: bold;
 `;
 
 const StyledYear = styled.div`
@@ -30,6 +33,7 @@ const StyledContentList = styled.div`
   flex-wrap: nowrap;
   flex-direction: column;
   align-content: flex-start;
+  margin-right: 10em;
 `;
 
 const StyledLink = styled.a`
@@ -41,248 +45,25 @@ const StyledLink = styled.a`
   }
 `;
 
-const content = [
-  {
-    title: 'Études',
-    year: [
-      {
-        date: 2019,
-        list: ['Maîtrise en arts visuels, Université Laval'],
-      },
-      {
-        date: 2016,
-        list: ['Baccalauréat en arts visuels avec majeure en peinture et dessin, Université Concordia'],
-      }, 
-    ],
-  },
-    {
-    title: 'Représentation',
-    year: [
-      {
-        date: '',
-        list: [
-          <StyledLink href="https://champagneparadis.com/collections/belzile-laurence">
-            Galerie Champagne et Paradis, Kamouraska
-          </StyledLink>,
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Expositions individuelles',
-    year: [
-      {
-        date: 2022,
-        list: ["S'arracher la douceur, Galerie Montcalm, Gatineau",
-              "S'arracher la douceur, Maison des arts et de la culture de Brompton, Sherbrooke",
-              ],
-      },
-      {
-        date: 2021,
-        list: ['Marmonner le vide, Manif d’art, bibliothèque Aliette-Marchand, Québec',
-              'Marmonner le vide, Manif d’art, bibliothèque Claire-Martin, Québec',
-              ],
-      },
-      {
-        date: 2020,
-        list: [
-          'Mesure et démesure, Centre d’art de Kamouraska & Galerie Champagne et Paradis, Kamouraska',
-          'Mesure et démesure, Galerie d’art du Cégep de Jonquière, Jonquière',
-        ],
-      },
-      {
-        date: 2019,
-        list: [
-          'Arracher le rouge du jaune, Galerie AVE, Montréal',
-          'Entre espace et objets, Galerie Jean Letarte, Boucherville',
-        ],
-      },
-      {
-        date: 2018,
-        list: [
-          'La chute des corps, Atelier du roulement à billes, Québec',
-        ],
-      },
-      {
-        date: 2017,
-        list: ['Situations, Salle Georgianna-Juneau, Maison de la culture, Rivière-du-Loup'],
-      },
-    ],
-  },
-  {
-    title: 'Expositions collectives',
-    year: [
-       {
-        date: 2021,
-        list: ['montagnes, local indépendant, Québec'],
-      },
-      {
-        date: 2020,
-        list: [
-          'Foire en art actuel de Québec, Québec',
-          'Foire d’art contemporain de Saint-Lambert, Saint-Lambert',
-          '50e du Cégep de Rivière-du-Loup, Salle Gaetan-Blanchet, Rivière-du-Loup',
-        ],
-      },
-      {
-        date: 2018,
-        list: [
-          'Nature, Le livart, Montréal',
-          'Voir loin, Centre d’art de Kamouraska, Kamouraska',
-          'Jaune Marine, Ancienne école des beaux-arts de Montréal, Montréal',
-        ],
-      },
-      {
-        date: 2017,
-        list: [
-          'Exposition collective de Résidence nomade, Atelier du Roulement à billes, Québec',
-          'Exposé Noir, Fonderie Darling en partenariat avec Centerfold, Montréal',
-          'Abstraction sauvage, Le Livart, Montréal',
-          'L’intemporalité du corps, Le Livart, Montréal',
-        ],
-      },
-      {
-        date: 2016,
-        list: [
-          'Centerfold 11, Centerfold Gallery, Montréal',
-          'Summer exhibition 1/3, VAV Gallery, Montréal',
-          'Stay Awhile, Art Matters, Montréal',
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Résidences de création',
-    year: [
-          {
-        date: 2022,
-        list: ['Centre de production en art actuel Les Ateliers, Baie-Saint-Paul'],
-      },
-      {
-        date: 2019,
-        list: ['NOUAISONS, Presbytère de Scott, Scott'],
-      },
-      {
-        date: 2018,
-        list: ['Marathon de la création, Trois-Pistoles', 'Centre d’art de Kamouraska, Kamouraska'],
-      },
-      {
-        date: 2017,
-        list: ['Résidence Nomade, île d’Anticosti'],
-      },
-    ],
-  },
-    {
-    title: 'Prix et bourses',
-    year: [
-      {
-        date: '2021',
-        list: ['Bourse au projet pour Territoires (résidence de création au Centre de production en art actuel Les Ateliers), Première ovation, Manif d’art',
-              'Bourse au projet pour Territoires (résidence de création au Centre de production en art actuel Les Ateliers), LOJIQ',
-              'Bourse de recherche et création, Ville de Québec',
-              ],
-      },
-       {
-        date: '2020',
-        list: ['Bourse au projet pour l’exposition collective montagnes, Première ovation, Manif d’art'],
-      },
-       {
-        date: '2019',
-        list: ['Bourse au projet pour l’exposition individuelle Mesure et démesure, Première ovation, Manif d’art'],
-      },
-      {
-        date: 2018,
-        list: [
-          'Représentante de l’Université Laval pour l’exposition collective Jaune Marine, Forces Avenir, catégorie « Art, lettre et culture »',
-          'Bourse de rayonnement, Université Laval',
-        ],
-      },
-      {
-        date: 2017,
-        list: ['Bourse d’études supérieures, Fondation Desjardins'],
-      },
-      {
-        date: 2014,
-        list: [
-          '2e prix du concours en arts visuels Polskafree25, Ambassade de la Pologne à Montréal et Université Concordia',
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Emplois',
-    year: [
-      {
-        date: '2018-2021',
-        list: ['Coordonnatrice à la programmation, Folie/Culture'],
-      },
-      {
-        date: 2018,
-        list: ['Coordonnatrice des expositions, Centre d’art de Kamouraska, Kamouraska'],
-      },
-      {
-        date: 2017,
-        list: ['Auxiliaire d’enseignement dans le cours Ateliers I, Université Laval'],
-      },
-    ],
-  },
-  {
-    title: 'Autres activités',
-    year: [
-        {
-        date: 2021,
-        list: ['Trésorière du conseil d’administration de Folie/Culture', 
-              'Don d’une œuvre pour l’encan annuel du Musée du Bas-Saint-Laurent',
-              'Participation au projet de Portfolio collaboratif organisé par l’artiste Julie Bellavance et soutenu par Engramme, l’Université Laval et Première Ovation',
-              ],
-      },
-      {
-        date: 2020,
-        list: [
-          'Participation aux encans de la quarantaine',
-          'Collaboration avec les éditions OMRI pour le recueil Ramages de Laurence Langlois',
-        ],
-      },
-      {
-        date: 2019,
-        list: ['Activités de médiation culturelle et de création avec le Café Centre Art, Boucherville'],
-      },
-      {
-        date: '2018-2021',
-        list: ['Membre du comité de programmation de Folie/Culture',
-              'Participation aux encans annuels du Centre d’art de Kamouraska',
-              ],
-      },
-    ],
-  },
-  {
-    title: 'Collection',
-    year: [
-      {
-        date: '',
-        list: ['Ville de Boucherville'],
-      },
-    ],
-  },
-];
-
-export const Resume = () => (
-  <Fade bottom>
-    <h1>Curriculum vitae</h1>
-    {content.map((element, i) => (
-      <div key={`${element.title}-${i}`}>
-        <StyledTitle>{element.title}</StyledTitle>
-        {element.year.map((year, j) => (
-          <StyledYear key={`${year.date}-${j}`}>
-            <StyledDate>{year.date}</StyledDate>
-            <StyledContentList>
-              {year.list.map((item, k) => (
-                <div key={`${item}-${k}`}>{item}</div>
-              ))}
-            </StyledContentList>
-          </StyledYear>
-        ))}
-      </div>
-    ))}
-  </Fade>
-);
+export const Resume = () => {
+  const { t } = useTranslation('resume');
+  return (
+    <Fade bottom>
+      {content.map((element, i) => (
+        <div key={`${element.title}-${i}`}>
+          <StyledTitle>{t(element.title)}</StyledTitle>
+          {element.year.map((year, j) => (
+            <StyledYear key={`${year.date}-${j}`}>
+              <StyledDate>{year.date}</StyledDate>
+              <StyledContentList>
+                {year.list.map(({ val, link }, k) => (
+                  <div key={`${val}-${k}`}>{link ? <StyledLink href={link}>{t(val)}</StyledLink> : t(val)}</div>
+                ))}
+              </StyledContentList>
+            </StyledYear>
+          ))}
+        </div>
+      ))}
+    </Fade>
+  );
+};
