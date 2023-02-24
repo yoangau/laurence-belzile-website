@@ -35,6 +35,13 @@ const StyledInfo3 = styled.p`
   margin-right: 18em;
 `;
 
+const StyledInfo4 = styled.p`
+  text-align: justify;
+  padding-bottom: 3.5em;
+  margin-left: -0.2em;
+  margin-right: 18em;
+`;
+
 export const Info = () => {
   const { t } = useTranslation('info');
 
@@ -45,7 +52,7 @@ export const Info = () => {
       <StyledInfo2>{t('content-2')}</StyledInfo2>
       <StyledInfo3>{t('content-3')}</StyledInfo3>
       <StyledInfo3>{t('content-4')}</StyledInfo3>
-      <StyledInfo3>{t('content-5')}</StyledInfo3>
+      <StyledInfo4>{t('content-5')}</StyledInfo4>
     </Fade>
   );
 };
