@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import content from '../data/resume.json';
 
-const StyledTitle = styled.h5`
+const StyledTitle = styled.div`
   margin-bottom: 0.5em;
   margin-top: 3em;
   font-weight: bold;
@@ -33,6 +33,7 @@ const StyledContentList = styled.div`
   flex-wrap: nowrap;
   flex-direction: column;
   align-content: flex-start;
+  margin-right: 10em;
 `;
 
 const StyledLink = styled.a`

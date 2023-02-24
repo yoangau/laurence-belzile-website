@@ -12,6 +12,7 @@ import { Info } from './components/Info';
 const StyledApp = styled.div`
   background: white;
   font-family: Rokkitt, serif;
+  font-size: 1.2vw;
   margin-left: 10vw;
   min-height: 100vh;
 `;

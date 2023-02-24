@@ -4,7 +4,6 @@ import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 
 const StyledInfo = styled.p`
-  font-size: 1.2vw;
   font-weight: bold;
   text-align: justify;
   padding-bottom: 0.5em;
@@ -14,7 +13,6 @@ const StyledInfo = styled.p`
 `;
 
 const StyledInfo1 = styled.p`
-  font-size: 1.2vw;
   text-align: justify;
   padding-bottom: 0.5em;
   margin-top: 1em;
@@ -23,7 +21,6 @@ const StyledInfo1 = styled.p`
 `;
 
 const StyledInfo2 = styled.p`
-  font-size: 1.2vw;
   font-weight: bold;
   text-align: justify;
   padding-bottom: 1.5em;
@@ -32,7 +29,6 @@ const StyledInfo2 = styled.p`
 `;
 
 const StyledInfo3 = styled.p`
-  font-size: 1.2vw;
   text-align: justify;
   padding-bottom: 0.5em;
   margin-left: -0.2em;
