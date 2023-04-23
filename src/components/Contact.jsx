@@ -126,9 +126,7 @@ export const Contact = () => {
               <StyledButton
                 onClick={async () => {
                   const result = await emailService.subscribe(subEmail);
-                  if (!result) {
-                    setThankyouToken('subscribed-failed');
-                  }
+                  setThankyouToken(result ? 'subscribed-success' : 'subscribed-failed');
                   setSubmitted(true);
                   setTimeout(() => {
                     setSubmitted(false);
