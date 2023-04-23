@@ -122,8 +122,10 @@
     },
     "contact": {
         "subscribe": "Subscribe",
-        "email": "Enter your email address",
+        "email": "Your email address",
         "subscribed-success": "You are now subscribed to the newsletter. Thank you!",
-        "subscribed-failed": "An error occurred while subscribing to the newsletter. Please try again later."
+        "subscribed-failed": "An error occurred while subscribing to the newsletter. Please try again.",
+        "email-list": "Newsletter Subscription",
+        "contact": "Contact Me"
     }
 }

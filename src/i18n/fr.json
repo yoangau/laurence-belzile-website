@@ -123,8 +123,10 @@
     },
     "contact": {
         "subscribe": "S'abonner",
-        "email": "Entrer votre courriel",
-        "subscribed-success": "Vous êtes abonné(e) à la liste de diffusion. Merci!",
-        "subscribed-failed": "Une erreur est survenue. Veuillez réessayer."
+        "email": "Votre adresse courriel",
+        "subscribed-success": "Vous êtes abonné.e à la liste d'envoi. Merci!",
+        "subscribed-failed": "Une erreur est survenue. Veuillez réessayer.",
+        "email-list": "Liste d'envoi",
+        "contact": "Me contacter"
     }
 }

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { emailService } from '../service/email-service';
 
 const StyledMail = styled.div`
-  margin-bottom: 1vh;
+  margin-bottom: 8vh;
 `;
 
 const StyledMailto = styled.a`
@@ -21,7 +21,7 @@ const StyledMailto = styled.a`
 const StyledSocialNetworks = styled.div`
   display: flex;
   flex-direction: row;
-  margin-bottom: 2vh;
+  margin-top: 8vh;
 `;
 
 const StyledSocialMedia = styled.a`
@@ -33,9 +33,9 @@ const StyledButton = styled.button`
   outline: 0;
   cursor: pointer;
   padding: 5px 16px;
-  font-size: 14px;
+  font-size: 2vh;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 2vh;
   vertical-align: middle;
   border: 1px solid;
   border-radius: 6px;
@@ -55,7 +55,7 @@ const StyledButton = styled.button`
 const StyledInput = styled.input`
   margin-right: 0.2em;
   padding: 5px 12px;
-  font-size: 14px;
+  font-size: 2vh;
   line-height: 20px;
   color: #24292e;
   vertical-align: middle;
@@ -76,6 +76,11 @@ const StyledInput = styled.input`
 const StyledThankYou = styled.p`
   font-size: 3vh;
   color: black;
+`;
+
+const StyledHeader = styled.h3`
+  font-size: 3vh;
+  font-weight: 1000;
 `;
 
 const email = 'laurence.belzile.arts@gmail.com';
@@ -102,42 +107,39 @@ export const Contact = () => {
   return (
     <>
       <Fade bottom>
+        <StyledHeader>{t('contact')}</StyledHeader>
         <StyledMail>
           <StyledMailto href={`mailto:${email}`}>{email}</StyledMailto>
         </StyledMail>
+        <StyledHeader>{t('email-list')}</StyledHeader>
+        <div>
+          <StyledInput
+            type="email"
+            value={subEmail}
+            onChange={(e) => setSubEmail(e.target.value)}
+            placeholder={t('email')}
+          />
+          <StyledButton
+            onClick={async () => {
+              const result = await emailService.subscribe(subEmail);
+              setThankyouToken(result ? 'subscribed-success' : 'subscribed-failed');
+              setSubmitted(true);
+              setTimeout(() => {
+                setSubmitted(false);
+              }, [10000]);
+            }}
+          >
+            {t('subscribe')}
+          </StyledButton>
+          {submitted && <StyledThankYou>{t(thankyouToken)}</StyledThankYou>}
+        </div>
         <StyledSocialNetworks>
           {social.map((link, i) => (
             <StyledSocialMedia key={`${link.name}-${i}`} href={link.url}>
-              <img src={link.source} alt={link.name} style={{ width: '25px', height: '25px' }} />
+              <img src={link.source} alt={link.name} style={{ width: '3vh', height: '3vh' }} />
             </StyledSocialMedia>
           ))}
         </StyledSocialNetworks>
-        <div>
-          {submitted ? (
-            <StyledThankYou>{t(thankyouToken)}</StyledThankYou>
-          ) : (
-            <>
-              <StyledInput
-                type="email"
-                value={subEmail}
-                onChange={(e) => setSubEmail(e.target.value)}
-                placeholder={t('email')}
-              />
-              <StyledButton
-                onClick={async () => {
-                  const result = await emailService.subscribe(subEmail);
-                  setThankyouToken(result ? 'subscribed-success' : 'subscribed-failed');
-                  setSubmitted(true);
-                  setTimeout(() => {
-                    setSubmitted(false);
-                  }, [3000]);
-                }}
-              >
-                {t('subscribe')}
-              </StyledButton>
-            </>
-          )}
-        </div>
       </Fade>
     </>
   );
