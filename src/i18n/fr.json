@@ -135,5 +135,13 @@
         "content-3": " Je fais de la peinture abstraite, quelques fois, voir souvent, je m’adonne à la pratique du dessin.",
         "content-4": "Grâce à une approche délicate et affirmée, les traits se déposent sur la surface de mes toiles. Ils découpent l’espace pictural des tableaux et s’accumulent pour créer formes et lignes.  Les compositions se mettent en place évoquant des mouvements qui explorent la tension intrinsèque de la verticalité. Dans les œuvres, les formes se déploient tout en se contrastant les unes des autres par des jeux de coloration. Puis, les variances de luminosité et la superposition de plans instaurent dans les œuvres des espaces imaginaires qui allient la plasticité du médium et la conception d’une image. Par l’utilisation de couleurs vives et pastels, je suggère une réappropriation de teintes dites féminines pour les inscrire avec douceur et impétuosité dans une tradition occidentale de la peinture abstraite dominé historiquement par des canons masculins.",
         "content-5": "Par la pratique de la peinture, je m’intéresse à la poésie d’une imagerie abstraite : ses mouvements, son ampleur, sa délicatesse, ses modelés et toute ses possibilités évocatrices."
+    },
+    "contact": {
+        "subscribe": "S'abonner",
+        "email": "Votre adresse courriel",
+        "subscribed-success": "Vous êtes abonné.e à la liste d'envoi. Merci!",
+        "subscribed-failed": "Une erreur est survenue. Veuillez réessayer.",
+        "email-list": "Liste d'envoi",
+        "contact": "Me contacter"
     }
 }

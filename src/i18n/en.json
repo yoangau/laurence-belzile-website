@@ -133,5 +133,13 @@
         "content-3": "My artistic practice involves creating abstract images through the processes of drawing and painting.",
         "content-4": "I approach each piece with both delicacy and intensity, using lines to define and shape the pictorial space. As lines accumulate, they morph into forms and imaginative places. Within my compositions, variations in brightness and layering of planes create a sense of space. Movements are evoked to explore the intrinsic tension of verticality, presenting sensations of collapse, elevation, confinement, and restraint. I use pastel and vivid hues to reclaim colors that have traditionally been labeled as feminine. With both softness and forcefulness, I embody them into an occidental tradition of abstract painting, which has historically been dominated by male figures.",
         "content-5": "Through my paintings and drawings, I explore the endless possibilities of abstract imagery, capturing its poetic nature, delicacy, forms, movements, and extent."
+    },
+    "contact": {
+        "subscribe": "Subscribe",
+        "email": "Your email address",
+        "subscribed-success": "You are now subscribed to the newsletter. Thank you!",
+        "subscribed-failed": "An error occurred while subscribing to the newsletter. Please try again.",
+        "email-list": "Newsletter Subscription",
+        "contact": "Contact Me"
     }
 }
