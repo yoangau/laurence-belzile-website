@@ -3203,6 +3203,24 @@
         "width": "45%"
     },
     {
+        "id": "LB00149",
+        "src": "/projects/LB00149.jpg",
+        "available": false,
+        "title": "Saumurer",
+        "dimension": "16 x 20",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
         "id": "LB00142",
         "src": "/projects/LB00142.jpg",
         "available": false,
@@ -3413,6 +3431,24 @@
         ],
         "year": 2022,
         "price": 1000,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    }
+    {
+        "id": "LB00150",
+        "src": "/projects/LB00150.jpg",
+        "available": true,
+        "title": "Aux jardins",
+        "dimension": "8 x 8",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": null,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
