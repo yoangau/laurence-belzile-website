@@ -3436,7 +3436,7 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "60%"
-    }
+    },
     {
         "id": "LB00150",
         "src": "/projects/LB00150.jpg",
@@ -3454,6 +3454,168 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "60%"
+    },
+    {
+        "id": "LB00151",
+        "src": "/projects/LB00151.jpg",
+        "available": true,
+        "title": "Au-delà du repli",
+        "dimension": "4 x 5,5",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00152",
+        "src": "/projects/LB00152.jpg",
+        "available": true,
+        "title": "Si j'étais la nuit",
+        "dimension": "4 x 5,5",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2022,
+        "price": null,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00153",
+        "src": "/projects/LB00153.jpg",
+        "available": true,
+        "title": "J'ai fleuri entre les rochers",
+        "dimension": "10 x 14",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00154",
+        "src": "/projects/LB00154.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "14 x 17",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2022,
+        "price": null,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "55%"
+    },
+    {
+        "id": "LB00155",
+        "src": "/projects/LB00155.jpg",
+        "available": true,
+        "title": "Ils ont pris la mer",
+        "dimension": "8,5 x 10,75",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00156",
+        "src": "/projects/LB00156.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "24 x 36",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2022,
+        "price": null,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00157",
+        "src": "/projects/LB00157.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "8,5 x 10,75",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00158",
+        "src": "/projects/LB00158.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "8,5 x 10,75",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00159",
+        "src": "/projects/LB00159.jpg",
+        "available": true,
+        "title": "L'obstacle des fleurs",
+        "dimension": "8,5 x 10,75",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
     }
 ]
 
