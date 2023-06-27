@@ -40,6 +40,28 @@
         "title": "expo-ind-title",
         "year": [
             {
+                "date": 2024,
+                "list": [
+                    {
+                        "val": "expo-ind-2024-0"
+                    },
+                    {
+                        "val": "expo-ind-2024-1"
+                    }
+                ]
+            },
+            {
+                "date": 2023,
+                "list": [
+                    {
+                        "val": "expo-ind-2023-0"
+                    },
+                    {
+                        "val": "expo-ind-2023-1"
+                    }
+                ]
+            },
+            {
                 "date": 2022,
                 "list": [
                     {
@@ -113,6 +135,17 @@
     {
         "title": "expo-col-title",
         "year": [
+            {
+                "date": 2023,
+                "list": [
+                    {
+                        "val": "expo-col-2023-0"
+                    },
+                    {
+                        "val": "expo-col-2023-1"
+                    }
+                ]
+            },
             {
                 "date": 2022,
                 "list": [
@@ -193,6 +226,17 @@
     {
         "title": "fairs-auct-title",
         "year": [
+            {
+                "date": 2023,
+                "list": [
+                    {
+                        "val": "fairs-auct-2023-0"
+                    },
+                    {
+                        "val": "fairs-auct-2023-1"
+                    }
+                ]
+            },
             {
                 "date": 2022,
                 "list": [
@@ -401,10 +445,10 @@
         "title": "other-title",
         "year": [
             {
-                "date": "2021-2022",
+                "date": "2021-2023",
                 "list": [
                     {
-                        "val": "other-2021-2022-0"
+                        "val": "other-2021-2023-0"
                     }
                 ]
             },
