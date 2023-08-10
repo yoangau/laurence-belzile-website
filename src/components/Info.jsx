@@ -53,7 +53,9 @@ export const Info = () => {
       <StyledInfo2>{t('content-2')}</StyledInfo2>
       <StyledInfo3>{t('content-3')}</StyledInfo3>
       <StyledInfo3>{t('content-4')}</StyledInfo3>
-      <StyledInfo4>{t('content-5')}</StyledInfo4>
+      <StyledInfo3>{t('content-5')}</StyledInfo3>
+      <StyledInfo3>{t('content-6')}</StyledInfo3>
+      <StyledInfo4>{t('content-7')}</StyledInfo4>
     </Fade>
   );
 };
