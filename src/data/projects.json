@@ -1076,7 +1076,7 @@
         "id": "LB00052",
         "src": "/projects/LB00052.jpg",
         "available": false,
-        "title": "Vue de l'exposition Arracher le rouge du jaune @@",
+        "title": "Vue de l'exposition Arracher le rouge du jaune@@",
         "dimension": null,
         "technique": null,
         "year": 2019,
@@ -1145,7 +1145,7 @@
         "id": "LB00054",
         "src": "/projects/LB00054.jpg",
         "available": false,
-        "title": "Vue de l'exposition Arracher le rouge du jaune @@",
+        "title": "Vue de l'exposition Arracher le rouge du jaune@@",
         "dimension": null,
         "technique": null,
         "year": 2019,
@@ -3618,5 +3618,3 @@
         "width": "45%"
     }
 ]
-
-
