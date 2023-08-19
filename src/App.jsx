@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import { NavBar } from './components/NavBar';
 import { Work } from './components/Work';
 import { Contact } from './components/Contact';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Name } from './components/Name';
 import { Resume } from './components/Resume';
 import { Info } from './components/Info';
