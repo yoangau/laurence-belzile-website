@@ -2,6 +2,7 @@ import React from 'react';
 import LazyLoad from 'react-lazyload';
 import styled from '@emotion/styled';
 import Image from 'react-bootstrap/Image';
+import Fade from 'react-reveal';
 
 const StyledProject = styled.div`
   display: flex;
@@ -13,10 +14,12 @@ const StyledProject = styled.div`
   max-width: 80vw;
 `;
 
-export const Project = ({ src, title, width }) => (
-  <StyledProject>
-    <LazyLoad height={1024}>
-      <Image width={width} src={src} alt={title} fluid></Image>
+export const Project = ({ id, src, title, width }) => (
+  <StyledProject id={id}>
+    <LazyLoad once debounce height={'100%'}>
+      <Fade bottom>
+        <Image width={width} src={src} alt={title} fluid></Image>
+      </Fade>
     </LazyLoad>
   </StyledProject>
 );

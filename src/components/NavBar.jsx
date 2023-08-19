@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+import { useHistory } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
 import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
