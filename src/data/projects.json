@@ -2818,48 +2818,12 @@
         "width": "60%"
     },
     {
-        "id": "LB00131.1",
-        "src": "/projects/LB00131.1.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "35\" x 55\"",
-        "technique": [
-            "graphite",
-            "charcoal",
-            "dry-pastel",
-            "paper-wood"
-        ],
-        "year": 2022,
-        "price": 1600,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "brompton-2022",
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
-        "id": "LB00131.2",
-        "src": "/projects/LB00131.2.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "35\" x 55\"",
-        "technique": [
-            "graphite",
-            "charcoal",
-            "dry-pastel",
-            "paper-wood"
-        ],
-        "year": 2022,
-        "price": 1600,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "brompton-2022",
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
         "id": "LB00131",
         "src": "/projects/LB00131.jpg",
+        "additional-images": [
+            "/projects/LB00131.1.jpg",
+            "/projects/LB00131.2.jpg"
+        ],
         "available": true,
         "title": "@@untitled",
         "dimension": "35\" x 55\"",

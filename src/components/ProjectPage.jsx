@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Image, Row, Col } from 'antd';
+import { Image, Row, Col, Carousel } from 'antd';
 import { useTranslation } from 'react-i18next';
 import styled from '@emotion/styled';
 import i18n from '../i18n';
@@ -18,11 +18,18 @@ const StyledRow = styled(Row)`
 `;
 
 const StyledInfo = styled.div`
-  font-size: 2vw;
+  font-size: 1.5em;
 `;
 
 const Spacer = styled.div`
   height: 3vh;
+`;
+
+const DraggableCarousel = styled(Carousel)`
+  &:hover,
+  &:focus {
+    cursor: grab;
+  }
 `;
 
 const getPriceCad = (price) => (i18n.language === 'en' ? `$${price}` : `${price} $`);
@@ -55,17 +62,32 @@ export const ProjectPage = ({ projects }) => {
   const { id } = useParams();
   const { t } = useTranslation('work');
 
-  const { src, title, technique, dimension, year, price, available, 'photo-credit': photoCredit } = projects[id];
+  const {
+    src,
+    title,
+    technique,
+    dimension,
+    year,
+    price,
+    available,
+    'photo-credit': photoCredit,
+    'additional-images': additionalImages,
+  } = projects[id];
   const translatedTitle = formatTitle(title, t);
   return (
     <StyledRow gutter={[0, 50]}>
       <Col xs={{ span: 20 }} lg={{ span: 13 }}>
-        <Image preview={false} src={src} />
+        <DraggableCarousel draggable adaptiveHeight dotPosition="top">
+          <Image key={src} draggable={false} width="100%" fluid="true" preview={false} src={src} />
+          {additionalImages?.map((image) => (
+            <Image key={image} draggable={false} width="100%" fluid="true" preview={false} src={image} />
+          ))}
+        </DraggableCarousel>
         <Row>
           <PhotoCreditText>{t('photo-credit') + t(photoCredit)}</PhotoCreditText>
         </Row>
       </Col>
-      <Col xs={{ span: 20 }} lg={{ span: 8, offset: 1 }}>
+      <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
         <StyledInfo>{translatedTitle}</StyledInfo>
         <StyledInfo>{formatTechnique(technique, t)}</StyledInfo>
         <StyledInfo>{dimension}</StyledInfo>

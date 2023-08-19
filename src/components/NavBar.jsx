@@ -19,6 +19,11 @@ const StyledLink = styled.p`
   }
 `;
 
+const FitContentNav = styled(Nav)`
+  width: fit-content;
+  float: right;
+`;
+
 const StyledNavbar = styled(Navbar)`
   background-color: none;
   text-align: right;
@@ -46,7 +51,7 @@ export const NavBar = () => {
 
   return (
     <StyledNavbar expand="lg" sticky="top">
-      <Nav className="lg-column justify-content-end">
+      <FitContentNav className="lg-column justify-content-end">
         <StyledLink onClick={() => handleClick(WORK)}>{t('work-header')}</StyledLink>
         <StyledLink onClick={() => handleClick(CV)}>{t('resume-header')}</StyledLink>
         <StyledLink onClick={() => handleClick(ABOUT)}>{t('info-header')}</StyledLink>
@@ -54,7 +59,7 @@ export const NavBar = () => {
         <StyledLink onClick={() => setLanguage(languageSwitchMapper[language])}>
           <b>{languageSwitchMapper[language]}</b>
         </StyledLink>
-      </Nav>
+      </FitContentNav>
     </StyledNavbar>
   );
 };
