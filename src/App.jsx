@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import styled from '@emotion/styled';
+import { ConfigProvider } from 'antd';
 import { NavBar } from './components/NavBar';
 import { Work } from './components/Work';
 import { Contact } from './components/Contact';
@@ -19,25 +20,33 @@ const StyledApp = styled.div`
 
 export const App = () => {
   return (
-    <StyledApp>
-      <Router>
-        <NavBar />
-        <Name />
-        <Switch>
-          <Route exact path={['/', '/travail']}>
-            <Work />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/info">
-            <Info />
-          </Route>
-          <Route path="/cv">
-            <Resume />
-          </Route>
-        </Switch>
-      </Router>
-    </StyledApp>
+    <ConfigProvider
+      theme={{
+        token: {
+          colorPrimary: 'black',
+        },
+      }}
+    >
+      <StyledApp>
+        <Router>
+          <NavBar />
+          <Name />
+          <Switch>
+            <Route exact path={['/', '/travail']}>
+              <Work />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/info">
+              <Info />
+            </Route>
+            <Route path="/cv">
+              <Resume />
+            </Route>
+          </Switch>
+        </Router>
+      </StyledApp>
+    </ConfigProvider>
   );
 };
