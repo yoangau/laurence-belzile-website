@@ -14,12 +14,15 @@ const StyledProject = styled.div`
   max-width: 80vw;
 `;
 
-export const Project = ({ id, src, title, width }) => (
-  <StyledProject id={id}>
-    <LazyLoad once debounce height={'100%'}>
-      <Fade bottom>
-        <Image width={width} src={src} alt={title} fluid></Image>
-      </Fade>
-    </LazyLoad>
-  </StyledProject>
+export const Project = ({ id, src, title, width, year, isYearAnchor }) => (
+  <>
+    {isYearAnchor && <div id={year} />}
+    <StyledProject id={id}>
+      <LazyLoad once debounce height={'100%'}>
+        <Fade bottom>
+          <Image width={width} src={src} alt={title} fluid></Image>
+        </Fade>
+      </LazyLoad>
+    </StyledProject>
+  </>
 );
