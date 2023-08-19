@@ -12,18 +12,19 @@ export const Work = () => {
       .map((year) => groupedProjects[year][0])
       .reverse();
   }, [reversedProjects]);
+  const anchorProjectsIds = useMemo(() => new Set(anchorProjects.map(({ id }) => id)), [anchorProjects]);
   return (
     <Row>
       <Col span={20}>
         {reversedProjects.map((project) => (
-          <Project id={project.id} key={project.id} {...project} />
+          <Project isYearAnchor={anchorProjectsIds.has(project.id)} key={project.id} {...project} />
         ))}
       </Col>
       <Col span={4}>
         <Anchor
           items={anchorProjects.map(({ id, year }) => ({
             key: id,
-            href: `#${id}`,
+            href: `#${year}`,
             title: year,
           }))}
         />
