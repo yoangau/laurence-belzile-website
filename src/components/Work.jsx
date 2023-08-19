@@ -22,6 +22,7 @@ export const Work = () => {
       </Col>
       <Col span={4}>
         <Anchor
+          style={{ position: 'fixed', top: '50%', right: '4%', transform: 'translateY(-50%)' }}
           items={anchorProjects.map(({ id, year }) => ({
             key: id,
             href: `#${year}`,
