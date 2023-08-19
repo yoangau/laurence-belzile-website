@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import styled from '@emotion/styled';
 import { ConfigProvider } from 'antd';
@@ -9,6 +9,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Name } from './components/Name';
 import { Resume } from './components/Resume';
 import { Info } from './components/Info';
+import { ABOUT, CONTACT, CV, LANDING, PROJECT, WORK } from './constants/routes';
+import { ProjectPage } from './components/ProjectPage';
+import projects from './data/projects.json';
 
 const StyledApp = styled.div`
   background: white;
@@ -19,6 +22,7 @@ const StyledApp = styled.div`
 `;
 
 export const App = () => {
+  const projectsById = useMemo(() => projects.reduce((acc, project) => ({ ...acc, [project.id]: project }), {}), []);
   return (
     <ConfigProvider
       theme={{
@@ -32,16 +36,19 @@ export const App = () => {
           <NavBar />
           <Name />
           <Switch>
-            <Route exact path={['/', '/travail']}>
+            <Route exact path={[LANDING, WORK]}>
               <Work />
             </Route>
-            <Route path="/contact">
+            <Route path={PROJECT}>
+              <ProjectPage projects={projectsById} />
+            </Route>
+            <Route path={CONTACT}>
               <Contact />
             </Route>
-            <Route path="/info">
+            <Route path={ABOUT}>
               <Info />
             </Route>
-            <Route path="/cv">
+            <Route path={CV}>
               <Resume />
             </Route>
           </Switch>

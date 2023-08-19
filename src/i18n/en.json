@@ -15,7 +15,7 @@
         "rep-champagne": "Champagne and Paradis Gallery (Bas-Saint-Laurent and Gaspésie), Kamouraska, QC, Canada",
         "expo-ind-title": "Solo Exhibitions",
         "expo-ind-2024-0": "Vernon Public Art Gallery, Vernon, BC, Canada (upcoming)",
-        "expo-ind-2024-1": "Art-Image, Gatineau, QC, Canada (upcoming)",        
+        "expo-ind-2024-1": "Art-Image, Gatineau, QC, Canada (upcoming)",
         "expo-ind-2023-0": "Vancouver Francophone Art Centre, Vancouver, BC, Canada (upcoming)",
         "expo-ind-2023-1": "Au-delà du repli, Champagne and Paradis Gallery, Kamouraska, QC, Canada (upcoming)",
         "expo-ind-2022-0": "S’arracher la douceur, Montcalm Gallery, Gatineau, QC, Canada",
@@ -131,9 +131,12 @@
         "unstretched": "on unstretched canvas",
         "buy-method-0": "https://camille.csasda/@@",
         "buy-method-1": "mailto:laurence.belzile.arts@gmail.com",
+        "photo-credit": "photo credit: ",
         "photo-credit-0": "Laurence Belzile",
         "photo-credit-1": "Champagne et Paradis Gallery",
-        "@@untitled": "untitled"
+        "@@untitled": "untitled",
+        "available": "available",
+        "sold": "sold"
     },
     "info": {
         "content-0": "Biography",
