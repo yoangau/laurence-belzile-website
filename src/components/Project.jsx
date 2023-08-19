@@ -5,6 +5,7 @@ import { Image } from 'antd';
 import Fade from 'react-reveal';
 import { useHistory } from 'react-router-dom';
 import { PROJECT_BASE } from '../constants/routes';
+import { animateScroll as scroll } from 'react-scroll';
 
 const StyledProject = styled.div`
   display: flex;
@@ -39,8 +40,8 @@ export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
               alt={title}
               onClick={() => {
                 history.push(`#${id}`);
-                window.scrollTo(0, 0);
                 history.push(`${PROJECT_BASE}/${id}`);
+                scroll.scrollToTop({ delay: 0, duration: 0 });
               }}
             />
           </Fade>

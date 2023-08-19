@@ -35,7 +35,7 @@ const DraggableCarousel = styled(Carousel)`
 const getPriceCad = (price) => (i18n.language === 'en' ? `$${price}` : `${price} $`);
 
 const formatTitle = (title, t) => {
-  if (!title.startsWith('@@')) {
+  if (!(title ?? '@@untitled').startsWith('@@')) {
     return <i>{title}</i>;
   }
 
