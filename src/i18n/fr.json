@@ -15,7 +15,7 @@
         "rep-champagne": "Galerie Champagne et Paradis (Bas-Saint-Laurent et Gaspésie), Kamouraska, QC, Canada",
         "expo-ind-title": "Expositions individuelles",
         "expo-ind-2024-0": "Vernon Public Art Gallery, Vernon, BC, Canada (à venir)",
-        "expo-ind-2024-1": "Art-Image, Gatineau, QC, Canada (à venir)",        
+        "expo-ind-2024-1": "Art-Image, Gatineau, QC, Canada (à venir)",
         "expo-ind-2023-0": "Centre culturel francophone de Vancouver, Vancouver, BC, Canada (à venir)",
         "expo-ind-2023-1": "Au-delà du repli, Galerie Champagne et Paradis, Kamouraska, QC, Canada (à venir)",
         "expo-ind-2022-0": "S'arracher la douceur, Galerie Montcalm, Gatineau, QC, Canada",
@@ -109,7 +109,6 @@
         "rumeur-2018": "Voir loin : une exposition collective et inédite en arts, Rumeur du Loup, Estelle Bonhomet-Proulx",
         "fabrique-2018": "Voir loin : incursion dans le paysage, La fabrique culturelle",
         "téléjournal-2018": "Bulletin de nouvelles du mercredi 26 juillet 2018, le Téléjournal Est-du-Québec, à 18 min. 20 sec."
-
     },
     "work": {
         "acrylic": "acrylique",
@@ -132,10 +131,13 @@
         "unstretched": "sur toile non monté",
         "buy-method-0": "https://camille.csasda/@@",
         "buy-method-1": "mailto:laurence.belzile.arts@gmail.com",
+        "photo-credit": "crédit photo: ",
         "photo-credit-0": "Laurence Belzile",
         "photo-credit-1": "Galerie Champage et Paradis",
         "photo-credit-2": "Débora Flor",
-        "@@untitled": "sans titre"
+        "@@untitled": "sans titre",
+        "available": "disponible",
+        "sold": "vendu"
     },
     "info": {
         "content-0": "Biographie",

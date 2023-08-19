@@ -1,8 +1,10 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload';
 import styled from '@emotion/styled';
-import Image from 'react-bootstrap/Image';
+import { Image } from 'antd';
 import Fade from 'react-reveal';
+import { useHistory } from 'react-router-dom';
+import { PROJECT_BASE } from '../constants/routes';
 
 const StyledProject = styled.div`
   display: flex;
@@ -14,15 +16,36 @@ const StyledProject = styled.div`
   max-width: 80vw;
 `;
 
-export const Project = ({ id, src, title, width, year, isYearAnchor }) => (
-  <>
-    {isYearAnchor && <div id={year} />}
-    <StyledProject id={id}>
-      <LazyLoad once debounce height={'100%'}>
-        <Fade bottom>
-          <Image width={width} src={src} alt={title} fluid></Image>
-        </Fade>
-      </LazyLoad>
-    </StyledProject>
-  </>
-);
+const ClickableImage = styled(Image)`
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+`;
+
+export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
+  const history = useHistory();
+  return (
+    <>
+      {isYearAnchor && <div id={year} />}
+      <StyledProject id={id}>
+        <LazyLoad once debounce height={'100%'}>
+          <Fade bottom>
+            <ClickableImage
+              width={width}
+              src={src}
+              preview={false}
+              alt={title}
+              onClick={() => {
+                history.push(`#${id}`);
+                window.scrollTo(0, 0);
+                history.push(`${PROJECT_BASE}/${id}`);
+              }}
+            />
+          </Fade>
+        </LazyLoad>
+      </StyledProject>
+    </>
+  );
+};

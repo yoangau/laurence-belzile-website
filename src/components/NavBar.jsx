@@ -5,6 +5,7 @@ import { animateScroll as scroll } from 'react-scroll';
 import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
+import { ABOUT, CONTACT, CV, WORK } from '../constants/routes';
 
 const StyledLink = styled.p`
   color: #000000;
@@ -46,10 +47,10 @@ export const NavBar = () => {
   return (
     <StyledNavbar expand="lg" sticky="top">
       <Nav className="lg-column justify-content-end">
-        <StyledLink onClick={() => handleClick('/travail')}>{t('work-header')}</StyledLink>
-        <StyledLink onClick={() => handleClick('/cv')}>{t('resume-header')}</StyledLink>
-        <StyledLink onClick={() => handleClick('/info')}>{t('info-header')}</StyledLink>
-        <StyledLink onClick={() => handleClick('/contact')}>{t('contact-header')}</StyledLink>
+        <StyledLink onClick={() => handleClick(WORK)}>{t('work-header')}</StyledLink>
+        <StyledLink onClick={() => handleClick(CV)}>{t('resume-header')}</StyledLink>
+        <StyledLink onClick={() => handleClick(ABOUT)}>{t('info-header')}</StyledLink>
+        <StyledLink onClick={() => handleClick(CONTACT)}>{t('contact-header')}</StyledLink>
         <StyledLink onClick={() => setLanguage(languageSwitchMapper[language])}>
           <b>{languageSwitchMapper[language]}</b>
         </StyledLink>
