@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { Project } from './Project';
 import projects from '../data/projects.json';
-import { Anchor, Row, Col } from 'antd';
+import { Anchor } from 'antd';
 import { groupBy } from 'lodash';
 
 export const Work = () => {
@@ -12,25 +12,22 @@ export const Work = () => {
       .map((year) => groupedProjects[year][0])
       .reverse();
   }, [reversedProjects]);
+
   const anchorProjectsIds = useMemo(() => new Set(anchorProjects.map(({ id }) => id)), [anchorProjects]);
   return (
-    <Row>
-      <Col span={20}>
-        {reversedProjects.map((project) => (
-          <Project isYearAnchor={anchorProjectsIds.has(project.id)} key={project.id} {...project} />
-        ))}
-      </Col>
-      <Col span={4}>
-        <Anchor
-          offsetTop={20}
-          style={{ position: 'fixed', top: '50%', right: '4%', transform: 'translateY(-50%)' }}
-          items={anchorProjects.map(({ id, year }) => ({
-            key: id,
-            href: `#${year}`,
-            title: year,
-          }))}
-        />
-      </Col>
-    </Row>
+    <>
+      {reversedProjects.map((project) => (
+        <Project isYearAnchor={anchorProjectsIds.has(project.id)} key={project.id} {...project} />
+      ))}
+      <Anchor
+        offsetTop={20}
+        style={{ position: 'fixed', top: '50%', right: '4%', transform: 'translateY(-50%)' }}
+        items={anchorProjects.map(({ id, year }) => ({
+          key: id,
+          href: `#${year}`,
+          title: year,
+        }))}
+      />
+    </>
   );
 };
