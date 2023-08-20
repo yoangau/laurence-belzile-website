@@ -35,7 +35,9 @@ export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
           <Fade bottom>
             <ClickableImage
               width={width}
+              fluid="fluid"
               src={src}
+              decoding="async"
               preview={false}
               alt={title}
               onClick={() => {
