@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import LazyLoad from 'react-lazyload';
 import styled from '@emotion/styled';
 import { Image } from 'antd';
@@ -6,6 +6,7 @@ import Fade from 'react-reveal';
 import { useHistory } from 'react-router-dom';
 import { PROJECT_BASE } from '../constants/routes';
 import { animateScroll as scroll } from 'react-scroll';
+import { Blurhash } from 'react-blurhash';
 
 const StyledProject = styled.div`
   display: flex;
@@ -25,24 +26,59 @@ const ClickableImage = styled(Image)`
   }
 `;
 
-export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
+export const Project = ({ id, src, title, h, w, blurhash, width, year, isYearAnchor }) => {
   const history = useHistory();
+  const placeholder = useMemo(() => {
+    const ratio = h / w;
+    const floatWidth = +width.slice(0, -1) / 100;
+    return {
+      width: floatWidth * w,
+      height: floatWidth * h * ratio,
+      heightPercent: `${floatWidth * h * ratio * 100}%`,
+    };
+  }, [h, w, width]);
+
   return (
     <>
       {isYearAnchor && <div id={year} />}
       <StyledProject id={id}>
-        <LazyLoad once debounce height={'100%'}>
+        <LazyLoad
+          once
+          debounce
+          throttle
+          placeholder={
+            <div
+              style={{
+                width: placeholder.width,
+                height: placeholder.heightPercent,
+                backgroundColor: '#aaaaaa',
+              }}
+            />
+          }
+        >
           <Fade bottom>
             <ClickableImage
+              fluid
               width={width}
-              src={src}
               preview={false}
+              src={src}
+              loading="lazy"
               alt={title}
               onClick={() => {
                 history.push(`#${id}`);
                 history.push(`${PROJECT_BASE}/${id}`);
                 scroll.scrollToTop({ delay: 0, duration: 0 });
               }}
+              placeholder={
+                <Blurhash
+                  hash={blurhash}
+                  width={placeholder.width}
+                  height={placeholder.height}
+                  resolutionX={32}
+                  resolutionY={32}
+                  punch={1}
+                />
+              }
             />
           </Fade>
         </LazyLoad>

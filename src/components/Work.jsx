@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { Project } from './Project';
-import projects from '../data/projects.json';
+import projects from '../data/projects-e.json';
 import { Anchor, Row, Col } from 'antd';
 import { groupBy } from 'lodash';
 
