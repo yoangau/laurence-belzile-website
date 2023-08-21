@@ -5,6 +5,9 @@ import { useTranslation } from 'react-i18next';
 import styled from '@emotion/styled';
 import i18n from '../i18n';
 import ReactHtmlParser from 'react-html-parser';
+import { useKeyPress } from '@uidotdev/usehooks';
+import { useHistory } from 'react-router-dom';
+import { PROJECT_BASE } from '../constants/routes';
 
 const PhotoCreditText = styled.div`
   text-align: right;
@@ -58,9 +61,16 @@ const formatTechnique = (techniques, t) => {
   )}`;
 };
 
+const navigateToAnotherProject = (id, history) => {
+  history.push(`${PROJECT_BASE}/${id}`);
+};
+
 export const ProjectPage = ({ projects }) => {
+  const history = useHistory();
   const { id } = useParams();
   const { t } = useTranslation('work');
+  useKeyPress('ArrowLeft', () => navigateToAnotherProject(projects[id].previous, history));
+  useKeyPress('ArrowRight', () => navigateToAnotherProject(projects[id].next, history));
 
   const {
     src,

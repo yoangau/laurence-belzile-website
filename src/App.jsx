@@ -22,7 +22,22 @@ const StyledApp = styled.div`
 `;
 
 export const App = () => {
-  const projectsById = useMemo(() => projects.reduce((acc, project) => ({ ...acc, [project.id]: project }), {}), []);
+  const projectsById = useMemo(() => {
+    let p = {};
+    let i = 0;
+    const firstProject = projects[0].id;
+    const lastProject = projects[projects.length - 1].id;
+    for (const project of projects) {
+      p[project.id] = {
+        ...project,
+        previous: i === 0 ? lastProject : projects[i - 1].id,
+        next: i === projects.length - 1 ? firstProject : projects[i + 1].id,
+      };
+      i++;
+    }
+    return p;
+  }, []);
+  console.log(projectsById);
   return (
     <ConfigProvider
       theme={{
