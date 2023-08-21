@@ -2066,6 +2066,24 @@
         "width": "85%"
     },
     {
+        "id": "LB00142",
+        "src": "/projects/LB00142.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4\" x 4.5\"",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
         "id": "LB00099",
         "src": "/projects/LB00099.jpg",
         "available": true,
@@ -2122,24 +2140,6 @@
         "expo": "montagne-2021",
         "photo-credit": "photo-credit-0",
         "width": "45%"
-    },
-    {
-        "id": "LB00142",
-        "src": "/projects/LB00142.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "4\" x 4.5\"",
-        "technique": [
-            "acrylic",
-            "on-wood"
-        ],
-        "year": 2021,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
     },
     {
         "id": "LB00104",
