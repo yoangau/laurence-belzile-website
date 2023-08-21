@@ -3365,35 +3365,20 @@
         "width": "80%"
     },
     {
-        "id": "LB00148.1",
-        "src": "/projects/LB00148.1.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "24\" x 36\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 1000,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "60%"
-    },
-    {
         "id": "LB00148",
         "src": "/projects/LB00148.jpg",
+        "additional-images": [
+            "/projects/LB00148.1.jpg"
+        ],
         "available": true,
         "title": "@@untitled",
-        "dimension": "24\" x 36\"",
+        "dimension": "24\" x 30\"",
         "technique": [
             "acrylic",
             "on-canvas"
         ],
         "year": 2022,
-        "price": 1000,
+        "price": 1008,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
@@ -3411,7 +3396,7 @@
             "on-canvas"
         ],
         "year": 2023,
-        "price": null,
+        "price": 240,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
@@ -3428,7 +3413,7 @@
             "acrylic",
             "on-wood"
         ],
-        "year": 2023,
+        "year": 2022,
         "price": 121,
         "buy-ref": "buy-method-1",
         "expo-only": false,
