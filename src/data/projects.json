@@ -2142,27 +2142,6 @@
         "width": "30%"
     },
     {
-        "id": "LB00103",
-        "src": "/projects/LB00103.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "19\" x 24\"",
-        "technique": [
-            "graphite",
-            "paper-wood"
-        ],
-        "year": 2022,
-        "price": 720,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": [
-            "s'arracher-douceur-2022",
-            "les-attentes-2022"
-        ],
-        "photo-credit": "photo-credit-2",
-        "width": "60%"
-    },
-    {
         "id": "LB00104",
         "src": "/projects/LB00104.jpg",
         "available": false,
@@ -2344,6 +2323,27 @@
         "expo": null,
         "photo-credit": "photo-credit-2",
         "width": "45%"
+    },
+    {
+        "id": "LB00103",
+        "src": "/projects/LB00103.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "19\" x 24\"",
+        "technique": [
+            "graphite",
+            "paper-wood"
+        ],
+        "year": 2022,
+        "price": 720,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": [
+            "s'arracher-douceur-2022",
+            "les-attentes-2022"
+        ],
+        "photo-credit": "photo-credit-2",
+        "width": "60%"
     },
     {
         "id": "LB00109",
