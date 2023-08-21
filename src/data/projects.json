@@ -902,6 +902,42 @@
         "width": "80%"
     },
     {
+        "id": "LB00127",
+        "src": "/projects/LB00127.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4\" x 6\"",
+        "technique": [
+            "acrylic",
+            "paper-wood"
+        ],
+        "year": 2018,
+        "price": 130,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "marathon-création",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00128",
+        "src": "/projects/LB00128.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4\" x 6\"",
+        "technique": [
+            "acrylic",
+            "paper-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "marathon-création",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
         "id": "LB00037",
         "src": "/projects/LB00037.jpg",
         "available": false,
@@ -1071,42 +1107,6 @@
         "expo": "arracher-le-rouge-du-jaune-2019",
         "photo-credit": "photo-credit-0",
         "width": "45%"
-    },
-    {
-        "id": "LB00127",
-        "src": "/projects/LB00127.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "4\" x 6\"",
-        "technique": [
-            "acrylic",
-            "paper-wood"
-        ],
-        "year": 2018,
-        "price": 130,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": "marathon-création",
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
-    {
-        "id": "LB00128",
-        "src": "/projects/LB00128.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "4\" x 6\"",
-        "technique": [
-            "acrylic",
-            "paper-wood"
-        ],
-        "year": 2018,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "marathon-création",
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
     },
     {
         "id": "LB00077",
@@ -1356,6 +1356,42 @@
         "width": "60%"
     },
     {
+        "id": "LB00076",
+        "src": "/projects/LB00076.jpg",
+        "available": false,
+        "title": "Je m'arme",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "les-attentes-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00070",
+        "src": "/projects/LB00070.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
         "id": "LB00071",
         "src": "/projects/LB00071.jpg",
         "available": true,
@@ -1390,42 +1426,6 @@
         "expo": "mesure-demesure-jonquiere-2020",
         "photo-credit": "photo-credit-0",
         "width": "60%"
-    },
-    {
-        "id": "LB00070",
-        "src": "/projects/LB00070.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "16\" x 20\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": 600,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "60%"
-    },
-    {
-        "id": "LB00076",
-        "src": "/projects/LB00076.jpg",
-        "available": false,
-        "title": "Je m'arme",
-        "dimension": "8\" x 8\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "les-attentes-2022",
-        "photo-credit": "photo-credit-0",
-        "width": "45%"
     },
     {
         "id": "LB00061",
