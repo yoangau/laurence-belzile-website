@@ -2164,6 +2164,25 @@
         "width": "30%"
     },
     {
+        "id": "LB00147",
+        "src": "/projects/LB00147.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "12\" x 16\"",
+        "technique": [
+            "acrylic",
+            "dry-pastel",
+            "on-canvas"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
         "id": "LB00107",
         "src": "/projects/LB00107.jpg",
         "available": true,
@@ -3345,25 +3364,6 @@
         "expo": null,
         "photo-credit": "photo-credit-1",
         "width": "80%"
-    },
-    {
-        "id": "LB00147",
-        "src": "/projects/LB00147.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "12\" x 16\"",
-        "technique": [
-            "acrylic",
-            "dry-pastel",
-            "on-canvas"
-        ],
-        "year": 2021,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "45%"
     },
     {
         "id": "LB00148.1",
