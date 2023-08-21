@@ -3231,7 +3231,7 @@
             "on-wood"
         ],
         "year": 2022,
-        "price": 285,
+        "price": 345,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
@@ -3239,44 +3239,12 @@
         "width": "45%"
     },
     {
-        "id": "LB00144.2",
-        "src": "/projects/LB00144.2.jpg",
-        "available": true,
-        "title": "Rompre les vertiges",
-        "dimension": "43\" x 57\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 2000,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
-        "id": "LB00144.1",
-        "src": "/projects/LB00144.1.jpg",
-        "available": true,
-        "title": "Rompre les vertiges",
-        "dimension": "43\" x 57\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 2000,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
         "id": "LB00144",
         "src": "/projects/LB00144.jpg",
+        "additional-images": [
+            "/projects/LB00144.1.jpg",
+            "/projects/LB00144.2.jpg"
+        ],
         "available": true,
         "title": "Rompre les vertiges",
         "dimension": "43\" x 57\"",
@@ -3285,7 +3253,7 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 2000,
+        "price": 2500,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
@@ -3303,7 +3271,7 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 285,
+        "price": 324,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
@@ -3311,44 +3279,12 @@
         "width": "45%"
     },
     {
-        "id": "LB00146.2",
-        "src": "/projects/LB00146.2.jpg",
-        "available": true,
-        "title": "Rassembler les espaces",
-        "dimension": "43\" x 57\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 2000,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
-        "id": "LB00146.1",
-        "src": "/projects/LB00146.1.jpg",
-        "available": true,
-        "title": "Rassembler les espaces",
-        "dimension": "43\" x 57\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 2000,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
         "id": "LB00146",
         "src": "/projects/LB00146.jpg",
+        "additional-images": [
+            "/projects/LB00146.1.jpg",
+            "/projects/LB00146.2.jpg"
+        ],
         "available": true,
         "title": "Rassembler les espaces",
         "dimension": "43\" x 57\"",
@@ -3357,7 +3293,7 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 2000,
+        "price": 2500,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
