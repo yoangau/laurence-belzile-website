@@ -2124,6 +2124,24 @@
         "width": "45%"
     },
     {
+        "id": "LB00142",
+        "src": "/projects/LB00142.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4\" x 4.5\"",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
         "id": "LB00103",
         "src": "/projects/LB00103.jpg",
         "available": true,
@@ -2216,6 +2234,98 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "45%"
+    },
+    {
+        "id": "LB00114",
+        "src": "/projects/LB00114.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4\" x 6\"",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00115",
+        "src": "/projects/LB00115.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4\" x 6\"",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 100,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00116",
+        "src": "/projects/LB00116.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4\" x 6\"",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 120,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00117",
+        "src": "/projects/LB00117.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4\" x 6\"",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 120,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "s'arracher-douceur-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00118",
+        "src": "/projects/LB00118.jpg",
+        "title": "@@untitled",
+        "dimension": "4\" x 6\"",
+        "technique": [
+            "acrylic",
+            "canvas-masonite"
+        ],
+        "year": 2021,
+        "price": 120,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": [
+            "s'arracher-douceur-2022",
+            "montagne-2021"
+        ],
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
     },
     {
         "id": "LB00107",
@@ -2368,116 +2478,6 @@
         "expo": "s'arracher-douceur-2022",
         "photo-credit": "photo-credit-1",
         "width": "60%"
-    },
-    {
-        "id": "LB00114",
-        "src": "/projects/LB00114.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "4\" x 6\"",
-        "technique": [
-            "acrylic",
-            "canvas-masonite"
-        ],
-        "year": 2021,
-        "price": 100,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
-    {
-        "id": "LB00115",
-        "src": "/projects/LB00115.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "4\" x 6\"",
-        "technique": [
-            "acrylic",
-            "canvas-masonite"
-        ],
-        "year": 2021,
-        "price": 100,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
-    {
-        "id": "LB00116",
-        "src": "/projects/LB00116.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "4\" x 6\"",
-        "technique": [
-            "acrylic",
-            "canvas-masonite"
-        ],
-        "year": 2021,
-        "price": 120,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
-    {
-        "id": "LB00117",
-        "src": "/projects/LB00117.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "4\" x 6\"",
-        "technique": [
-            "acrylic",
-            "canvas-masonite"
-        ],
-        "year": 2021,
-        "price": 120,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
-    {
-        "id": "LB00118",
-        "src": "/projects/LB00118.jpg",
-        "title": "@@untitled",
-        "dimension": "4\" x 6\"",
-        "technique": [
-            "acrylic",
-            "canvas-masonite"
-        ],
-        "year": 2021,
-        "price": 120,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": [
-            "s'arracher-douceur-2022",
-            "montagne-2021"
-        ],
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
-    {
-        "id": "LB00142",
-        "src": "/projects/LB00142.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "4\" x 4.5\"",
-        "technique": [
-            "acrylic",
-            "on-wood"
-        ],
-        "year": 2021,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
     },
     {
         "id": "LB00113",
