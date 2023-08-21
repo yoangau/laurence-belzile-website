@@ -1073,6 +1073,42 @@
         "width": "45%"
     },
     {
+        "id": "LB00127",
+        "src": "/projects/LB00127.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4\" x 6\"",
+        "technique": [
+            "acrylic",
+            "paper-wood"
+        ],
+        "year": 2018,
+        "price": 130,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "marathon-création",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00128",
+        "src": "/projects/LB00128.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "4\" x 6\"",
+        "technique": [
+            "acrylic",
+            "paper-wood"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "marathon-création",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
         "id": "LB00052",
         "src": "/projects/LB00052.jpg",
         "available": false,
@@ -1265,6 +1301,43 @@
         "width": "40%"
     },
     {
+        "id": "LB00067",
+        "src": "/projects/LB00067.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "2.75\" x 3.5\"",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2019,
+        "price": 410,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "70%"
+    },
+    {
+        "id": "LB00068",
+        "src": "/projects/LB00068.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "21\" x 39\"",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "paper-masonite"
+        ],
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
         "id": "LB00061",
         "src": "/projects/LB00061.jpg",
         "available": false,
@@ -1382,43 +1455,6 @@
         "width": "60%"
     },
     {
-        "id": "LB00067",
-        "src": "/projects/LB00067.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "2.75\" x 3.5\"",
-        "technique": [
-            "graphite",
-            "on-paper"
-        ],
-        "year": 2019,
-        "price": 410,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0",
-        "width": "70%"
-    },
-    {
-        "id": "LB00068",
-        "src": "/projects/LB00068.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "21\" x 39\"",
-        "technique": [
-            "graphite",
-            "dry-pastel",
-            "paper-masonite"
-        ],
-        "year": 2019,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "60%"
-    },
-    {
         "id": "LB00069.1",
         "src": "/projects/LB00069.1.jpg",
         "available": false,
@@ -1485,6 +1521,42 @@
         "width": "60%"
     },
     {
+        "id": "LB00076",
+        "src": "/projects/LB00076.jpg",
+        "available": false,
+        "title": "Je m'arme",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "les-attentes-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00077",
+        "src": "/projects/LB00077.jpg",
+        "available": true,
+        "title": "Marchander le fini",
+        "dimension": "33.5\" x 60\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 1700,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
         "id": "LB00073",
         "src": "/projects/LB00073.jpg",
         "available": false,
@@ -1537,78 +1609,6 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "60%"
-    },
-    {
-        "id": "LB00127",
-        "src": "/projects/LB00127.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "4\" x 6\"",
-        "technique": [
-            "acrylic",
-            "paper-wood"
-        ],
-        "year": 2018,
-        "price": 130,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": "marathon-création",
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
-    {
-        "id": "LB00128",
-        "src": "/projects/LB00128.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "4\" x 6\"",
-        "technique": [
-            "acrylic",
-            "paper-wood"
-        ],
-        "year": 2018,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "marathon-création",
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
-    {
-        "id": "LB00076",
-        "src": "/projects/LB00076.jpg",
-        "available": false,
-        "title": "Je m'arme",
-        "dimension": "8\" x 8\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "les-attentes-2022",
-        "photo-credit": "photo-credit-0",
-        "width": "45%"
-    },
-    {
-        "id": "LB00077",
-        "src": "/projects/LB00077.jpg",
-        "available": true,
-        "title": "Marchander le fini",
-        "dimension": "33.5\" x 60\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": 1700,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
     },
     {
         "id": "LB00078",
