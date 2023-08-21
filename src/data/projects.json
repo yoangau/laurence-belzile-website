@@ -231,60 +231,6 @@
         "width": "85%"
     },
     {
-        "id": "LB00015",
-        "src": "/projects/LB00015.jpg",
-        "available": false,
-        "title": "Je divague 3",
-        "dimension": "5.75\" x 7.5\"",
-        "technique": [
-            "graphite",
-            "paper-masonite"
-        ],
-        "year": 2017,
-        "price": 170,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "40%"
-    },
-    {
-        "id": "LB00016",
-        "src": "/projects/LB00016.jpg",
-        "available": false,
-        "title": "Je divague 2",
-        "dimension": "5.75\" x 7.5\"",
-        "technique": [
-            "graphite",
-            "paper-masonite"
-        ],
-        "year": 2017,
-        "price": 170,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "40%"
-    },
-    {
-        "id": "LB00017",
-        "src": "/projects/LB00017.jpg",
-        "available": true,
-        "title": "Je divague 1",
-        "dimension": "5.75\" x 7.5\"",
-        "technique": [
-            "graphite",
-            "paper-masonite"
-        ],
-        "year": 2017,
-        "price": 170,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "40%"
-    },
-    {
         "id": "LB00045",
         "src": "/projects/LB00045.jpg",
         "available": false,
@@ -361,6 +307,60 @@
         "width": "50%"
     },
     {
+        "id": "LB00015",
+        "src": "/projects/LB00015.jpg",
+        "available": false,
+        "title": "Je divague 3",
+        "dimension": "5.75\" x 7.5\"",
+        "technique": [
+            "graphite",
+            "paper-masonite"
+        ],
+        "year": 2017,
+        "price": 170,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00016",
+        "src": "/projects/LB00016.jpg",
+        "available": false,
+        "title": "Je divague 2",
+        "dimension": "5.75\" x 7.5\"",
+        "technique": [
+            "graphite",
+            "paper-masonite"
+        ],
+        "year": 2017,
+        "price": 170,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
+        "id": "LB00017",
+        "src": "/projects/LB00017.jpg",
+        "available": true,
+        "title": "Je divague 1",
+        "dimension": "5.75\" x 7.5\"",
+        "technique": [
+            "graphite",
+            "paper-masonite"
+        ],
+        "year": 2017,
+        "price": 170,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "40%"
+    },
+    {
         "id": "LB00018",
         "src": "/projects/LB00018.jpg",
         "available": false,
@@ -392,6 +392,78 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "100%"
+    },
+    {
+        "id": "LB00032",
+        "src": "/projects/LB00032.jpg",
+        "available": true,
+        "title": "F 3",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00033",
+        "src": "/projects/LB00033.jpg",
+        "available": true,
+        "title": "F 2",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00034",
+        "src": "/projects/LB00034.jpg",
+        "available": true,
+        "title": "F 1",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00027",
+        "src": "/projects/LB00027.jpg",
+        "available": false,
+        "title": "Affaissement",
+        "dimension": "36\" x 60\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2017,
+        "price": 1700,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "jaune-marine-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
     },
     {
         "id": "LB00020",
@@ -503,24 +575,6 @@
         "expo": "La-chute-des-corps-2018",
         "photo-credit": "photo-credit-0",
         "width": "30%"
-    },
-    {
-        "id": "LB00027",
-        "src": "/projects/LB00027.jpg",
-        "available": false,
-        "title": "Affaissement",
-        "dimension": "36\" x 60\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2017,
-        "price": 1700,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "jaune-marine-2018",
-        "photo-credit": "photo-credit-0",
-        "width": "80%"
     },
     {
         "id": "LB00028",
@@ -815,60 +869,6 @@
         "width": "30%"
     },
     {
-        "id": "LB00032",
-        "src": "/projects/LB00032.jpg",
-        "available": true,
-        "title": "F 3",
-        "dimension": "16\" x 20\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2017,
-        "price": 600,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "60%"
-    },
-    {
-        "id": "LB00033",
-        "src": "/projects/LB00033.jpg",
-        "available": true,
-        "title": "F 2",
-        "dimension": "16\" x 20\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2017,
-        "price": 600,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "60%"
-    },
-    {
-        "id": "LB00034",
-        "src": "/projects/LB00034.jpg",
-        "available": true,
-        "title": "F 1",
-        "dimension": "16\" x 20\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2017,
-        "price": 600,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "60%"
-    },
-    {
         "id": "LB00035",
         "src": "/projects/LB00035.jpg",
         "available": false,
@@ -1107,6 +1107,24 @@
         "expo": "marathon-création",
         "photo-credit": "photo-credit-0",
         "width": "30%"
+    },
+    {
+        "id": "LB00077",
+        "src": "/projects/LB00077.jpg",
+        "available": true,
+        "title": "Marchander le fini",
+        "dimension": "33.5\" x 60\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 1700,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
     },
     {
         "id": "LB00052",
@@ -1374,6 +1392,24 @@
         "width": "60%"
     },
     {
+        "id": "LB00070",
+        "src": "/projects/LB00070.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 600,
+        "buy-ref": "buy-method-0",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
         "id": "LB00076",
         "src": "/projects/LB00076.jpg",
         "available": false,
@@ -1392,24 +1428,6 @@
         "width": "45%"
     },
     {
-        "id": "LB00077",
-        "src": "/projects/LB00077.jpg",
-        "available": true,
-        "title": "Marchander le fini",
-        "dimension": "33.5\" x 60\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": 1700,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
         "id": "LB00061",
         "src": "/projects/LB00061.jpg",
         "available": false,
@@ -1426,24 +1444,6 @@
         "expo": "mesure-demesure-jonquiere-2020",
         "photo-credit": "photo-credit-0",
         "width": "100%"
-    },
-    {
-        "id": "LB00070",
-        "src": "/projects/LB00070.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "16\" x 20\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": 600,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "60%"
     },
     {
         "id": "LB00061.1",
