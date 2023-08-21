@@ -1338,6 +1338,78 @@
         "width": "60%"
     },
     {
+        "id": "LB00071",
+        "src": "/projects/LB00071.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00072",
+        "src": "/projects/LB00072.jpg",
+        "available": true,
+        "title": "Rompre le vaste",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 600,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "mesure-demesure-jonquiere-2020",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00076",
+        "src": "/projects/LB00076.jpg",
+        "available": false,
+        "title": "Je m'arme",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "les-attentes-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00077",
+        "src": "/projects/LB00077.jpg",
+        "available": true,
+        "title": "Marchander le fini",
+        "dimension": "33.5\" x 60\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2019,
+        "price": 1700,
+        "buy-ref": "buy-method-1",
+        "expo-only": false,
+        "expo": "arracher-le-rouge-du-jaune-2019",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
         "id": "LB00061",
         "src": "/projects/LB00061.jpg",
         "available": false,
@@ -1481,78 +1553,6 @@
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
-        "id": "LB00071",
-        "src": "/projects/LB00071.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "16\" x 20\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": 600,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "60%"
-    },
-    {
-        "id": "LB00072",
-        "src": "/projects/LB00072.jpg",
-        "available": true,
-        "title": "Rompre le vaste",
-        "dimension": "16\" x 20\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": 600,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0",
-        "width": "60%"
-    },
-    {
-        "id": "LB00076",
-        "src": "/projects/LB00076.jpg",
-        "available": false,
-        "title": "Je m'arme",
-        "dimension": "8\" x 8\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "les-attentes-2022",
-        "photo-credit": "photo-credit-0",
-        "width": "45%"
-    },
-    {
-        "id": "LB00077",
-        "src": "/projects/LB00077.jpg",
-        "available": true,
-        "title": "Marchander le fini",
-        "dimension": "33.5\" x 60\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": 1700,
-        "buy-ref": "buy-method-1",
-        "expo-only": false,
-        "expo": "arracher-le-rouge-du-jaune-2019",
         "photo-credit": "photo-credit-0",
         "width": "100%"
     },
