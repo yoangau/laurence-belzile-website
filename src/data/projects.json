@@ -3529,7 +3529,7 @@
     {
         "id": "LB00157",
         "src": "/projects/LB00157.jpg",
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "8.5\" x 10.75\"",
         "technique": [
@@ -3555,7 +3555,7 @@
             "on-wood"
         ],
         "year": 2023,
-        "price": null,
+        "price": 306,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
