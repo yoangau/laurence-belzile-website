@@ -3519,7 +3519,7 @@
             "acrylic",
             "on-canvas"
         ],
-        "year": 2022,
+        "year": 2023,
         "price": null,
         "buy-ref": "buy-method-1",
         "expo-only": false,
@@ -3566,7 +3566,7 @@
     {
         "id": "LB00159",
         "src": "/projects/LB00159.jpg",
-        "available": true,
+        "available": false,
         "title": "L'obstacle des fleurs",
         "dimension": "8.5\" x 10.75\"",
         "technique": [
