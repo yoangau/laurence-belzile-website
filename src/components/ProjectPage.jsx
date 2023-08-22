@@ -5,10 +5,11 @@ import { useTranslation } from 'react-i18next';
 import styled from '@emotion/styled';
 import i18n from '../i18n';
 import ReactHtmlParser from 'react-html-parser';
-import { useKeyPress } from '@uidotdev/usehooks';
 import { useHistory } from 'react-router-dom';
 import { PROJECT_BASE } from '../constants/routes';
 import { PROJECTS_FOLDER } from '../constants/folders';
+import useKeypress from 'react-use-keypress';
+import { PLACEHOLDER_FOLDER } from '../constants/folders';
 
 const PhotoCreditText = styled.div`
   text-align: right;
@@ -70,8 +71,8 @@ export const ProjectPage = ({ projects }) => {
   const history = useHistory();
   const { id } = useParams();
   const { t } = useTranslation('work');
-  useKeyPress('ArrowLeft', () => navigateToAnotherProject(projects[id].next, history));
-  useKeyPress('ArrowRight', () => navigateToAnotherProject(projects[id].previous, history));
+  useKeypress('ArrowLeft', () => navigateToAnotherProject(projects[id].next, history));
+  useKeypress('ArrowRight', () => navigateToAnotherProject(projects[id].previous, history));
 
   const {
     src,
@@ -96,6 +97,7 @@ export const ProjectPage = ({ projects }) => {
             fluid="true"
             preview={false}
             src={`${PROJECTS_FOLDER}/${src}`}
+            placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={title} />}
           />
           {additionalImages?.map((image) => (
             <Image
@@ -105,6 +107,7 @@ export const ProjectPage = ({ projects }) => {
               fluid="true"
               preview={false}
               src={`${PROJECTS_FOLDER}/${image}`}
+              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${image}`} preview={false} alt={title} />}
             />
           ))}
         </DraggableCarousel>
