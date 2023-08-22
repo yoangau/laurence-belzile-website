@@ -2741,6 +2741,11 @@
     {
         "id": "LB00123",
         "src": "/projects/LB00123.jpg",
+        "additional-images": [
+            "/projects/LB00123.1.jpg",
+            "/projects/LB00123.2.jpg",
+            "/projects/LB00123.3.jpg"
+        ],        
         "available": true,
         "title": "@@untitled",
         "dimension": "46\" x 46\"",
@@ -2749,7 +2754,7 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 1800,
+        "price": 2180,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": [
@@ -2792,7 +2797,7 @@
             "on-wood"
         ],
         "year": 2022,
-        "price": 285,
+        "price": 345,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
@@ -2828,7 +2833,7 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 400,
+        "price": 461,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "l'hiver-dessin-2022",
@@ -2838,7 +2843,7 @@
     {
         "id": "LB00130",
         "src": "/projects/LB00130.jpg",
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "18\" x 24\"",
         "technique": [
@@ -2846,7 +2851,7 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 700,
+        "price": null,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "brompton-2022",
