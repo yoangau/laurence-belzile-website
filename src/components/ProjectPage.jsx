@@ -8,6 +8,7 @@ import ReactHtmlParser from 'react-html-parser';
 import { useKeyPress } from '@uidotdev/usehooks';
 import { useHistory } from 'react-router-dom';
 import { PROJECT_BASE } from '../constants/routes';
+import { PROJECTS_FOLDER } from '../constants/folders';
 
 const PhotoCreditText = styled.div`
   text-align: right;
@@ -88,9 +89,23 @@ export const ProjectPage = ({ projects }) => {
     <StyledRow gutter={[0, 50]}>
       <Col xs={{ span: 20 }} lg={{ span: 13 }}>
         <DraggableCarousel draggable adaptiveHeight dotPosition="top">
-          <Image key={src} draggable={false} width="100%" fluid="true" preview={false} src={src} />
+          <Image
+            key={src}
+            draggable={false}
+            width="100%"
+            fluid="true"
+            preview={false}
+            src={`${PROJECTS_FOLDER}/${src}`}
+          />
           {additionalImages?.map((image) => (
-            <Image key={image} draggable={false} width="100%" fluid="true" preview={false} src={image} />
+            <Image
+              key={image}
+              draggable={false}
+              width="100%"
+              fluid="true"
+              preview={false}
+              src={`${PROJECTS_FOLDER}/${image}`}
+            />
           ))}
         </DraggableCarousel>
         <Row>
