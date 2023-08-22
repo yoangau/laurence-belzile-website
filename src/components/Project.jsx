@@ -6,6 +6,7 @@ import Fade from 'react-reveal';
 import { useHistory } from 'react-router-dom';
 import { PROJECT_BASE } from '../constants/routes';
 import { animateScroll as scroll } from 'react-scroll';
+import { COMPRESSED_FOLDER, PLACEHOLDER_FOLDER } from '../constants/folders';
 
 const StyledProject = styled.div`
   display: flex;
@@ -36,7 +37,7 @@ export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
             <ClickableImage
               width={width}
               fluid="fluid"
-              src={src}
+              src={`${COMPRESSED_FOLDER}/${src}`}
               decoding="async"
               preview={false}
               alt={title}
@@ -45,6 +46,7 @@ export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
                 history.push(`${PROJECT_BASE}/${id}`);
                 scroll.scrollToTop({ delay: 0, duration: 0 });
               }}
+              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={title} />}
             />
           </Fade>
         </LazyLoad>
