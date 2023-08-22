@@ -32,7 +32,7 @@ export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
     <>
       {isYearAnchor && <div id={year} />}
       <StyledProject id={id}>
-        <LazyLoad once debounce height={'100%'}>
+        <LazyLoad once debounce height={'100%'} offset={200}>
           <Fade bottom>
             <ClickableImage
               width={width}
