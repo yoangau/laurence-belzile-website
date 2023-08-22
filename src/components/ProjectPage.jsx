@@ -69,8 +69,8 @@ export const ProjectPage = ({ projects }) => {
   const history = useHistory();
   const { id } = useParams();
   const { t } = useTranslation('work');
-  useKeyPress('ArrowLeft', () => navigateToAnotherProject(projects[id].previous, history));
-  useKeyPress('ArrowRight', () => navigateToAnotherProject(projects[id].next, history));
+  useKeyPress('ArrowLeft', () => navigateToAnotherProject(projects[id].next, history));
+  useKeyPress('ArrowRight', () => navigateToAnotherProject(projects[id].previous, history));
 
   const {
     src,
