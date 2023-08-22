@@ -2677,69 +2677,6 @@
         "width": "85%"
     },
     {
-        "id": "LB00123.1",
-        "src": "LB00123.1.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "46\" x 46\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 1800,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": [
-            "l'hiver-dessin-2022",
-            "s'arracher-douceur-2022"
-        ],
-        "photo-credit": "photo-credit-2",
-        "width": "80%"
-    },
-    {
-        "id": "LB00123.2",
-        "src": "LB00123.2.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "46\" x 46\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 1800,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": [
-            "l'hiver-dessin-2022",
-            "s'arracher-douceur-2022"
-        ],
-        "photo-credit": "photo-credit-2",
-        "width": "80%"
-    },
-    {
-        "id": "LB00123.3",
-        "src": "LB00123.3.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "46\" x 46\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 1800,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": [
-            "l'hiver-dessin-2022",
-            "s'arracher-douceur-2022"
-        ],
-        "photo-credit": "photo-credit-2",
-        "width": "80%"
-    },
-    {
         "id": "LB00123",
         "src": "LB00123.jpg",
         "additional-images": [
