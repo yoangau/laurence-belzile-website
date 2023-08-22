@@ -35,6 +35,13 @@ const DraggableCarousel = styled(Carousel)`
   &:focus {
     cursor: grab;
   }
+  > .slick-dots li button {
+    background: black;
+    opacity: 0.5;
+  }
+  > .slick-dots li.slick-active button {
+    background: black;
+  }
 `;
 
 const getPriceCad = (price) => (i18n.language === 'en' ? `$${price}` : `${price} $`);
