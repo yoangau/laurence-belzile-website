@@ -124,11 +124,11 @@
         "on-canvas": "sur toile",
         "on-masonite": "sur masonite",
         "on-wood": "sur bois",
-        "paper-masonite": ", papier monté sur masonite",
-        "canvas-masonite": ", toile monté sur masonite",
-        "canvas-wood": "toile sur bois",
-        "paper-wood": ", papier monté sur bois",
-        "unstretched": "sur toile non monté",
+        "paper-masonite": "sur papier monté sur masonite",
+        "canvas-masonite": "sur toile montée sur masonite",
+        "canvas-wood": "sur toile sur bois",
+        "paper-wood": "sur papier monté sur bois",
+        "unstretched": "sur toile non montée",
         "buy-method-0": "https://camille.csasda/@@",
         "buy-method-1": "mailto:laurence.belzile.arts@gmail.com",
         "photo-credit": "crédit photo: ",
@@ -139,7 +139,10 @@
         "available": "disponible",
         "sold": "vendue",
         "and": "et",
-        "@@expo-title-LB00035": "Vue de l'exposition <i>La chutes des corps</i>"
+        "expo-title-LB00035": "Vue de l'exposition <i>La chutes des corps</i>, Québec (QC)",
+        "expo-title-LB00069": "Vue de l'exposition <i>Mesure et démesure</i>, Jonquière (QC)",
+        "expo-title-LB00054": "Vue de l'exposition <i>Arracher le rouge du jaune</i>, Montréal (QC)",
+        "residency-anticosti": "Projet réalisé lors de la Résidence Nomade, Anticosti (QC)"
     },
     "info": {
         "content-0": "Biographie",
