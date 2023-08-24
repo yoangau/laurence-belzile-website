@@ -124,10 +124,10 @@
         "on-canvas": "on canvas",
         "on-masonite": "on masonite",
         "on-wood": "on wood",
-        "paper-masonite": ", paper on masonite",
-        "canvas-masonite": ", canvas on masonite",
-        "canvas-wood": ", canvas on wood",
-        "paper-wood": ", paper on wood",
+        "paper-masonite": "on paper on masonite",
+        "canvas-masonite": "on canvas on masonite",
+        "canvas-wood": "on canvas on wood",
+        "paper-wood": "on paper on wood",
         "unstretched": "on unstretched canvas",
         "buy-method-0": "https://camille.csasda/@@",
         "buy-method-1": "mailto:laurence.belzile.arts@gmail.com",
@@ -138,7 +138,10 @@
         "available": "available",
         "sold": "sold",
         "and": "and",
-        "@@expo-title-LB00035": "View of the exhibition <i>La chutes des corps</i>"
+        "expo-title-LB00035": "View of the exhibition <i>La chutes des corps</i>, Quebec City (QC)",
+        "expo-title-LB00069": "View of the exhibition<i>Mesure et démesure</i>, Jonquière (QC)",
+        "expo-title-LB00054": "View of the exhibition <i>Arracher le rouge du jaune</i>, Montreal (QC)",
+        "residency-anticosti": "Project realized during Nomade Residency, Anticosti (QC)"
     },
     "info": {
         "content-0": "Biography",
