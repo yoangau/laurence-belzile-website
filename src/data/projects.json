@@ -10,7 +10,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -28,7 +28,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -46,7 +46,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -64,7 +64,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -82,7 +82,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -100,7 +100,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -118,7 +118,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -136,7 +136,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -154,7 +154,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -172,7 +172,7 @@
             "canvas-masonite"
         ],
         "year": 2017,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "anticosti-2017",
@@ -183,7 +183,7 @@
         "id": "LB00012",
         "src": "LB00012.jpg",
         "available": false,
-        "title": "@@Vue de l'installation finale",
+        "title": "@@residency-anticosti",
         "dimension": null,
         "technique": null,
         "year": 2017,
@@ -205,7 +205,7 @@
             "on-canvas"
         ],
         "year": 2017,
-        "price": 1500,
+        "price": 1866,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
@@ -242,7 +242,7 @@
             "paper-wood"
         ],
         "year": 2017,
-        "price": 100,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -261,7 +261,7 @@
             "paper-wood"
         ],
         "year": 2017,
-        "price": 100,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -280,7 +280,7 @@
             "paper-wood"
         ],
         "year": 2017,
-        "price": 100,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -299,7 +299,7 @@
             "paper-wood"
         ],
         "year": 2017,
-        "price": 100,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -317,7 +317,7 @@
             "paper-masonite"
         ],
         "year": 2017,
-        "price": 170,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -335,7 +335,7 @@
             "paper-masonite"
         ],
         "year": 2017,
-        "price": 170,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -353,7 +353,7 @@
             "paper-masonite"
         ],
         "year": 2017,
-        "price": 170,
+        "price": 204,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
@@ -364,7 +364,7 @@
         "id": "LB00018",
         "src": "LB00018.jpg",
         "available": false,
-        "title": "@@Vue de l'exposition La chutes des corps",
+        "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
         "year": 2018,
@@ -386,7 +386,7 @@
             "on-canvas"
         ],
         "year": 2017,
-        "price": 1800,
+        "price": 2350,
         "buy-ref": "https://camille.csasda/@@",
         "expo-only": false,
         "expo": null,
@@ -458,7 +458,7 @@
             "on-canvas"
         ],
         "year": 2017,
-        "price": 1700,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "jaune-marine-2018",
@@ -471,9 +471,12 @@
         "available": false,
         "title": "@@untitled",
         "dimension": [],
-        "technique": "",
+        "technique": [
+            "charcoal",
+            "on-paper"
+        ],
         "year": 2020,
-        "price": 100,
+        "price": null,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
         "expo": "",
@@ -486,9 +489,12 @@
         "available": false,
         "title": "@@untitled",
         "dimension": [],
-        "technique": "",
+        "technique": [
+            "charcoal",
+            "on-paper"
+        ],
         "year": 2020,
-        "price": 100,
+        "price": null,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
         "expo": "",
@@ -501,9 +507,12 @@
         "available": false,
         "title": "@@untitled",
         "dimension": [],
-        "technique": "",
+        "technique": [
+            "charcoal",
+            "on-paper"
+        ],
         "year": 2020,
-        "price": 100,
+        "price": null,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
         "expo": "",
@@ -516,9 +525,12 @@
         "available": false,
         "title": "@@untitled",
         "dimension": [],
-        "technique": "",
+        "technique": [
+            "charcoal",
+            "on-paper"
+        ],
         "year": 2020,
-        "price": 100,
+        "price": null,
         "buy-ref": "buy-method-0@@something",
         "expo-only": false,
         "expo": "",
@@ -529,7 +541,7 @@
         "id": "LB00024",
         "src": "LB00024.jpg",
         "available": false,
-        "title": "@@Vue de l'exposition La chutes des corps",
+        "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
         "year": 2018,
@@ -569,7 +581,7 @@
             "paper-masonite"
         ],
         "year": 2018,
-        "price": 120,
+        "price": 100,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
@@ -587,7 +599,7 @@
             "on-canvas"
         ],
         "year": 2018,
-        "price": 220,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "montagne-2021",
@@ -607,7 +619,7 @@
             "paper-masonite"
         ],
         "year": 2018,
-        "price": 1400,
+        "price": 1615,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
@@ -627,7 +639,7 @@
             "paper-masonite"
         ],
         "year": 2018,
-        "price": 1400,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -645,7 +657,7 @@
             "on-canvas"
         ],
         "year": 2017,
-        "price": 600,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "jaune-marine-2018",
@@ -912,7 +924,7 @@
             "paper-wood"
         ],
         "year": 2018,
-        "price": 130,
+        "price": 132,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "marathon-création",
@@ -941,7 +953,7 @@
         "id": "LB00037",
         "src": "LB00037.jpg",
         "available": false,
-        "title": "@@Vue de l'exposition La chutes des corps",
+        "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
         "year": 2018,
@@ -999,7 +1011,7 @@
             "on-canvas"
         ],
         "year": 2018,
-        "price": 600,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
@@ -1028,7 +1040,7 @@
         "id": "LB00042",
         "src": "LB00042.jpg",
         "available": false,
-        "title": "@@Vue de l'exposition La chutes des corps",
+        "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
         "year": 2018,
@@ -1050,7 +1062,7 @@
             "on-paper"
         ],
         "year": 2018,
-        "price": 700,
+        "price": 945,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
@@ -1061,7 +1073,7 @@
         "id": "LB00050",
         "src": "LB00050.jpg",
         "available": false,
-        "title": "@@Vue de l'exposition La chutes des corps",
+        "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
         "year": 2018,
@@ -1083,7 +1095,7 @@
             "on-canvas"
         ],
         "year": 2018,
-        "price": 320,
+        "price": 342,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
@@ -1119,7 +1131,7 @@
             "on-canvas"
         ],
         "year": 2019,
-        "price": 1700,
+        "price": 2070,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
@@ -1130,7 +1142,7 @@
         "id": "LB00052",
         "src": "LB00052.jpg",
         "available": false,
-        "title": "Vue de l'exposition Arracher le rouge du jaune@@",
+        "title": "@@expo-title-LB00054",
         "dimension": null,
         "technique": null,
         "year": 2019,
@@ -1142,26 +1154,11 @@
         "width": "100%"
     },
     {
-        "id": "LB00053.1",
-        "src": "LB00053.1.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "36\" x 60\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2019,
-        "price": 2000,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0",
-        "width": "80%"
-    },
-    {
         "id": "LB00053",
         "src": "LB00053.jpg",
+        "additional-images": [
+            "LB00053.1.jpg"
+        ],
         "available": true,
         "title": "@@untitled",
         "dimension": "36\" x 60\"",
@@ -1170,7 +1167,7 @@
             "on-canvas"
         ],
         "year": 2019,
-        "price": 2000,
+        "price": 2525,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
@@ -1182,13 +1179,13 @@
         "src": "LB00054.1.jpg",
         "available": true,
         "title": "@@untitled",
-        "dimension": "4\" x 5\" 3/4",
+        "dimension": "4\" x 5.5\"",
         "technique": [
             "acrylic",
             "on-wood"
         ],
         "year": 2019,
-        "price": 120,
+        "price": 121,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
@@ -1199,7 +1196,7 @@
         "id": "LB00054",
         "src": "LB00054.jpg",
         "available": false,
-        "title": "Vue de l'exposition Arracher le rouge du jaune@@",
+        "title": "@@expo-title-LB00054",
         "dimension": null,
         "technique": null,
         "year": 2019,
@@ -1221,7 +1218,7 @@
             "on-paper"
         ],
         "year": 2019,
-        "price": 180,
+        "price": 225,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
@@ -1257,7 +1254,7 @@
             "on-paper"
         ],
         "year": 2019,
-        "price": 180,
+        "price": 225,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
@@ -1275,7 +1272,7 @@
             "on-paper"
         ],
         "year": 2019,
-        "price": 180,
+        "price": 225,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
@@ -1293,7 +1290,7 @@
             "on-paper"
         ],
         "year": 2019,
-        "price": 180,
+        "price": 225,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
@@ -1311,7 +1308,7 @@
             "on-paper"
         ],
         "year": 2019,
-        "price": 180,
+        "price": 225,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "nouaisons-residency-2019",
@@ -1431,7 +1428,7 @@
         "id": "LB00061",
         "src": "LB00061.jpg",
         "available": false,
-        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": [
             "graphite",
@@ -1449,7 +1446,7 @@
         "id": "LB00061.1",
         "src": "LB00061.1.jpg",
         "available": false,
-        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
         "year": 2020,
@@ -1464,7 +1461,7 @@
         "id": "LB00061.2",
         "src": "LB00061.2.jpg",
         "available": false,
-        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
         "year": 2020,
@@ -1479,7 +1476,7 @@
         "id": "LB00061.3",
         "src": "LB00061.3.jpg",
         "available": false,
-        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
         "year": 2020,
@@ -1519,7 +1516,7 @@
             "on-canvas"
         ],
         "year": 2020,
-        "price": 600,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -1530,7 +1527,7 @@
         "id": "LB00069.1",
         "src": "LB00069.1.jpg",
         "available": false,
-        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
         "year": 2020,
@@ -1545,7 +1542,7 @@
         "id": "LB00069",
         "src": "LB00069.jpg",
         "available": false,
-        "title": "Vue de l'exposition Mesure et démesure, Jonquière@@",
+        "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
         "year": 2020,
@@ -1567,7 +1564,7 @@
             "on-canvas"
         ],
         "year": 2020,
-        "price": 600,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
@@ -1585,7 +1582,7 @@
             "on-canvas"
         ],
         "year": 2020,
-        "price": 1500,
+        "price": 1866,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "mesure-demesure-kamouraska-2020",
@@ -1622,7 +1619,7 @@
             "on-canvas"
         ],
         "year": 2020,
-        "price": 800,
+        "price": 900,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
@@ -1630,65 +1627,13 @@
         "width": "60%"
     },
     {
-        "id": "LB00079",
-        "src": "LB00079.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "38\" x 60\"",
-        "technique": [
-            "graphite",
-            "dry-pastel",
-            "paper-masonite"
-        ],
-        "year": 2020,
-        "price": 1700,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "mesure-demesure-kamouraska-2020",
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
-        "id": "LB00080",
-        "src": "LB00080.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "38\" x 60\"",
-        "technique": [
-            "graphite",
-            "dry-pastel",
-            "paper-masonite"
-        ],
-        "year": 2020,
-        "price": 1700,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "mesure-demesure-kamouraska-2020",
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
-        "id": "LB00081",
-        "src": "LB00081.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "38\" x 60\"",
-        "technique": [
-            "graphite",
-            "dry-pastel",
-            "paper-masonite"
-        ],
-        "year": 2020,
-        "price": 1700,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "mesure-demesure-kamouraska-2020",
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
         "id": "LB00082",
         "src": "LB00082.jpg",
+        "additional-images": [
+            "LB00079.jpg",
+            "LB00080.jpg",
+            "LB00081.jpg"
+        ],
         "available": true,
         "title": "@@untitled",
         "dimension": "38\" x 60\"",
@@ -1698,7 +1643,7 @@
             "paper-masonite"
         ],
         "year": 2020,
-        "price": 1700,
+        "price": 2325,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "mesure-demesure-kamouraska-2020",
@@ -1739,44 +1684,12 @@
         "width": "100%"
     },
     {
-        "id": "LB00085.2",
-        "src": "LB00085.2.jpg",
-        "available": true,
-        "title": "S'arracher la douceur",
-        "dimension": "33.5\" x 60\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2020,
-        "price": 1700,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
-        "id": "LB00085.1",
-        "src": "LB00085.1.jpg",
-        "available": true,
-        "title": "S'arracher la douceur",
-        "dimension": "33.5\" x 60\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2020,
-        "price": 1700,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
         "id": "LB00085",
         "src": "LB00085.jpg",
+        "additional-images": [
+            "LB00085.1.jpg",
+            "LB00085.2.jpg"
+        ],
         "available": true,
         "title": "S'arracher la douceur",
         "dimension": "33.5\" x 60\"",
@@ -1785,54 +1698,20 @@
             "on-canvas"
         ],
         "year": 2020,
-        "price": 1700,
+        "price": 2070,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
         "photo-credit": "photo-credit-1",
         "width": "80%"
-    },
-    {
-        "id": "LB00089",
-        "src": "LB00089.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "24\" x 60\"",
-        "technique": [
-            "acrylic",
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2020,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "70%"
-    },
-    {
-        "id": "LB00090",
-        "src": "LB00090.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "24\" x 60\"",
-        "technique": [
-            "acrylic",
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2020,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "70%"
     },
     {
         "id": "LB00091",
         "src": "LB00091.jpg",
+        "additional-images": [
+            "LB00090.jpg",
+            "LB00089.jpg"
+        ],
         "available": false,
         "title": "@@untitled",
         "dimension": "24\" x 60\"",
@@ -1860,7 +1739,7 @@
             "on-canvas"
         ],
         "year": 2021,
-        "price": 260,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "marmonner-vide-aliette-2021",
@@ -1896,7 +1775,7 @@
             "on-canvas"
         ],
         "year": 2021,
-        "price": 260,
+        "price": 322,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "marmonner-vide-claire-2021",
@@ -1933,7 +1812,7 @@
             "on-wood"
         ],
         "year": 2021,
-        "price": 700,
+        "price": 756,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": null,
@@ -1941,44 +1820,12 @@
         "width": "60%"
     },
     {
-        "id": "LB00094",
-        "src": "LB00094.jpg",
-        "available": false,
-        "title": "Contenir l'oubli",
-        "dimension": "46\" x 46\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2021,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
-        "id": "LB00095",
-        "src": "LB00095.jpg",
-        "available": false,
-        "title": "Contenir l'oubli",
-        "dimension": "46\" x 46\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2021,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
         "id": "LB00096",
         "src": "LB00096.jpg",
+        "additional-images": [
+            "LB00095.jpg",
+            "LB00094.jpg"
+        ],
         "available": false,
         "title": "Contenir l'oubli",
         "dimension": "46\" x 46\"",
@@ -2005,7 +1852,7 @@
             "on-canvas"
         ],
         "year": 2021,
-        "price": 220,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -2013,44 +1860,12 @@
         "width": "65%"
     },
     {
-        "id": "LB00098.1",
-        "src": "LB00098.1.jpg",
-        "available": false,
-        "title": "Soulever les heures",
-        "dimension": "36\" x 48\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2021,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "montagne-2021",
-        "photo-credit": "photo-credit-0",
-        "width": "45%"
-    },
-    {
-        "id": "LB00098.2",
-        "src": "LB00098.2.jpg",
-        "available": false,
-        "title": "Soulever les heures",
-        "dimension": "36\" x 48\"",
-        "technique": [
-            "oil",
-            "on-canvas"
-        ],
-        "year": 2021,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "montagne-2021",
-        "photo-credit": "photo-credit-0",
-        "width": "45%"
-    },
-    {
         "id": "LB00098",
         "src": "LB00098.jpg",
+        "additional-images": [
+            "LB00098.1.jpg",
+            "LB00098.2.jpg"
+        ],
         "available": false,
         "title": "Soulever les heures",
         "dimension": "36\" x 48\"",
@@ -2095,7 +1910,7 @@
             "on-canvas"
         ],
         "year": 2021,
-        "price": 1500,
+        "price": 1866,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": [
@@ -2117,7 +1932,7 @@
             "paper-wood"
         ],
         "year": 2022,
-        "price": 160,
+        "price": 157,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": "hommage-stella-2022",
@@ -2135,7 +1950,7 @@
             "on-canvas"
         ],
         "year": 2021,
-        "price": 260,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "montagne-2021",
@@ -2153,7 +1968,7 @@
             "canvas-masonite"
         ],
         "year": 2021,
-        "price": 100,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
@@ -2171,7 +1986,7 @@
             "canvas-masonite"
         ],
         "year": 2021,
-        "price": 100,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
@@ -2189,7 +2004,7 @@
             "canvas-masonite"
         ],
         "year": 2021,
-        "price": 100,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
@@ -2226,7 +2041,7 @@
             "canvas-masonite"
         ],
         "year": 2021,
-        "price": 100,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
@@ -2244,7 +2059,7 @@
             "canvas-masonite"
         ],
         "year": 2021,
-        "price": 100,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
@@ -2262,7 +2077,7 @@
             "canvas-masonite"
         ],
         "year": 2021,
-        "price": 120,
+        "price": 132,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
@@ -2280,7 +2095,7 @@
             "canvas-masonite"
         ],
         "year": 2021,
-        "price": 120,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
@@ -2290,6 +2105,7 @@
     {
         "id": "LB00118",
         "src": "LB00118.jpg",
+        "available": false,
         "title": "@@untitled",
         "dimension": "4\" x 6\"",
         "technique": [
@@ -2297,7 +2113,7 @@
             "canvas-masonite"
         ],
         "year": 2021,
-        "price": 120,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": [
@@ -2318,7 +2134,7 @@
             "on-canvas"
         ],
         "year": 2021,
-        "price": 400,
+        "price": 461,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": null,
@@ -2336,7 +2152,7 @@
             "paper-wood"
         ],
         "year": 2022,
-        "price": 720,
+        "price": 775,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": [
@@ -2358,7 +2174,7 @@
             "paper-wood"
         ],
         "year": 2022,
-        "price": 285,
+        "price": 330,
         "buy-ref": "buy-method-1",
         "expo-only": false,
         "expo": [
@@ -2379,7 +2195,7 @@
             "paper-wood"
         ],
         "year": 2022,
-        "price": 285,
+        "price": null,
         "buy-ref": null,
         "expo-only": false,
         "expo": null,
@@ -2398,7 +2214,7 @@
             "paper-wood"
         ],
         "year": 2022,
-        "price": 285,
+        "price": 330,
         "buy-ref": null,
         "expo-only": false,
         "expo": [
@@ -2409,62 +2225,13 @@
         "width": "45%"
     },
     {
-        "id": "LB00112.2",
-        "src": "LB00112.2.jpg",
-        "available": true,
-        "title": "Les gadelles",
-        "dimension": "24\" x 36\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 1000,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-1",
-        "width": "60%"
-    },
-    {
-        "id": "LB00112.3",
-        "src": "LB00112.3.jpg",
-        "available": true,
-        "title": "Les gadelles",
-        "dimension": "24\" x 36\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 1000,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-1",
-        "width": "60%"
-    },
-    {
-        "id": "LB00112.1",
-        "src": "LB00112.1.jpg",
-        "available": true,
-        "title": "Les gadelles",
-        "dimension": "24\" x 36\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 1000,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "s'arracher-douceur-2022",
-        "photo-credit": "photo-credit-1",
-        "width": "60%"
-    },
-    {
         "id": "LB00112",
         "src": "LB00112.jpg",
+        "additional-images": [
+            "LB00112.1.jpg",
+            "LB00112.2.jpg",
+            "LB00112.3.jpg"
+        ],
         "available": true,
         "title": "Les gadelles",
         "dimension": "24\" x 36\"",
@@ -2473,7 +2240,7 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 1000,
+        "price": 1166,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "s'arracher-douceur-2022",
@@ -2503,71 +2270,13 @@
         "width": "60%"
     },
     {
-        "id": "LB00119.2",
-        "src": "LB00119.2.jpg",
-        "available": false,
-        "title": "Rompre",
-        "dimension": "58\" x 96\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 4000,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": [
-            "alcove-2022",
-            "collection-meduse-2022"
-        ],
-        "photo-credit": "photo-credit-0",
-        "width": "45%"
-    },
-    {
-        "id": "LB00119.3",
-        "src": "LB00119.3.jpg",
-        "available": false,
-        "title": "Rompre",
-        "dimension": "58\" x 96\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 4000,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": [
-            "alcove-2022",
-            "collection-meduse-2022"
-        ],
-        "photo-credit": "photo-credit-0",
-        "width": "45%"
-    },
-    {
-        "id": "LB00119.1",
-        "src": "LB00119.1.jpg",
-        "available": false,
-        "title": "Rompre",
-        "dimension": "58\" x 96\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 4000,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": [
-            "alcove-2022",
-            "collection-meduse-2022"
-        ],
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
         "id": "LB00119",
         "src": "LB00119.jpg",
+        "additional-images": [
+            "LB00119.1.jpg",
+            "LB00119.2.jpg",
+            "LB00119.3.jpg"
+        ],
         "available": false,
         "title": "Rompre",
         "dimension": "58\" x 96\"",
@@ -2589,7 +2298,7 @@
     {
         "id": "LB00120",
         "src": "LB00120.jpg",
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "5.5\" x 6\"",
         "technique": [
@@ -2597,7 +2306,7 @@
             "on-wood"
         ],
         "year": 2022,
-        "price": 160,
+        "price": null,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "rassembler-espace-2022",
@@ -2615,7 +2324,7 @@
             "on-wood"
         ],
         "year": 2022,
-        "price": 160,
+        "price": 165,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "rassembler-espace-2022",
@@ -2623,45 +2332,13 @@
         "width": "50%"
     },
     {
-        "id": "LB00122.2",
-        "src": "LB00122.2.jpg",
-        "available": true,
-        "title": "Effriter les songes",
-        "dimension": "36\" x 48\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 1500,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "l'hiver-dessin-2022",
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
-        "id": "LB00122.1",
-        "src": "LB00122.1.jpg",
-        "available": true,
-        "title": "Effriter les songes",
-        "dimension": "36\" x 48\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2022,
-        "price": 1500,
-        "buy-ref": "buy-method-0",
-        "expo-only": false,
-        "expo": "l'hiver-dessin-2022",
-        "photo-credit": "photo-credit-1",
-        "width": "80%"
-    },
-    {
         "id": "LB00122",
         "src": "LB00122.jpg",
-        "available": true,
+        "additional-images": [
+            "LB00122.1.jpg",
+            "LB00122.2.jpg"
+        ],
+        "available": false,
         "title": "Effriter les songes",
         "dimension": "36\" x 48\"",
         "technique": [
@@ -2669,11 +2346,14 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 1500,
+        "price": null,
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "l'hiver-dessin-2022",
-        "photo-credit": "photo-credit-2",
+        "photo-credit": [
+            "photo-credit-2",
+            "photo-credit-1"
+        ],
         "width": "85%"
     },
     {
@@ -2699,7 +2379,10 @@
             "l'hiver-dessin-2022",
             "s'arracher-douceur-2022"
         ],
-        "photo-credit": "photo-credit-2",
+        "photo-credit": [
+            "photo-credit-2",
+            "photo-credit-1"
+        ],
         "width": "100%"
     },
     {
