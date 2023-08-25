@@ -363,7 +363,7 @@
     {
         "id": "LB00018",
         "src": "LB00018.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
@@ -468,7 +468,7 @@
     {
         "id": "LB00020",
         "src": "LB00020.jpg",
-        "available": false,
+        "available": null,
         "title": "@@untitled",
         "dimension": [],
         "technique": [
@@ -486,7 +486,7 @@
     {
         "id": "LB00021",
         "src": "LB00021.jpg",
-        "available": false,
+        "available": null,
         "title": "@@untitled",
         "dimension": [],
         "technique": [
@@ -504,7 +504,7 @@
     {
         "id": "LB00022",
         "src": "LB00022.jpg",
-        "available": false,
+        "available": null,
         "title": "@@untitled",
         "dimension": [],
         "technique": [
@@ -522,7 +522,7 @@
     {
         "id": "LB00023",
         "src": "LB00023.jpg",
-        "available": false,
+        "available": null,
         "title": "@@untitled",
         "dimension": [],
         "technique": [
@@ -540,7 +540,7 @@
     {
         "id": "LB00024",
         "src": "LB00024.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
@@ -883,7 +883,7 @@
     {
         "id": "LB00035",
         "src": "LB00035.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
@@ -952,7 +952,7 @@
     {
         "id": "LB00037",
         "src": "LB00037.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
@@ -1039,7 +1039,7 @@
     {
         "id": "LB00042",
         "src": "LB00042.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
@@ -1072,7 +1072,7 @@
     {
         "id": "LB00050",
         "src": "LB00050.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00035",
         "dimension": null,
         "technique": null,
@@ -1141,7 +1141,7 @@
     {
         "id": "LB00052",
         "src": "LB00052.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00054",
         "dimension": null,
         "technique": null,
@@ -1195,7 +1195,7 @@
     {
         "id": "LB00054",
         "src": "LB00054.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00054",
         "dimension": null,
         "technique": null,
@@ -1427,7 +1427,7 @@
     {
         "id": "LB00061",
         "src": "LB00061.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": [
@@ -1445,7 +1445,7 @@
     {
         "id": "LB00061.1",
         "src": "LB00061.1.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
@@ -1460,7 +1460,7 @@
     {
         "id": "LB00061.2",
         "src": "LB00061.2.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
@@ -1475,7 +1475,7 @@
     {
         "id": "LB00061.3",
         "src": "LB00061.3.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
@@ -1526,7 +1526,7 @@
     {
         "id": "LB00069.1",
         "src": "LB00069.1.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
@@ -1541,7 +1541,7 @@
     {
         "id": "LB00069",
         "src": "LB00069.jpg",
-        "available": false,
+        "available": null,
         "title": "@@expo-title-LB00069",
         "dimension": null,
         "technique": null,
