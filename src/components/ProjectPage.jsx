@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { Image, Row, Col, Carousel } from 'antd';
 import { useTranslation } from 'react-i18next';
@@ -11,8 +11,9 @@ import { PROJECTS_FOLDER } from '../constants/folders';
 import useKeypress from 'react-use-keypress';
 import { PLACEHOLDER_FOLDER } from '../constants/folders';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
-import { useDrag } from '@use-gesture/react';
+import { useDrag, useGesture } from '@use-gesture/react';
 import { mobileAndTabletCheck } from '../utils/browser';
+import { useSpring, animated } from '@react-spring/web';
 
 const PhotoCreditText = styled.div`
   text-align: right;
@@ -101,18 +102,28 @@ const navigateToAnotherProject = (id, history) => {
 };
 
 export const ProjectPage = ({ projects }) => {
+  const ref = useRef(null);
+  const [{ x, y }, api] = useSpring(() => ({ x: 0, y: 0 }));
   const [photoCredit, setPhotoCredit] = useState(0);
   const history = useHistory();
   const { id } = useParams();
   const { t } = useTranslation('work');
   useKeypress('ArrowLeft', () => navigateToAnotherProject(projects[id].next, history));
   useKeypress('ArrowRight', () => navigateToAnotherProject(projects[id].previous, history));
-  useDrag(
-    ({ down, movement: [mx] }) => {
-      if (!mobileAndTabletCheck() || !down || Math.abs(mx) < 10) return;
-      navigateToAnotherProject(mx > 0 ? projects[id].next : projects[id].previous, history);
+  useGesture(
+    {
+      onDrag: ({ down, movement: [mx], target }) => {
+        if (!mobileAndTabletCheck() || target.localName === 'img' || target.localName === 'svg') return;
+        api.start({ x: down ? mx : 0, y: 0 });
+      },
+
+      onDragEnd: ({ down, movement: [mx], ...rest }) => {
+        if (!mobileAndTabletCheck() || down || Math.abs(mx) < 250) return;
+        navigateToAnotherProject(mx > 0 ? projects[id].next : projects[id].previous, history);
+        api.start({ x: 0, y: 0 });
+      },
     },
-    { target: window },
+    { target: ref },
   );
 
   const {
@@ -130,55 +141,56 @@ export const ProjectPage = ({ projects }) => {
     [additionalImages, id, projects],
   );
   const translatedTitle = formatTitle(title, t);
-
   return (
-    <StyledRow gutter={[0, 50]}>
-      <Col xs={{ span: 20 }} lg={{ span: 13 }}>
-        <StyledCarousel
-          arrows
-          prevArrow={<LeftOutlined />}
-          nextArrow={<RightOutlined />}
-          draggable
-          adaptiveHeight
-          dotPosition="top"
-          beforeChange={(current, next) => setPhotoCredit(next)}
-        >
-          <Image
-            key={src}
-            draggable={false}
-            width="100%"
-            fluid="true"
-            preview={false}
-            src={`${PROJECTS_FOLDER}/${src}`}
-            placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={title} />}
-          />
-          {additionalImages?.map(({ src: additionalSrc }) => (
+    <animated.div ref={ref} style={{ x, y, touchAction: 'none' }}>
+      <StyledRow gutter={[0, 50]}>
+        <Col xs={{ span: 20 }} lg={{ span: 13 }}>
+          <StyledCarousel
+            arrows
+            prevArrow={<LeftOutlined />}
+            nextArrow={<RightOutlined />}
+            draggable
+            adaptiveHeight
+            dotPosition="top"
+            beforeChange={(current, next) => setPhotoCredit(next)}
+          >
             <Image
-              key={additionalSrc}
+              key={src}
               draggable={false}
               width="100%"
               fluid="true"
               preview={false}
-              src={`${PROJECTS_FOLDER}/${additionalSrc}`}
-              placeholder={
-                <Image width="100%" src={`${PLACEHOLDER_FOLDER}/${additionalSrc}`} preview={false} alt={title} />
-              }
+              src={`${PROJECTS_FOLDER}/${src}`}
+              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={title} />}
             />
-          ))}
-        </StyledCarousel>
-        <Row>
-          <PhotoCreditText>{t('photo-credit') + t(photoCredits[photoCredit])}</PhotoCreditText>
-        </Row>
-      </Col>
-      <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
-        <StyledInfo>{translatedTitle}</StyledInfo>
-        <StyledInfo>{formatTechnique(technique, t)}</StyledInfo>
-        <StyledInfo>{dimension}</StyledInfo>
-        <StyledInfo>{year}</StyledInfo>
-        <Spacer />
-        {available !== null && <StyledInfo>{available ? t('available') : t('sold')}</StyledInfo>}
-        {available && price && <StyledInfo>{getPriceCad(price)}</StyledInfo>}
-      </Col>
-    </StyledRow>
+            {additionalImages?.map(({ src: additionalSrc }) => (
+              <Image
+                key={additionalSrc}
+                draggable={false}
+                width="100%"
+                fluid="true"
+                preview={false}
+                src={`${PROJECTS_FOLDER}/${additionalSrc}`}
+                placeholder={
+                  <Image width="100%" src={`${PLACEHOLDER_FOLDER}/${additionalSrc}`} preview={false} alt={title} />
+                }
+              />
+            ))}
+          </StyledCarousel>
+          <Row>
+            <PhotoCreditText>{t('photo-credit') + t(photoCredits[photoCredit])}</PhotoCreditText>
+          </Row>
+        </Col>
+        <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
+          <StyledInfo>{translatedTitle}</StyledInfo>
+          <StyledInfo>{formatTechnique(technique, t)}</StyledInfo>
+          <StyledInfo>{dimension}</StyledInfo>
+          <StyledInfo>{year}</StyledInfo>
+          <Spacer />
+          {available !== null && <StyledInfo>{available ? t('available') : t('sold')}</StyledInfo>}
+          {available && price && <StyledInfo>{getPriceCad(price)}</StyledInfo>}
+        </Col>
+      </StyledRow>
+    </animated.div>
   );
 };
