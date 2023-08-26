@@ -11,7 +11,7 @@ import { PROJECTS_FOLDER } from '../constants/folders';
 import useKeypress from 'react-use-keypress';
 import { PLACEHOLDER_FOLDER } from '../constants/folders';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
-import { useDrag, useGesture } from '@use-gesture/react';
+import { useGesture } from '@use-gesture/react';
 import { mobileAndTabletCheck } from '../utils/browser';
 import { useSpring, animated } from '@react-spring/web';
 
