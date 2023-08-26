@@ -3,9 +3,8 @@ import LazyLoad from 'react-lazyload';
 import styled from '@emotion/styled';
 import { Image } from 'antd';
 import Fade from 'react-reveal';
-import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { PROJECT_BASE } from '../constants/routes';
-import { animateScroll as scroll } from 'react-scroll';
 import { COMPRESSED_FOLDER, PLACEHOLDER_FOLDER } from '../constants/folders';
 
 const StyledProject = styled.div`
@@ -27,28 +26,24 @@ const ClickableImage = styled(Image)`
 `;
 
 export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
-  const history = useHistory();
   return (
     <>
       {isYearAnchor && <div id={year} />}
       <StyledProject id={id}>
         <LazyLoad once debounce height={'100%'} offset={200}>
-          <Fade bottom>
-            <ClickableImage
-              width={width}
-              fluid="fluid"
-              src={`${COMPRESSED_FOLDER}/${src}`}
-              decoding="async"
-              preview={false}
-              alt={title}
-              onClick={() => {
-                history.push(`#${id}`);
-                history.push(`${PROJECT_BASE}/${id}`);
-                scroll.scrollToTop({ delay: 0, duration: 0 });
-              }}
-              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={title} />}
-            />
-          </Fade>
+          <Link to={(location) => `${PROJECT_BASE}/${id}`}>
+            <Fade bottom>
+              <ClickableImage
+                width={width}
+                fluid="fluid"
+                src={`${COMPRESSED_FOLDER}/${src}`}
+                decoding="async"
+                preview={false}
+                alt={title}
+                placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={title} />}
+              />
+            </Fade>
+          </Link>
         </LazyLoad>
       </StyledProject>
     </>
