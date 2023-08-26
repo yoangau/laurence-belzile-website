@@ -10,6 +10,7 @@ import { PROJECT_BASE } from '../constants/routes';
 import { PROJECTS_FOLDER } from '../constants/folders';
 import useKeypress from 'react-use-keypress';
 import { PLACEHOLDER_FOLDER } from '../constants/folders';
+import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 
 const PhotoCreditText = styled.div`
   text-align: right;
@@ -30,17 +31,40 @@ const Spacer = styled.div`
   height: 3vh;
 `;
 
-const DraggableCarousel = styled(Carousel)`
+const StyledCarousel = styled(Carousel)`
   &:hover,
   &:focus {
     cursor: grab;
   }
+
   > .slick-dots li button {
     background: black;
     opacity: 0.5;
   }
+
   > .slick-dots li.slick-active button {
     background: black;
+  }
+
+  > .slick-prev,
+  > .slick-prev:focus {
+    font-size: 1.5em;
+    left: 10px;
+    z-index: 2;
+    color: #aaa;
+  }
+
+  > .slick-next,
+  > .slick-next:focus {
+    font-size: 1.5em;
+    right: 10px;
+    z-index: 2;
+    color: #aaa;
+  }
+
+  > .slick-prev:hover,
+  > .slick-next:hover {
+    color: black;
   }
 `;
 
@@ -101,7 +125,10 @@ export const ProjectPage = ({ projects }) => {
   return (
     <StyledRow gutter={[0, 50]}>
       <Col xs={{ span: 20 }} lg={{ span: 13 }}>
-        <DraggableCarousel
+        <StyledCarousel
+          arrows
+          prevArrow={<LeftOutlined />}
+          nextArrow={<RightOutlined />}
           draggable
           adaptiveHeight
           dotPosition="top"
@@ -129,7 +156,7 @@ export const ProjectPage = ({ projects }) => {
               }
             />
           ))}
-        </DraggableCarousel>
+        </StyledCarousel>
         <Row>
           <PhotoCreditText>{t('photo-credit') + t(photoCredits[photoCredit])}</PhotoCreditText>
         </Row>
