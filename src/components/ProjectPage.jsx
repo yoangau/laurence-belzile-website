@@ -140,7 +140,7 @@ export const ProjectPage = ({ projects }) => {
         <StyledInfo>{dimension}</StyledInfo>
         <StyledInfo>{year}</StyledInfo>
         <Spacer />
-        <StyledInfo>{available ? t('available') : t('sold')}</StyledInfo>
+        {available !== null && <StyledInfo>{available ? t('available') : t('sold')}</StyledInfo>}
         {available && price && <StyledInfo>{getPriceCad(price)}</StyledInfo>}
       </Col>
     </StyledRow>
