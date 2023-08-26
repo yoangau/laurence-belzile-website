@@ -37,7 +37,6 @@ export const App = () => {
     }
     return p;
   }, []);
-  console.log(projectsById);
   return (
     <ConfigProvider
       theme={{
