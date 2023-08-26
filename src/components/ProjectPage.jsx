@@ -103,7 +103,11 @@ const navigateToAnotherProject = (id, history) => {
 
 export const ProjectPage = ({ projects }) => {
   const ref = useRef(null);
-  const [{ x, y }, api] = useSpring(() => ({ x: 0, y: 0 }));
+  const [opacity, setOpacity] = useState(1);
+  const [{ x, y }, api] = useSpring(() => ({
+    x: 0,
+    y: 0,
+  }));
   const [photoCredit, setPhotoCredit] = useState(0);
   const history = useHistory();
   const { id } = useParams();
@@ -114,12 +118,14 @@ export const ProjectPage = ({ projects }) => {
     {
       onDrag: ({ down, movement: [mx], target }) => {
         if (!mobileAndTabletCheck() || target.localName === 'img' || target.localName === 'svg') return;
-        api.start({ x: down ? mx : 0, y: 0 });
+        setOpacity(1 - Math.abs(mx) / 200);
+        api.start({ x: down ? mx : 0, y: 0, immediate: down });
       },
 
-      onDragEnd: ({ down, movement: [mx], ...rest }) => {
-        if (!mobileAndTabletCheck() || down || Math.abs(mx) < 250) return;
+      onDragEnd: ({ down, movement: [mx] }) => {
+        if (!mobileAndTabletCheck() || down || Math.abs(mx) < 150) return;
         navigateToAnotherProject(mx > 0 ? projects[id].next : projects[id].previous, history);
+        setOpacity(1);
         api.start({ x: 0, y: 0 });
       },
     },
@@ -142,7 +148,7 @@ export const ProjectPage = ({ projects }) => {
   );
   const translatedTitle = formatTitle(title, t);
   return (
-    <animated.div ref={ref} style={{ x, y, touchAction: 'none' }}>
+    <animated.div ref={ref} style={{ x, y, touchAction: 'none', opacity }}>
       <StyledRow gutter={[0, 50]}>
         <Col xs={{ span: 20 }} lg={{ span: 13 }}>
           <StyledCarousel
