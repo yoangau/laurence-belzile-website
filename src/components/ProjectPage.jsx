@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 import { Image, Row, Col, Carousel } from 'antd';
 import { useTranslation } from 'react-i18next';
@@ -75,6 +75,7 @@ const navigateToAnotherProject = (id, history) => {
 };
 
 export const ProjectPage = ({ projects }) => {
+  const [photoCredit, setPhotoCredit] = useState(0);
   const history = useHistory();
   const { id } = useParams();
   const { t } = useTranslation('work');
@@ -89,14 +90,23 @@ export const ProjectPage = ({ projects }) => {
     year,
     price,
     available,
-    'photo-credit': photoCredit,
     'additional-images': additionalImages,
   } = projects[id];
+  const photoCredits = useMemo(
+    () => [projects[id]['photo-credit'], additionalImages?.map(({ 'photo-credit': pc }) => pc)].flat(),
+    [additionalImages, id, projects],
+  );
   const translatedTitle = formatTitle(title, t);
+
   return (
     <StyledRow gutter={[0, 50]}>
       <Col xs={{ span: 20 }} lg={{ span: 13 }}>
-        <DraggableCarousel draggable adaptiveHeight dotPosition="top">
+        <DraggableCarousel
+          draggable
+          adaptiveHeight
+          dotPosition="top"
+          beforeChange={(current, next) => setPhotoCredit(next)}
+        >
           <Image
             key={src}
             draggable={false}
@@ -106,20 +116,22 @@ export const ProjectPage = ({ projects }) => {
             src={`${PROJECTS_FOLDER}/${src}`}
             placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={title} />}
           />
-          {additionalImages?.map((image) => (
+          {additionalImages?.map(({ src: additionalSrc }) => (
             <Image
-              key={image}
+              key={additionalSrc}
               draggable={false}
               width="100%"
               fluid="true"
               preview={false}
-              src={`${PROJECTS_FOLDER}/${image}`}
-              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${image}`} preview={false} alt={title} />}
+              src={`${PROJECTS_FOLDER}/${additionalSrc}`}
+              placeholder={
+                <Image width="100%" src={`${PLACEHOLDER_FOLDER}/${additionalSrc}`} preview={false} alt={title} />
+              }
             />
           ))}
         </DraggableCarousel>
         <Row>
-          <PhotoCreditText>{t('photo-credit') + t(photoCredit)}</PhotoCreditText>
+          <PhotoCreditText>{t('photo-credit') + t(photoCredits[photoCredit])}</PhotoCreditText>
         </Row>
       </Col>
       <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
