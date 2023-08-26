@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import content from '../data/resume.json';
 import ReactHtmlParser from 'react-html-parser';
+import { RESUME_FOLDER } from '../constants/folders';
 
 const StyledTitle = styled.div`
   margin-bottom: 0.5em;
@@ -50,6 +51,9 @@ export const Resume = () => {
   const { t } = useTranslation('resume');
   return (
     <Fade bottom>
+      <StyledLink href={`${RESUME_FOLDER}/cv_belzile.pdf`} target="_blank">
+        {t('download')}
+      </StyledLink>
       {content.map((element, i) => (
         <div key={`${element.title}-${i}`}>
           <StyledTitle>{t(element.title)}</StyledTitle>
