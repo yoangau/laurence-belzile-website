@@ -1157,7 +1157,10 @@
         "id": "LB00053",
         "src": "LB00053.jpg",
         "additional-images": [
-            "LB00053.1.jpg"
+            {
+                "src": "LB00053.1.jpg",
+                "photo-credit": "photo-credit-0"
+            }
         ],
         "available": true,
         "title": "@@untitled",
@@ -1630,9 +1633,18 @@
         "id": "LB00082",
         "src": "LB00082.jpg",
         "additional-images": [
-            "LB00079.jpg",
-            "LB00080.jpg",
-            "LB00081.jpg"
+            {
+                "src": "LB00079.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00080.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00081.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": true,
         "title": "@@untitled",
@@ -1687,8 +1699,14 @@
         "id": "LB00085",
         "src": "LB00085.jpg",
         "additional-images": [
-            "LB00085.1.jpg",
-            "LB00085.2.jpg"
+            {
+                "src": "LB00085.1.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00085.2.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": true,
         "title": "S'arracher la douceur",
@@ -1709,8 +1727,14 @@
         "id": "LB00091",
         "src": "LB00091.jpg",
         "additional-images": [
-            "LB00090.jpg",
-            "LB00089.jpg"
+            {
+                "src": "LB00090.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00089.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": false,
         "title": "@@untitled",
@@ -1823,8 +1847,14 @@
         "id": "LB00096",
         "src": "LB00096.jpg",
         "additional-images": [
-            "LB00095.jpg",
-            "LB00094.jpg"
+            {
+                "src": "LB00095.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00094.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": false,
         "title": "Contenir l'oubli",
@@ -1863,8 +1893,14 @@
         "id": "LB00098",
         "src": "LB00098.jpg",
         "additional-images": [
-            "LB00098.1.jpg",
-            "LB00098.2.jpg"
+            {
+                "src": "LB00098.1.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00098.2.jpg",
+                "photo-credit": "photo-credit-0"
+            }
         ],
         "available": false,
         "title": "Soulever les heures",
@@ -2228,9 +2264,18 @@
         "id": "LB00112",
         "src": "LB00112.jpg",
         "additional-images": [
-            "LB00112.1.jpg",
-            "LB00112.2.jpg",
-            "LB00112.3.jpg"
+            {
+                "src": "LB00112.1.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00112.2.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00112.3.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": true,
         "title": "Les gadelles",
@@ -2273,9 +2318,18 @@
         "id": "LB00119",
         "src": "LB00119.jpg",
         "additional-images": [
-            "LB00119.1.jpg",
-            "LB00119.2.jpg",
-            "LB00119.3.jpg"
+            {
+                "src": "LB00119.1.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00119.2.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00119.3.jpg",
+                "photo-credit": "photo-credit-0"
+            }
         ],
         "available": false,
         "title": "Rompre",
@@ -2335,8 +2389,14 @@
         "id": "LB00122",
         "src": "LB00122.jpg",
         "additional-images": [
-            "LB00122.1.jpg",
-            "LB00122.2.jpg"
+            {
+                "src": "LB00122.1.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00122.2.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": false,
         "title": "Effriter les songes",
@@ -2350,19 +2410,25 @@
         "buy-ref": "buy-method-0",
         "expo-only": false,
         "expo": "l'hiver-dessin-2022",
-        "photo-credit": [
-            "photo-credit-2",
-            "photo-credit-1"
-        ],
+        "photo-credit": "photo-credit-2",
         "width": "85%"
     },
     {
         "id": "LB00123",
         "src": "LB00123.jpg",
         "additional-images": [
-            "LB00123.1.jpg",
-            "LB00123.2.jpg",
-            "LB00123.3.jpg"
+            {
+                "src": "LB00123.1.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00123.2.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00123.3.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": true,
         "title": "@@untitled",
@@ -2379,10 +2445,7 @@
             "l'hiver-dessin-2022",
             "s'arracher-douceur-2022"
         ],
-        "photo-credit": [
-            "photo-credit-2",
-            "photo-credit-1"
-        ],
+        "photo-credit": "photo-credit-2",
         "width": "100%"
     },
     {
@@ -2483,8 +2546,14 @@
         "id": "LB00131",
         "src": "LB00131.jpg",
         "additional-images": [
-            "LB00131.1.jpg",
-            "LB00131.2.jpg"
+            {
+                "src": "LB00131.1.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00131.2.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": true,
         "title": "@@untitled",
@@ -2525,8 +2594,14 @@
         "id": "LB00133",
         "src": "LB00133.jpg",
         "additional-images": [
-            "LB00133.1.jpg",
-            "LB00133.2.jpg"
+            {
+                "src": "LB00133.1.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00133.2.jpg",
+                "photo-credit": "photo-credit-0"
+            }
         ],
         "available": true,
         "title": "Tous les jours",
@@ -2620,8 +2695,14 @@
         "id": "LB00138",
         "src": "LB00138.jpg",
         "additional-images": [
-            "LB00138.1.jpg",
-            "LB00138.2.jpg"
+            {
+                "src": "LB00138.1.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00138.2.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": false,
         "title": "Les autours",
@@ -2660,10 +2741,22 @@
         "id": "LB00140",
         "src": "LB00140.jpg",
         "additional-images": [
-            "LB00140.1.jpg",
-            "LB00140.2.jpg",
-            "LB00140.3.jpg",
-            "LB00140.4.jpg"
+            {
+                "src": "LB00140.1.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00140.2.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00140.3.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00140.4.jpg",
+                "photo-credit": "photo-credit-0"
+            }
         ],
         "available": true,
         "title": "@@untitled",
@@ -2738,8 +2831,14 @@
         "id": "LB00144",
         "src": "LB00144.jpg",
         "additional-images": [
-            "LB00144.1.jpg",
-            "LB00144.2.jpg"
+            {
+                "src": "LB00144.1.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00144.2.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": true,
         "title": "Rompre les vertiges",
@@ -2778,8 +2877,14 @@
         "id": "LB00146",
         "src": "LB00146.jpg",
         "additional-images": [
-            "LB00146.1.jpg",
-            "LB00146.2.jpg"
+            {
+                "src": "LB00146.1.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00146.2.jpg",
+                "photo-credit": "photo-credit-1"
+            }
         ],
         "available": true,
         "title": "Rassembler les espaces",
@@ -2800,7 +2905,10 @@
         "id": "LB00148",
         "src": "LB00148.jpg",
         "additional-images": [
-            "LB00148.1.jpg"
+            {
+                "src": "LB00148.1.jpg",
+                "photo-credit": "photo-credit-0"
+            }
         ],
         "available": true,
         "title": "@@untitled",
