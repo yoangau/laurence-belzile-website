@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import content from '../data/resume.json';
+import ReactHtmlParser from 'react-html-parser';
 
 const StyledTitle = styled.div`
   margin-bottom: 0.5em;
@@ -57,7 +58,9 @@ export const Resume = () => {
               <StyledDate>{year.date}</StyledDate>
               <StyledContentList>
                 {year.list.map(({ val, link }, k) => (
-                  <div key={`${val}-${k}`}>{link ? <StyledLink href={link}>{t(val)}</StyledLink> : t(val)}</div>
+                  <div key={`${val}-${k}`}>
+                    {link ? <StyledLink href={link}>{ReactHtmlParser(t(val))}</StyledLink> : ReactHtmlParser(t(val))}
+                  </div>
                 ))}
               </StyledContentList>
             </StyledYear>
