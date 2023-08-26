@@ -11,6 +11,8 @@ import { PROJECTS_FOLDER } from '../constants/folders';
 import useKeypress from 'react-use-keypress';
 import { PLACEHOLDER_FOLDER } from '../constants/folders';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
+import { useDrag } from '@use-gesture/react';
+import { mobileAndTabletCheck } from '../utils/browser';
 
 const PhotoCreditText = styled.div`
   text-align: right;
@@ -105,6 +107,13 @@ export const ProjectPage = ({ projects }) => {
   const { t } = useTranslation('work');
   useKeypress('ArrowLeft', () => navigateToAnotherProject(projects[id].next, history));
   useKeypress('ArrowRight', () => navigateToAnotherProject(projects[id].previous, history));
+  useDrag(
+    ({ down, movement: [mx] }) => {
+      if (!mobileAndTabletCheck() || !down || Math.abs(mx) < 10) return;
+      navigateToAnotherProject(mx > 0 ? projects[id].next : projects[id].previous, history);
+    },
+    { target: window },
+  );
 
   const {
     src,
