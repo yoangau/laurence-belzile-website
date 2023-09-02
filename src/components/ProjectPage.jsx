@@ -163,6 +163,8 @@ export const ProjectPage = ({ projects }) => {
           )}
           {available && price && <StyledInfo>{getPriceCad(price)}</StyledInfo>}
           <Spacer />
+          <Spacer />
+          <Spacer />
           {!mobileAndTabletCheck() && (
             <StyledArrows>
               <StyledNavArrows onClick={navigateNext}>
