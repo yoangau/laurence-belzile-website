@@ -13,3 +13,7 @@ export const mobileAndTabletCheck = () => {
   })(navigator.userAgent || navigator.vendor || window.opera);
   return check;
 };
+
+export const openInNewTab = (url) => {
+  window.open(url, '_blank', 'noreferrer');
+};

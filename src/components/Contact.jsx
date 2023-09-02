@@ -3,20 +3,7 @@ import Fade from 'react-reveal/Fade';
 import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import { emailService } from '../service/email-service';
-
-const StyledMail = styled.div`
-  margin-bottom: 8vh;
-`;
-
-const StyledMailto = styled.a`
-  font-size: 3vh;
-  color: black;
-  &:hover,
-  &:focus {
-    color: black;
-    text-decoration: none;
-  }
-`;
+import { Button, Mail, SubHeader } from './lib';
 
 const StyledSocialNetworks = styled.div`
   display: flex;
@@ -26,30 +13,6 @@ const StyledSocialNetworks = styled.div`
 
 const StyledSocialMedia = styled.a`
   margin-right: 1em;
-`;
-
-const StyledButton = styled.button`
-  display: inline-block;
-  outline: 0;
-  cursor: pointer;
-  padding: 5px 16px;
-  font-size: 2vh;
-  font-weight: 500;
-  line-height: 2vh;
-  vertical-align: middle;
-  border: 1px solid;
-  border-radius: 6px;
-  color: #24292e;
-  background-color: #fafbfc;
-  border-color: #1b1f2326;
-  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
-  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
-  transition-property: color, background-color, border-color;
-  &:hover {
-    background-color: #f3f4f6;
-    border-color: #1b1f2326;
-    transition-duration: 0.1s;
-  }
 `;
 
 const StyledInput = styled.input`
@@ -78,13 +41,6 @@ const StyledThankYou = styled.p`
   color: black;
 `;
 
-const StyledHeader = styled.h3`
-  font-size: 3vh;
-  font-weight: 1000;
-`;
-
-const email = 'laurence.belzile.arts@gmail.com';
-
 const social = [
   {
     name: 'Facebook',
@@ -107,11 +63,9 @@ export const Contact = () => {
   return (
     <>
       <Fade bottom>
-        <StyledHeader>{t('contact')}</StyledHeader>
-        <StyledMail>
-          <StyledMailto href={`mailto:${email}`}>{email}</StyledMailto>
-        </StyledMail>
-        <StyledHeader>{t('email-list')}</StyledHeader>
+        <SubHeader>{t('contact')}</SubHeader>
+        <Mail />
+        <SubHeader>{t('email-list')}</SubHeader>
         <div>
           <StyledInput
             type="email"
@@ -119,7 +73,7 @@ export const Contact = () => {
             onChange={(e) => setSubEmail(e.target.value)}
             placeholder={t('email')}
           />
-          <StyledButton
+          <Button
             onClick={async () => {
               const result = await emailService.subscribe(subEmail);
               setThankyouToken(result ? 'subscribed-success' : 'subscribed-failed');
@@ -130,7 +84,7 @@ export const Contact = () => {
             }}
           >
             {t('subscribe')}
-          </StyledButton>
+          </Button>
           {submitted && <StyledThankYou>{t(thankyouToken)}</StyledThankYou>}
         </div>
         <StyledSocialNetworks>

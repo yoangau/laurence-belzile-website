@@ -1,12 +1,9 @@
 import React, { useState, useMemo, useRef } from 'react';
 import { useParams } from 'react-router-dom';
-import { Image, Row, Col, Carousel } from 'antd';
+import { Image, Row, Col } from 'antd';
 import { useTranslation } from 'react-i18next';
 import styled from '@emotion/styled';
-import i18n from '../i18n';
-import ReactHtmlParser from 'react-html-parser';
 import { useHistory } from 'react-router-dom';
-import { PROJECT_BASE } from '../constants/routes';
 import { PROJECTS_FOLDER } from '../constants/folders';
 import useKeypress from 'react-use-keypress';
 import { PLACEHOLDER_FOLDER } from '../constants/folders';
@@ -14,12 +11,14 @@ import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { useGesture } from '@use-gesture/react';
 import { mobileAndTabletCheck } from '../utils/browser';
 import { useSpring, animated } from '@react-spring/web';
-
-const PhotoCreditText = styled.div`
-  text-align: right;
-  width: 100%;
-  color: #aaaaaa;
-`;
+import { Carousel, Spacer, PhotoCreditText } from './lib';
+import {
+  formatTitle,
+  formatTechnique,
+  getPriceCad,
+  navigateToAnotherProject,
+  formatAvailableHref,
+} from '../utils/project';
 
 const StyledRow = styled(Row)`
   margin-top: 5vh;
@@ -30,76 +29,32 @@ const StyledInfo = styled.div`
   font-size: 1.5em;
 `;
 
-const Spacer = styled.div`
-  height: 3vh;
-`;
+const StyledAvailable = styled.a`
+  font-size: 1.5em;
+  color: #000000;
+  text-decoration: underline;
 
-const StyledCarousel = styled(Carousel)`
   &:hover,
   &:focus {
-    cursor: grab;
-  }
-
-  > .slick-dots li button {
-    background: black;
-    opacity: 0.5;
-  }
-
-  > .slick-dots li.slick-active button {
-    background: black;
-  }
-
-  > .slick-prev,
-  > .slick-prev:focus {
-    font-size: 1.5em;
-    left: 10px;
-    z-index: 2;
-    color: #aaa;
-  }
-
-  > .slick-next,
-  > .slick-next:focus {
-    font-size: 1.5em;
-    right: 10px;
-    z-index: 2;
-    color: #aaa;
-  }
-
-  > .slick-prev:hover,
-  > .slick-next:hover {
-    color: black;
+    cursor: pointer;
+    color: #aaaaaa;
   }
 `;
 
-const getPriceCad = (price) => (i18n.language === 'en' ? `$${price}` : `${price} $`);
+const StyledArrows = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+`;
 
-const formatTitle = (title, t) => {
-  if (!(title ?? '@@untitled').startsWith('@@')) {
-    return <i>{title}</i>;
+const StyledNavArrows = styled.div`
+  font-size: 2vw;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    color: #aaaaaa;
   }
-
-  return ReactHtmlParser(t(title));
-};
-
-const formatTechnique = (techniques, t) => {
-  if (!techniques) {
-    return null;
-  }
-  if (techniques.length === 1) {
-    return t(techniques[0]);
-  }
-  if (techniques.length === 2) {
-    return t(techniques[0]) + ' ' + t(techniques[1]);
-  }
-
-  return `${techniques.slice(0, -2).map(t).join(', ')} ${t('and')} ${t(techniques.slice(-2))} ${t(
-    techniques.slice(-1),
-  )}`;
-};
-
-const navigateToAnotherProject = (id, history) => {
-  history.push(`${PROJECT_BASE}/${id}`);
-};
+`;
 
 export const ProjectPage = ({ projects }) => {
   const ref = useRef(null);
@@ -112,8 +67,11 @@ export const ProjectPage = ({ projects }) => {
   const history = useHistory();
   const { id } = useParams();
   const { t } = useTranslation('work');
-  useKeypress('ArrowLeft', () => navigateToAnotherProject(projects[id].next, history));
-  useKeypress('ArrowRight', () => navigateToAnotherProject(projects[id].previous, history));
+  const project = projects[id];
+  const navigateNext = () => navigateToAnotherProject(project.next, history);
+  const navigatePrevious = () => navigateToAnotherProject(project.previous, history);
+  useKeypress('ArrowLeft', navigateNext);
+  useKeypress('ArrowRight', navigatePrevious);
   useGesture(
     {
       onDrag: ({ down, movement: [mx], target }) => {
@@ -124,7 +82,7 @@ export const ProjectPage = ({ projects }) => {
 
       onDragEnd: ({ down, movement: [mx] }) => {
         if (!mobileAndTabletCheck() || down || Math.abs(mx) < 150) return;
-        navigateToAnotherProject(mx > 0 ? projects[id].next : projects[id].previous, history);
+        navigateToAnotherProject(mx > 0 ? project.next : project.previous, history);
         setOpacity(1);
         api.start({ x: 0, y: 0 });
       },
@@ -140,18 +98,19 @@ export const ProjectPage = ({ projects }) => {
     year,
     price,
     available,
+    'buy-ref': buyRef,
     'additional-images': additionalImages,
-  } = projects[id];
+  } = project;
   const photoCredits = useMemo(
-    () => [projects[id]['photo-credit'], additionalImages?.map(({ 'photo-credit': pc }) => pc)].flat(),
-    [additionalImages, id, projects],
+    () => [project['photo-credit'], additionalImages?.map(({ 'photo-credit': pc }) => pc)].flat(),
+    [additionalImages, project],
   );
   const translatedTitle = formatTitle(title, t);
   return (
     <animated.div ref={ref} style={{ x, y, touchAction: 'none', opacity }}>
       <StyledRow gutter={[0, 50]}>
         <Col xs={{ span: 20 }} lg={{ span: 13 }}>
-          <StyledCarousel
+          <Carousel
             arrows
             prevArrow={<LeftOutlined />}
             nextArrow={<RightOutlined />}
@@ -182,19 +141,38 @@ export const ProjectPage = ({ projects }) => {
                 }
               />
             ))}
-          </StyledCarousel>
+          </Carousel>
           <Row>
             <PhotoCreditText>{t('photo-credit') + t(photoCredits[photoCredit])}</PhotoCreditText>
           </Row>
         </Col>
         <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
+          <Spacer />
+
           <StyledInfo>{translatedTitle}</StyledInfo>
           <StyledInfo>{formatTechnique(technique, t)}</StyledInfo>
           <StyledInfo>{dimension}</StyledInfo>
           <StyledInfo>{year}</StyledInfo>
           <Spacer />
-          {available !== null && <StyledInfo>{available ? t('available') : t('sold')}</StyledInfo>}
+          {available !== null && available ? (
+            <StyledAvailable href={formatAvailableHref(buyRef, project, t)} target="_blank">
+              {t('available')}
+            </StyledAvailable>
+          ) : (
+            <StyledInfo>{t('sold')}</StyledInfo>
+          )}
           {available && price && <StyledInfo>{getPriceCad(price)}</StyledInfo>}
+          <Spacer />
+          {!mobileAndTabletCheck() && (
+            <StyledArrows>
+              <StyledNavArrows onClick={navigateNext}>
+                <LeftOutlined />
+              </StyledNavArrows>
+              <StyledNavArrows onClick={navigatePrevious}>
+                <RightOutlined />
+              </StyledNavArrows>
+            </StyledArrows>
+          )}
         </Col>
       </StyledRow>
     </animated.div>
