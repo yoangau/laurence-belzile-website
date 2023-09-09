@@ -12,7 +12,7 @@ import { useGesture } from '@use-gesture/react';
 import { mobileAndTabletCheck } from '../utils/browser';
 import { useSpring, animated } from '@react-spring/web';
 import { Carousel, Spacer, PhotoCreditText, ProjectInfoEntry } from './lib';
-import { formatTitle, formatTechnique, navigateToAnotherProject } from '../utils/project';
+import { formatTitle, formatTechnique, navigateToAnotherProject, getTitleAlt } from '../utils/project';
 import { ProjectAvailability } from './ProjectAvailability';
 
 const StyledRow = styled(Row)`
@@ -71,6 +71,7 @@ export const ProjectPage = ({ projects }) => {
 
   const {
     src,
+    alt,
     title,
     technique,
     dimension,
@@ -84,7 +85,7 @@ export const ProjectPage = ({ projects }) => {
     () => [project['photo-credit'], additionalImages?.map(({ 'photo-credit': pc }) => pc)].flat(),
     [additionalImages, project],
   );
-  const translatedTitle = formatTitle(title, t);
+  const formattedTitle = formatTitle(title, t);
   return (
     <animated.div ref={ref} style={{ x, y, touchAction: 'none', opacity }}>
       <StyledRow gutter={[0, 50]}>
@@ -100,16 +101,18 @@ export const ProjectPage = ({ projects }) => {
           >
             <Image
               key={src}
+              alt={alt}
               draggable={false}
               width="100%"
               fluid="true"
               preview={false}
               src={`${PROJECTS_FOLDER}/${src}`}
-              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={title} />}
+              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={alt} />}
             />
             {additionalImages?.map(({ src: additionalSrc }) => (
               <Image
                 key={additionalSrc}
+                alt={alt}
                 draggable={false}
                 width="100%"
                 fluid="true"
@@ -128,7 +131,7 @@ export const ProjectPage = ({ projects }) => {
         <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
           <Spacer />
 
-          <ProjectInfoEntry>{translatedTitle}</ProjectInfoEntry>
+          <ProjectInfoEntry>{formattedTitle}</ProjectInfoEntry>
           <ProjectInfoEntry>{formatTechnique(technique, t)}</ProjectInfoEntry>
           <ProjectInfoEntry>{dimension}</ProjectInfoEntry>
           <ProjectInfoEntry>{year}</ProjectInfoEntry>

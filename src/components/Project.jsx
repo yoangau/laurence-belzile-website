@@ -25,7 +25,7 @@ const ClickableImage = styled(Image)`
   }
 `;
 
-export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
+export const Project = ({ id, src, alt, width, year, isYearAnchor }) => {
   return (
     <>
       {isYearAnchor && <div id={year} />}
@@ -39,8 +39,8 @@ export const Project = ({ id, src, title, width, year, isYearAnchor }) => {
                 src={`${COMPRESSED_FOLDER}/${src}`}
                 decoding="async"
                 preview={false}
-                alt={title}
-                placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={title} />}
+                alt={alt}
+                placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={alt} />}
               />
             </Fade>
           </Link>
