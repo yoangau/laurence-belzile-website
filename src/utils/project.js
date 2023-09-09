@@ -3,14 +3,20 @@ import ReactHtmlParser from 'react-html-parser';
 import { PROJECT_BASE } from '../constants/routes';
 import i18n from '../i18n';
 
+const translateTitle = (title, t) => {
+  const needsTranslation = (title ?? '@@untitled').startsWith('@@');
+  return [needsTranslation ? t(title) : title, needsTranslation];
+};
+
 export const getPriceCad = (price) => (i18n.language === 'en' ? `$${price}` : `${price} $`);
 
 export const formatTitle = (title, t) => {
-  if (!(title ?? '@@untitled').startsWith('@@')) {
-    return <i>{title}</i>;
+  const [mightBeTranslatedTitle, translated] = translateTitle(title, t);
+  if (!translated) {
+    return <i>{mightBeTranslatedTitle}</i>;
   }
 
-  return ReactHtmlParser(t(title));
+  return ReactHtmlParser(mightBeTranslatedTitle);
 };
 
 export const formatTechnique = (techniques, t) => {
@@ -33,7 +39,10 @@ export const navigateToAnotherProject = (id, history) => {
   history.push(`${PROJECT_BASE}/${id}`);
 };
 
-export const formatAvailableHref = (href, { id, title }, t) =>
-  href.startsWith('mailto')
-    ? `${href}?subject=[${id}] ${title.startsWith('@@') ? t(title).replaceAll(/(<i>|<\/i>)/g, '"') : title}`
-    : href;
+export const formatAvailableHref = (href, { id, title }, t) => {
+  if (!href) return null;
+  const mailto = href.startsWith('mailto');
+  if (!mailto) return href;
+  const [translatedTitle] = translateTitle(title, t);
+  return `${href}?subject=[${id}] ${translatedTitle.replaceAll(/(<i>|<\/i>)/g, '"')}`;
+};

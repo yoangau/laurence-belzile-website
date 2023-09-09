@@ -154,7 +154,7 @@ export const ProjectPage = ({ projects }) => {
           <StyledInfo>{dimension}</StyledInfo>
           <StyledInfo>{year}</StyledInfo>
           <Spacer />
-          {available !== null && available ? (
+          {available !== null && available && buyRef ? (
             <StyledAvailable href={formatAvailableHref(buyRef, project, t)} target="_blank">
               {t('available')}
             </StyledAvailable>
