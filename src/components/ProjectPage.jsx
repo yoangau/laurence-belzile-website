@@ -11,34 +11,13 @@ import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { useGesture } from '@use-gesture/react';
 import { mobileAndTabletCheck } from '../utils/browser';
 import { useSpring, animated } from '@react-spring/web';
-import { Carousel, Spacer, PhotoCreditText } from './lib';
-import {
-  formatTitle,
-  formatTechnique,
-  getPriceCad,
-  navigateToAnotherProject,
-  formatAvailableHref,
-} from '../utils/project';
+import { Carousel, Spacer, PhotoCreditText, ProjectInfoEntry } from './lib';
+import { formatTitle, formatTechnique, navigateToAnotherProject } from '../utils/project';
+import { ProjectAvailability } from './ProjectAvailability';
 
 const StyledRow = styled(Row)`
   margin-top: 5vh;
   margin-bottom: 5vh;
-`;
-
-const StyledInfo = styled.div`
-  font-size: 1.5em;
-`;
-
-const StyledAvailable = styled.a`
-  font-size: 1.5em;
-  color: #000000;
-  text-decoration: underline;
-
-  &:hover,
-  &:focus {
-    cursor: pointer;
-    color: #aaaaaa;
-  }
 `;
 
 const StyledArrows = styled.div`
@@ -149,19 +128,12 @@ export const ProjectPage = ({ projects }) => {
         <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
           <Spacer />
 
-          <StyledInfo>{translatedTitle}</StyledInfo>
-          <StyledInfo>{formatTechnique(technique, t)}</StyledInfo>
-          <StyledInfo>{dimension}</StyledInfo>
-          <StyledInfo>{year}</StyledInfo>
+          <ProjectInfoEntry>{translatedTitle}</ProjectInfoEntry>
+          <ProjectInfoEntry>{formatTechnique(technique, t)}</ProjectInfoEntry>
+          <ProjectInfoEntry>{dimension}</ProjectInfoEntry>
+          <ProjectInfoEntry>{year}</ProjectInfoEntry>
           <Spacer />
-          {available !== null && available && buyRef ? (
-            <StyledAvailable href={formatAvailableHref(buyRef, project, t)} target="_blank">
-              {t('available')}
-            </StyledAvailable>
-          ) : (
-            <StyledInfo>{t('sold')}</StyledInfo>
-          )}
-          {available && price && <StyledInfo>{getPriceCad(price)}</StyledInfo>}
+          <ProjectAvailability {...{ available, price, title, id, buyRef }} />
           <Spacer />
           <Spacer />
           <Spacer />
