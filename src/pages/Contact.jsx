@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import { emailService } from '../service/email-service';
-import { Button, Mail, SubHeader } from './lib';
+import { Button, Mail, SubHeader } from '../components/lib';
 
 const StyledSocialNetworks = styled.div`
   display: flex;

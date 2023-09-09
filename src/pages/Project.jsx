@@ -11,9 +11,9 @@ import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { useGesture } from '@use-gesture/react';
 import { mobileAndTabletCheck } from '../utils/browser';
 import { useSpring, animated } from '@react-spring/web';
-import { Carousel, Spacer, PhotoCreditText, ProjectInfoEntry } from './lib';
-import { formatTitle, formatTechnique, navigateToAnotherProject, getTitleAlt } from '../utils/project';
-import { ProjectAvailability } from './ProjectAvailability';
+import { Carousel, Spacer, PhotoCreditText, ProjectInfoEntry } from '../components/lib';
+import { formatTitle, formatTechnique, navigateToAnotherProject } from '../utils/project';
+import { ProjectAvailability } from '../components/ProjectAvailability';
 
 const StyledRow = styled(Row)`
   margin-top: 5vh;
@@ -35,7 +35,7 @@ const StyledNavArrows = styled.div`
   }
 `;
 
-export const ProjectPage = ({ projects }) => {
+export const Project = ({ projects }) => {
   const ref = useRef(null);
   const [opacity, setOpacity] = useState(1);
   const [{ x, y }, api] = useSpring(() => ({

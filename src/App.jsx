@@ -4,13 +4,9 @@ import styled from '@emotion/styled';
 import { ConfigProvider } from 'antd';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { NavBar } from './components/NavBar';
-import { Work } from './components/Work';
-import { Contact } from './components/Contact';
+import { Work, Project, Contact, Resume, Info } from './pages';
 import { Name } from './components/Name';
-import { Resume } from './components/Resume';
-import { Info } from './components/Info';
 import { ABOUT, CONTACT, CV, LANDING, PROJECT, WORK } from './constants/routes';
-import { ProjectPage } from './components/ProjectPage';
 import { useProjects } from './hooks/useProjects';
 
 const StyledApp = styled.div`
@@ -42,7 +38,7 @@ export const App = () => {
               <Work {...rest} />
             </Route>
             <Route path={PROJECT}>
-              <ProjectPage projects={projectsById} />
+              <Project projects={projectsById} />
             </Route>
             <Route path={CONTACT}>
               <Contact />
