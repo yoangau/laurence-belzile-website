@@ -39,7 +39,7 @@ export const navigateToAnotherProject = (id, history) => {
   history.push(`${PROJECT_BASE}/${id}`);
 };
 
-export const formatAvailableHref = (href, { id, title }, t) => {
+export const formatAvailableHref = (href, id, title, t) => {
   if (!href) return null;
   const mailto = href.startsWith('mailto');
   if (!mailto) return href;

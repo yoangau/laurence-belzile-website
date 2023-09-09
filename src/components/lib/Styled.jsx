@@ -76,3 +76,7 @@ export const PhotoCreditText = styled.div`
   width: 100%;
   color: #aaaaaa;
 `;
+
+export const ProjectInfoEntry = styled.div`
+  font-size: 1.5em;
+`;
