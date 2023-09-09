@@ -2,10 +2,10 @@ import React from 'react';
 import { Project } from './Project';
 import { Anchor } from 'antd';
 
-export const Work = ({ reversedProjects, anchorProjectsIds, anchorProjects }) => {
+export const Work = ({ projects, anchorProjectsIds, anchorProjects }) => {
   return (
     <>
-      {reversedProjects.map((project) => (
+      {projects.map((project) => (
         <Project isYearAnchor={anchorProjectsIds.has(project.id)} key={project.id} {...project} />
       ))}
       <Anchor
