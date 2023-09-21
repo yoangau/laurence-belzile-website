@@ -51,7 +51,7 @@ export const Resume = () => {
   const { t } = useTranslation('resume');
   return (
     <Fade bottom>
-      <StyledLink href={`${RESUME_FOLDER}/cv_belzile.pdf`} target="_blank">
+      <StyledLink href={`${RESUME_FOLDER}/${t('file')}`} target="_blank">
         {t('download')}
       </StyledLink>
       {content.map((element, i) => (
