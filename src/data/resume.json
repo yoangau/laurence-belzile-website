@@ -47,6 +47,9 @@
                     },
                     {
                         "val": "expo-ind-2024-1"
+                    },
+                    {
+                        "val": "expo-ind-2024-1"
                     }
                 ]
             },
@@ -335,6 +338,14 @@
         "title": "resid-title",
         "year": [
             {
+                "date": 2023,
+                "list": [
+                    {
+                        "val": "resid-2023-0"
+                    }
+                ]
+            },
+            {
                 "date": 2022,
                 "list": [
                     {
@@ -520,6 +531,19 @@
                 "list": [
                     {
                         "val": "illustration-2020-0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "conference-title",
+        "year": [
+            {
+                "date": 2023,
+                "list": [
+                    {
+                        "val": "conference-2023-0"
                     }
                 ]
             }
