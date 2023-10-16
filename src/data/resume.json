@@ -49,7 +49,7 @@
                         "val": "expo-ind-2024-1"
                     },
                     {
-                        "val": "expo-ind-2024-1"
+                        "val": "expo-ind-2024-2"
                     }
                 ]
             },
@@ -143,6 +143,12 @@
                     },
                     {
                         "val": "expo-col-2023-1"
+                    },
+                    {
+                        "val": "expo-col-2023-2"
+                    },
+                    {
+                        "val": "expo-col-2023-3"
                     }
                 ]
             },
@@ -218,60 +224,6 @@
                     },
                     {
                         "val": "expo-col-2016-1"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "title": "fairs-auct-title",
-        "year": [
-            {
-                "date": 2023,
-                "list": [
-                    {
-                        "val": "fairs-auct-2023-0"
-                    },
-                    {
-                        "val": "fairs-auct-2023-1"
-                    }
-                ]
-            },
-            {
-                "date": 2022,
-                "list": [
-                    {
-                        "val": "fairs-auct-2022-0"
-                    }
-                ]
-            },
-            {
-                "date": 2020,
-                "list": [
-                    {
-                        "val": "fairs-auct-2020-0"
-                    },
-                    {
-                        "val": "fairs-auct-2020-1"
-                    },
-                    {
-                        "val": "fairs-auct-2020-2"
-                    }
-                ]
-            },
-            {
-                "date": 2019,
-                "list": [
-                    {
-                        "val": "fairs-auct-2019-0"
-                    }
-                ]
-            },
-            {
-                "date": 2018,
-                "list": [
-                    {
-                        "val": "fairs-auct-2018-0"
                     }
                 ]
             }
@@ -444,6 +396,68 @@
                 "list": [
                     {
                         "val": "awards-2014-0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "fairs-auct-title",
+        "year": [
+            {
+                "date": 2024,
+                "list": [
+                    {
+                        "val": "fairs-auct-2024-0"
+                    }
+                ]
+            },
+            {
+                "date": 2023,
+                "list": [
+                    {
+                        "val": "fairs-auct-2023-0"
+                    },
+                    {
+                        "val": "fairs-auct-2023-1"
+                    }
+                ]
+            },
+            {
+                "date": 2022,
+                "list": [
+                    {
+                        "val": "fairs-auct-2022-0"
+                    }
+                ]
+            },
+            {
+                "date": 2020,
+                "list": [
+                    {
+                        "val": "fairs-auct-2020-0"
+                    },
+                    {
+                        "val": "fairs-auct-2020-1"
+                    },
+                    {
+                        "val": "fairs-auct-2020-2"
+                    }
+                ]
+            },
+            {
+                "date": 2019,
+                "list": [
+                    {
+                        "val": "fairs-auct-2019-0"
+                    }
+                ]
+            },
+            {
+                "date": 2018,
+                "list": [
+                    {
+                        "val": "fairs-auct-2018-0"
                     }
                 ]
             }
