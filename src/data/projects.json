@@ -3190,22 +3190,22 @@
         "width": "55%"
     },
     {
-        "id": "LB00176",
-        "src": "LB00176.jpg",
+        "id": "LB00186",
+        "src": "LB00186.jpg",
         "available": true,
-        "title": "À l'abord des fleurs",
-        "dimension": "8\" x 10\"",
+        "title": "@@untitled",
+        "dimension": "4\" x 4,5\"",
         "technique": [
             "acrylic",
-            "on-canvas"
+            "on-wood"
         ],
         "year": 2023,
-        "price": 295,
-        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/a-l-abord-des-fleurs-8-x-10",
+        "price": 100,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-1",
-        "width": "45%"
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
     },
     {
         "id": "LB00177",
@@ -3230,25 +3230,25 @@
         "expo": null,
         "photo-credit": "photo-credit-1",
         "width": "85%"
-    },  
+    },
     {
-        "id": "LB00186",
-        "src": "LB00186.jpg",
+        "id": "LB00176",
+        "src": "LB00176.jpg",
         "available": true,
-        "title": "@@untitled",
-        "dimension": "4\" x 4,5\"",
+        "title": "À l'abord des fleurs",
+        "dimension": "8\" x 10\"",
         "technique": [
             "acrylic",
-            "on-wood"
+            "on-canvas"
         ],
         "year": 2023,
-        "price": 100,
-        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "price": 295,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/a-l-abord-des-fleurs-8-x-10",
         "expo-only": false,
         "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
+        "photo-credit": "photo-credit-1",
+        "width": "45%"
+    },  
     {
         "id": "LB00172",
         "src": "LB00172.jpg",
@@ -3325,7 +3325,7 @@
         "expo-only": false,
         "expo": null,
         "photo-credit": "photo-credit-0",
-        "width": "60%"
+        "width": "65%"
     }, 
     {
         "id": "LB00164",
@@ -3381,7 +3381,7 @@
         "expo-only": false,
         "expo": null,
         "photo-credit": "photo-credit-0",
-        "width": "60%"
+        "width": "50%"
     }, 
     {
         "id": "LB00188",
