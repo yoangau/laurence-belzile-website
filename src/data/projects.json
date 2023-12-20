@@ -3132,5 +3132,369 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "45%"
+    },
+    {
+        "id": "LB00166",
+        "src": "LB00166.jpg",
+        "additional-images": [
+            {
+                "src": "LB00167.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00168.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "5,5\" x 6\"",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2023,
+        "price": 165,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00180",
+        "src": "LB00180.jpg",
+        "additional-images": [
+            {
+                "src": "LB00179.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00181.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "12\" x 16\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 480,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-12-x-16?variant=43880568619200",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "55%"
+    },
+    {
+        "id": "LB00176",
+        "src": "LB00176.jpg",
+        "available": true,
+        "title": "À l'abord des fleurs",
+        "dimension": "8\" x 10\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 295,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/a-l-abord-des-fleurs-8-x-10",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "45%"
+    },
+    {
+        "id": "LB00177",
+        "src": "LB00177.jpg",
+        "additional-images": [
+            {
+                "src": "LB00178.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": true,
+        "title": "J'ai traversé",
+        "dimension": "36\" x 60\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 2275,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/j-ai-traverse-36-x-60",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "85%"
+    },  
+    {
+        "id": "LB00186",
+        "src": "LB00186.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4\" x 4,5\"",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2023,
+        "price": 100,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00172",
+        "src": "LB00172.jpg",
+        "additional-images": [
+            {
+                "src": "LB00173.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00174.jpg",
+                "photo-credit": "photo-credit-1"
+            },           
+            {
+                "src": "LB00175.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "39\" x 48\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 1995,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-39-x-48",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "85%"
+    }, 
+    {
+        "id": "LB00182",
+        "src": "LB00182.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 600,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00183",
+        "src": "LB00183.jpg",
+        "additional-images": [
+            {
+                "src": "LB00184.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00184.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "24\" x 36\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 1166,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    }, 
+    {
+        "id": "LB00163",
+        "src": "LB00163.jpg",
+        "additional-images": [
+            {
+                "src": "LB00164.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00165.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "8,5\" x 10,75\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 320,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-8-5-x-10-75mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    }, 
+    {
+        "id": "LB00169",
+        "src": "LB00169.jpg",
+        "additional-images": [
+            {
+                "src": "LB00170.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00171.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "12\" x 18\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 486,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    }, 
+    {
+        "id": "LB00188",
+        "src": "LB00188.jpg",
+        "available": true,
+        "title": "Ces lieux autres 2",
+        "dimension": "19\" x 24\"",
+        "technique": [
+            "crayon",
+            "dry-pastel",
+            "on-paper"
+        ],
+        "year": 2023,
+        "price": 775,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    }, 
+    {
+        "id": "LB00189",
+        "src": "LB00189.jpg",
+        "available": true,
+        "title": "Ces lieux autres 3",
+        "dimension": "19\" x 24\"",
+        "technique": [
+            "crayon",
+            "dry-pastel",
+            "on-paper"
+        ],
+        "year": 2023,
+        "price": 775,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    }, 
+    {
+        "id": "LB00190",
+        "src": "LB00190.jpg",
+        "available": true,
+        "title": "Ces lieux autres 4",
+        "dimension": "19\" x 24\"",
+        "technique": [
+            "crayon",
+            "dry-pastel",
+            "on-paper"
+        ],
+        "year": 2023,
+        "price": 775,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    }, 
+    {
+        "id": "LB00191",
+        "src": "LB00191.jpg",
+        "available": true,
+        "title": "Ces lieux autres 5",
+        "dimension": "19\" x 24\"",
+        "technique": [
+            "crayon",
+            "dry-pastel",
+            "on-paper"
+        ],
+        "year": 2023,
+        "price": 775,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    }, 
+    {
+        "id": "LB00192",
+        "src": "LB00192.jpg",
+        "available": true,
+        "title": "Ces lieux autres 6",
+        "dimension": "19\" x 24\"",
+        "technique": [
+            "crayon",
+            "dry-pastel",
+            "on-paper"
+        ],
+        "year": 2023,
+        "price": 775,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    }, 
+    {
+        "id": "LB00193",
+        "src": "LB00193.jpg",
+        "available": true,
+        "title": "Ces lieux autres 7",
+        "dimension": "19\" x 24\"",
+        "technique": [
+            "crayon",
+            "dry-pastel",
+            "on-paper"
+        ],
+        "year": 2023,
+        "price": 775,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
     }
 ]
