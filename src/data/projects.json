@@ -3218,24 +3218,6 @@
         "width": "55%"
     },
     {
-        "id": "LB00186",
-        "src": "LB00186.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "4\" x 4,5\"",
-        "technique": [
-            "acrylic",
-            "on-wood"
-        ],
-        "year": 2023,
-        "price": 100,
-        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
-        "width": "30%"
-    },
-    {
         "id": "LB00177",
         "src": "LB00177.jpg",
         "additional-images": [
@@ -3276,7 +3258,25 @@
         "expo": null,
         "photo-credit": "photo-credit-1",
         "width": "45%"
-    },  
+    }, 
+    {
+        "id": "LB00186",
+        "src": "LB00186.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4\" x 4,5\"",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2023,
+        "price": 100,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    }, 
     {
         "id": "LB00172",
         "src": "LB00172.jpg",
