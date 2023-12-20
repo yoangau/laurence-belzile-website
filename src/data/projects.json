@@ -3034,6 +3034,24 @@
         "width": "45%"
     },
     {
+        "id": "LB00156",
+        "src": "LB00156.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "24\" x 36\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 1166,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
         "id": "LB00183",
         "src": "LB00183.jpg",
         "additional-images": [
@@ -3059,26 +3077,8 @@
         "expo-only": false,
         "expo": null,
         "photo-credit": "photo-credit-0",
-        "width": "55%"
-    }, 
-    {
-        "id": "LB00156",
-        "src": "LB00156.jpg",
-        "available": true,
-        "title": "@@untitled",
-        "dimension": "24\" x 36\"",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
-        "year": 2023,
-        "price": 1166,
-        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-        "expo-only": false,
-        "expo": null,
-        "photo-credit": "photo-credit-0",
         "width": "60%"
-    },
+    }, 
     {
         "id": "LB00157",
         "src": "LB00157.jpg",
@@ -3095,7 +3095,7 @@
         "expo-only": false,
         "expo": null,
         "photo-credit": "photo-credit-0",
-        "width": "55%"
+        "width": "45%"
     },
     {
         "id": "LB00158",
