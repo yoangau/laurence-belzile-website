@@ -2,12 +2,13 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
+import { Image } from 'antd';
 
 const StyledInfo = styled.p`
   font-weight: bold;
   text-align: justify;
   padding-bottom: 0.5em;
-  margin-top: 1.8em;
+  margin-top: 6em;
   margin-left: -0.2em;
   margin-right: 5em;
 `;
@@ -48,6 +49,13 @@ export const Info = () => {
 
   return (
     <Fade bottom>
+      <Image
+        draggable={false}
+        width="70%"
+        fluid="true"
+        preview={false}
+        src="/Laurence_Belzile_profil.jpg"
+      />
       <StyledInfo>{t('content-0')}</StyledInfo>
       <StyledInfo1>{t('content')}</StyledInfo1>
       <StyledInfo2>{t('content-2')}</StyledInfo2>
