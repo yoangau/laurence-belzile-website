@@ -2858,16 +2858,16 @@
     {
         "id": "LB00145",
         "src": "LB00145.jpg",
-        "available": true,
-        "title": "@@untitled",
+        "available": false,
+        "title": "La forêt des autres",
         "dimension": "9\" x 12\"",
         "technique": [
             "acrylic",
             "on-canvas"
         ],
         "year": 2022,
-        "price": 324,
-        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/la-foret-des-autres-9-x-12",
+        "price": null,
+        "buy-ref": null,
         "expo-only": false,
         "expo": null,
         "photo-credit": "photo-credit-0",
@@ -3100,15 +3100,15 @@
     {
         "id": "LB00158",
         "src": "LB00158.jpg",
-        "available": true,
-        "title": "@@untitled",
+        "available": false,
+        "title": "Reprendre",
         "dimension": "8.5\" x 10.75\"",
         "technique": [
             "crayon",
             "on-wood"
         ],
         "year": 2023,
-        "price": 306,
+        "price": null,
         "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
         "expo-only": false,
         "expo": null,
