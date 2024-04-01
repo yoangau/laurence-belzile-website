@@ -478,7 +478,7 @@
         "title": "other-title",
         "year": [
             {
-                "date": "2021-2023",
+                "date": "2021-2024",
                 "list": [
                     {
                         "val": "other-2021-2023-0"
@@ -514,6 +514,14 @@
     {
         "title": "jobs-title",
         "year": [
+        {
+            "date": "2024",
+            "list": [
+                {
+                    "val": "jobs-2024-0"
+                }
+            ]
+        },
             {
                 "date": "2018-2021",
                 "list": [
@@ -577,6 +585,15 @@
     {
         "title": "press-title",
         "year": [
+            {
+                "date": 2024,
+                "list": [
+                    {
+                        "val": "coast-reporter-2024", 
+                        "link": "https://www.coastreporter.net/local-arts/nature-leads-the-way-in-new-abstract-art-at-sunshine-coast-arts-centre-8315761"
+                    }
+                ]
+            },
             {
                 "date": 2022,
                 "list": [
