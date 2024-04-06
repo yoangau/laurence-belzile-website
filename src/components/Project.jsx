@@ -15,6 +15,7 @@ const StyledProject = styled.div`
   margin-top: 4em;
   margin-bottom: 8em;
   max-width: 80vw;
+  min-width: 80vw;
 `;
 
 const ClickableImage = styled(Image)`
@@ -30,7 +31,7 @@ export const Project = ({ id, src, alt, width, year, isYearAnchor }) => {
     <>
       {isYearAnchor && <div id={year} />}
       <StyledProject id={id}>
-        <LazyLoad once debounce height={'100%'} offset={200}>
+        <LazyLoad once debounce height="100%" offset={200}>
           <Link to={(location) => `${PROJECT_BASE}/${id}`}>
             <Fade bottom>
               <ClickableImage
