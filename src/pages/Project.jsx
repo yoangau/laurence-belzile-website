@@ -22,21 +22,6 @@ const StyledRow = styled(Row)`
   margin-bottom: 5vh;
 `;
 
-const StyledArrows = styled.div`
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-`;
-
-const StyledNavArrows = styled.div`
-  font-size: 2vw;
-  &:hover,
-  &:focus {
-    cursor: pointer;
-    color: #aaaaaa;
-  }
-`;
-
 const StyledMetaData = styled.div`
   height: 50vh;
 `;
