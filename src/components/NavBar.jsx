@@ -6,6 +6,7 @@ import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
 import { ABOUT, CONTACT, CV, WORK } from '../constants/routes';
+import { social } from '../pages/Contact';
 
 const StyledLink = styled.p`
   color: #000000;
@@ -16,6 +17,28 @@ const StyledLink = styled.p`
   &:focus {
     color: #aaaaaa;
     cursor: pointer;
+  }
+`;
+
+const StyledOutsideLink = styled.a`
+  color: #000000;
+  font-size: 15pt;
+  border-radius: 0.25rem;
+  margin: 0 0.5em;
+  &:hover,
+  &:focus {
+    color: #aaaaaa;
+    cursor: pointer;
+  }
+`;
+
+const StyledIcon = styled.img`
+  width: 14pt;
+  height: 14pt;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    filter: opacity(50%);
   }
 `;
 
@@ -56,6 +79,9 @@ export const NavBar = () => {
         <StyledLink onClick={() => handleClick(CV)}>{t('resume-header')}</StyledLink>
         <StyledLink onClick={() => handleClick(ABOUT)}>{t('info-header')}</StyledLink>
         <StyledLink onClick={() => handleClick(CONTACT)}>{t('contact-header')}</StyledLink>
+        <StyledOutsideLink href={social[1].url} target="_blank" rel="noreferrer">
+          <StyledIcon src={social[1].source} alt={social[1].name} />
+        </StyledOutsideLink>
         <StyledLink onClick={() => setLanguage(languageSwitchMapper[language])}>
           <b>{languageSwitchMapper[language]}</b>
         </StyledLink>

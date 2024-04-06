@@ -41,7 +41,7 @@ const StyledThankYou = styled.p`
   color: black;
 `;
 
-const social = [
+export const social = [
   {
     name: 'Facebook',
     url: 'https://www.facebook.com/laurence.belzile.art/',
