@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useRef } from 'react';
 import { useParams } from 'react-router-dom';
-import { Image, Row, Col } from 'antd';
+import { Image, Row, Col, FloatButton } from 'antd';
 import { useTranslation } from 'react-i18next';
 import styled from '@emotion/styled';
 import { useHistory } from 'react-router-dom';
@@ -11,7 +11,7 @@ import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { useGesture } from '@use-gesture/react';
 import { mobileAndTabletCheck } from '../utils/browser';
 import { useSpring, animated } from '@react-spring/web';
-import { Carousel, Spacer, PhotoCreditText, ProjectInfoEntry } from '../components/lib';
+import { Spacer, PhotoCreditText, ProjectInfoEntry } from '../components/lib';
 import { formatTitle, formatTechnique, navigateToAnotherProject, getTitleAlt } from '../utils/project';
 import { ProjectAvailability } from '../components/ProjectAvailability';
 import { Helmet } from 'react-helmet';
@@ -50,7 +50,6 @@ export const Project = ({ projects }) => {
     x: 0,
     y: 0,
   }));
-  const [photoCredit, setPhotoCredit] = useState(0);
   const history = useHistory();
   const { id } = useParams();
   const { t } = useTranslation('work');
@@ -100,6 +99,7 @@ export const Project = ({ projects }) => {
   );
   const formattedTitle = formatTitle(title, t);
   const titleAlt = getTitleAlt(title, t);
+
   return (
     <>
       <Helmet>
@@ -116,46 +116,39 @@ export const Project = ({ projects }) => {
 
       <animated.div ref={ref} style={{ x, y, touchAction: 'none', opacity }}>
         <StyledRow gutter={[0, 50]}>
-          <Col xs={{ span: 20 }} lg={{ span: 13 }}>
-            <Carousel
-              arrows
-              prevArrow={<LeftOutlined />}
-              nextArrow={<RightOutlined />}
-              draggable
-              adaptiveHeight
-              dotPosition="top"
-              beforeChange={(current, next) => setPhotoCredit(next)}
-            >
-              <Image
-                key={src}
-                alt={alt}
-                draggable={false}
-                width="100%"
-                fluid="true"
-                preview={false}
-                src={`${PROJECTS_FOLDER}/${src}`}
-                placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={alt} />}
-              />
-              {additionalImages?.map(({ src: additionalSrc }) => (
+          <Col xs={{ span: 20 }} lg={{ span: 12 }}>
+            <Image
+              key={src}
+              alt={alt}
+              draggable={false}
+              width="100%"
+              fluid="true"
+              src={`${PROJECTS_FOLDER}/${src}`}
+              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={alt} />}
+            />
+            <Row>
+              <PhotoCreditText>{t('photo-credit') + t(photoCredits[0])}</PhotoCreditText>
+            </Row>
+            {additionalImages?.map(({ src: additionalSrc }, i) => (
+              <>
                 <Image
                   key={additionalSrc}
                   alt={alt}
                   draggable={false}
                   width="100%"
                   fluid="true"
-                  preview={false}
                   src={`${PROJECTS_FOLDER}/${additionalSrc}`}
                   placeholder={
                     <Image width="100%" src={`${PLACEHOLDER_FOLDER}/${additionalSrc}`} preview={false} alt={title} />
                   }
                 />
-              ))}
-            </Carousel>
-            <Row>
-              <PhotoCreditText>{t('photo-credit') + t(photoCredits[photoCredit])}</PhotoCreditText>
-            </Row>
+                <Row>
+                  <PhotoCreditText>{t('photo-credit') + t(photoCredits[i + 1])}</PhotoCreditText>
+                </Row>
+              </>
+            ))}
           </Col>
-          <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
+          <Col xs={{ span: 20 }} lg={{ span: 6, offset: 1 }}>
             <StyledMetaData>
               <ProjectInfoEntry>{formattedTitle}</ProjectInfoEntry>
               <ProjectInfoEntry>{formatTechnique(technique, t)}</ProjectInfoEntry>
@@ -165,14 +158,15 @@ export const Project = ({ projects }) => {
               <ProjectAvailability {...{ available, price, title, id, buyRef }} />
             </StyledMetaData>
             {!mobileAndTabletCheck() && (
-              <StyledArrows>
-                <StyledNavArrows onClick={navigateNext}>
-                  <LeftOutlined />
-                </StyledNavArrows>
-                <StyledNavArrows onClick={navigatePrevious}>
-                  <RightOutlined />
-                </StyledNavArrows>
-              </StyledArrows>
+              <>
+                <FloatButton onClick={navigatePrevious} shape="square" icon={<RightOutlined />} style={{ right: 24 }} />
+                <FloatButton
+                  onClick={navigateNext}
+                  shape="square"
+                  icon={<LeftOutlined />}
+                  style={{ right: 72, color: 'white' }}
+                />
+              </>
             )}
           </Col>
         </StyledRow>
