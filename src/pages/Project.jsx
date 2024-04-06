@@ -12,8 +12,10 @@ import { useGesture } from '@use-gesture/react';
 import { mobileAndTabletCheck } from '../utils/browser';
 import { useSpring, animated } from '@react-spring/web';
 import { Carousel, Spacer, PhotoCreditText, ProjectInfoEntry } from '../components/lib';
-import { formatTitle, formatTechnique, navigateToAnotherProject } from '../utils/project';
+import { formatTitle, formatTechnique, navigateToAnotherProject, getTitleAlt } from '../utils/project';
 import { ProjectAvailability } from '../components/ProjectAvailability';
+import { Helmet } from 'react-helmet';
+import { WEBSITE, PROJECT_BASE } from '../constants/routes';
 
 const StyledRow = styled(Row)`
   margin-top: 5vh;
@@ -97,69 +99,81 @@ export const Project = ({ projects }) => {
     [additionalImages, project],
   );
   const formattedTitle = formatTitle(title, t);
+  const titleAlt = getTitleAlt(title, t);
   return (
-    <animated.div ref={ref} style={{ x, y, touchAction: 'none', opacity }}>
-      <StyledRow gutter={[0, 50]}>
-        <Col xs={{ span: 20 }} lg={{ span: 13 }}>
-          <Carousel
-            arrows
-            prevArrow={<LeftOutlined />}
-            nextArrow={<RightOutlined />}
-            draggable
-            adaptiveHeight
-            dotPosition="top"
-            beforeChange={(current, next) => setPhotoCredit(next)}
-          >
-            <Image
-              key={src}
-              alt={alt}
-              draggable={false}
-              width="100%"
-              fluid="true"
-              preview={false}
-              src={`${PROJECTS_FOLDER}/${src}`}
-              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={alt} />}
-            />
-            {additionalImages?.map(({ src: additionalSrc }) => (
+    <>
+      <Helmet>
+        <title>{'Laurence Belzile - ' + titleAlt}</title>
+        <meta name="description" content={titleAlt} />
+        <meta property="og:title" content={titleAlt} />
+        <meta property="og:description" content={titleAlt} />
+        <meta property="og:image" content={`${WEBSITE}${PROJECTS_FOLDER}/${src}`} />
+        <meta property="og:url" content={`${WEBSITE}${PROJECT_BASE}/${id}`} />
+      </Helmet>
+
+      <animated.div ref={ref} style={{ x, y, touchAction: 'none', opacity }}>
+        <StyledRow gutter={[0, 50]}>
+          <Col xs={{ span: 20 }} lg={{ span: 13 }}>
+            <Carousel
+              arrows
+              prevArrow={<LeftOutlined />}
+              nextArrow={<RightOutlined />}
+              draggable
+              adaptiveHeight
+              dotPosition="top"
+              beforeChange={(current, next) => setPhotoCredit(next)}
+            >
               <Image
-                key={additionalSrc}
+                key={src}
                 alt={alt}
                 draggable={false}
                 width="100%"
                 fluid="true"
                 preview={false}
-                src={`${PROJECTS_FOLDER}/${additionalSrc}`}
-                placeholder={
-                  <Image width="100%" src={`${PLACEHOLDER_FOLDER}/${additionalSrc}`} preview={false} alt={title} />
-                }
+                src={`${PROJECTS_FOLDER}/${src}`}
+                placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={alt} />}
               />
-            ))}
-          </Carousel>
-          <Row>
-            <PhotoCreditText>{t('photo-credit') + t(photoCredits[photoCredit])}</PhotoCreditText>
-          </Row>
-        </Col>
-        <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
-          <StyledMetaData>
-            <ProjectInfoEntry>{formattedTitle}</ProjectInfoEntry>
-            <ProjectInfoEntry>{formatTechnique(technique, t)}</ProjectInfoEntry>
-            <ProjectInfoEntry>{dimension}</ProjectInfoEntry>
-            <ProjectInfoEntry>{year}</ProjectInfoEntry>
-            <Spacer />
-            <ProjectAvailability {...{ available, price, title, id, buyRef }} />
-          </StyledMetaData>
-          {!mobileAndTabletCheck() && (
-            <StyledArrows>
-              <StyledNavArrows onClick={navigateNext}>
-                <LeftOutlined />
-              </StyledNavArrows>
-              <StyledNavArrows onClick={navigatePrevious}>
-                <RightOutlined />
-              </StyledNavArrows>
-            </StyledArrows>
-          )}
-        </Col>
-      </StyledRow>
-    </animated.div>
+              {additionalImages?.map(({ src: additionalSrc }) => (
+                <Image
+                  key={additionalSrc}
+                  alt={alt}
+                  draggable={false}
+                  width="100%"
+                  fluid="true"
+                  preview={false}
+                  src={`${PROJECTS_FOLDER}/${additionalSrc}`}
+                  placeholder={
+                    <Image width="100%" src={`${PLACEHOLDER_FOLDER}/${additionalSrc}`} preview={false} alt={title} />
+                  }
+                />
+              ))}
+            </Carousel>
+            <Row>
+              <PhotoCreditText>{t('photo-credit') + t(photoCredits[photoCredit])}</PhotoCreditText>
+            </Row>
+          </Col>
+          <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
+            <StyledMetaData>
+              <ProjectInfoEntry>{formattedTitle}</ProjectInfoEntry>
+              <ProjectInfoEntry>{formatTechnique(technique, t)}</ProjectInfoEntry>
+              <ProjectInfoEntry>{dimension}</ProjectInfoEntry>
+              <ProjectInfoEntry>{year}</ProjectInfoEntry>
+              <Spacer />
+              <ProjectAvailability {...{ available, price, title, id, buyRef }} />
+            </StyledMetaData>
+            {!mobileAndTabletCheck() && (
+              <StyledArrows>
+                <StyledNavArrows onClick={navigateNext}>
+                  <LeftOutlined />
+                </StyledNavArrows>
+                <StyledNavArrows onClick={navigatePrevious}>
+                  <RightOutlined />
+                </StyledNavArrows>
+              </StyledArrows>
+            )}
+          </Col>
+        </StyledRow>
+      </animated.div>
+    </>
   );
 };

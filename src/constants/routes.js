@@ -1,3 +1,4 @@
+export const WEBSITE = 'https://laurencebelzile.com';
 export const LANDING = '/';
 export const WORK = '/work';
 export const ABOUT = '/info';
