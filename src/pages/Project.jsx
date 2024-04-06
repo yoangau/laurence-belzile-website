@@ -108,6 +108,9 @@ export const Project = ({ projects }) => {
         <meta property="og:title" content={titleAlt} />
         <meta property="og:description" content={titleAlt} />
         <meta property="og:image" content={`${WEBSITE}${PROJECTS_FOLDER}/${src}`} />
+        <meta property="og:image:secure_url" content={`${WEBSITE}${PROJECTS_FOLDER}/${src}`} />
+        <meta property="og:image:alt" content={alt} />
+        <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:url" content={`${WEBSITE}${PROJECT_BASE}/${id}`} />
       </Helmet>
 

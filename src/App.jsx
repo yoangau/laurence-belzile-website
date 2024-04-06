@@ -37,6 +37,10 @@ export const App = () => {
         <meta name="og:title" content="Laurence Belzile" />
         <meta name="og:description" content="Laurence Belzile - Artiste en art visuel" />
         <meta name="og:url" content={WEBSITE} />
+        <meta property="og:image" content={`${WEBSITE}/Laurence_Belzile_profil.jpg`} />
+        <meta property="og:image:secure_url" content={`${WEBSITE}/Laurence_Belzile_profil.jpg`} />
+        <meta property="og:image:alt" content="Laurence Belzile" />
+        <meta property="og:image:type" content="image/jpeg" />
       </Helmet>
       <StyledApp>
         <Router>
