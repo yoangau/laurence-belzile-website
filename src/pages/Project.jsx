@@ -35,6 +35,10 @@ const StyledNavArrows = styled.div`
   }
 `;
 
+const StyledMetaData = styled.div`
+  height: 50vh;
+`;
+
 let scrollY = window.scrollY;
 
 export const Project = ({ projects }) => {
@@ -136,17 +140,14 @@ export const Project = ({ projects }) => {
           </Row>
         </Col>
         <Col xs={{ span: 20 }} lg={{ span: 9, offset: 1 }}>
-          <Spacer />
-
-          <ProjectInfoEntry>{formattedTitle}</ProjectInfoEntry>
-          <ProjectInfoEntry>{formatTechnique(technique, t)}</ProjectInfoEntry>
-          <ProjectInfoEntry>{dimension}</ProjectInfoEntry>
-          <ProjectInfoEntry>{year}</ProjectInfoEntry>
-          <Spacer />
-          <ProjectAvailability {...{ available, price, title, id, buyRef }} />
-          <Spacer />
-          <Spacer />
-          <Spacer />
+          <StyledMetaData>
+            <ProjectInfoEntry>{formattedTitle}</ProjectInfoEntry>
+            <ProjectInfoEntry>{formatTechnique(technique, t)}</ProjectInfoEntry>
+            <ProjectInfoEntry>{dimension}</ProjectInfoEntry>
+            <ProjectInfoEntry>{year}</ProjectInfoEntry>
+            <Spacer />
+            <ProjectAvailability {...{ available, price, title, id, buyRef }} />
+          </StyledMetaData>
           {!mobileAndTabletCheck() && (
             <StyledArrows>
               <StyledNavArrows onClick={navigateNext}>
