@@ -35,6 +35,8 @@ const StyledNavArrows = styled.div`
   }
 `;
 
+let scrollY = window.scrollY;
+
 export const Project = ({ projects }) => {
   const ref = useRef(null);
   const [opacity, setOpacity] = useState(1);
@@ -53,8 +55,13 @@ export const Project = ({ projects }) => {
   useKeypress('ArrowRight', navigatePrevious);
   useGesture(
     {
-      onDrag: ({ down, movement: [mx], target }) => {
+      onDragStart: ({ target }) => {
         if (!mobileAndTabletCheck() || target.localName === 'img' || target.localName === 'svg') return;
+        scrollY = window.scrollY;
+      },
+      onDrag: ({ down, movement: [mx, my], target }) => {
+        if (!mobileAndTabletCheck() || target.localName === 'img' || target.localName === 'svg') return;
+        window.scrollTo({ top: scrollY - my });
         setOpacity(1 - Math.abs(mx) / 200);
         api.start({ x: down ? mx : 0, y: 0, immediate: down });
       },
