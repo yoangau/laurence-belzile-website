@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import content from '../data/resume.json';
 import ReactHtmlParser from 'react-html-parser';
 import { RESUME_FOLDER } from '../constants/folders';
+import { CustomHelmet } from '../components/CustomHelmet';
 
 const StyledTitle = styled.div`
   margin-bottom: 0.5em;
@@ -50,27 +51,30 @@ const StyledLink = styled.a`
 export const Resume = () => {
   const { t } = useTranslation('resume');
   return (
-    <Fade bottom>
-      <StyledLink href={`${RESUME_FOLDER}/${t('file')}`} target="_blank">
-        {t('download')}
-      </StyledLink>
-      {content.map((element, i) => (
-        <div key={`${element.title}-${i}`}>
-          <StyledTitle>{t(element.title)}</StyledTitle>
-          {element.year.map((year, j) => (
-            <StyledYear key={`${year.date}-${j}`}>
-              <StyledDate>{year.date}</StyledDate>
-              <StyledContentList>
-                {year.list.map(({ val, link }, k) => (
-                  <div key={`${val}-${k}`}>
-                    {link ? <StyledLink href={link}>{ReactHtmlParser(t(val))}</StyledLink> : ReactHtmlParser(t(val))}
-                  </div>
-                ))}
-              </StyledContentList>
-            </StyledYear>
-          ))}
-        </div>
-      ))}
-    </Fade>
+    <>
+      <CustomHelmet description="Curriculum Vitae" />
+      <Fade bottom>
+        <StyledLink href={`${RESUME_FOLDER}/${t('file')}`} target="_blank">
+          {t('download')}
+        </StyledLink>
+        {content.map((element, i) => (
+          <div key={`${element.title}-${i}`}>
+            <StyledTitle>{t(element.title)}</StyledTitle>
+            {element.year.map((year, j) => (
+              <StyledYear key={`${year.date}-${j}`}>
+                <StyledDate>{year.date}</StyledDate>
+                <StyledContentList>
+                  {year.list.map(({ val, link }, k) => (
+                    <div key={`${val}-${k}`}>
+                      {link ? <StyledLink href={link}>{ReactHtmlParser(t(val))}</StyledLink> : ReactHtmlParser(t(val))}
+                    </div>
+                  ))}
+                </StyledContentList>
+              </StyledYear>
+            ))}
+          </div>
+        ))}
+      </Fade>
+    </>
   );
 };

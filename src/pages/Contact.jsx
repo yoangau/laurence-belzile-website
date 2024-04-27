@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import { emailService } from '../service/email-service';
 import { Button, Mail, SubHeader } from '../components/lib';
+import { CustomHelmet } from '../components/CustomHelmet';
 
 const StyledSocialNetworks = styled.div`
   display: flex;
@@ -62,6 +63,7 @@ export const Contact = () => {
 
   return (
     <>
+      <CustomHelmet description={t('contact')} />
       <Fade bottom>
         <SubHeader>{t('contact')}</SubHeader>
         <Mail />

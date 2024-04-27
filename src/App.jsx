@@ -6,9 +6,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { NavBar } from './components/NavBar';
 import { Work, Project, Contact, Resume, Info } from './pages';
 import { Name } from './components/Name';
-import { ABOUT, CONTACT, CV, LANDING, PROJECT, WEBSITE, WORK } from './constants/routes';
+import { ABOUT, CONTACT, CV, LANDING, PROJECT, WORK } from './constants/routes';
 import { useProjects } from './hooks/useProjects';
-import { Helmet } from 'react-helmet';
+import { CustomHelmet } from './components/CustomHelmet';
 
 const StyledApp = styled.div`
   background: white;
@@ -30,18 +30,7 @@ export const App = () => {
         },
       }}
     >
-      <Helmet>
-        <title>Laurence Belzile</title>
-        <meta name="description" content="Laurence Belzile - Artiste en art visuel" />
-        <meta name="author" content="Laurence Belzile" />
-        <meta name="og:title" content="Laurence Belzile" />
-        <meta name="og:description" content="Laurence Belzile - Artiste en art visuel" />
-        <meta name="og:url" content={WEBSITE} />
-        <meta property="og:image" content={`${WEBSITE}/Laurence_Belzile_profil.jpg`} />
-        <meta property="og:image:secure_url" content={`${WEBSITE}/Laurence_Belzile_profil.jpg`} />
-        <meta property="og:image:alt" content="Laurence Belzile" />
-        <meta property="og:image:type" content="image/jpeg" />
-      </Helmet>
+      <CustomHelmet description="Artiste en art visuel" />
       <StyledApp>
         <Router>
           <NavBar />

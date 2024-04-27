@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import { Image } from 'antd';
+import { CustomHelmet } from '../components/CustomHelmet';
 
 const StyledInfo = styled.p`
   font-weight: bold;
@@ -48,22 +49,19 @@ export const Info = () => {
   const { t } = useTranslation('info');
 
   return (
-    <Fade bottom>
-      <Image
-        draggable={false}
-        width="70%"
-        fluid="true"
-        preview={false}
-        src="/Laurence_Belzile_profil.jpg"
-      />
-      <StyledInfo>{t('content-0')}</StyledInfo>
-      <StyledInfo1>{t('content')}</StyledInfo1>
-      <StyledInfo2>{t('content-2')}</StyledInfo2>
-      <StyledInfo3>{t('content-3')}</StyledInfo3>
-      <StyledInfo3>{t('content-4')}</StyledInfo3>
-      <StyledInfo3>{t('content-5')}</StyledInfo3>
-      <StyledInfo3>{t('content-6')}</StyledInfo3>
-      <StyledInfo4>{t('content-7')}</StyledInfo4>
-    </Fade>
+    <>
+      <CustomHelmet description={t('content-0')} />
+      <Fade bottom>
+        <Image draggable={false} width="70%" fluid="true" preview={false} src="/Laurence_Belzile_profil.jpg" />
+        <StyledInfo>{t('content-0')}</StyledInfo>
+        <StyledInfo1>{t('content')}</StyledInfo1>
+        <StyledInfo2>{t('content-2')}</StyledInfo2>
+        <StyledInfo3>{t('content-3')}</StyledInfo3>
+        <StyledInfo3>{t('content-4')}</StyledInfo3>
+        <StyledInfo3>{t('content-5')}</StyledInfo3>
+        <StyledInfo3>{t('content-6')}</StyledInfo3>
+        <StyledInfo4>{t('content-7')}</StyledInfo4>
+      </Fade>
+    </>
   );
 };
