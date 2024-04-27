@@ -182,7 +182,7 @@
     {
         "id": "LB00012",
         "src": "LB00012.jpg",
-        "available": false,
+        "available": null,
         "title": "@@residency-anticosti",
         "dimension": null,
         "technique": null,
