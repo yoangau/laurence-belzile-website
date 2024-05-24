@@ -589,6 +589,10 @@
                 "date": 2024,
                 "list": [
                     {
+                        "val": "radio-canada-2024", 
+                        "link": "https://ici.radio-canada.ca/ohdio/premiere/emissions/culture-et-confiture/segments/entrevue/493896/laurence-belzile-peinture-vancouver"
+                    },
+                    {
                         "val": "coast-reporter-2024", 
                         "link": "https://www.coastreporter.net/local-arts/nature-leads-the-way-in-new-abstract-art-at-sunshine-coast-arts-centre-8315761"
                     }
