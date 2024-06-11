@@ -3134,6 +3134,30 @@
         "width": "45%"
     },
     {
+        "id": "LB00208",
+        "src": "LB00208.jpg",
+        "additional-images": [
+            {
+                "src": "LB00209.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": false,
+        "title": "Détendre l'impression",
+        "dimension": "8.5\" x 10.75\"",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "through-garden-ii-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
         "id": "LB00160",
         "src": "LB00160.jpg",
         "additional-images": [
@@ -3188,6 +3212,57 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "30%"
+    },
+    {
+        "id": "LB00199",
+        "src": "LB00199.jpg",
+        "additional-images": [
+            {
+                "src": "LB00200.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00201.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00202.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00203.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00204.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00205.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00206.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00207.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": null,
+        "title": "Au-delà du repli",
+        "dimension": "5\" x 5\"",
+        "technique": [
+            "artist-book"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "au-dela-du-repli-2023",
+        "photo-credit": "photo-credit-1",
+        "width": "70%"
     },
     {
         "id": "LB00180",
@@ -3294,7 +3369,7 @@
                 "photo-credit": "photo-credit-1"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "39\" x 48\"",
         "technique": [
@@ -3309,6 +3384,24 @@
         "photo-credit": "photo-credit-1",
         "width": "85%"
     },
+    {
+        "id": "LB00198",
+        "src": "LB00198.jpg",
+        "available": null,
+        "title": "Au-delà du repli",
+        "dimension": "Galerie Champagne et Paradis, Kamouraska (QC)",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": "au-dela-du-repli-2023" ,
+        "photo-credit": "photo-credit-1",
+        "width": "100%"
+    },   
     {
         "id": "LB00182",
         "src": "LB00182.jpg",
@@ -3496,5 +3589,219 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "60%"
+    },
+    {
+        "id": "LB00195",
+        "src": "LB00195.jpg",
+        "additional-images": [
+            {
+                "src": "LB00194.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00197.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00196.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Ces lieux autres",
+        "dimension": "Alternator Centre for Contemporary Art, Kelowna (BC)",
+        "technique": [
+            "crayon",
+            "dry-pastel",
+            "on-paper"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": "nuit-blanche-2023",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00210",
+        "src": "LB00210.jpg",
+        "available": false,
+        "title": "Glissement",
+        "dimension": "5.5\" x 6\"",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2024,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "through-garden-ii-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00211",
+        "src": "LB00211.jpg",
+        "additional-images": [
+            {
+                "src": "LB00212.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00213.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "8.75\" x 10.75\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "through-garden-ii-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00214",
+        "src": "LB00214.jpg",
+        "available": true,
+        "title": "À l'aube",
+        "dimension": "5.5\" x 6\"",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2024,
+        "price": 160,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": "through-garden-ii-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00215",
+        "src": "LB00215.jpg",
+        "additional-images": [
+            {
+                "src": "LB00216.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Éffondrer le tendre",
+        "dimension": "8.75\" x 10.75\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 300,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": "through-garden-ii-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00218",
+        "src": "LB00218.jpg",
+        "additional-images": [
+            {
+                "src": "LB00217.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00219.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00220.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00221.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00222.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00223.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00224.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Through the Gardens II",
+        "dimension": "Sunshine Coast Art Council, Sechelt (BC)",
+        "technique": null,
+        "year": 2024,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "through-garden-ii-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00225",
+        "src": "LB00225.jpg",
+        "additional-images": [
+            {
+                "src": "LB00226.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "14\" x 17\"",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2023,
+        "price": 535,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": "through-garden-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "55%"
+    },
+    {
+        "id": "LB00227",
+        "src": "LB00227.jpg",
+        "additional-images": [
+            {
+                "src": "LB00228.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "14\" x 17\"",
+        "technique": [
+            "graphite",
+            "on-paper"
+        ],
+        "year": 2023,
+        "price": 535,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": "through-garden-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "55%"
     }
 ]
