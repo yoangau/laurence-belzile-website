@@ -39,6 +39,10 @@ const StyledContentList = styled.div`
   margin-right: 7em;
 `;
 
+const StyledContentListitem = styled.div`
+  margin-bottom: 1em;
+`;
+
 const StyledLink = styled.a`
   color: inherit;
   &:hover,
@@ -65,9 +69,9 @@ export const Resume = () => {
                 <StyledDate>{year.date}</StyledDate>
                 <StyledContentList>
                   {year.list.map(({ val, link }, k) => (
-                    <div key={`${val}-${k}`}>
+                    <StyledContentListitem key={`${val}-${k}`}>
                       {link ? <StyledLink href={link}>{ReactHtmlParser(t(val))}</StyledLink> : ReactHtmlParser(t(val))}
-                    </div>
+                    </StyledContentListitem>
                   ))}
                 </StyledContentList>
               </StyledYear>
