@@ -3803,5 +3803,88 @@
         "expo": "through-garden-2024",
         "photo-credit": "photo-credit-0",
         "width": "55%"
+    },
+    {
+        "id": "LB00229",
+        "src": "LB00229.jpg",
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "4\" x 5.5\"",
+        "technique": [
+            "acrylic",
+            "on-wood"
+        ],
+        "year": 2023,
+        "price": 121,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": "through-garden-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "30%"
+    },
+    {
+        "id": "LB00230",
+        "src": "LB00230.jpg",
+        "additional-images": [
+            {
+                "src": "LB00233.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00232.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00231.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "36\" x 48\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 1866,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": "through-garden-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00234",
+        "src": "LB00234.jpg",
+        "additional-images": [
+            {
+                "src": "LB00235.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00236.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00237.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00238.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Through the Garden",
+        "dimension": "Vernon Public Art Gallery, Vernon (BC)",
+        "technique": null,
+        "year": 2024,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "through-garden-2024",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
     }
 ]
