@@ -3886,5 +3886,73 @@
         "expo": "through-garden-2024",
         "photo-credit": "photo-credit-0",
         "width": "100%"
+    },
+    {
+        "id": "LB00239",
+        "src": "LB00239.jpg",
+        "additional-images": [
+            {
+                "src": "LB00240.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00241.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "12\" x 16\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 460,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00242",
+        "src": "LB00242.jpg",
+        "additional-images": [
+            {
+                "src": "LB00243.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00244.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00245.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00246.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00247.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 600,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
     }
 ]
