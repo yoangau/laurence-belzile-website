@@ -197,7 +197,7 @@
     {
         "id": "LB00013",
         "src": "LB00013.jpg",
-        "available": true,
+        "available": false,
         "title": "La forme",
         "dimension": "36\" x 48\"",
         "technique": [
@@ -1685,7 +1685,7 @@
         "src": "LB00084.jpg",
         "available": null,
         "title": null,
-        "dimension": null,
+        "dimension": "Galerie Champagne et Paradis (QC)",
         "technique": null,
         "year": 2020,
         "price": null,
@@ -2964,7 +2964,7 @@
     {
         "id": "LB00152",
         "src": "LB00152.jpg",
-        "available": true,
+        "available": false,
         "title": "Si j'étais la nuit",
         "dimension": "4\" x 5.5\"",
         "technique": [
@@ -3387,16 +3387,23 @@
     {
         "id": "LB00198",
         "src": "LB00198.jpg",
+        "additional-images": [
+            {
+                "src": "LB00267.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00268.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
         "available": null,
         "title": "Au-delà du repli",
         "dimension": "Galerie Champagne et Paradis, Kamouraska (QC)",
-        "technique": [
-            "acrylic",
-            "on-canvas"
-        ],
+        "technique":null,
         "year": 2023,
         "price": null,
-        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "buy-ref": null,
         "expo-only": false,
         "expo": "au-dela-du-repli-2023" ,
         "photo-credit": "photo-credit-1",
@@ -3873,6 +3880,34 @@
             {
                 "src": "LB00238.jpg",
                 "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00260.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00261.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00266.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00262.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00263.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00264.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00265.jpg",
+                "photo-credit": "photo-credit-0"
             }
         ],
         "available": null,
@@ -3928,15 +3963,11 @@
                 "photo-credit": "photo-credit-0"
             },
             {
-                "src": "LB00245.jpg",
+                "src": "LB00247.jpg",
                 "photo-credit": "photo-credit-0"
             },
             {
                 "src": "LB00246.jpg",
-                "photo-credit": "photo-credit-0"
-            },
-            {
-                "src": "LB00247.jpg",
                 "photo-credit": "photo-credit-0"
             }
         ],
@@ -3954,5 +3985,78 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "60%"
+    },
+    {
+        "id": "LB00248",
+        "src": "LB00248.jpg",
+        "additional-images": [
+            {
+                "src": "LB00249.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00250.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00251.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 600,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00253",
+        "src": "LB00253.jpg",
+        "additional-images": [
+            {
+                "src": "LB00254.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00255.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00256.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00257.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00259.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "36\" x 48\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
     }
+
 ]
