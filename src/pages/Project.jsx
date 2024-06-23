@@ -15,6 +15,7 @@ import { Spacer, PhotoCreditText, ProjectInfoEntry } from '../components/lib';
 import { formatTitle, formatTechnique, navigateToAnotherProject, getTitleAlt } from '../utils/project';
 import { ProjectAvailability } from '../components/ProjectAvailability';
 import { Helmet } from 'react-helmet';
+import ReactHtmlParser from 'react-html-parser';
 import { WEBSITE, PROJECT_BASE } from '../constants/routes';
 
 const StyledRow = styled(Row)`
@@ -73,6 +74,7 @@ export const Project = ({ projects }) => {
     technique,
     dimension,
     year,
+    description,
     price,
     available,
     'buy-ref': buyRef,
@@ -84,7 +86,7 @@ export const Project = ({ projects }) => {
   );
   const formattedTitle = formatTitle(title, t);
   const titleAlt = getTitleAlt(title, t);
-
+  const formattedDescription = description ? ReactHtmlParser(t(description)) : description;
   return (
     <>
       <Helmet>
@@ -139,6 +141,8 @@ export const Project = ({ projects }) => {
               <ProjectInfoEntry>{formatTechnique(technique, t)}</ProjectInfoEntry>
               <ProjectInfoEntry>{dimension}</ProjectInfoEntry>
               <ProjectInfoEntry>{year}</ProjectInfoEntry>
+              {formattedDescription && <Spacer />}
+              {formattedDescription && <ProjectInfoEntry>{formattedDescription}</ProjectInfoEntry>}
               <Spacer />
               <ProjectAvailability {...{ available, price, title, id, buyRef }} />
             </StyledMetaData>
