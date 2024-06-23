@@ -51,6 +51,7 @@ export const useProjects = () => {
         anchorAvailableProjects.map(({ id }) => id),
         [anchorAvailableProjects],
       ),
+    [anchorAvailableProjects],
   );
 
   return {
