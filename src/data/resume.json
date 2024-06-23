@@ -43,7 +43,8 @@
                 "date": 2024,
                 "list": [
                     {
-                        "val": "expo-ind-2024-0"
+                        "val": "expo-ind-2024-0",
+                        "link": "/projet/LB00234"
                     },
                     {
                         "val": "expo-ind-2024-1"
@@ -255,8 +256,8 @@
                 "date": "",
                 "list": [
                     {
-                        "val": "rep-champagne", 
-                        "link": "https:champagneparadis.com/collections/belzile-laurence"
+                        "val": "rep-champagne",
+                        "link": "https://champagneparadis.com/collections/belzile-laurence"
                     }
                 ]
             }
@@ -514,14 +515,14 @@
     {
         "title": "jobs-title",
         "year": [
-        {
-            "date": "2024",
-            "list": [
-                {
-                    "val": "jobs-2024-0"
-                }
-            ]
-        },
+            {
+                "date": "2024",
+                "list": [
+                    {
+                        "val": "jobs-2024-0"
+                    }
+                ]
+            },
             {
                 "date": "2018-2021",
                 "list": [
@@ -589,11 +590,11 @@
                 "date": 2024,
                 "list": [
                     {
-                        "val": "radio-canada-2024", 
+                        "val": "radio-canada-2024",
                         "link": "https://ici.radio-canada.ca/ohdio/premiere/emissions/culture-et-confiture/segments/entrevue/493896/laurence-belzile-peinture-vancouver"
                     },
                     {
-                        "val": "coast-reporter-2024", 
+                        "val": "coast-reporter-2024",
                         "link": "https://www.coastreporter.net/local-arts/nature-leads-the-way-in-new-abstract-art-at-sunshine-coast-arts-centre-8315761"
                     }
                 ]
@@ -602,19 +603,19 @@
                 "date": 2022,
                 "list": [
                     {
-                        "val": "La-tribune-2022", 
+                        "val": "La-tribune-2022",
                         "link": "https://www.latribune.ca/2022/09/19/attentes-et-droits-reserves-a-la-maison-des-arts-et-de-la-culture-32e27705b31a355f1ec090857c939017?fbclid=IwAR3uT8IjJ4DOtap6Q-4s7Oq8d17kZayoZNDaKKTOfWHNK1DokGHTpqqgeS4"
                     },
                     {
-                        "val": "téléjournal-2022", 
+                        "val": "téléjournal-2022",
                         "link": "https://ici.radio-canada.ca/tele/le-telejournal-ottawa-gatineau/site/episodes/639179/telejournal-ottawa-gatineau-daniel-bouchard"
                     },
                     {
-                        "val": "tvco-2022", 
+                        "val": "tvco-2022",
                         "link": "https://tvcotv.com/episode/retrospectives-25-fevrier-2022/"
                     },
                     {
-                        "val": "aero-2022", 
+                        "val": "aero-2022",
                         "link": "https://soundcloud.com/a-lest-de-vos-empires/aero-13-septembre-2022"
                     }
                 ]
@@ -623,15 +624,15 @@
                 "date": 2021,
                 "list": [
                     {
-                        "val": "Soleil-2021", 
+                        "val": "Soleil-2021",
                         "link": "https://www.lesoleil.com/2021/11/27/montagne--la-somme-des-petites-victoires-e66bfe02386ed3bba2b0daeb5b0a48a3"
                     },
                     {
-                        "val": "aero-2021-0", 
+                        "val": "aero-2021-0",
                         "link": "https://laerospatialckrl.wordpress.com/2021/10/19/balado-19-octobre-2021/ "
                     },
                     {
-                        "val": "aero-2021-1", 
+                        "val": "aero-2021-1",
                         "link": "https://laerospatialckrl.wordpress.com/2021/12/01/balado-30-novembre-2021/"
                     }
                 ]
@@ -640,15 +641,15 @@
                 "date": 2020,
                 "list": [
                     {
-                        "val": "Soleil-2020", 
+                        "val": "Soleil-2020",
                         "link": "https://www.lesoleil.com/2020/11/15/foire-en-art-actuel-de-quebec-une-offre-doublee-pour-ledition-virtuelle-3408509c2bfff8dcd1928d7d02f8d2e5"
                     },
                     {
-                        "val": "tva-2020", 
+                        "val": "tva-2020",
                         "link": "https://www.tvanouvelles.ca/2020/11/21/une-exposition-darts-dejoue-la-pandemie"
                     },
                     {
-                        "val": "téléjournal-2020", 
+                        "val": "téléjournal-2020",
                         "link": "https://ici.radio-canada.ca/tele/le-telejournal-quebec/site/segments/reportage/210383/foire-en-art-actuel-en-mode-virtuel-expositions"
                     }
                 ]
@@ -657,19 +658,19 @@
                 "date": 2018,
                 "list": [
                     {
-                        "val": "devoir-2018", 
+                        "val": "devoir-2018",
                         "link": "http://www.ledevoir.com/culture/519729/l-expo-jaune-marine-affiche-ses-couleurs"
                     },
                     {
-                        "val": "rumeur-2018", 
+                        "val": "rumeur-2018",
                         "link": "https://www.rumeurduloup.com/voir-loin-une-exposition-collective-et-inedite-en-arts/"
                     },
                     {
-                        "val": "fabrique-2018", 
+                        "val": "fabrique-2018",
                         "link": "https://www.lafabriqueculturelle.tv/capsules/11277/voir-loin-incursions-dans-le-paysage"
                     },
                     {
-                        "val": "téléjournal-2018", 
+                        "val": "téléjournal-2018",
                         "link": "https://ici.radio-canada.ca/tele/le-telejournal-est-du-quebec/site/episodes/412224/episode-du-26-juillet-2018?fbclid=IwAR2tOhGrkw7y56wrADeG2PehyX8B-DXG7xnqCxJp0tk0mWFmTEqNC_4rVwY"
                     }
                 ]
