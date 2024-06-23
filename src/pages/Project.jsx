@@ -27,8 +27,6 @@ const StyledMetaData = styled.div`
   height: 50vh;
 `;
 
-let scrollY = window.scrollY;
-
 export const Project = ({ projects }) => {
   const ref = useRef(null);
   const [opacity, setOpacity] = useState(1);
@@ -48,11 +46,9 @@ export const Project = ({ projects }) => {
     {
       onDragStart: ({ target }) => {
         if (!mobileAndTabletCheck() || target.localName === 'img' || target.localName === 'svg') return;
-        scrollY = window.scrollY;
       },
-      onDrag: ({ down, movement: [mx, my], target }) => {
+      onDrag: ({ down, movement: [mx], target }) => {
         if (!mobileAndTabletCheck() || target.localName === 'img' || target.localName === 'svg') return;
-        window.scrollTo({ top: scrollY - my });
         setOpacity(1 - Math.abs(mx) / 200);
         api.start({ x: down ? mx : 0, y: 0, immediate: down });
       },
@@ -64,7 +60,12 @@ export const Project = ({ projects }) => {
         api.start({ x: 0, y: 0 });
       },
     },
-    { target: ref },
+    {
+      target: ref,
+      drag: {
+        axis: 'x',
+      },
+    },
   );
 
   const {
@@ -101,7 +102,7 @@ export const Project = ({ projects }) => {
         <meta property="og:url" content={`${WEBSITE}${PROJECT_BASE}/${id}`} />
       </Helmet>
 
-      <animated.div ref={ref} style={{ x, y, touchAction: 'none', opacity }}>
+      <animated.div ref={ref} style={{ x, y, touchAction: 'pan-y', opacity }}>
         <StyledRow gutter={[0, 50]}>
           <Col xs={{ span: 20 }} lg={{ span: 12 }}>
             <Image
