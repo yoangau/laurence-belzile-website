@@ -16,6 +16,12 @@ const StyledProject = styled.div`
   margin-bottom: 8em;
   max-width: 80vw;
   min-width: 80vw;
+  @media (max-width: 768px) {
+    margin-top: 2em;
+    margin-bottom: 4em;
+    max-width: 70vw;
+    min-width: 70vw;
+  }
 `;
 
 const ClickableImage = styled(Image)`

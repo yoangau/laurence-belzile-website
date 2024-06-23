@@ -36,8 +36,11 @@ export const App = () => {
           <NavBar />
           <Name />
           <Switch>
-            <Route exact path={[LANDING, WORK]}>
-              <Work {...rest} />
+            <Route exact path={[LANDING]}>
+              <Work {...rest} isFilterable={false} />
+            </Route>
+            <Route exact path={[WORK]}>
+              <Work {...rest} isFilterable />
             </Route>
             <Route path={PROJECT}>
               <Project projects={projectsById} />

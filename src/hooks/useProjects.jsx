@@ -4,6 +4,13 @@ import { useTranslation } from 'react-i18next';
 import projects from '../data/projects.json';
 import { getTitleAlt } from '../utils/project';
 
+const createAnchorProjects = (projects) => {
+  const groupedProjects = groupBy(projects, (project) => project.year);
+  return Object.keys(groupedProjects)
+    .map((year) => groupedProjects[year][0])
+    .reverse();
+};
+
 export const useProjects = () => {
   const { t } = useTranslation('work');
 
@@ -32,14 +39,27 @@ export const useProjects = () => {
   }, [enhancedProjects]);
 
   const reversedProjects = useMemo(() => [...enhancedProjects].reverse(), [enhancedProjects]);
-  const anchorProjects = useMemo(() => {
-    const groupedProjects = groupBy(reversedProjects, (project) => project.year);
-    return Object.keys(groupedProjects)
-      .map((year) => groupedProjects[year][0])
-      .reverse();
-  }, [reversedProjects]);
+  const anchorProjects = useMemo(() => createAnchorProjects(reversedProjects), [reversedProjects]);
 
   const anchorProjectsIds = useMemo(() => new Set(anchorProjects.map(({ id }) => id)), [anchorProjects]);
 
-  return { projectsById, projects: reversedProjects, anchorProjects, anchorProjectsIds };
+  const availableProjects = useMemo(() => reversedProjects.filter(({ available }) => available), [reversedProjects]);
+  const anchorAvailableProjects = useMemo(() => createAnchorProjects(availableProjects), [availableProjects]);
+  const anchorAvailableProjectsIds = useMemo(
+    () =>
+      new Set(
+        anchorAvailableProjects.map(({ id }) => id),
+        [anchorAvailableProjects],
+      ),
+  );
+
+  return {
+    projectsById,
+    projects: reversedProjects,
+    anchorProjects,
+    anchorProjectsIds,
+    availableProjects,
+    anchorAvailableProjects,
+    anchorAvailableProjectsIds,
+  };
 };
