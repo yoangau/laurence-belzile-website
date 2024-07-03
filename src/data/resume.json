@@ -47,10 +47,12 @@
                         "link": "/projet/LB00234"
                     },
                     {
-                        "val": "expo-ind-2024-1"
+                        "val": "expo-ind-2024-1",
+                        "link": "/projet/LB00218"
                     },
                     {
-                        "val": "expo-ind-2024-2"
+                        "val": "expo-ind-2024-2",
+                        "link": "https://www.maisondelaculture.ca/artimage/expositions/a-venir/laurence-belzile.html"
                     }
                 ]
             },
@@ -58,7 +60,8 @@
                 "date": 2023,
                 "list": [
                     {
-                        "val": "expo-ind-2023-1"
+                        "val": "expo-ind-2023-1",
+                        "link": "/projet/LB00198"
                     }
                 ]
             },
@@ -66,10 +69,12 @@
                 "date": 2022,
                 "list": [
                     {
-                        "val": "expo-ind-2022-0"
+                        "val": "expo-ind-2022-0",
+                        "link": "/projet/LB00269"
                     },
                     {
-                        "val": "expo-ind-2022-1"
+                        "val": "expo-ind-2022-1",
+                        "link": "/projet/LB00282"
                     },
                     {
                         "val": "expo-ind-2022-2"
@@ -80,10 +85,12 @@
                 "date": 2021,
                 "list": [
                     {
-                        "val": "expo-ind-2021-0"
+                        "val": "expo-ind-2021-0",
+                        "link": "/projet/LB00287"
                     },
                     {
-                        "val": "expo-ind-2021-1"
+                        "val": "expo-ind-2021-1",
+                        "link": "/projet/LB00289"
                     }
                 ]
             },

@@ -1771,6 +1771,32 @@
         "width": "45%"
     },
     {
+        "id": "LB00289",
+        "src": "LB00289.jpg",
+        "additional-images": [
+            {
+                "src": "LB00290.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00291.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Marmonner le vide",
+        "dimension": "Bibliothèque Claire-Martin, Québec (QC)",
+        "technique": null,
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "marmonner-vide-claire-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00289-description"
+    },
+    {
         "id": "LB00087",
         "src": "LB00087.jpg",
         "available": false,
@@ -1805,6 +1831,28 @@
         "expo": "marmonner-vide-claire-2021",
         "photo-credit": "photo-credit-0",
         "width": "45%"
+    },
+    {
+        "id": "LB00287",
+        "src": "LB00287.jpg",
+        "additional-images": [
+            {
+                "src": "LB00288.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Marmonner le vide",
+        "dimension": "Bibliothèque Aliette-Marchand, Québec (QC)",
+        "technique": null,
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "marmonner-vide-aliette-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00287-description"
     },
     {
         "id": "LB00092",
@@ -2619,6 +2667,40 @@
         "width": "80%"
     },
     {
+        "id": "LB00282",
+        "src": "LB00282.jpg",
+        "additional-images": [
+            {
+                "src": "LB00283.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00284.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00285.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00286.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Les attentes",
+        "dimension": "Maison des arts et de la culture de Brompton, Sherbrooke (QC)",
+        "technique": null,
+        "year": 2022,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "brompton-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00282-description"
+    },
+    {
         "id": "LB00134",
         "src": "LB00134.jpg",
         "available": true,
@@ -2900,6 +2982,72 @@
         "expo": null,
         "photo-credit": "photo-credit-1",
         "width": "80%"
+    },
+    {
+        "id": "LB00269",
+        "src": "LB00269.jpg",
+        "additional-images": [
+            {
+                "src": "LB00270.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00271.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00272.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00273.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00274.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00275.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00276.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00277.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00278.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00279.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00280.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00281.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "S'arracher la douceur",
+        "dimension": "Galerie Montcalm, Gatineau (QC)",
+        "technique": null,
+        "year": 2022,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+         "description": "LB00269-description"
     },
     {
         "id": "LB00148",

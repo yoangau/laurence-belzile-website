@@ -21,8 +21,8 @@
         "expo-ind-2024-2": "<i>J'ai dansé</i>, Art-Image, Gatineau, QC, Canada (forthcoming)",
         "expo-ind-2023-1": "<i>Au-delà du repli</i>, Champagne and Paradis Gallery, Kamouraska, QC, Canada",
         "expo-ind-2022-0": "<i>S’arracher la douceur</i>, Montcalm Gallery, Gatineau, QC, Canada",
-        "expo-ind-2022-1": "<i>Rassembler les espaces</i>, Champagne and Paradis Gallery, Kamouraska, QC, Canada",
-        "expo-ind-2022-2": "<i>Les attentes</i>, Brompton Art Centre, Sherbrooke, QC, Canada",
+        "expo-ind-2022-1": "<i>Les attentes</i>, Brompton Art Centre, Sherbrooke, QC, Canada",
+        "expo-ind-2022-2": "<i>Rassembler les espaces</i>, Champagne and Paradis Gallery, Kamouraska, QC, Canada",
         "expo-ind-2021-0": "<i>Marmonner le vide</i>, Manif d'art, Aliette-Marchand Library, Quebec City, QC, Canada",
         "expo-ind-2021-1": "<i>Marmonner le vide</i>, Manif d'art, Claire-Martin Library, Quebec City, QC, Canada",
         "expo-ind-2020-0": "<i>Mesure et démesure</i>, Champagne and Paradis Gallery, Kamouraska, QC, Canada",
@@ -156,7 +156,11 @@
         "@@expo-title-LB00069": "View of the exhibition <i>Mesure et démesure</i>, Jonquière (QC)",
         "@@expo-title-LB00054": "View of the exhibition <i>Arracher le rouge du jaune</i>, Montreal (QC)",
         "@@residency-anticosti": "Project realized during Nomade Residency, Anticosti (QC)",
-        "LB00234-description": ""
+        "LB00234-description": "",
+        "LB00269-description": "",
+        "LB00282-description": "",
+        "LB00287-description": "",
+        "LB00289-description": ""
     },
     "info": {
         "content-0": "Biography",
