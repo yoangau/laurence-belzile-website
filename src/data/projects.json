@@ -1139,21 +1139,6 @@
         "width": "100%"
     },
     {
-        "id": "LB00052",
-        "src": "LB00052.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00054",
-        "dimension": null,
-        "technique": null,
-        "year": 2019,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "arracher-le-rouge-du-jaune-2019",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
         "id": "LB00053",
         "src": "LB00053.jpg",
         "additional-images": [
@@ -1198,9 +1183,44 @@
     {
         "id": "LB00054",
         "src": "LB00054.jpg",
+        "additional-images":[
+            {
+                "src": "LB00301.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00077.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00052.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00302.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00304.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00306.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00307.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00308.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+
+        ],
         "available": null,
-        "title": "@@expo-title-LB00054",
-        "dimension": null,
+        "title": "Arracher le rouge du jaune",
+        "dimension": "Galerie AVE, Montréal (QC)",
         "technique": null,
         "year": 2019,
         "price": null,
@@ -1208,7 +1228,8 @@
         "expo-only": false,
         "expo": "arracher-le-rouge-du-jaune-2019",
         "photo-credit": "photo-credit-0",
-        "width": "100%"
+        "width": "100%",
+        "description": ""
     },
     {
         "id": "LB00055",
@@ -1428,69 +1449,6 @@
         "width": "60%"
     },
     {
-        "id": "LB00061",
-        "src": "LB00061.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00069",
-        "dimension": null,
-        "technique": [
-            "graphite",
-            "on-paper"
-        ],
-        "year": 2020,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
-        "id": "LB00061.1",
-        "src": "LB00061.1.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00069",
-        "dimension": null,
-        "technique": null,
-        "year": 2020,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
-        "id": "LB00061.2",
-        "src": "LB00061.2.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00069",
-        "dimension": null,
-        "technique": null,
-        "year": 2020,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
-        "id": "LB00061.3",
-        "src": "LB00061.3.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00069",
-        "dimension": null,
-        "technique": null,
-        "year": 2020,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
         "id": "LB00062",
         "src": "LB00062.jpg",
         "available": false,
@@ -1529,9 +1487,31 @@
     {
         "id": "LB00069.1",
         "src": "LB00069.1.jpg",
+        "additional-images": [   
+            {
+                "src": "LB00069.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00061.3.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00061.2.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00061.1.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00061.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
         "available": null,
-        "title": "@@expo-title-LB00069",
-        "dimension": null,
+        "title": "Mesure et Démesure",
+        "dimension": "Galerie du Cégep de Jonquière, Jonquière (QC)",
         "technique": null,
         "year": 2020,
         "price": null,
@@ -1539,22 +1519,8 @@
         "expo-only": false,
         "expo": "mesure-demesure-jonquiere-2020",
         "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
-        "id": "LB00069",
-        "src": "LB00069.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00069",
-        "dimension": null,
-        "technique": null,
-        "year": 2020,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "mesure-demesure-jonquiere-2020",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
+        "width": "100%",
+        "description": "LB00069.1-description"
     },
     {
         "id": "LB00073",
@@ -1662,6 +1628,56 @@
         "photo-credit": "photo-credit-1",
         "width": "80%"
     },
+    {
+        "id": "LB00292",
+        "src": "LB00292.jpg",
+        "additional-images": [
+            {
+                "src": "LB00300.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00293.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00294.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00295.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00296.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00297.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00298.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00299.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": null,
+        "title": "Mesure et Démesure",
+        "dimension": "Galerie Champagne et Paradis, Kamouraska (QC)",
+        "technique": null,
+        "year": 2020,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "mesure-demesure-kamouraska-2020",
+        "photo-credit": "photo-credit-1",
+        "width": "100%",
+        "LB00292-description": ""
+    },  
     {
         "id": "LB00083",
         "src": "LB00083.jpg",

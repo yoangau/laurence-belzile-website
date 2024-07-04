@@ -98,10 +98,12 @@
                 "date": 2020,
                 "list": [
                     {
-                        "val": "expo-ind-2020-0"
+                        "val": "expo-ind-2020-0",
+                        "link": "/projet/LB00292"
                     },
                     {
-                        "val": "expo-ind-2020-1"
+                        "val": "expo-ind-2020-1",
+                        "link": "/projet/LB00069.1"
                     }
                 ]
             },
@@ -109,7 +111,8 @@
                 "date": 2019,
                 "list": [
                     {
-                        "val": "expo-ind-2019-0"
+                        "val": "expo-ind-2019-0",
+                        "link": "/projet/LB00054"
                     },
                     {
                         "val": "expo-ind-2019-1"
