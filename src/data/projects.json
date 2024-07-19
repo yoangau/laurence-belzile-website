@@ -361,21 +361,6 @@
         "width": "40%"
     },
     {
-        "id": "LB00018",
-        "src": "LB00018.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00035",
-        "dimension": null,
-        "technique": null,
-        "year": 2018,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
         "id": "LB00019",
         "src": "LB00019.jpg",
         "available": true,
@@ -536,21 +521,6 @@
         "expo": "",
         "photo-credit": "photo-credit-0",
         "width": "40%"
-    },
-    {
-        "id": "LB00024",
-        "src": "LB00024.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00035",
-        "dimension": null,
-        "technique": null,
-        "year": 2018,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
     },
     {
         "id": "LB00025",
@@ -881,21 +851,6 @@
         "width": "30%"
     },
     {
-        "id": "LB00035",
-        "src": "LB00035.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00035",
-        "dimension": null,
-        "technique": null,
-        "year": 2018,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
-    },
-    {
         "id": "LB00036",
         "src": "LB00036.jpg",
         "available": false,
@@ -948,21 +903,6 @@
         "expo": "marathon-création",
         "photo-credit": "photo-credit-0",
         "width": "30%"
-    },
-    {
-        "id": "LB00037",
-        "src": "LB00037.jpg",
-        "available": null,
-        "title": "@@expo-title-LB00035",
-        "dimension": null,
-        "technique": null,
-        "year": 2018,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "La-chute-des-corps-2018",
-        "photo-credit": "photo-credit-0",
-        "width": "100%"
     },
     {
         "id": "LB00038",
@@ -1037,11 +977,33 @@
         "width": "60%"
     },
     {
-        "id": "LB00042",
-        "src": "LB00042.jpg",
+        "id": "LB00037",
+        "src": "LB00037.jpg",
+        "additional-images": [
+            {
+                "src": "LB00024.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00018.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00042.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00050.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00035.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
         "available": null,
-        "title": "@@expo-title-LB00035",
-        "dimension": null,
+        "title": "La chute des corps",
+        "dimension": "Atelier du roulement à billes, Québec (QC)",
         "technique": null,
         "year": 2018,
         "price": null,
@@ -1049,7 +1011,8 @@
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
         "photo-credit": "photo-credit-0",
-        "width": "100%"
+        "width": "100%",
+        "description": "LB00037-description"
     },
     {
         "id": "LB00043",
@@ -1069,20 +1032,36 @@
         "photo-credit": "photo-credit-0",
         "width": "60%"
     },
+    
     {
-        "id": "LB00050",
-        "src": "LB00050.jpg",
+        "id": "LB00311",
+        "src": "LB00311.jpg",
+        "additional-images": [
+            {
+                "src": "LB00309.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00310.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00312.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
         "available": null,
-        "title": "@@expo-title-LB00035",
-        "dimension": null,
+        "title": "Entre espace et objets",
+        "dimension": "Galerie Jean Letarte, Boucherville (QC)",
         "technique": null,
-        "year": 2018,
+        "year": 2019,
         "price": null,
         "buy-ref": null,
         "expo-only": false,
-        "expo": "La-chute-des-corps-2018",
+        "expo": "entre-espace-objets",
         "photo-credit": "photo-credit-0",
-        "width": "100%"
+        "width": "100%",
+        "description": "LB00311-description"
     },
     {
         "id": "LB00051.1",
@@ -1506,6 +1485,10 @@
             },
             {
                 "src": "LB00061.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00313.jpg",
                 "photo-credit": "photo-credit-0"
             }
         ],
