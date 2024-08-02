@@ -140,8 +140,7 @@
                 "date": 2017,
                 "list": [
                     {
-                        "val": "expo-ind-2017-0",
-                        "link": "/projet/LB00328"
+                        "val": "expo-ind-2017-0"
                     }
                 ]
             }
@@ -186,10 +185,12 @@
                         "val": "expo-col-2022-2"
                     },
                     {
-                        "val": "expo-col-2022-3"
+                        "val": "expo-col-2022-3",
+                        "link": "https://champagneparadis.com/pages/par-dela-les-frontieres"
                     },
                     {
-                        "val": "expo-col-2022-4"
+                        "val": "expo-col-2022-4",
+                        "link": "https://www.mbsl.qc.ca/fr/expositions/anterieures/exposition-pre-encan-2022"
                     }
                 ]
             },
@@ -197,7 +198,8 @@
                 "date": 2021,
                 "list": [
                     {
-                        "val": "expo-col-2021-0"
+                        "val": "expo-col-2021-0",
+                        "link": "/projet/LB00342"
                     }
                 ]
             },
@@ -205,7 +207,8 @@
                 "date": 2020,
                 "list": [
                     {
-                        "val": "expo-col-2020-0"
+                        "val": "expo-col-2020-0",
+                        "link": "https://www.cegeprdl.ca/media/4254561/50-ans-expo.pdf"
                     }
                 ]
             },
@@ -216,10 +219,12 @@
                         "val": "expo-col-2018-0"
                     },
                     {
-                        "val": "expo-col-2018-1"
+                        "val": "expo-col-2018-1",
+                        "link": "/projet/LB00350"
                     },
                     {
-                        "val": "expo-col-2018-2"
+                        "val": "expo-col-2018-2",
+                        "link": "/projet/LB00355"
                     }
                 ]
             },
@@ -227,10 +232,12 @@
                 "date": 2017,
                 "list": [
                     {
-                        "val": "expo-col-2017-0"
+                        "val": "expo-col-2017-0",
+                        "link": "/projet/LB00362"
                     },
                     {
-                        "val": "expo-col-2017-1"
+                        "val": "expo-col-2017-1",
+                        "link": "/projet/LB00363"
                     },
                     {
                         "val": "expo-col-2017-2"
@@ -244,7 +251,8 @@
                         "val": "expo-col-2016-0"
                     },
                     {
-                        "val": "expo-col-2016-1"
+                        "val": "expo-col-2016-1",
+                        "link": "https://stay-awhile-exhibition.tumblr.com/"
                     }
                 ]
             }
@@ -257,7 +265,8 @@
                 "date": "",
                 "list": [
                     {
-                        "val": "collection-0"
+                        "val": "collection-0",
+                        "link": "https://www.boucherville.ca/culture/art-public-et-collections/art-public/dependance-des-formes/"
                     },
                     {
                         "val": "collection-1"
@@ -301,7 +310,8 @@
                 "date": 2021,
                 "list": [
                     {
-                        "val": "projects-2021-0"
+                        "val": "projects-2021-0",
+                        "link": "https://www.juliebellavance.com/oeuvres-disponibles/portfolio-collaboratif"
                     }
                 ]
             }
@@ -314,7 +324,8 @@
                 "date": 2023,
                 "list": [
                     {
-                        "val": "resid-2023-0"
+                        "val": "resid-2023-0",
+                        "link": "https://www.simartres.com/laurence-belzile"
                     },
                     {
                         "val": "resid-2023-1"
@@ -333,7 +344,8 @@
                 "date": 2019,
                 "list": [
                     {
-                        "val": "resid-2019-0"
+                        "val": "resid-2019-0",
+                        "link": "https://nouaisons.org/2019/08/11/laurence-belzile/"
                     }
                 ]
             },
@@ -352,7 +364,9 @@
                 "date": 2017,
                 "list": [
                     {
-                        "val": "resid-2017-0"
+                        "val": "resid-2017-0",
+                        "link": "/projet/LB00012"
+                        
                     }
                 ]
             }
@@ -576,7 +590,8 @@
                 "date": 2022,
                 "list": [
                     {
-                        "val": "illustration-2022-0"
+                        "val": "illustration-2022-0",
+                        "link": "https://lenoroit.com/produit/ne-retiens-pas-le-feu/"
                     }
                 ]
             },
@@ -584,7 +599,8 @@
                 "date": 2020,
                 "list": [
                     {
-                        "val": "illustration-2020-0"
+                        "val": "illustration-2020-0",
+                        "link": "https://editionsomri.com/ramages/"
                     }
                 ]
             }
@@ -597,7 +613,8 @@
                 "date": 2023,
                 "list": [
                     {
-                        "val": "conference-2023-0"
+                        "val": "conference-2023-0",
+                        "link": "https://www.cegeprdl.ca/nouvelles/2023-2024/septembre-2023/conference-causerie-de-laurence-belzile-artiste-professionnelle"
                     }
                 ]
             }

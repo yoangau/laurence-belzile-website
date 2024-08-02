@@ -1,39 +1,5 @@
 [
     {
-        "id": "LB00328",
-        "src": "LB00328.jpg",
-        "additional-images": [
-            {
-                "src": "LB00329.jpg",
-                "photo-credit": "photo-credit-0"
-            },
-            {
-                "src": "LB00330.jpg",
-                "photo-credit": "photo-credit-0"
-            },
-            {
-                "src": "LB00331.jpg",
-                "photo-credit": "photo-credit-0"
-            },
-            {
-                "src": "LB00332.jpg",
-                "photo-credit": "photo-credit-0"
-            }
-        ],
-        "available": null,
-        "title": "Situations",
-        "dimension": "Salle Georgianna-Juneau, Maison de la culture, Rivière-du-Loup (QC)",
-        "technique": null,
-        "year": 2018,
-        "price": null,
-        "buy-ref": null,
-        "expo-only": false,
-        "expo": "situations-2017",
-        "photo-credit": "photo-credit-0",
-        "width": "100%",
-        "description": "LB00328-description"
-    },  
-    {
         "id": "LB00001",
         "src": "LB00001.jpg",
         "available": true,
@@ -413,6 +379,28 @@
         "width": "100%"
     },
     {
+        "id": "LB00363",
+        "src": "LB00363.jpg",
+        "additional-images": [
+            {
+                "src": "LB00365.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Exposé Noir",
+        "dimension": "Fonderie Darling & Centerfold, Montréal (QC)",
+        "technique": null,
+        "year": 2017,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "expose-noir-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00363-description"
+    }, 
+    {
         "id": "LB00032",
         "src": "LB00032.jpg",
         "available": true,
@@ -611,6 +599,22 @@
         "width": "45%"
     },
     {
+        "id": "LB00362",
+        "src": "LB00362.jpg",
+        "available": null,
+        "title": "Exposition collective de la Résidence nomade",
+        "dimension": "Atelier du Roulement à billes, Québec (QC)",
+        "technique": null,
+        "year": 2017,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "residence-nomade-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00362-description"
+    }, 
+    {
         "id": "LB00029",
         "src": "LB00029.jpg",
         "available": true,
@@ -668,6 +672,52 @@
         "photo-credit": "photo-credit-0",
         "width": "60%"
     },
+    {
+        "id": "LB00355",
+        "src": "LB00355.jpg",
+        "additional-images": [
+            {
+                "src": "LB00358.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00361.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00359.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00360.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00354.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00357.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00356.jpg",
+                "photo-credit": null
+            }
+        ],
+        "available": null,
+        "title": "Jaune Marine",
+        "dimension": "Ancienne école des beaux-arts de Montréal, Montréal (QC)",
+        "technique": null,
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "jaune-marine-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00355-description"
+    }, 
     {
         "id": "LB00031.1",
         "src": "LB00031.1.jpg",
@@ -885,23 +935,39 @@
         "width": "30%"
     },
     {
-        "id": "LB00036",
-        "src": "LB00036.jpg",
-        "available": false,
-        "title": "@@untitled",
-        "dimension": "24\" x 24\"",
-        "technique": [
-            "oil",
-            "on-canvas"
+        "id": "LB00350",
+        "src": "LB00350.jpg",
+        "additional-images": [
+            {
+                "src": "LB00351.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00352.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00353.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00316.jpg",
+                "photo-credit": null
+            }
         ],
+        "available": null,
+        "title": "Voir loin",
+        "dimension": " Centre d’art de Kamouraska, Kamouraska (QC)",
+        "technique": null,
         "year": 2018,
         "price": null,
         "buy-ref": null,
         "expo-only": false,
-        "expo": "La-chute-des-corps-2018",
+        "expo": "voir-loin-2018",
         "photo-credit": "photo-credit-0",
-        "width": "80%"
-    },
+        "width": "100%",
+        "description": "LB00350-description"
+    },    
     {
         "id": "LB00127",
         "src": "LB00127.jpg",
@@ -939,15 +1005,29 @@
         "width": "30%"
     },
     {
-        "id": "LB00321",
-        "src": "LB00321.jpg",
+        "id": "LB00036",
+        "src": "LB00036.jpg",
+        "available": false,
+        "title": "@@untitled",
+        "dimension": "24\" x 24\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "La-chute-des-corps-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00327",
+        "src": "LB00327.jpg",
         "additional-images": [
             {
-                "src": "LB00327.jpg",
-                "photo-credit": "photo-credit-0"
-            },
-            {
-                "src": "LB00322.jpg",
+                "src": "LB00321.jpg",
                 "photo-credit": "photo-credit-0"
             },
             {
@@ -967,6 +1047,10 @@
                 "photo-credit": "photo-credit-0"
             },
             {
+                "src": "LB00322.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
                 "src": "LB00320.jpg",
                 "photo-credit": "photo-credit-0"
             }
@@ -982,7 +1066,7 @@
         "expo": "entre-toi-et-moi-2018",
         "photo-credit": "photo-credit-0",
         "width": "100%",
-        "description": "LB00321-description"
+        "description": "LB00327-description"
     },  
     {
         "id": "LB00038",
@@ -1079,6 +1163,10 @@
             {
                 "src": "LB00035.jpg",
                 "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00364.jpg",
+                "photo-credit": null
             }
         ],
         "available": null,
@@ -2105,6 +2193,56 @@
         "expo": "hommage-stella-2022",
         "photo-credit": "photo-credit-2",
         "width": "30%"
+    },
+    {
+        "id": "LB00342",
+        "src": "LB00342.jpg",
+        "additional-images": [
+            {
+                "src": "LB00343.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00344.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00345.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00346.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00347.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00348.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00349.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00314.jpg",
+                "photo-credit": null
+            }
+        ],
+        "available": null,
+        "title": "montagne",
+        "dimension": "Québec (QC)",
+        "technique": null,
+        "year": 2021,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "montagne-2021",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00342-description"
     },
     {
         "id": "LB00100",
