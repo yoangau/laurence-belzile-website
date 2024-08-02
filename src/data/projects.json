@@ -1,5 +1,39 @@
 [
     {
+        "id": "LB00328",
+        "src": "LB00328.jpg",
+        "additional-images": [
+            {
+                "src": "LB00329.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00330.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00331.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00332.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Situations",
+        "dimension": "Salle Georgianna-Juneau, Maison de la culture, Rivière-du-Loup (QC)",
+        "technique": null,
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "situations-2017",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00328-description"
+    },  
+    {
         "id": "LB00001",
         "src": "LB00001.jpg",
         "available": true,
@@ -905,6 +939,52 @@
         "width": "30%"
     },
     {
+        "id": "LB00321",
+        "src": "LB00321.jpg",
+        "additional-images": [
+            {
+                "src": "LB00327.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00322.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00323.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00324.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00325.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00326.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00320.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Entre toi et moi ; il y a ça et là",
+        "dimension": "Centre culturel Georges P.-Vanier, Châteauguay (QC)",
+        "technique": null,
+        "year": 2018,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "entre-toi-et-moi-2018",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00321-description"
+    },  
+    {
         "id": "LB00038",
         "src": "LB00038.jpg",
         "available": true,
@@ -1194,6 +1274,10 @@
             {
                 "src": "LB00308.jpg",
                 "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00318.jpg",
+                "photo-credit": null
             }
 
         ],
@@ -1489,7 +1573,7 @@
             },
             {
                 "src": "LB00313.jpg",
-                "photo-credit": "photo-credit-0"
+                "photo-credit": null
             }
         ],
         "available": null,
@@ -2225,6 +2309,60 @@
         "width": "45%"
     },
     {
+        "id": "LB00333",
+        "src": "LB00333.jpg",
+        "additional-images": [
+            {
+                "src": "LB00334.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00335.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00336.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00337.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00338.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00339.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00340.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00341.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00317.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Alcôve",
+        "dimension": "Galerie.a, Québec (QC)",
+        "technique": null,
+        "year": 2022,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": "alcove-2022",
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00333-description"
+    },   
+    {
         "id": "LB00103",
         "src": "LB00103.jpg",
         "available": true,
@@ -2684,6 +2822,10 @@
             {
                 "src": "LB00286.jpg",
                 "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00315.jpg",
+                "photo-credit": null
             }
         ],
         "available": null,
@@ -3775,7 +3917,8 @@
         "expo-only": false,
         "expo": "nuit-blanche-2023",
         "photo-credit": "photo-credit-0",
-        "width": "100%"
+        "width": "100%",
+        "description": "LB00195-description"
     },
     {
         "id": "LB00210",
@@ -3896,6 +4039,10 @@
             {
                 "src": "LB00224.jpg",
                 "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00319.png",
+                "photo-credit": null
             }
         ],
         "available": null,

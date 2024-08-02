@@ -128,7 +128,8 @@
                         "link": "/projet/LB00037"
                     },
                     {
-                        "val": "expo-ind-2018-1"
+                        "val": "expo-ind-2018-1",
+                        "link": "/projet/LB00321"
                     },
                     {
                         "val": "expo-ind-2018-2"
@@ -139,7 +140,8 @@
                 "date": 2017,
                 "list": [
                     {
-                        "val": "expo-ind-2017-0"
+                        "val": "expo-ind-2017-0",
+                        "link": "/projet/LB00328"
                     }
                 ]
             }
@@ -152,16 +154,20 @@
                 "date": 2023,
                 "list": [
                     {
-                        "val": "expo-col-2023-0"
+                        "val": "expo-col-2023-0",
+                        "link": "https://www.richmondartgallery.org/artrich-2023"
                     },
                     {
-                        "val": "expo-col-2023-1"
+                        "val": "expo-col-2023-1",
+                        "link": "/projet/LB00195"
                     },
                     {
-                        "val": "expo-col-2023-2"
+                        "val": "expo-col-2023-2",
+                        "link": "https://www.seymourartgallery.com/2023/09/26/art-party-2023/"
                     },
                     {
-                        "val": "expo-col-2023-3"
+                        "val": "expo-col-2023-3",
+                        "link": "https://thisgallery.org/project/life-absurd/"
                     }
                 ]
             },
@@ -169,10 +175,12 @@
                 "date": 2022,
                 "list": [
                     {
-                        "val": "expo-col-2022-0"
+                        "val": "expo-col-2022-0",
+                        "link": "https://champagneparadis.com/pages/les-quatorze-noctambules"
                     },
                     {
-                        "val": "expo-col-2022-1"
+                        "val": "expo-col-2022-1",
+                        "link": "/projet/LB00333"
                     },
                     {
                         "val": "expo-col-2022-2"
