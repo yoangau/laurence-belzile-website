@@ -182,6 +182,64 @@
     {
         "id": "LB00012",
         "src": "LB00012.jpg",
+        "additional-images": [
+            {
+                "src": "LB00366.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00367.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00368.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00369.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00370.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00371.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00372.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00373.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00374.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00375.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00376.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00377.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00378.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00379.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
         "available": null,
         "title": "@@residency-anticosti",
         "dimension": null,
@@ -192,7 +250,8 @@
         "expo-only": true,
         "expo": "anticosti-2017",
         "photo-credit": "photo-credit-0",
-        "width": "100%"
+        "width": "100%",
+        "description": "LB00012-description"
     },
     {
         "id": "LB00013",
