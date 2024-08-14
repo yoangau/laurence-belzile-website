@@ -1015,7 +1015,7 @@
             }
         ],
         "available": null,
-        "title": "Voir loin",
+        "title": "Ces lieux où l’on fait trace",
         "dimension": " Centre d’art de Kamouraska, Kamouraska (QC)",
         "technique": null,
         "year": 2018,
@@ -4252,7 +4252,8 @@
         "expo-only": false,
         "expo": "through-garden-ii-2024",
         "photo-credit": "photo-credit-0",
-        "width": "100%"
+        "width": "100%",
+        "description":"LB00218-description"
     },
     {
         "id": "LB00225",
