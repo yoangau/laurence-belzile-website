@@ -3881,6 +3881,34 @@
             {
                 "src": "LB00268.jpg",
                 "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00200.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00201.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00202.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00203.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00204.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00205.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00206.jpg",
+                "photo-credit": "photo-credit-1"
             }
         ],
         "available": null,
@@ -3893,7 +3921,8 @@
         "expo-only": false,
         "expo": "au-dela-du-repli-2023",
         "photo-credit": "photo-credit-1",
-        "width": "100%"
+        "width": "100%",
+        "description": "LB00198-description"
     },
     {
         "id": "LB00182",
