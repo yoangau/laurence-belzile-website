@@ -4219,15 +4219,15 @@
                 "photo-credit": "photo-credit-0"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "Éffondrer le tendre",
-        "dimension": "8.75\" x 10.75\"",
+        "dimension": "8.5\" x 10.75\"",
         "technique": [
             "acrylic",
             "on-canvas"
         ],
         "year": 2024,
-        "price": 300,
+        "price": null,
         "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
         "expo-only": false,
         "expo": "through-garden-ii-2024",
