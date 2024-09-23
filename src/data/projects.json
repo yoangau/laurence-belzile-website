@@ -1244,7 +1244,7 @@
     {
         "id": "LB00043",
         "src": "LB00043.jpg",
-        "available": true,
+        "available": false,
         "title": "Autoportrait s'autoportant",
         "dimension": "21\" x 30\"",
         "technique": [
@@ -1252,7 +1252,7 @@
             "on-paper"
         ],
         "year": 2018,
-        "price": 945,
+        "price": null,
         "buy-ref": "https://champagneparadis.com/products/autoportrait-sautoportant?_pos=1&_sid=fe7451b26&_ss=r",
         "expo-only": false,
         "expo": "La-chute-des-corps-2018",
@@ -3823,7 +3823,7 @@
     {
         "id": "LB00186",
         "src": "LB00186.jpg",
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "4\" x 4,5\"",
         "technique": [
@@ -3831,7 +3831,7 @@
             "on-wood"
         ],
         "year": 2023,
-        "price": 100,
+        "price": null,
         "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
         "expo-only": false,
         "expo": null,
@@ -3983,7 +3983,7 @@
                 "photo-credit": "photo-credit-0"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "12\" x 18\"",
         "technique": [
@@ -3991,7 +3991,7 @@
             "on-canvas"
         ],
         "year": 2023,
-        "price": 486,
+        "price": null,
         "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
         "expo-only": false,
         "expo": null,
@@ -4335,7 +4335,7 @@
     {
         "id": "LB00229",
         "src": "LB00229.jpg",
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "4\" x 5.5\"",
         "technique": [
@@ -4343,7 +4343,7 @@
             "on-wood"
         ],
         "year": 2023,
-        "price": 121,
+        "price": null,
         "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
         "expo-only": false,
         "expo": "through-garden-2024",
@@ -4525,7 +4525,7 @@
                 "photo-credit": "photo-credit-0"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "16\" x 20\"",
         "technique": [
@@ -4533,7 +4533,7 @@
             "on-canvas"
         ],
         "year": 2024,
-        "price": 600,
+        "price": null,
         "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
         "expo-only": false,
         "expo": null,
