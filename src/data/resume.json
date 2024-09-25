@@ -376,6 +376,14 @@
         "title": "awards-title",
         "year": [
             {
+                "date": 2024,
+                "list": [
+                    {
+                        "val": "awards-2024-0"
+                    }
+                ]
+            },
+            {
                 "date": 2023,
                 "list": [
                     {
