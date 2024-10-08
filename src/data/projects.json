@@ -4355,14 +4355,6 @@
         "src": "LB00230.jpg",
         "additional-images": [
             {
-                "src": "LB00233.jpg",
-                "photo-credit": "photo-credit-0"
-            },
-            {
-                "src": "LB00232.jpg",
-                "photo-credit": "photo-credit-0"
-            },
-            {
                 "src": "LB00231.jpg",
                 "photo-credit": "photo-credit-0"
             }
@@ -4579,5 +4571,157 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "100%"
+    },
+    {
+        "id": "LB00380",
+        "src": "LB00380.jpg",
+        "available": true,
+        "title": "S'amouracher des détours",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2023,
+        "price": 600,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00381",
+        "src": "LB00381.jpg",
+        "additional-images": [
+            {
+                "src": "LB00382.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00383.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": true,
+        "title": "Les traversées",
+        "dimension": "12\" x 16\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 475,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/huile-sur-toile-12-x-16",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "45%"
+    },
+    {
+        "id": "LB00394",
+        "src": "LB00394.jpg",
+        "available": false,
+        "title": "Rassembler les détails",
+        "dimension": "5.5\" x 6\"",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2024,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "50%"
+    },
+    {
+        "id": "LB00384",
+        "src": "LB00384.jpg",
+        "additional-images": [
+            {
+                "src": "LB00385.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": true,
+        "title": "Les récoltes",
+        "dimension": "8.5\" x 10.75\"",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2024,
+        "price": 320,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/les-recoles-8-5-x-10-75?variant=45528274206912",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "45%"
+    },
+    {
+        "id": "LB00386",
+        "src": "LB00386.jpg",
+        "additional-images": [
+            {
+                "src": "LB00387.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00388.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00389.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": true,
+        "title": "Suspendre les motifs",
+        "dimension": "14\" x 18\"",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2024,
+        "price": 575,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/suspendre-les-motifs-14-x-18?variant=45528280072384",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00390",
+        "src": "LB00390.jpg",
+        "additional-images": [
+            {
+                "src": "LB00391.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00392.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00393.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "crayon",
+            "on-wood"
+        ],
+        "year": 2024,
+        "price": 600,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-16-x-22",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
     }
 ]
