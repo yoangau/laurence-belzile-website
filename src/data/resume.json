@@ -253,6 +253,23 @@
                     {
                         "val": "expo-col-2016-1",
                         "link": "https://stay-awhile-exhibition.tumblr.com/"
+                    },
+                    {
+                        "val": "expo-col-2016-2",
+                        "link": "https://centerfold.gallery/artists/laurence-belzile"
+                    },
+                    {
+                        "val": "expo-col-2016-3",
+                        "link": "https://www.piroir.com/exposition-2/#copie-de-universit-concordia-16"
+                    }
+                ]
+            },
+            {
+                "date": 2015,
+                "list": [
+                    {
+                        "val": "expo-col-2015-0",
+                        "link": "https://www.piroir.com/exposition-2/#copie-de-universit-concordia-15"
                     }
                 ]
             }
