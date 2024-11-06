@@ -652,6 +652,10 @@
                 "date": 2024,
                 "list": [
                     {
+                        "val": "radio-canada-2024-1",
+                        "link": "https://ici.radio-canada.ca/nouvelle/2109639/laurence-belzile-art-abstrait-connexion?partageApp=rcca_appmobile_appinfo_android"
+                    },
+                    {
                         "val": "radio-canada-2024",
                         "link": "https://ici.radio-canada.ca/ohdio/premiere/emissions/culture-et-confiture/segments/entrevue/493896/laurence-belzile-peinture-vancouver"
                     },
