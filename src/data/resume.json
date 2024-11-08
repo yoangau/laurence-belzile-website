@@ -286,7 +286,8 @@
                         "link": "https://www.boucherville.ca/culture/art-public-et-collections/art-public/dependance-des-formes/"
                     },
                     {
-                        "val": "collection-1"
+                        "val": "collection-1",
+                        "link": "https://meduse.org/collection/?search=ROMPRE#section-1"
                     },
                     {
                         "val": "collection-2"
