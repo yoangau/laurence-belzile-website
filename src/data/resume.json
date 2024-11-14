@@ -653,6 +653,13 @@
                 "date": 2024,
                 "list": [
                     {
+                        "val": "radio-canada-2024-2",
+                        "link": "https://ici.radio-canada.ca/info/videos/1-10218750/artiste-peintre-laurence-belzile-sinteresse-a-poesie-une-imagerie-abstraite"
+                    },                    {
+                        "val": "culture-geniale-2024",
+                        "link": "https://uniquefm.ca/entrevues/chronique-arts-visuels-no-3-50722"
+                    },
+                    {
                         "val": "radio-canada-2024-1",
                         "link": "https://ici.radio-canada.ca/nouvelle/2109639/laurence-belzile-art-abstrait-connexion?partageApp=rcca_appmobile_appinfo_android"
                     },
