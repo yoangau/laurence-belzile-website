@@ -150,6 +150,27 @@
         "title": "expo-col-title",
         "year": [
             {
+                "date": 2025,
+                "list": [
+                    {
+                        "val": "expo-col-2025-0"
+                    }
+                ]
+            },
+            {
+                "date": 2024,
+                "list": [
+                    {
+                        "val": "expo-col-2024-0",
+                        "link": "https://www.seymourartgallery.com/2024/03/27/art-party-2024/"
+                    },
+                    {
+                        "val": "expo-col-2024-1",
+                        "link": "https://www.mbsl.qc.ca/fr/expositions/anterieures/exposition-pre-encan-2024#:~:text=Afin%20de%20d%C3%A9couvrir%20les%2064,une%20visite%20comment%C3%A9e%20des%20oeuvres%20!"
+                    }
+                ]
+            },
+            {
                 "date": 2023,
                 "list": [
                     {
