@@ -2985,7 +2985,7 @@
                 "photo-credit": "photo-credit-0"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "Tous les jours",
         "dimension": "36\" x 48\"",
         "technique": [
@@ -2993,8 +2993,8 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 1866,
-        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/tous-les-jours-36-x-48",
+        "price": null,
+        "buy-ref": null,
         "expo-only": false,
         "expo": "brompton-2022",
         "photo-credit": "photo-credit-0",
