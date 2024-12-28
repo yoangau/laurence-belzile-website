@@ -2562,7 +2562,7 @@
     {
         "id": "LB00103",
         "src": "LB00103.jpg",
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "19\" x 24\"",
         "technique": [
@@ -2570,7 +2570,7 @@
             "paper-wood"
         ],
         "year": 2022,
-        "price": 775,
+        "price": null,
         "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
         "expo-only": false,
         "expo": [
