@@ -4723,5 +4723,105 @@
         "expo": null,
         "photo-credit": "photo-credit-1",
         "width": "60%"
+    },
+    {
+        "id": "LB00395",
+        "src": "LB00395.jpg",
+        "additional-images": [
+            {
+                "src": "LB00396.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Foulon",
+        "dimension": "8\" x 10\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 280,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00400",
+        "src": "LB00400.jpg",
+        "additional-images": [
+            {
+                "src": "LB00399.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Les possibles",
+        "dimension": "8.5\" x 10.75\"",
+        "technique": [
+            "watercolor-graphite",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 306,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00401",
+        "src": "LB00401.jpg",
+        "additional-images": [
+            {
+                "src": "LB00402.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "8.5\" x 10.75\"",
+        "technique": [
+            "watercolor-graphite",
+            "watercolor",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 306,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00398",
+        "src": "LB00398.jpg",
+        "additional-images": [
+            {
+                "src": "LB00397.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": false,
+        "title": "Découdre",
+        "dimension": "8.5\" x 10.75\"",
+        "technique": [
+            "acrylic",
+            "graphite",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
     }
 ]
+
+
