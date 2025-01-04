@@ -1329,7 +1329,7 @@
     {
         "id": "LB00077",
         "src": "LB00077.jpg",
-        "available": true,
+        "available": false,
         "title": "Marchander le fini",
         "dimension": "33.5\" x 60\"",
         "technique": [
@@ -3178,7 +3178,7 @@
                 "photo-credit": "photo-credit-0"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "38\" x 60\"",
         "technique": [
@@ -3186,7 +3186,7 @@
             "on-canvas"
         ],
         "year": 2022,
-        "price": 2325,
+        "price": null,
         "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-38-x-60",
         "expo-only": false,
         "expo": "montcalm-2022",
