@@ -4821,7 +4821,83 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "45%"
+    },
+    {
+        "id": "LB00403",
+        "src": "LB00403.jpg",
+        "additional-images": [
+            {
+                "src": "LB00404.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00405.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00406.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Les champs I",
+        "dimension": "14\" x 17\"",
+        "technique": [
+            "crayon",
+            "dry-pastel",
+            "on-paper"
+        ],
+        "year": 2024,
+        "price": 535,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "55%"
+    },
+    {
+        "id": "LB00407",
+        "src": "LB00407.jpg",
+        "additional-images": [
+            {
+                "src": "LB00408.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00409.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00410.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00411.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00412.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Les champs II",
+        "dimension": "14\" x 17\"",
+        "technique": [
+            "graphite",
+            "dry-pastel",
+            "on-paper"
+        ],
+        "year": 2024,
+        "price": 535,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "55%"
     }
 ]
+
+
 
 
