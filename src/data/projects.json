@@ -4895,7 +4895,222 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "55%"
+    },
+    {
+        "id": "LB00413",
+        "src": "LB00413.jpg",
+        "additional-images": [
+            {
+                "src": "LB00414.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "S'épancher",
+        "dimension": "36\" x 48\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 1866,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "80%"
+    },
+    {
+        "id": "LB00426",
+        "src": "LB00426.jpg",
+        "additional-images": [
+            {
+                "src": "LB00422.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00423.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00424.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00425.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Les charbons III",
+        "dimension": "14\" x 17\"",
+        "technique": [
+            "charcoal",
+            "on-paper"
+        ],
+        "year": 2024,
+        "price": 535,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "55%",
+        "description": "LB00426-description"
+    },
+    {
+        "id": "LB00427",
+        "src": "LB00427.jpg",
+        "additional-images": [
+            {
+                "src": "LB00420.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00421.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": false,
+        "title": "Les charbons II",
+        "dimension": "14\" x 17\"",
+        "technique": [
+            "charcoal",
+            "on-paper"
+        ],
+        "year": 2024,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "55%",
+        "description": "LB00426-description"
+    },
+    {
+        "id": "LB00428",
+        "src": "LB00428.jpg",
+        "additional-images": [
+            {
+                "src": "LB00415.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00416.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00417.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00418.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00419.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Les charbons I",
+        "dimension": "14\" x 17\"",
+        "technique": [
+            "charcoal",
+            "on-paper"
+        ],
+        "year": 2024,
+        "price": 535,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "55%",
+        "description": "LB00426-description"
+    },
+    {
+        "id": "LB00429",
+        "src": "LB00429.jpg",
+        "additional-images": [
+            {
+                "src": "LB00430.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00434.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00433.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00432.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00431.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Les abîmes",
+        "dimension": "54\" x 76\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 3858,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
+    },
+    {
+        "id": "LB00435",
+        "src": "LB00435.jpg",
+        "additional-images": [
+            {
+                "src": "LB00436.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00440.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00438.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00439.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00437.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Goodwin",
+        "dimension": "54\" x 76\"",
+        "technique": [
+            "acrylic",
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 3858,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "100%"
     }
+    
+    
+    
 ]
 
 
