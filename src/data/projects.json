@@ -5107,6 +5107,156 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "100%"
+    },
+    {
+        "id": "LB00441",
+        "src": "LB00441.jpg",
+        "additional-images": [
+            {
+                "src": "LB00442.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00443.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00444.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "The delicacy of lines II",
+        "dimension": "18\" x 24\"",
+        "technique": [
+            "watercolor-graphite",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 756,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00446",
+        "src": "LB00446.jpg",
+        "additional-images": [
+            {
+                "src": "LB00447.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00448.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00449.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "The delicacy of lines I",
+        "dimension": "18\" x 24\"",
+        "technique": [
+            "watercolor-graphite",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 756,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00450",
+        "src": "LB00450.jpg",
+        "additional-images": [
+            {
+                "src": "LB00451.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00452.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00453.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00454.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00455.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00456.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00457.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00458.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00459.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00460.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00461.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "J'ai dansé",
+        "dimension": "Art-Image, Gatineau (QC)",
+        "technique": null,
+        "year": 2024,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00450-description"
+    },
+    {
+        "id": "LB00462",
+        "src": "LB00462.jpg",
+        "additional-images": [
+            {
+                "src": "LB00463.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Les descentes",
+        "dimension": "14\" x 20\"",
+        "technique": [
+            "watercolor-graphite",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 574,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "55%"
     }
     
     
