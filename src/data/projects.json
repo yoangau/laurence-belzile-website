@@ -5157,7 +5157,7 @@
                 "photo-credit": "photo-credit-0"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "The delicacy of lines I",
         "dimension": "18\" x 24\"",
         "technique": [
@@ -5165,7 +5165,7 @@
             "on-canvas"
         ],
         "year": 2024,
-        "price": 756,
+        "price": null,
         "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
         "expo-only": false,
         "expo": null,
