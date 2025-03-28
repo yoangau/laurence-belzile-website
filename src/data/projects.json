@@ -2,7 +2,7 @@
     {
         "id": "LB00001",
         "src": "LB00001.jpg",
-        "available": true,
+        "available": false,
         "title": "A 9",
         "dimension": "4\" x 4.5\"",
         "technique": [
