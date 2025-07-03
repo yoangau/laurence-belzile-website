@@ -4677,7 +4677,7 @@
                 "photo-credit": "photo-credit-1"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "Suspendre les motifs",
         "dimension": "14\" x 18\"",
         "technique": [
@@ -4709,7 +4709,7 @@
                 "photo-credit": "photo-credit-1"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "16\" x 20\"",
         "technique": [
