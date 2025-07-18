@@ -56,7 +56,7 @@
                     },
                     {
                         "val": "expo-ind-2024-2",
-                        "link": "https://www.maisondelaculture.ca/artimage/expositions/a-venir/laurence-belzile.html"
+                        "link": "/projet/LB00450"
                     }
                 ]
             },
@@ -157,7 +157,12 @@
                 "date": 2025,
                 "list": [
                     {
-                        "val": "expo-col-2025-0"
+                        "val": "expo-col-2025-0",
+                        "link": "https://www.alternatorcentre.com/events/similkameen-artist-residency-the-guest-book"
+                    },
+                    {
+                        "val": "expo-col-2025-1",
+                        "link": "https://accessgallery.ca/programming/members-show-2025"
                     }
                 ]
             },
