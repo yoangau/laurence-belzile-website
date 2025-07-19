@@ -15,6 +15,9 @@ def compress_image(image_path, out_path, quality=50):
     except Exception as e:
         print(f"Error: {e}")
 
+def is_valid_file(filename):
+    extension = filename.lower().split('.')[-1]
+    return extension in ['jpg', 'png']
 
 def compress_folder(folder_path, out_path, quality=50):
     try:
@@ -23,7 +26,7 @@ def compress_folder(folder_path, out_path, quality=50):
         pass
 
     for filename in tqdm(os.listdir(folder_path)):
-        if filename.endswith(".jpg") or filename.endswith(".png"):
+        if is_valid_file(filename):
             compress_image(
                 os.path.join(folder_path, filename),
                 os.path.join(out_path, filename),
@@ -46,7 +49,7 @@ def create_placeholders(folder_path, out_path):
         pass
 
     for filename in tqdm(os.listdir(folder_path)):
-        if filename.endswith(".jpg") or filename.endswith(".png"):
+        if is_valid_file(filename):
             create_placeholder(
                 os.path.join(folder_path, filename),
                 os.path.join(out_path, filename)
