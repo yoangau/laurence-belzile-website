@@ -17,7 +17,8 @@ def normalize_extensions(folder_path):
     renamed_count = 0
     
     for filename in os.listdir(folder_path):
-        if not is_valid_file(filename) and filename.lower().endswith(('.jpg', '.png', '.jpeg')):
+        # Check if file has uppercase extension that should be lowercase
+        if any(filename.endswith(ext) for ext in ('.JPG', '.PNG', '.JPEG')):
             old_path = os.path.join(folder_path, filename)
             # Split filename and extension, then lowercase the extension
             name, ext = os.path.splitext(filename)
