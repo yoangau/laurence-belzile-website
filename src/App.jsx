@@ -4,9 +4,9 @@ import styled from '@emotion/styled';
 import { ConfigProvider } from 'antd';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { NavBar } from './components/NavBar';
-import { Work, Project, Contact, Resume, Info } from './pages';
+import { Work, Project, Contact, Resume, Info, Exhibitions } from './pages';
 import { Name } from './components/Name';
-import { ABOUT, CONTACT, CV, LANDING, PROJECT, WORK } from './constants/routes';
+import { ABOUT, CONTACT, CV, LANDING, PROJECT, WORK, EXHIBITIONS } from './constants/routes';
 import { useProjects } from './hooks/useProjects';
 import { CustomHelmet } from './components/CustomHelmet';
 
@@ -41,6 +41,9 @@ export const App = () => {
             </Route>
             <Route exact path={[WORK]}>
               <Work {...rest} isFilterable />
+            </Route>
+            <Route exact path={[EXHIBITIONS]}>
+              <Exhibitions />
             </Route>
             <Route path={PROJECT}>
               <Project projects={projectsById} />

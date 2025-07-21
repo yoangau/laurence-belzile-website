@@ -1,68 +1,139 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Laurence Belzile Portfolio Website
 
-## Available Scripts
+A React-based portfolio webs### Installation
 
-In the project directory, you can run:
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm start`
+3. Set up environment variables:
+   ```bash
+   # Create .env file with:
+   REACT_APP_FUNCTION_URL=your_netlify_functions_url
+   ```
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4. Start development server:
+   ```bash
+   npm start
+   ```t Laurence Belzile, featuring an elegant gallery of artwork with multilingual support and integrated e-commerce functionality.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Responsive Portfolio Gallery**: Browse artwork with lazy loading, image optimization, and touch/swipe navigation
+- **Multilingual Support**: Full French/English internationalization using react-i18next
+- **Project Details**: Individual project pages with metadata (technique, dimensions, year, availability)
+- **E-commerce Integration**: Purchase inquiries and availability tracking
+- **Email Newsletter**: Subscription functionality with AWS backend integration
+- **SEO Optimized**: React Helmet for meta tags and social media sharing
+- **Interactive Navigation**: Touch gestures, keyboard shortcuts, and year-based anchoring
+- **Contact & Resume**: Dedicated pages with social media integration and downloadable CV
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend**: React 16.9, React Router, Emotion (CSS-in-JS)
+- **UI Components**: Ant Design, React Bootstrap
+- **Animations**: React Spring, React Reveal
+- **Internationalization**: i18next, react-i18next
+- **Backend**: Netlify Functions (TypeScript)
+- **Database**: AWS DynamoDB (email subscriptions)
+- **Monitoring**: AWS CloudWatch
+- **Deployment**: Netlify
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```
+src/
+├── components/          # Reusable UI components
+│   ├── NavBar.jsx      # Navigation with language switching
+│   ├── Project.jsx     # Gallery project thumbnail
+│   ├── ProjectAvailability.jsx  # Purchase/availability status
+│   └── lib/            # Styled components library
+├── pages/              # Route components
+│   ├── Work.jsx        # Main gallery with filtering
+│   ├── Project.jsx     # Individual project view
+│   ├── Contact.jsx     # Contact form and social links
+│   ├── Info.jsx        # Artist biography
+│   └── Resume.jsx      # CV/resume page
+├── hooks/              # Custom React hooks
+│   └── useProjects.jsx # Project data management
+├── service/            # API integrations
+│   └── email-service.js # Newsletter subscription
+├── utils/              # Helper functions
+├── data/               # JSON data files (projects, resume)
+├── i18n/               # Translation files (en.json, fr.json)
+└── constants/          # App constants (routes, folders)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+functions/              # Netlify serverless functions
+├── email/              # Email subscription handler
+└── utils/              # AWS integrations
 
-### `npm run eject`
+public/
+├── projects/           # Artwork images
+├── resume/             # CV files
+└── ...                 # Static assets
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+- Node.js (>= 14.x)
+- npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Set up environment variables:
+   ```bash
+   # Create .env file with:
+   REACT_APP_FUNCTION_URL=your_netlify_functions_url
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start development server:
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Development Commands
 
-### Code Splitting
+- `npm start` - Development server
+- `npm build` - Production build  
+- `npm test` - Run tests
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Key Features Implementation
 
-### Analyzing the Bundle Size
+### Gallery System
+- Projects loaded from JSON data with lazy loading
+- Multiple image support per project
+- Touch/swipe navigation with React Spring animations
+- Year-based filtering and anchor navigation
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Internationalization
+- Dynamic language switching (French/English)
+- Localized content for all text, including project descriptions
+- Browser language detection
 
-### Making a Progressive Web App
+### E-commerce Integration
+- Project availability status tracking
+- Direct purchase inquiry links with pre-filled subject lines
+- Price display with currency formatting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Backend Integration
+- Serverless functions for email subscriptions
+- AWS DynamoDB for data persistence
+- CloudWatch monitoring and metrics
 
-### Advanced Configuration
+## Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+The application is deployed on Netlify with:
+- Automatic builds from the repository
+- Serverless functions for backend functionality
+- Environment variable configuration for AWS services
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

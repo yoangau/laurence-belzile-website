@@ -5,7 +5,7 @@ import { animateScroll as scroll } from 'react-scroll';
 import styled from '@emotion/styled';
 import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
-import { ABOUT, CONTACT, CV, WORK } from '../constants/routes';
+import { ABOUT, CONTACT, CV, WORK, EXHIBITIONS } from '../constants/routes';
 import { social } from '../pages/Contact';
 
 const StyledLink = styled.p`
@@ -76,6 +76,7 @@ export const NavBar = () => {
     <StyledNavbar expand="lg" sticky="top">
       <FitContentNav className="lg-column justify-content-end">
         <StyledLink onClick={() => handleClick(WORK)}>{t('work-header')}</StyledLink>
+        <StyledLink onClick={() => handleClick(EXHIBITIONS)}>{t('exhibitions-header')}</StyledLink>
         <StyledLink onClick={() => handleClick(CV)}>{t('resume-header')}</StyledLink>
         <StyledLink onClick={() => handleClick(ABOUT)}>{t('info-header')}</StyledLink>
         <StyledLink onClick={() => handleClick(CONTACT)}>{t('contact-header')}</StyledLink>

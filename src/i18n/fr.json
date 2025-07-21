@@ -1,6 +1,7 @@
 {
     "common": {
         "work-header": "œuvres",
+        "exhibitions-header": "expositions",
         "resume-header": "cv",
         "contact-header": "contact",
         "info-header": "infos"

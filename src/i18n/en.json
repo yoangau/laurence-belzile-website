@@ -1,6 +1,7 @@
 {
     "common": {
         "work-header": "work",
+        "exhibitions-header": "exhibitions",
         "resume-header": "resume",
         "contact-header": "contact",
         "info-header": "info"
