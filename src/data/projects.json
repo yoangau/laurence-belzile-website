@@ -3656,7 +3656,7 @@
                 "photo-credit": "photo-credit-0"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "8.5\" x 10.75\"",
         "technique": [
@@ -3664,8 +3664,8 @@
             "on-wood"
         ],
         "year": 2023,
-        "price": 320,
-        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "price": null,
+        "buy-ref": "null",
         "expo-only": false,
         "expo": null,
         "photo-credit": "photo-credit-0",
@@ -4645,7 +4645,7 @@
                 "photo-credit": "photo-credit-1"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "Les récoltes",
         "dimension": "8.5\" x 10.75\"",
         "technique": [
@@ -4653,8 +4653,8 @@
             "on-wood"
         ],
         "year": 2024,
-        "price": 320,
-        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/les-recoles-8-5-x-10-75?variant=45528274206912",
+        "price": null,
+        "buy-ref": "null",
         "expo-only": false,
         "expo": null,
         "photo-credit": "photo-credit-1",
@@ -5257,6 +5257,449 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "55%"
+    },
+    {
+        "id": "LB00463.1",
+        "src": "LB00463.1.jpg",
+        "additional-images": [
+            {
+                "src": "LB00464.jpg",
+                "photo-credit": "photo-credit-1"
+            },
+            {
+                "src": "LB00465.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": true,
+        "title": "Luminescent",
+        "dimension": "36\" x 48\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 1925,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/luminescent-36-x-48?variant=46135812751552",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "60%"
+    },
+    {
+        "id": "LB00466",
+        "src": "LB00466.jpg",
+        "additional-images": [
+            {
+                "src": "LB00467.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": true,
+        "title": "S'immiscer",
+        "dimension": "8.5\" x 12\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 335,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/s-immiscer-8-5-x-12?variant=46139196670144",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "45%"
+    },
+    {
+        "id": "LB00468",
+        "src": "LB00468.jpg",
+        "additional-images": [
+            {
+                "src": "LB00469.jpg",
+                "photo-credit": "photo-credit-1"
+            }
+        ],
+        "available": true,
+        "title": "Détourner les sensations",
+        "dimension": "8.5\" x 12\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2024,
+        "price": 335,
+        "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/detourner-les-sensations-8-5-x-12",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-1",
+        "width": "45%"
+    },
+    {
+        "id": "LB00474",
+        "src": "LB00474.jpg",
+        "additional-images": [
+            {
+                "src": "LB00475.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Dumas I",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 240,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00476",
+        "src": "LB00476.jpg",
+        "additional-images": [
+            {
+                "src": "LB00477.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Dumas II",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 240,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00478",
+        "src": "LB00478.jpg",
+        "additional-images": [
+            {
+                "src": "LB00479.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 240,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },   
+    {
+        "id": "LB00482",
+        "src": "LB00482.jpg",
+        "additional-images": [
+            {
+                "src": "LB00483.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00484.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "24\" x 30\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 1008,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "65%"
+    },
+    {
+        "id": "LB00499",
+        "src": "LB00499.jpg",
+        "additional-images": [
+            {
+                "src": "LB00500.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "9\" x 12\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 324,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    }, 
+    {
+        "id": "LB00495",
+        "src": "LB00495.jpg",
+        "additional-images": [
+            {
+                "src": "LB00496.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "O'Keeffe I",
+        "dimension": "9\" x 12\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 324,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00497",
+        "src": "LB00497.jpg",
+        "additional-images": [
+            {
+                "src": "LB00498.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "O'Keeffe II",
+        "dimension": "9\" x 12\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 324,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00493",
+        "src": "LB00493.jpg",
+        "additional-images": 
+        [
+            {
+                "src": "LB00494.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Membranes",
+        "dimension": "8.5\" x 10.75\"",
+        "technique": [
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 306,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "45%"
+    },
+    {
+        "id": "LB00470",
+        "src": "LB00470.jpg",
+        "additional-images": [
+            {
+                "src": "LB00471.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Tes plaies",
+        "dimension": "16\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 600,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00480",
+        "src": "LB00480.jpg",
+        "additional-images": [
+            {
+                "src": "LB00481.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "12\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 540,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },
+    {
+        "id": "LB00472",
+        "src": "LB00472.jpg",
+        "additional-images": [
+            {
+                "src": "LB00473.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "@@untitled",
+        "dimension": "14\" x 20\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 574,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "60%"
+    },   
+    {
+        "id": "LB00487",
+        "src": "LB00487.jpg",
+        "additional-images": 
+        [
+            {
+                "src": "LB00488.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Snyder IV",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "charcoal",
+            "acrylic",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 240,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00491",
+        "src": "LB00491.jpg",
+        "additional-images": [
+            {
+                "src": "LB00492.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Synder I",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "mix-media",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 240,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00485",
+        "src": "LB00485.jpg",
+        "additional-images": [
+            {
+                "src": "LB00486.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Synder III",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "oil",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 240,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
+    },
+    {
+        "id": "LB00489",
+        "src": "LB00489.jpg",
+        "additional-images": [
+            {
+                "src": "LB00490.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": true,
+        "title": "Synder II",
+        "dimension": "8\" x 8\"",
+        "technique": [
+            "mix-media",
+            "on-canvas"
+        ],
+        "year": 2025,
+        "price": 240,
+        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "50%"
     }
     
     

@@ -139,6 +139,7 @@
     "work": {
         "filter-all": "All",
         "filter-available": "Available",
+        "mix-media": "mix media",
         "acrylic": "acrylic",
         "oil": "oil",
         "gouache": "gouache",
