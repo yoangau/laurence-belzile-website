@@ -5391,7 +5391,7 @@
                 "photo-credit": "photo-credit-0"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "@@untitled",
         "dimension": "8\" x 8\"",
         "technique": [
@@ -5399,8 +5399,8 @@
             "on-canvas"
         ],
         "year": 2025,
-        "price": 240,
-        "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+        "price": null,
+        "buy-ref": null,
         "expo-only": false,
         "expo": null,
         "photo-credit": "photo-credit-0",
