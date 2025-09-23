@@ -3805,7 +3805,7 @@
     {
         "id": "LB00176",
         "src": "LB00176.jpg",
-        "available": true,
+        "available": false,
         "title": "À l'abord des fleurs",
         "dimension": "8\" x 10\"",
         "technique": [
@@ -3813,7 +3813,7 @@
             "on-canvas"
         ],
         "year": 2023,
-        "price": 295,
+        "price": null,
         "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/a-l-abord-des-fleurs-8-x-10",
         "expo-only": false,
         "expo": null,
@@ -5295,7 +5295,7 @@
                 "photo-credit": "photo-credit-1"
             }
         ],
-        "available": true,
+        "available": false,
         "title": "S'immiscer",
         "dimension": "8.5\" x 12\"",
         "technique": [
@@ -5303,7 +5303,7 @@
             "on-canvas"
         ],
         "year": 2024,
-        "price": 335,
+        "price": null,
         "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/s-immiscer-8-5-x-12?variant=46139196670144",
         "expo-only": false,
         "expo": null,
