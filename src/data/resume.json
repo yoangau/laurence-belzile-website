@@ -44,6 +44,25 @@
         "title": "expo-ind-title",
         "year": [
             {
+                "date": 2026,
+                "list": [
+                    {
+                        "val": "expo-ind-2026-0"
+                    }
+                ]
+            },
+             {
+                "date": 2025,
+                "list": [
+                    {
+                        "val": "expo-ind-2025-0"
+                    },
+                    {
+                        "val": "expo-ind-2025-1"
+                    }
+                ]
+            },
+            {
                 "date": 2024,
                 "list": [
                     {
@@ -163,6 +182,14 @@
                     {
                         "val": "expo-col-2025-1",
                         "link": "https://accessgallery.ca/programming/members-show-2025"
+                    },
+                    {
+                        "val": "expo-col-2025-2",
+                        "link": "https://www.alliancefrancaise.ca/community/event-rsvp/?event_id=1088"
+                    },
+                    {
+                        "val": "expo-col-2025-3",
+                        "link": "https://www.richmondartgallery.org/artrich-2025"
                     }
                 ]
             },
@@ -605,6 +632,18 @@
     {
         "title": "jobs-title",
         "year": [
+            {
+                "date": "2025",
+                "list": [
+                    {
+                        "val": "jobs-2025-0",
+                        "link": "https://www.culturecdq.ca/realisations/wikiclub-perspectives-visuelles"
+                    },
+                    {
+                        "val": "jobs-2025-1"
+                    }
+                ]
+            },
             {
                 "date": "2024",
                 "list": [
