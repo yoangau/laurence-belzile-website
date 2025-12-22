@@ -1387,8 +1387,8 @@
         "width": "30%"
     },
     {
-        "id": "LB00054",
-        "src": "LB00054.jpg",
+        "id": "LB00307",
+        "src": "LB00307.jpg",
         "additional-images":[
             {
                 "src": "LB00301.jpg",
@@ -1415,7 +1415,7 @@
                 "photo-credit": "photo-credit-0"
             },
             {
-                "src": "LB00307.jpg",
+                "src": "LB00054.jpg",
                 "photo-credit": "photo-credit-0"
             },
             {
@@ -1439,7 +1439,7 @@
         "expo": "arracher-le-rouge-du-jaune-2019",
         "photo-credit": "photo-credit-0",
         "width": "100%",
-        "description": ""
+        "description": "LB00307-description"
     },
     {
         "id": "LB00055",

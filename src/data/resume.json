@@ -1,46 +1,5 @@
 [
     {
-        "title": "studies-title",
-        "year": [
-            {
-                "date": 2019,
-                "list": [
-                    {
-                        "val": "studies-2019"
-                    },
-                    {
-                        "val": "studies-2019-0",
-                        "link": "https://dam-oclc.bac-lac.gc.ca/eng/adbda15e-a1fb-497f-b9c1-debda8a6e848"
-                    }
-                ]
-            },
-            {
-                "date": 2016,
-                "list": [
-                    {
-                        "val": "studies-2016"
-                    }
-                ]
-            },
-            {
-                "date": 2015,
-                "list": [
-                    {
-                        "val": "studies-2015"
-                    }
-                ]
-            },
-            {
-                "date": 2013,
-                "list": [
-                    {
-                        "val": "studies-2013"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "title": "expo-ind-title",
         "year": [
             {
@@ -328,6 +287,47 @@
                     {
                         "val": "expo-col-2015-0",
                         "link": "https://www.piroir.com/exposition-2/#copie-de-universit-concordia-15"
+                    }
+                ]
+            }
+        ]
+    },
+        {
+        "title": "studies-title",
+        "year": [
+            {
+                "date": 2019,
+                "list": [
+                    {
+                        "val": "studies-2019"
+                    },
+                    {
+                        "val": "studies-2019-0",
+                        "link": "https://dam-oclc.bac-lac.gc.ca/eng/adbda15e-a1fb-497f-b9c1-debda8a6e848"
+                    }
+                ]
+            },
+            {
+                "date": 2016,
+                "list": [
+                    {
+                        "val": "studies-2016"
+                    }
+                ]
+            },
+            {
+                "date": 2015,
+                "list": [
+                    {
+                        "val": "studies-2015"
+                    }
+                ]
+            },
+            {
+                "date": 2013,
+                "list": [
+                    {
+                        "val": "studies-2013"
                     }
                 ]
             }
