@@ -5700,6 +5700,108 @@
         "expo": null,
         "photo-credit": "photo-credit-0",
         "width": "50%"
+    },
+    {
+        "id": "LB00501",
+        "src": "LB00501.jpg",
+        "additional-images": [
+            {
+                "src": "LB00502.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00503.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00504.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00505.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00506.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00507.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00508.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00509.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00510.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00511.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00512.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00513.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00514.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00515.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00516.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00517.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00518.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00519.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00520.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00521.jpg",
+                "photo-credit": "photo-credit-0"
+            },
+            {
+                "src": "LB00522.jpg",
+                "photo-credit": "photo-credit-0"
+            }
+        ],
+        "available": null,
+        "title": "Rencontre avec les Thuyas Géants",
+        "dimension": "Centre national d'exposition, Jonquière (QC)",
+        "technique": null,
+        "year": 2025,
+        "price": null,
+        "buy-ref": null,
+        "expo-only": false,
+        "expo": null,
+        "photo-credit": "photo-credit-0",
+        "width": "100%",
+        "description": "LB00501-description"
     }
     
     
