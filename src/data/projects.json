@@ -4880,69 +4880,6 @@
     "width": "45%"
   },
   {
-    "id": "LB00470",
-    "src": "LB00470.jpg",
-    "additional-images": [
-      {
-        "src": "LB00471.jpg",
-        "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": true,
-    "title": "Tes plaies",
-    "dimension": "16\" x 20\"",
-    "technique": ["oil", "on-canvas"],
-    "year": 2025,
-    "price": 600,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-    "expo-only": false,
-    "expo": null,
-    "photo-credit": "photo-credit-0",
-    "width": "60%"
-  },
-  {
-    "id": "LB00480",
-    "src": "LB00480.jpg",
-    "additional-images": [
-      {
-        "src": "LB00481.jpg",
-        "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": true,
-    "title": "@@untitled",
-    "dimension": "12\" x 20\"",
-    "technique": ["oil", "on-canvas"],
-    "year": 2025,
-    "price": 540,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-    "expo-only": false,
-    "expo": null,
-    "photo-credit": "photo-credit-0",
-    "width": "60%"
-  },
-  {
-    "id": "LB00472",
-    "src": "LB00472.jpg",
-    "additional-images": [
-      {
-        "src": "LB00473.jpg",
-        "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": true,
-    "title": "@@untitled",
-    "dimension": "14\" x 20\"",
-    "technique": ["oil", "on-canvas"],
-    "year": 2025,
-    "price": 574,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-    "expo-only": false,
-    "expo": null,
-    "photo-credit": "photo-credit-0",
-    "width": "60%"
-  },
-  {
     "id": "LB00487",
     "src": "LB00487.jpg",
     "additional-images": [
@@ -5025,6 +4962,69 @@
     "expo": null,
     "photo-credit": "photo-credit-0",
     "width": "50%"
+  },
+  {
+    "id": "LB00470",
+    "src": "LB00470.jpg",
+    "additional-images": [
+      {
+        "src": "LB00471.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Tes plaies",
+    "dimension": "16\" x 20\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 600,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo-only": false,
+    "expo": null,
+    "photo-credit": "photo-credit-0",
+    "width": "60%"
+  },
+  {
+    "id": "LB00480",
+    "src": "LB00480.jpg",
+    "additional-images": [
+      {
+        "src": "LB00481.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "@@untitled",
+    "dimension": "12\" x 20\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 540,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo-only": false,
+    "expo": null,
+    "photo-credit": "photo-credit-0",
+    "width": "60%"
+  },
+  {
+    "id": "LB00472",
+    "src": "LB00472.jpg",
+    "additional-images": [
+      {
+        "src": "LB00473.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "@@untitled",
+    "dimension": "14\" x 20\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 574,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo-only": false,
+    "expo": null,
+    "photo-credit": "photo-credit-0",
+    "width": "60%"
   },
   {
     "id": "LB00501",
@@ -5127,5 +5127,175 @@
     "photo-credit": "photo-credit-0",
     "width": "100%",
     "description": "LB00501-description"
+  },
+  {
+    "id": "LB00528",
+    "src": "LB00528.jpg",
+    "additional-images": [
+      {
+        "src": "LB00529.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00530.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00531.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00532.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00533.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00534.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00535.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00536.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00537.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00538.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00539.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00540.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00541.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00542.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00543.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00544.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00545.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00546.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00547.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00548.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00549.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00550.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00551.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00552.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00553.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00554.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00555.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00556.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00557.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00558.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00559.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00560.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00561.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00562.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00563.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00564.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00565.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00566.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": null,
+    "title": "Créatrices d'images",
+    "dimension": "Alliance française Vancouver, Vancouver (BC)",
+    "technique": null,
+    "year": 2025,
+    "price": null,
+    "buy-ref": null,
+    "expo-only": false,
+    "expo": null,
+    "photo-credit": "photo-credit-0",
+    "width": "100%",
+    "description": "LB00528-description"
   }
 ]
