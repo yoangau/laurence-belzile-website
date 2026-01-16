@@ -5,17 +5,19 @@ import cv2 as cv
 from concurrent.futures import ThreadPoolExecutor
 from functools import partial
 import multiprocessing
+import json
 
 projects_folder = "public/projects"
 out_folder = "public/projects/compressed"
 out_placeholders_folder = "public/projects/placeholders"
+dimensions_output_path = "src/data/image-dimensions.json"
 
 
 def normalize_extensions(folder_path):
     """Rename files with uppercase extensions to lowercase"""
     print("Normalizing file extensions...")
     renamed_count = 0
-    
+
     for filename in os.listdir(folder_path):
         # Check if file has uppercase extension that should be lowercase
         if any(filename.endswith(ext) for ext in ('.JPG', '.PNG', '.JPEG')):
@@ -24,14 +26,14 @@ def normalize_extensions(folder_path):
             name, ext = os.path.splitext(filename)
             new_filename = name + ext.lower()
             new_path = os.path.join(folder_path, new_filename)
-            
+
             try:
                 os.rename(old_path, new_path)
                 renamed_count += 1
                 print(f"Renamed: {filename} -> {new_filename}")
             except Exception as e:
                 print(f"Error renaming {filename}: {e}")
-    
+
     print(f"Normalized {renamed_count} file extensions")
 
 
@@ -42,8 +44,10 @@ def compress_image(image_path, out_path, quality=50):
     except Exception as e:
         print(f"Error: {e}")
 
+
 def is_valid_file(filename):
     return filename.lower().endswith(('.jpg', '.png', '.jpeg'))
+
 
 def process_files_multithreaded(folder_path, out_path, process_func, desc, max_workers=None, **kwargs):
     """Generic function to process files with multi-threading"""
@@ -57,24 +61,24 @@ def process_files_multithreaded(folder_path, out_path, process_func, desc, max_w
         filename for filename in os.listdir(folder_path)
         if is_valid_file(filename)
     ]
-    
+
     if not image_files:
         print(f"No image files found for {desc.lower()}")
         return
-    
+
     # Use number of CPU cores if max_workers not specified
     if max_workers is None:
         max_workers = min(multiprocessing.cpu_count(), len(image_files))
-    
+
     print(f"{desc} {len(image_files)} images using {max_workers} threads...")
-    
+
     # Create wrapper function that handles the file processing
     def process_single_file(filename):
         input_path = os.path.join(folder_path, filename)
         output_path = os.path.join(out_path, filename)
         process_func(input_path, output_path, **kwargs)
         return filename
-    
+
     # Process with thread pool
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         list(tqdm(
@@ -106,22 +110,70 @@ def create_placeholders(folder_path, out_path, max_workers=None):
     )
 
 
+def extract_image_dimensions(folder_path, output_path):
+    """Extract dimensions (width, height, aspect ratio) from all images and save to JSON"""
+    dimensions = {}
+
+    image_files = [
+        filename for filename in os.listdir(folder_path)
+        if is_valid_file(filename)
+    ]
+
+    if not image_files:
+        print("No image files found for dimension extraction")
+        return
+
+    print(f"Extracting dimensions from {len(image_files)} images...")
+
+    for filename in tqdm(image_files, desc="Extracting dimensions"):
+        try:
+            image_path = os.path.join(folder_path, filename)
+            img = Image.open(image_path)
+            width, height = img.size
+
+            # Extract image ID from filename (e.g., "LB00001.jpg" -> "LB00001")
+            image_id = os.path.splitext(filename)[0]
+
+            # Calculate aspect ratio (width / height)
+            aspect_ratio = round(width / height, 4) if height > 0 else 0
+
+            dimensions[image_id] = {
+                "width": width,
+                "height": height,
+                "aspectRatio": aspect_ratio
+            }
+        except Exception as e:
+            print(f"Error extracting dimensions from {filename}: {e}")
+
+    # Write to JSON file
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'w') as f:
+        json.dump(dimensions, f, indent=2)
+
+    print(f"Saved dimensions for {len(dimensions)} images to {output_path}")
+
+
 if __name__ == "__main__":
     print("Starting image processing pipeline...")
-    
+
     # Step 1: Normalize file extensions (rename uppercase to lowercase)
     normalize_extensions(projects_folder)
-    
+
     # Step 2: Compress original images
     print("\n--- Step 1: Compressing original images ---")
     compress_folder(projects_folder, out_folder, quality=50)
-    
+
     # Step 3: Create placeholder images from compressed images
     print("\n--- Step 2: Creating placeholder images ---")
     create_placeholders(out_folder, out_placeholders_folder)
-    
+
     # Step 4: Further compress placeholder images
     print("\n--- Step 3: Compressing placeholder images ---")
-    compress_folder(out_placeholders_folder, out_placeholders_folder, quality=25)
-    
+    compress_folder(out_placeholders_folder,
+                    out_placeholders_folder, quality=25)
+
+    # Step 5: Extract and store image dimensions
+    print("\n--- Step 4: Extracting image dimensions ---")
+    extract_image_dimensions(out_folder, dimensions_output_path)
+
     print("\nImage processing pipeline completed!")

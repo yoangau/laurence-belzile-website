@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { COMPRESSED_FOLDER, PLACEHOLDER_FOLDER } from '../constants/folders';
 import { PROJECT_BASE } from '../constants/routes';
 import { formatTitle } from '../utils/project';
+import imageDimensions from '../data/image-dimensions.json';
 
 const StyledExhibition = styled.div`
   display: flex;
@@ -35,6 +36,14 @@ const ClickableImage = styled(Image)`
   }
 `;
 
+const ImageContainer = styled.div`
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  aspect-ratio: ${(props) => props.aspectRatio};
+  overflow: hidden;
+`;
+
 const ImageOverlay = styled.div`
   position: absolute;
   bottom: 0;
@@ -60,19 +69,13 @@ const OverlayDimension = styled.div`
   font-size: 1em;
   opacity: 0.9;
 `;
-
-export const Exhibition = ({ 
-  id, 
-  src, 
-  alt, 
-  width, 
-  year, 
-  title,
-  dimension,
-  isYearAnchor
-}) => {
+export const Exhibition = ({ id, src, alt, width, year, title, dimension, isYearAnchor }) => {
   const { t } = useTranslation('work');
   const formattedTitle = formatTitle(title, t);
+
+  // Get aspect ratio from dimensions data, fallback to 0.75 (3/4)
+  const dims = imageDimensions[id] || { aspectRatio: 0.75 };
+  const aspectRatio = dims.aspectRatio || 0.75;
 
   return (
     <>
@@ -81,22 +84,32 @@ export const Exhibition = ({
         <LazyLoad once debounce height="100%" offset={200}>
           <Link to={`${PROJECT_BASE}/${id}`}>
             <Fade bottom>
-              <div style={{ position: 'relative', display: 'inline-block', width: width || "100%" }}>
+              <ImageContainer style={{ width: width || '100%' }} aspectRatio={aspectRatio}>
                 <ClickableImage
-                  width={width || "100%"}
-                  fluid="fluid"
+                  width="100%"
+                  height="100%"
+                  style={{ objectFit: 'cover' }}
                   src={`${COMPRESSED_FOLDER}/${src}`}
                   decoding="async"
                   preview={false}
                   alt={alt}
-                  placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={alt} />}
+                  placeholder={
+                    <Image
+                      width="100%"
+                      height="100%"
+                      style={{ objectFit: 'cover' }}
+                      src={`${PLACEHOLDER_FOLDER}/${src}`}
+                      preview={false}
+                      alt={alt}
+                    />
+                  }
                 />
                 <ImageOverlay>
                   <OverlayTitle>{formattedTitle}</OverlayTitle>
                   <OverlayYear>{year}</OverlayYear>
                   <OverlayDimension>{dimension}</OverlayDimension>
                 </ImageOverlay>
-              </div>
+              </ImageContainer>
             </Fade>
           </Link>
         </LazyLoad>
