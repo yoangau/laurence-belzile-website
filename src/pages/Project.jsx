@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { Image, Row, Col, FloatButton } from 'antd';
+import { ZoomInOutlined, ZoomOutOutlined } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import styled from '@emotion/styled';
 import { useHistory } from 'react-router-dom';
@@ -85,6 +86,16 @@ export const Project = ({ projects }) => {
     () => [project['photo-credit'], additionalImages?.map(({ 'photo-credit': pc }) => pc)].flat(),
     [additionalImages, project],
   );
+
+  // Build list of all images for preview group
+  const allImages = useMemo(() => {
+    const images = [`${PROJECTS_FOLDER}/${src}`];
+    if (additionalImages?.length > 0) {
+      images.push(...additionalImages.map(({ src: additionalSrc }) => `${PROJECTS_FOLDER}/${additionalSrc}`));
+    }
+    return images;
+  }, [src, additionalImages]);
+
   const formattedTitle = formatTitle(title, t);
   const titleAlt = getTitleAlt(title, t);
   const formattedDescription = description ? ReactHtmlParser(t(description)) : description;
@@ -105,35 +116,72 @@ export const Project = ({ projects }) => {
       <animated.div ref={ref} style={{ x, y, touchAction: 'pan-y', opacity }}>
         <StyledRow gutter={[0, 50]}>
           <Col xs={{ span: 20 }} lg={{ span: 12 }}>
-            <Image
-              key={src}
-              alt={alt}
-              draggable={false}
-              width="100%"
-              fluid="true"
-              src={`${PROJECTS_FOLDER}/${src}`}
-              placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={alt} />}
-            />
+            <Image.PreviewGroup
+              items={allImages}
+              preview={{
+                mask: 'transparent',
+                toolbarRender: (_, { image, actions }) => (
+                  <div
+                    style={{
+                      display: 'flex',
+                      gap: '8px',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <ZoomInOutlined key="zoom-in" onClick={actions.onZoomIn} style={{ cursor: 'pointer' }} />
+                    <ZoomOutOutlined key="zoom-out" onClick={actions.onZoomOut} style={{ cursor: 'pointer' }} />
+                  </div>
+                ),
+              }}
+            >
+              <Image
+                key={src}
+                alt={alt}
+                draggable={false}
+                width="100%"
+                fluid="true"
+                src={`${PROJECTS_FOLDER}/${src}`}
+                placeholder={<Image width="100%" src={`${PLACEHOLDER_FOLDER}/${src}`} preview={false} alt={alt} />}
+              />
+            </Image.PreviewGroup>
             <Row>
               <PhotoCreditText>{t('photo-credit') + t(photoCredits[0])}</PhotoCreditText>
             </Row>
             {additionalImages?.map(({ src: additionalSrc }, i) => (
-              <>
-                <Image
-                  key={additionalSrc}
-                  alt={alt}
-                  draggable={false}
-                  width="100%"
-                  fluid="true"
-                  src={`${PROJECTS_FOLDER}/${additionalSrc}`}
-                  placeholder={
-                    <Image width="100%" src={`${PLACEHOLDER_FOLDER}/${additionalSrc}`} preview={false} alt={title} />
-                  }
-                />
+              <div key={additionalSrc}>
+                <Image.PreviewGroup
+                  items={allImages}
+                  preview={{
+                    mask: 'transparent',
+                    toolbarRender: (_, { image, actions }) => (
+                      <div
+                        style={{
+                          display: 'flex',
+                          gap: '8px',
+                          justifyContent: 'center',
+                        }}
+                      >
+                        <ZoomInOutlined key="zoom-in" onClick={actions.onZoomIn} style={{ cursor: 'pointer' }} />
+                        <ZoomOutOutlined key="zoom-out" onClick={actions.onZoomOut} style={{ cursor: 'pointer' }} />
+                      </div>
+                    ),
+                  }}
+                >
+                  <Image
+                    alt={alt}
+                    draggable={false}
+                    width="100%"
+                    fluid="true"
+                    src={`${PROJECTS_FOLDER}/${additionalSrc}`}
+                    placeholder={
+                      <Image width="100%" src={`${PLACEHOLDER_FOLDER}/${additionalSrc}`} preview={false} alt={title} />
+                    }
+                  />
+                </Image.PreviewGroup>
                 <Row>
                   <PhotoCreditText>{t('photo-credit') + t(photoCredits[i + 1])}</PhotoCreditText>
                 </Row>
-              </>
+              </div>
             ))}
           </Col>
           <Col xs={{ span: 20 }} lg={{ span: 6, offset: 1 }}>
