@@ -119,6 +119,7 @@ export const Project = ({ projects }) => {
             <Image.PreviewGroup
               items={allImages}
               preview={{
+                movable: true,
                 mask: 'transparent',
                 toolbarRender: (_, { image, actions }) => (
                   <div
