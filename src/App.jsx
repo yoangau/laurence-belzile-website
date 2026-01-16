@@ -40,7 +40,15 @@ export const App = () => {
               <Work {...rest} isFilterable={false} />
             </Route>
             <Route exact path={[WORK]}>
-              <Work {...rest} isFilterable />
+              <Work
+                projects={rest.workProjects}
+                anchorProjectsIds={rest.workAnchorProjectsIds}
+                anchorProjects={rest.workAnchorProjects}
+                availableProjects={rest.availableProjects}
+                anchorAvailableProjectsIds={rest.anchorAvailableProjectsIds}
+                anchorAvailableProjects={rest.anchorAvailableProjects}
+                isFilterable
+              />
             </Route>
             <Route exact path={[EXHIBITIONS]}>
               <Exhibitions />

@@ -43,6 +43,11 @@ export const useProjects = () => {
 
   const anchorProjectsIds = useMemo(() => new Set(anchorProjects.map(({ id }) => id)), [anchorProjects]);
 
+  // Projects excluding expo projects (for /work page)
+  const workProjects = useMemo(() => reversedProjects.filter(({ expo }) => expo !== true), [reversedProjects]);
+  const workAnchorProjects = useMemo(() => createAnchorProjects(workProjects), [workProjects]);
+  const workAnchorProjectsIds = useMemo(() => new Set(workAnchorProjects.map(({ id }) => id)), [workAnchorProjects]);
+
   const availableProjects = useMemo(() => reversedProjects.filter(({ available }) => available), [reversedProjects]);
   const anchorAvailableProjects = useMemo(() => createAnchorProjects(availableProjects), [availableProjects]);
   const anchorAvailableProjectsIds = useMemo(
@@ -59,6 +64,9 @@ export const useProjects = () => {
     projects: reversedProjects,
     anchorProjects,
     anchorProjectsIds,
+    workProjects,
+    workAnchorProjects,
+    workAnchorProjectsIds,
     availableProjects,
     anchorAvailableProjects,
     anchorAvailableProjectsIds,
