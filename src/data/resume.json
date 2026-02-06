@@ -1,833 +1,852 @@
 [
-    {
-        "title": "expo-ind-title",
-        "year": [
-            {
-                "date": 2026,
-                "list": [
-                    {
-                        "val": "expo-ind-2026-0"
-                    }
-                ]
-            },
-             {
-                "date": 2025,
-                "list": [
-                    {
-                        "val": "expo-ind-2025-0"
-                    },
-                    {
-                        "val": "expo-ind-2025-1",
-                        "link": "/projet/LB00501"
-                    }
-                ]
-            },
-            {
-                "date": 2024,
-                "list": [
-                    {
-                        "val": "expo-ind-2024-0",
-                        "link": "/projet/LB00234"
-                    },
-                    {
-                        "val": "expo-ind-2024-1",
-                        "link": "/projet/LB00218"
-                    },
-                    {
-                        "val": "expo-ind-2024-2",
-                        "link": "/projet/LB00450"
-                    }
-                ]
-            },
-            {
-                "date": 2023,
-                "list": [
-                    {
-                        "val": "expo-ind-2023-1",
-                        "link": "/projet/LB00198"
-                    }
-                ]
-            },
-            {
-                "date": 2022,
-                "list": [
-                    {
-                        "val": "expo-ind-2022-0",
-                        "link": "/projet/LB00269"
-                    },
-                    {
-                        "val": "expo-ind-2022-1",
-                        "link": "/projet/LB00282"
-                    },
-                    {
-                        "val": "expo-ind-2022-2"
-                    }
-                ]
-            },
-            {
-                "date": 2021,
-                "list": [
-                    {
-                        "val": "expo-ind-2021-0",
-                        "link": "/projet/LB00287"
-                    },
-                    {
-                        "val": "expo-ind-2021-1",
-                        "link": "/projet/LB00289"
-                    }
-                ]
-            },
-            {
-                "date": 2020,
-                "list": [
-                    {
-                        "val": "expo-ind-2020-0",
-                        "link": "/projet/LB00292"
-                    },
-                    {
-                        "val": "expo-ind-2020-1",
-                        "link": "/projet/LB00069.1"
-                    }
-                ]
-            },
-            {
-                "date": 2019,
-                "list": [
-                    {
-                        "val": "expo-ind-2019-0",
-                        "link": "/projet/LB00054"
-                    },
-                    {
-                        "val": "expo-ind-2019-1",
-                        "link": "/projet/LB00311"
-                    }
-                ]
-            },
-            {
-                "date": 2018,
-                "list": [
-                    {
-                        "val": "expo-ind-2018-0",
-                        "link": "/projet/LB00037"
-                    },
-                    {
-                        "val": "expo-ind-2018-1",
-                        "link": "/projet/LB00327"
-                    },
-                    {
-                        "val": "expo-ind-2018-2"
-                    }
-                ]
-            },
-            {
-                "date": 2017,
-                "list": [
-                    {
-                        "val": "expo-ind-2017-0"
-                    }
-                ]
-            }
+  {
+    "title": "expo-ind-title",
+    "year": [
+      {
+        "date": 2026,
+        "list": [
+          {
+            "val": "expo-ind-2026-0"
+          }
         ]
-    },
-    {
-        "title": "expo-col-title",
-        "year": [
-            {
-                "date": 2025,
-                "list": [
-                    {
-                        "val": "expo-col-2025-0",
-                        "link": "https://www.alternatorcentre.com/events/similkameen-artist-residency-the-guest-book"
-                    },
-                    {
-                        "val": "expo-col-2025-1",
-                        "link": "https://accessgallery.ca/programming/members-show-2025"
-                    },
-                    {
-                        "val": "expo-col-2025-2",
-                        "link": "https://www.alliancefrancaise.ca/community/event-rsvp/?event_id=1088"
-                    },
-                    {
-                        "val": "expo-col-2025-3",
-                        "link": "https://www.richmondartgallery.org/artrich-2025"
-                    }
-                ]
-            },
-            {
-                "date": 2024,
-                "list": [
-                    {
-                        "val": "expo-col-2024-0",
-                        "link": "https://www.seymourartgallery.com/2024/03/27/art-party-2024/"
-                    },
-                    {
-                        "val": "expo-col-2024-1",
-                        "link": "https://www.mbsl.qc.ca/fr/expositions/anterieures/exposition-pre-encan-2024#:~:text=Afin%20de%20d%C3%A9couvrir%20les%2064,une%20visite%20comment%C3%A9e%20des%20oeuvres%20!"
-                    }
-                ]
-            },
-            {
-                "date": 2023,
-                "list": [
-                    {
-                        "val": "expo-col-2023-0",
-                        "link": "https://www.richmondartgallery.org/artrich-2023"
-                    },
-                    {
-                        "val": "expo-col-2023-1",
-                        "link": "/projet/LB00195"
-                    },
-                    {
-                        "val": "expo-col-2023-2",
-                        "link": "https://www.seymourartgallery.com/2023/09/26/art-party-2023/"
-                    },
-                    {
-                        "val": "expo-col-2023-3",
-                        "link": "https://thisgallery.org/project/life-absurd/"
-                    }
-                ]
-            },
-            {
-                "date": 2022,
-                "list": [
-                    {
-                        "val": "expo-col-2022-0",
-                        "link": "https://champagneparadis.com/pages/les-quatorze-noctambules"
-                    },
-                    {
-                        "val": "expo-col-2022-1",
-                        "link": "/projet/LB00333"
-                    },
-                    {
-                        "val": "expo-col-2022-2"
-                    },
-                    {
-                        "val": "expo-col-2022-3",
-                        "link": "https://champagneparadis.com/pages/par-dela-les-frontieres"
-                    },
-                    {
-                        "val": "expo-col-2022-4",
-                        "link": "https://www.mbsl.qc.ca/fr/expositions/anterieures/exposition-pre-encan-2022"
-                    }
-                ]
-            },
-            {
-                "date": 2021,
-                "list": [
-                    {
-                        "val": "expo-col-2021-0",
-                        "link": "/projet/LB00342"
-                    }
-                ]
-            },
-            {
-                "date": 2020,
-                "list": [
-                    {
-                        "val": "expo-col-2020-0",
-                        "link": "https://www.cegeprdl.ca/media/4254561/50-ans-expo.pdf"
-                    }
-                ]
-            },
-            {
-                "date": 2018,
-                "list": [
-                    {
-                        "val": "expo-col-2018-0"
-                    },
-                    {
-                        "val": "expo-col-2018-1",
-                        "link": "/projet/LB00350"
-                    },
-                    {
-                        "val": "expo-col-2018-2",
-                        "link": "/projet/LB00355"
-                    }
-                ]
-            },
-            {
-                "date": 2017,
-                "list": [
-                    {
-                        "val": "expo-col-2017-0",
-                        "link": "/projet/LB00362"
-                    },
-                    {
-                        "val": "expo-col-2017-1",
-                        "link": "/projet/LB00363"
-                    },
-                    {
-                        "val": "expo-col-2017-2"
-                    }
-                ]
-            },
-            {
-                "date": 2016,
-                "list": [
-                    {
-                        "val": "expo-col-2016-0"
-                    },
-                    {
-                        "val": "expo-col-2016-1",
-                        "link": "https://stay-awhile-exhibition.tumblr.com/"
-                    },
-                    {
-                        "val": "expo-col-2016-2",
-                        "link": "https://centerfold.gallery/artists/laurence-belzile"
-                    },
-                    {
-                        "val": "expo-col-2016-3",
-                        "link": "https://www.piroir.com/exposition-2/#copie-de-universit-concordia-16"
-                    }
-                ]
-            },
-            {
-                "date": 2015,
-                "list": [
-                    {
-                        "val": "expo-col-2015-0",
-                        "link": "https://www.piroir.com/exposition-2/#copie-de-universit-concordia-15"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2025,
+        "list": [
+          {
+            "val": "expo-ind-2025-0"
+          },
+          {
+            "val": "expo-ind-2025-1",
+            "link": "/projet/LB00501"
+          }
         ]
-    },
-        {
-        "title": "studies-title",
-        "year": [
-            {
-                "date": 2019,
-                "list": [
-                    {
-                        "val": "studies-2019"
-                    },
-                    {
-                        "val": "studies-2019-0",
-                        "link": "https://dam-oclc.bac-lac.gc.ca/eng/adbda15e-a1fb-497f-b9c1-debda8a6e848"
-                    }
-                ]
-            },
-            {
-                "date": 2016,
-                "list": [
-                    {
-                        "val": "studies-2016"
-                    }
-                ]
-            },
-            {
-                "date": 2015,
-                "list": [
-                    {
-                        "val": "studies-2015"
-                    }
-                ]
-            },
-            {
-                "date": 2013,
-                "list": [
-                    {
-                        "val": "studies-2013"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2024,
+        "list": [
+          {
+            "val": "expo-ind-2024-0",
+            "link": "/projet/LB00234"
+          },
+          {
+            "val": "expo-ind-2024-1",
+            "link": "/projet/LB00218"
+          },
+          {
+            "val": "expo-ind-2024-2",
+            "link": "/projet/LB00450"
+          }
         ]
-    },
-    {
-        "title": "collection-title",
-        "year": [
-            {
-                "date": "",
-                "list": [
-                    {
-                        "val": "collection-0",
-                        "link": "https://www.boucherville.ca/culture/art-public-et-collections/art-public/dependance-des-formes/"
-                    },
-                    {
-                        "val": "collection-1",
-                        "link": "https://meduse.org/collection/?search=ROMPRE#section-1"
-                    },
-                    {
-                        "val": "collection-2"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2023,
+        "list": [
+          {
+            "val": "expo-ind-2023-1",
+            "link": "/projet/LB00198"
+          }
         ]
-    },
-    {
-        "title": "rep-title",
-        "year": [
-            {
-                "date": "",
-                "list": [
-                    {
-                        "val": "rep-champagne",
-                        "link": "https://champagneparadis.com/collections/belzile-laurence"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2022,
+        "list": [
+          {
+            "val": "expo-ind-2022-0",
+            "link": "/projet/LB00269"
+          },
+          {
+            "val": "expo-ind-2022-1",
+            "link": "/projet/LB00282"
+          },
+          {
+            "val": "expo-ind-2022-2"
+          }
         ]
-    },
-    {
-        "title": "projects-title",
-        "year": [
-            {
-                "date": 2022,
-                "list": [
-                    {
-                        "val": "projects-2022-0"
-                    },
-                    {
-                        "val": "projects-2022-1"
-                    }
-                ]
-            },
-            {
-                "date": 2021,
-                "list": [
-                    {
-                        "val": "projects-2021-0",
-                        "link": "https://www.juliebellavance.com/oeuvres-disponibles/portfolio-collaboratif"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2021,
+        "list": [
+          {
+            "val": "expo-ind-2021-0",
+            "link": "/projet/LB00287"
+          },
+          {
+            "val": "expo-ind-2021-1",
+            "link": "/projet/LB00289"
+          }
         ]
-    },
-    {
-        "title": "resid-title",
-        "year": [
-            {
-                "date": 2023,
-                "list": [
-                    {
-                        "val": "resid-2023-0",
-                        "link": "https://www.simartres.com/laurence-belzile"
-                    },
-                    {
-                        "val": "resid-2023-1"
-                    }
-                ]
-            },
-            {
-                "date": 2022,
-                "list": [
-                    {
-                        "val": "resid-2022-0"
-                    }
-                ]
-            },
-            {
-                "date": 2019,
-                "list": [
-                    {
-                        "val": "resid-2019-0",
-                        "link": "https://nouaisons.org/2019/08/11/laurence-belzile/"
-                    }
-                ]
-            },
-            {
-                "date": 2018,
-                "list": [
-                    {
-                        "val": "resid-2018-0"
-                    },
-                    {
-                        "val": "resid-2018-1"
-                    }
-                ]
-            },
-            {
-                "date": 2017,
-                "list": [
-                    {
-                        "val": "resid-2017-0",
-                        "link": "/projet/LB00012"
-                        
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2020,
+        "list": [
+          {
+            "val": "expo-ind-2020-0",
+            "link": "/projet/LB00292"
+          },
+          {
+            "val": "expo-ind-2020-1",
+            "link": "/projet/LB00069.1"
+          }
         ]
-    },
-    {
-        "title": "awards-title",
-        "year": [
-            {
-                "date": 2024,
-                "list": [
-                    {
-                        "val": "awards-2024-0"
-                    }
-                ]
-            },
-            {
-                "date": 2023,
-                "list": [
-                    {
-                        "val": "awards-2023-0"
-                    }
-                ]
-            },
-            {
-                "date": 2022,
-                "list": [
-                    {
-                        "val": "awards-2022-0"
-                    }
-                ]
-            },
-            {
-                "date": 2021,
-                "list": [
-                    {
-                        "val": "awards-2021-0"
-                    },
-                    {
-                        "val": "awards-2021-1"
-                    },
-                    {
-                        "val": "awards-2021-2"
-                    }
-                ]
-            },
-            {
-                "date": 2020,
-                "list": [
-                    {
-                        "val": "awards-2020-0"
-                    }
-                ]
-            },
-            {
-                "date": 2019,
-                "list": [
-                    {
-                        "val": "awards-2019-0"
-                    }
-                ]
-            },
-            {
-                "date": 2018,
-                "list": [
-                    {
-                        "val": "awards-2018-0"
-                    }
-                ]
-            },
-            {
-                "date": 2017,
-                "list": [
-                    {
-                        "val": "awards-2017-0"
-                    }
-                ]
-            },
-            {
-                "date": 2014,
-                "list": [
-                    {
-                        "val": "awards-2014-0"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2019,
+        "list": [
+          {
+            "val": "expo-ind-2019-0",
+            "link": "/projet/LB00054"
+          },
+          {
+            "val": "expo-ind-2019-1",
+            "link": "/projet/LB00311"
+          }
         ]
-    },
-    {
-        "title": "fairs-auct-title",
-        "year": [
-            {
-                "date": 2024,
-                "list": [
-                    {
-                        "val": "fairs-auct-2024-0"
-                    }
-                ]
-            },
-            {
-                "date": 2023,
-                "list": [
-                    {
-                        "val": "fairs-auct-2023-0"
-                    },
-                    {
-                        "val": "fairs-auct-2023-1"
-                    }
-                ]
-            },
-            {
-                "date": 2022,
-                "list": [
-                    {
-                        "val": "fairs-auct-2022-0"
-                    }
-                ]
-            },
-            {
-                "date": 2020,
-                "list": [
-                    {
-                        "val": "fairs-auct-2020-0"
-                    },
-                    {
-                        "val": "fairs-auct-2020-1"
-                    },
-                    {
-                        "val": "fairs-auct-2020-2"
-                    }
-                ]
-            },
-            {
-                "date": 2019,
-                "list": [
-                    {
-                        "val": "fairs-auct-2019-0"
-                    }
-                ]
-            },
-            {
-                "date": 2018,
-                "list": [
-                    {
-                        "val": "fairs-auct-2018-0"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2018,
+        "list": [
+          {
+            "val": "expo-ind-2018-0",
+            "link": "/projet/LB00037"
+          },
+          {
+            "val": "expo-ind-2018-1",
+            "link": "/projet/LB00327"
+          },
+          {
+            "val": "expo-ind-2018-2"
+          }
         ]
-    },
-    {
-        "title": "other-title",
-        "year": [
-            {
-                "date": "2021-2024",
-                "list": [
-                    {
-                        "val": "other-2021-2023-0"
-                    }
-                ]
-            },
-            {
-                "date": "2018-2021",
-                "list": [
-                    {
-                        "val": "other-2018-2021-0"
-                    }
-                ]
-            },
-            {
-                "date": "2017-2018",
-                "list": [
-                    {
-                        "val": "other-2017-2018-0"
-                    }
-                ]
-            },
-            {
-                "date": "2016-2017",
-                "list": [
-                    {
-                        "val": "other-2016-2017-0"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2017,
+        "list": [
+          {
+            "val": "expo-ind-2017-0"
+          }
         ]
-    },
-    {
-        "title": "jobs-title",
-        "year": [
-            {
-                "date": "2025",
-                "list": [
-                    {
-                        "val": "jobs-2025-0",
-                        "link": "https://www.culturecdq.ca/realisations/wikiclub-perspectives-visuelles"
-                    },
-                    {
-                        "val": "jobs-2025-1"
-                    }
-                ]
-            },
-            {
-                "date": "2024",
-                "list": [
-                    {
-                        "val": "jobs-2024-0"
-                    }
-                ]
-            },
-            {
-                "date": "2018-2021",
-                "list": [
-                    {
-                        "val": "jobs-2018-2021-0"
-                    }
-                ]
-            },
-            {
-                "date": 2018,
-                "list": [
-                    {
-                        "val": "jobs-2018-0"
-                    }
-                ]
-            },
-            {
-                "date": 2017,
-                "list": [
-                    {
-                        "val": "jobs-2017-0"
-                    }
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "title": "expo-col-title",
+    "year": [
+      {
+        "date": 2025,
+        "list": [
+          {
+            "val": "expo-col-2025-0",
+            "link": "https://www.alternatorcentre.com/events/similkameen-artist-residency-the-guest-book"
+          },
+          {
+            "val": "expo-col-2025-1",
+            "link": "https://accessgallery.ca/programming/members-show-2025"
+          },
+          {
+            "val": "expo-col-2025-2",
+            "link": "https://www.alliancefrancaise.ca/community/event-rsvp/?event_id=1088"
+          },
+          {
+            "val": "expo-col-2025-3",
+            "link": "https://www.richmondartgallery.org/artrich-2025"
+          }
         ]
-    },
-    {
-        "title": "illustration-title",
-        "year": [
-            {
-                "date": 2022,
-                "list": [
-                    {
-                        "val": "illustration-2022-0",
-                        "link": "https://lenoroit.com/produit/ne-retiens-pas-le-feu/"
-                    }
-                ]
-            },
-            {
-                "date": 2020,
-                "list": [
-                    {
-                        "val": "illustration-2020-0",
-                        "link": "https://editionsomri.com/ramages/"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2024,
+        "list": [
+          {
+            "val": "expo-col-2024-0",
+            "link": "https://www.seymourartgallery.com/2024/03/27/art-party-2024/"
+          },
+          {
+            "val": "expo-col-2024-1",
+            "link": "https://www.mbsl.qc.ca/fr/expositions/anterieures/exposition-pre-encan-2024#:~:text=Afin%20de%20d%C3%A9couvrir%20les%2064,une%20visite%20comment%C3%A9e%20des%20oeuvres%20!"
+          }
         ]
-    },
-    {
-        "title": "conference-title",
-        "year": [
-            {
-                "date": 2023,
-                "list": [
-                    {
-                        "val": "conference-2023-0",
-                        "link": "https://www.cegeprdl.ca/nouvelles/2023-2024/septembre-2023/conference-causerie-de-laurence-belzile-artiste-professionnelle"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2023,
+        "list": [
+          {
+            "val": "expo-col-2023-0",
+            "link": "https://www.richmondartgallery.org/artrich-2023"
+          },
+          {
+            "val": "expo-col-2023-1",
+            "link": "/projet/LB00195"
+          },
+          {
+            "val": "expo-col-2023-2",
+            "link": "https://www.seymourartgallery.com/2023/09/26/art-party-2023/"
+          },
+          {
+            "val": "expo-col-2023-3",
+            "link": "https://thisgallery.org/project/life-absurd/"
+          }
         ]
-    },
-    {
-        "title": "press-title",
-        "year": [
-            {
-                "date": 2025,
-                "list": [
-                    {
-                        "val": "la-source-2025-0",
-                        "link": "https://thelasource.com/fr/culture/2025/10/12/ca-sest-passe-pres-de-chez-vous-a-lalliance-francaise/"
-                    }
-                ]
-            },
-            {
-                "date": 2024,
-                "list": [
-                    {
-                        "val": "radio-canada-2024-2",
-                        "link": "https://ici.radio-canada.ca/info/videos/1-10218750/artiste-peintre-laurence-belzile-sinteresse-a-poesie-une-imagerie-abstraite"
-                    },                    {
-                        "val": "culture-geniale-2024",
-                        "link": "https://uniquefm.ca/entrevues/chronique-arts-visuels-no-3-50722"
-                    },
-                    {
-                        "val": "radio-canada-2024-1",
-                        "link": "https://ici.radio-canada.ca/nouvelle/2109639/laurence-belzile-art-abstrait-connexion?partageApp=rcca_appmobile_appinfo_android"
-                    },
-                    {
-                        "val": "radio-canada-2024",
-                        "link": "https://ici.radio-canada.ca/ohdio/premiere/emissions/culture-et-confiture/segments/entrevue/493896/laurence-belzile-peinture-vancouver"
-                    },
-                    {
-                        "val": "coast-reporter-2024",
-                        "link": "https://www.coastreporter.net/local-arts/nature-leads-the-way-in-new-abstract-art-at-sunshine-coast-arts-centre-8315761"
-                    }
-                ]
-            },
-            {
-                "date": 2022,
-                "list": [
-                    {
-                        "val": "La-tribune-2022",
-                        "link": "https://www.latribune.ca/2022/09/19/attentes-et-droits-reserves-a-la-maison-des-arts-et-de-la-culture-32e27705b31a355f1ec090857c939017?fbclid=IwAR3uT8IjJ4DOtap6Q-4s7Oq8d17kZayoZNDaKKTOfWHNK1DokGHTpqqgeS4"
-                    },
-                    {
-                        "val": "téléjournal-2022",
-                        "link": "https://ici.radio-canada.ca/tele/le-telejournal-ottawa-gatineau/site/episodes/639179/telejournal-ottawa-gatineau-daniel-bouchard"
-                    },
-                    {
-                        "val": "tvco-2022",
-                        "link": "https://tvcotv.com/episode/retrospectives-25-fevrier-2022/"
-                    },
-                    {
-                        "val": "aero-2022",
-                        "link": "https://soundcloud.com/a-lest-de-vos-empires/aero-13-septembre-2022"
-                    }
-                ]
-            },
-            {
-                "date": 2021,
-                "list": [
-                    {
-                        "val": "Soleil-2021",
-                        "link": "https://www.lesoleil.com/2021/11/27/montagne--la-somme-des-petites-victoires-e66bfe02386ed3bba2b0daeb5b0a48a3"
-                    },
-                    {
-                        "val": "aero-2021-0",
-                        "link": "https://laerospatialckrl.wordpress.com/2021/10/19/balado-19-octobre-2021/ "
-                    },
-                    {
-                        "val": "aero-2021-1",
-                        "link": "https://laerospatialckrl.wordpress.com/2021/12/01/balado-30-novembre-2021/"
-                    }
-                ]
-            },
-            {
-                "date": 2020,
-                "list": [
-                    {
-                        "val": "Soleil-2020",
-                        "link": "https://www.lesoleil.com/2020/11/15/foire-en-art-actuel-de-quebec-une-offre-doublee-pour-ledition-virtuelle-3408509c2bfff8dcd1928d7d02f8d2e5"
-                    },
-                    {
-                        "val": "tva-2020",
-                        "link": "https://www.tvanouvelles.ca/2020/11/21/une-exposition-darts-dejoue-la-pandemie"
-                    },
-                    {
-                        "val": "téléjournal-2020",
-                        "link": "https://ici.radio-canada.ca/tele/le-telejournal-quebec/site/segments/reportage/210383/foire-en-art-actuel-en-mode-virtuel-expositions"
-                    }
-                ]
-            },
-            {
-                "date": 2018,
-                "list": [
-                    {
-                        "val": "devoir-2018",
-                        "link": "http://www.ledevoir.com/culture/519729/l-expo-jaune-marine-affiche-ses-couleurs"
-                    },
-                    {
-                        "val": "rumeur-2018",
-                        "link": "https://www.rumeurduloup.com/voir-loin-une-exposition-collective-et-inedite-en-arts/"
-                    },
-                    {
-                        "val": "fabrique-2018",
-                        "link": "https://www.lafabriqueculturelle.tv/capsules/11277/voir-loin-incursions-dans-le-paysage"
-                    },
-                    {
-                        "val": "téléjournal-2018",
-                        "link": "https://ici.radio-canada.ca/tele/le-telejournal-est-du-quebec/site/episodes/412224/episode-du-26-juillet-2018?fbclid=IwAR2tOhGrkw7y56wrADeG2PehyX8B-DXG7xnqCxJp0tk0mWFmTEqNC_4rVwY"
-                    }
-                ]
-            }
+      },
+      {
+        "date": 2022,
+        "list": [
+          {
+            "val": "expo-col-2022-0",
+            "link": "https://champagneparadis.com/pages/les-quatorze-noctambules"
+          },
+          {
+            "val": "expo-col-2022-1",
+            "link": "/projet/LB00333"
+          },
+          {
+            "val": "expo-col-2022-2"
+          },
+          {
+            "val": "expo-col-2022-3",
+            "link": "https://champagneparadis.com/pages/par-dela-les-frontieres"
+          },
+          {
+            "val": "expo-col-2022-4",
+            "link": "https://www.mbsl.qc.ca/fr/expositions/anterieures/exposition-pre-encan-2022"
+          }
         ]
-    }
+      },
+      {
+        "date": 2021,
+        "list": [
+          {
+            "val": "expo-col-2021-0",
+            "link": "/projet/LB00342"
+          }
+        ]
+      },
+      {
+        "date": 2020,
+        "list": [
+          {
+            "val": "expo-col-2020-0",
+            "link": "https://www.cegeprdl.ca/media/4254561/50-ans-expo.pdf"
+          }
+        ]
+      },
+      {
+        "date": 2018,
+        "list": [
+          {
+            "val": "expo-col-2018-0"
+          },
+          {
+            "val": "expo-col-2018-1",
+            "link": "/projet/LB00350"
+          },
+          {
+            "val": "expo-col-2018-2",
+            "link": "/projet/LB00355"
+          }
+        ]
+      },
+      {
+        "date": 2017,
+        "list": [
+          {
+            "val": "expo-col-2017-0",
+            "link": "/projet/LB00362"
+          },
+          {
+            "val": "expo-col-2017-1",
+            "link": "/projet/LB00363"
+          },
+          {
+            "val": "expo-col-2017-2"
+          }
+        ]
+      },
+      {
+        "date": 2016,
+        "list": [
+          {
+            "val": "expo-col-2016-0"
+          },
+          {
+            "val": "expo-col-2016-1",
+            "link": "https://stay-awhile-exhibition.tumblr.com/"
+          },
+          {
+            "val": "expo-col-2016-2",
+            "link": "https://centerfold.gallery/artists/laurence-belzile"
+          },
+          {
+            "val": "expo-col-2016-3",
+            "link": "https://www.piroir.com/exposition-2/#copie-de-universit-concordia-16"
+          }
+        ]
+      },
+      {
+        "date": 2015,
+        "list": [
+          {
+            "val": "expo-col-2015-0",
+            "link": "https://www.piroir.com/exposition-2/#copie-de-universit-concordia-15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "studies-title",
+    "year": [
+      {
+        "date": 2019,
+        "list": [
+          {
+            "val": "studies-2019"
+          },
+          {
+            "val": "studies-2019-0",
+            "link": "https://dam-oclc.bac-lac.gc.ca/eng/adbda15e-a1fb-497f-b9c1-debda8a6e848"
+          }
+        ]
+      },
+      {
+        "date": 2016,
+        "list": [
+          {
+            "val": "studies-2016"
+          }
+        ]
+      },
+      {
+        "date": 2015,
+        "list": [
+          {
+            "val": "studies-2015"
+          }
+        ]
+      },
+      {
+        "date": 2013,
+        "list": [
+          {
+            "val": "studies-2013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "collection-title",
+    "year": [
+      {
+        "date": "",
+        "list": [
+          {
+            "val": "collection-0",
+            "link": "https://www.boucherville.ca/culture/art-public-et-collections/art-public/dependance-des-formes/"
+          },
+          {
+            "val": "collection-1",
+            "link": "https://meduse.org/collection/?search=ROMPRE#section-1"
+          },
+          {
+            "val": "collection-2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "rep-title",
+    "year": [
+      {
+        "date": "",
+        "list": [
+          {
+            "val": "rep-champagne",
+            "link": "https://champagneparadis.com/collections/belzile-laurence"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "projects-title",
+    "year": [
+      {
+        "date": 2022,
+        "list": [
+          {
+            "val": "projects-2022-0"
+          },
+          {
+            "val": "projects-2022-1"
+          }
+        ]
+      },
+      {
+        "date": 2021,
+        "list": [
+          {
+            "val": "projects-2021-0",
+            "link": "https://www.juliebellavance.com/oeuvres-disponibles/portfolio-collaboratif"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "resid-title",
+    "year": [
+      {
+        "date": 2023,
+        "list": [
+          {
+            "val": "resid-2023-0",
+            "link": "https://www.simartres.com/laurence-belzile"
+          },
+          {
+            "val": "resid-2023-1"
+          }
+        ]
+      },
+      {
+        "date": 2022,
+        "list": [
+          {
+            "val": "resid-2022-0"
+          }
+        ]
+      },
+      {
+        "date": 2019,
+        "list": [
+          {
+            "val": "resid-2019-0",
+            "link": "https://nouaisons.org/2019/08/11/laurence-belzile/"
+          }
+        ]
+      },
+      {
+        "date": 2018,
+        "list": [
+          {
+            "val": "resid-2018-0"
+          },
+          {
+            "val": "resid-2018-1"
+          }
+        ]
+      },
+      {
+        "date": 2017,
+        "list": [
+          {
+            "val": "resid-2017-0",
+            "link": "/projet/LB00012"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "awards-title",
+    "year": [
+      {
+        "date": 2024,
+        "list": [
+          {
+            "val": "awards-2024-0"
+          }
+        ]
+      },
+      {
+        "date": 2023,
+        "list": [
+          {
+            "val": "awards-2023-0"
+          }
+        ]
+      },
+      {
+        "date": 2022,
+        "list": [
+          {
+            "val": "awards-2022-0"
+          }
+        ]
+      },
+      {
+        "date": 2021,
+        "list": [
+          {
+            "val": "awards-2021-0"
+          },
+          {
+            "val": "awards-2021-1"
+          },
+          {
+            "val": "awards-2021-2"
+          }
+        ]
+      },
+      {
+        "date": 2020,
+        "list": [
+          {
+            "val": "awards-2020-0"
+          }
+        ]
+      },
+      {
+        "date": 2019,
+        "list": [
+          {
+            "val": "awards-2019-0"
+          }
+        ]
+      },
+      {
+        "date": 2018,
+        "list": [
+          {
+            "val": "awards-2018-0"
+          }
+        ]
+      },
+      {
+        "date": 2017,
+        "list": [
+          {
+            "val": "awards-2017-0"
+          }
+        ]
+      },
+      {
+        "date": 2014,
+        "list": [
+          {
+            "val": "awards-2014-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "fairs-auct-title",
+    "year": [
+      {
+        "date": 2024,
+        "list": [
+          {
+            "val": "fairs-auct-2024-0"
+          }
+        ]
+      },
+      {
+        "date": 2023,
+        "list": [
+          {
+            "val": "fairs-auct-2023-0"
+          },
+          {
+            "val": "fairs-auct-2023-1"
+          }
+        ]
+      },
+      {
+        "date": 2022,
+        "list": [
+          {
+            "val": "fairs-auct-2022-0"
+          }
+        ]
+      },
+      {
+        "date": 2020,
+        "list": [
+          {
+            "val": "fairs-auct-2020-0"
+          },
+          {
+            "val": "fairs-auct-2020-1"
+          },
+          {
+            "val": "fairs-auct-2020-2"
+          }
+        ]
+      },
+      {
+        "date": 2019,
+        "list": [
+          {
+            "val": "fairs-auct-2019-0"
+          }
+        ]
+      },
+      {
+        "date": 2018,
+        "list": [
+          {
+            "val": "fairs-auct-2018-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "other-title",
+    "year": [
+      {
+        "date": "2021-2024",
+        "list": [
+          {
+            "val": "other-2021-2023-0"
+          }
+        ]
+      },
+      {
+        "date": "2018-2021",
+        "list": [
+          {
+            "val": "other-2018-2021-0"
+          }
+        ]
+      },
+      {
+        "date": "2017-2018",
+        "list": [
+          {
+            "val": "other-2017-2018-0"
+          }
+        ]
+      },
+      {
+        "date": "2016-2017",
+        "list": [
+          {
+            "val": "other-2016-2017-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "jobs-title",
+    "year": [
+      {
+        "date": "2026",
+        "list": [
+          {
+            "val": "jobs-2024-0"
+          }
+        ]
+      },
+      {
+        "date": "2025",
+        "list": [
+          {
+            "val": "jobs-2025-0",
+            "link": "https://www.culturecdq.ca/realisations/wikiclub-perspectives-visuelles"
+          },
+          {
+            "val": "jobs-2025-1"
+          }
+        ]
+      },
+      {
+        "date": "2024",
+        "list": [
+          {
+            "val": "jobs-2024-0"
+          }
+        ]
+      },
+      {
+        "date": "2018-2021",
+        "list": [
+          {
+            "val": "jobs-2018-2021-0"
+          }
+        ]
+      },
+      {
+        "date": 2018,
+        "list": [
+          {
+            "val": "jobs-2018-0"
+          }
+        ]
+      },
+      {
+        "date": 2017,
+        "list": [
+          {
+            "val": "jobs-2017-0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "illustration-title",
+    "year": [
+      {
+        "date": 2022,
+        "list": [
+          {
+            "val": "illustration-2022-0",
+            "link": "https://lenoroit.com/produit/ne-retiens-pas-le-feu/"
+          }
+        ]
+      },
+      {
+        "date": 2020,
+        "list": [
+          {
+            "val": "illustration-2020-0",
+            "link": "https://editionsomri.com/ramages/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "conference-title",
+    "year": [
+      {
+        "date": 2023,
+        "list": [
+          {
+            "val": "conference-2023-0",
+            "link": "https://www.cegeprdl.ca/nouvelles/2023-2024/septembre-2023/conference-causerie-de-laurence-belzile-artiste-professionnelle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "press-title",
+    "year": [
+      {
+        "date": 2025,
+        "list": [
+          {
+            "val": "la-source-2025-0",
+            "link": "https://thelasource.com/fr/culture/2025/10/12/ca-sest-passe-pres-de-chez-vous-a-lalliance-francaise/"
+          },
+          {
+            "val": "radio-canada-2025-0",
+            "link": "https://ici.radio-canada.ca/tele/le-telejournal-colombie-britannique/site/segments/reportage/2243167/exposition-laurence-belzile-creatrice-dimages"
+          },
+          {
+            "val": "radio-canada-2025-1",
+            "link": "https://ici.radio-canada.ca/ohdio/premiere/emissions/panorama/segments/rattrapage/2249123/exposition-creatrice-images-a-alliance-francaise-laurence-belzile"
+          },
+          {
+            "val": "radio-canada-2025-2",
+            "link": "https://ici.radio-canada.ca/ohdio/premiere/emissions/culture-et-confiture/segments/rattrapage/2245420/laurence-belzile-et-ses-peintures-a-alliance-francaise-vancouver"
+          }
+        ]
+      },
+      {
+        "date": 2024,
+        "list": [
+          {
+            "val": "radio-canada-2024-2",
+            "link": "https://ici.radio-canada.ca/info/videos/1-10218750/artiste-peintre-laurence-belzile-sinteresse-a-poesie-une-imagerie-abstraite"
+          },
+          {
+            "val": "culture-geniale-2024",
+            "link": "https://uniquefm.ca/entrevues/chronique-arts-visuels-no-3-50722"
+          },
+          {
+            "val": "radio-canada-2024-1",
+            "link": "https://ici.radio-canada.ca/nouvelle/2109639/laurence-belzile-art-abstrait-connexion?partageApp=rcca_appmobile_appinfo_android"
+          },
+          {
+            "val": "radio-canada-2024",
+            "link": "https://ici.radio-canada.ca/ohdio/premiere/emissions/culture-et-confiture/segments/entrevue/493896/laurence-belzile-peinture-vancouver"
+          },
+          {
+            "val": "coast-reporter-2024",
+            "link": "https://www.coastreporter.net/local-arts/nature-leads-the-way-in-new-abstract-art-at-sunshine-coast-arts-centre-8315761"
+          }
+        ]
+      },
+      {
+        "date": 2022,
+        "list": [
+          {
+            "val": "La-tribune-2022",
+            "link": "https://www.latribune.ca/2022/09/19/attentes-et-droits-reserves-a-la-maison-des-arts-et-de-la-culture-32e27705b31a355f1ec090857c939017?fbclid=IwAR3uT8IjJ4DOtap6Q-4s7Oq8d17kZayoZNDaKKTOfWHNK1DokGHTpqqgeS4"
+          },
+          {
+            "val": "téléjournal-2022",
+            "link": "https://ici.radio-canada.ca/tele/le-telejournal-ottawa-gatineau/site/episodes/639179/telejournal-ottawa-gatineau-daniel-bouchard"
+          },
+          {
+            "val": "tvco-2022",
+            "link": "https://tvcotv.com/episode/retrospectives-25-fevrier-2022/"
+          },
+          {
+            "val": "aero-2022",
+            "link": "https://soundcloud.com/a-lest-de-vos-empires/aero-13-septembre-2022"
+          }
+        ]
+      },
+      {
+        "date": 2021,
+        "list": [
+          {
+            "val": "Soleil-2021",
+            "link": "https://www.lesoleil.com/2021/11/27/montagne--la-somme-des-petites-victoires-e66bfe02386ed3bba2b0daeb5b0a48a3"
+          },
+          {
+            "val": "aero-2021-0",
+            "link": "https://laerospatialckrl.wordpress.com/2021/10/19/balado-19-octobre-2021/ "
+          },
+          {
+            "val": "aero-2021-1",
+            "link": "https://laerospatialckrl.wordpress.com/2021/12/01/balado-30-novembre-2021/"
+          }
+        ]
+      },
+      {
+        "date": 2020,
+        "list": [
+          {
+            "val": "Soleil-2020",
+            "link": "https://www.lesoleil.com/2020/11/15/foire-en-art-actuel-de-quebec-une-offre-doublee-pour-ledition-virtuelle-3408509c2bfff8dcd1928d7d02f8d2e5"
+          },
+          {
+            "val": "tva-2020",
+            "link": "https://www.tvanouvelles.ca/2020/11/21/une-exposition-darts-dejoue-la-pandemie"
+          },
+          {
+            "val": "téléjournal-2020",
+            "link": "https://ici.radio-canada.ca/tele/le-telejournal-quebec/site/segments/reportage/210383/foire-en-art-actuel-en-mode-virtuel-expositions"
+          }
+        ]
+      },
+      {
+        "date": 2018,
+        "list": [
+          {
+            "val": "devoir-2018",
+            "link": "http://www.ledevoir.com/culture/519729/l-expo-jaune-marine-affiche-ses-couleurs"
+          },
+          {
+            "val": "rumeur-2018"
+          },
+          {
+            "val": "fabrique-2018",
+            "link": "https://www.lafabriqueculturelle.tv/capsules/11277/voir-loin-incursions-dans-le-paysage"
+          },
+          {
+            "val": "téléjournal-2018",
+            "link": "https://ici.radio-canada.ca/tele/le-telejournal-est-du-quebec/site/episodes/412224/episode-du-26-juillet-2018?fbclid=IwAR2tOhGrkw7y56wrADeG2PehyX8B-DXG7xnqCxJp0tk0mWFmTEqNC_4rVwY"
+          }
+        ]
+      }
+    ]
+  }
 ]
