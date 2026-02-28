@@ -5,10 +5,7 @@
     "available": false,
     "title": "A 9",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 100,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -22,10 +19,7 @@
     "available": true,
     "title": "A 13",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -39,10 +33,7 @@
     "available": true,
     "title": "A 25",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -56,10 +47,7 @@
     "available": true,
     "title": "A 7",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -73,10 +61,7 @@
     "available": true,
     "title": "A 24",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -90,10 +75,7 @@
     "available": true,
     "title": "A 14",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -107,10 +89,7 @@
     "available": true,
     "title": "A 18",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -124,10 +103,7 @@
     "available": true,
     "title": "A 20",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -141,10 +117,7 @@
     "available": true,
     "title": "A 19",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -158,10 +131,7 @@
     "available": true,
     "title": "A 27",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2017,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -249,10 +219,7 @@
     "available": false,
     "title": "La forme",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2017,
     "price": 1866,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -266,10 +233,7 @@
     "available": false,
     "title": "Mouffle",
     "dimension": "36\" x 60\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2017,
     "price": null,
     "buy-ref": null,
@@ -283,11 +247,7 @@
     "available": false,
     "title": "Impression 1",
     "dimension": "4\" x 4\"",
-    "technique": [
-      "oil",
-      "dry-pastel",
-      "paper-wood"
-    ],
+    "technique": ["oil", "dry-pastel", "paper-wood"],
     "year": 2017,
     "price": null,
     "buy-ref": null,
@@ -301,11 +261,7 @@
     "available": false,
     "title": "Impression 2",
     "dimension": "4\" x 4\"",
-    "technique": [
-      "oil",
-      "dry-pastel",
-      "paper-wood"
-    ],
+    "technique": ["oil", "dry-pastel", "paper-wood"],
     "year": 2017,
     "price": null,
     "buy-ref": null,
@@ -319,11 +275,7 @@
     "available": false,
     "title": "Impression 3",
     "dimension": "4\" x 4\"",
-    "technique": [
-      "oil",
-      "dry-pastel",
-      "paper-wood"
-    ],
+    "technique": ["oil", "dry-pastel", "paper-wood"],
     "year": 2017,
     "price": null,
     "buy-ref": null,
@@ -337,11 +289,7 @@
     "available": false,
     "title": "Impression 4",
     "dimension": "4\" x 4\"",
-    "technique": [
-      "oil",
-      "dry-pastel",
-      "paper-wood"
-    ],
+    "technique": ["oil", "dry-pastel", "paper-wood"],
     "year": 2017,
     "price": null,
     "buy-ref": null,
@@ -355,10 +303,7 @@
     "available": false,
     "title": "Je divague 3",
     "dimension": "5.75\" x 7.5\"",
-    "technique": [
-      "graphite",
-      "paper-masonite"
-    ],
+    "technique": ["graphite", "paper-masonite"],
     "year": 2017,
     "price": null,
     "buy-ref": null,
@@ -372,10 +317,7 @@
     "available": false,
     "title": "Je divague 2",
     "dimension": "5.75\" x 7.5\"",
-    "technique": [
-      "graphite",
-      "paper-masonite"
-    ],
+    "technique": ["graphite", "paper-masonite"],
     "year": 2017,
     "price": null,
     "buy-ref": null,
@@ -389,10 +331,7 @@
     "available": true,
     "title": "Je divague 1",
     "dimension": "5.75\" x 7.5\"",
-    "technique": [
-      "graphite",
-      "paper-masonite"
-    ],
+    "technique": ["graphite", "paper-masonite"],
     "year": 2017,
     "price": 259,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -406,10 +345,7 @@
     "available": true,
     "title": "Former",
     "dimension": "48\" x 48\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2017,
     "price": 3456,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -444,10 +380,7 @@
     "available": true,
     "title": "F 3",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2017,
     "price": 928,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -461,10 +394,7 @@
     "available": true,
     "title": "F 2",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2017,
     "price": 928,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -478,10 +408,7 @@
     "available": true,
     "title": "F 1",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2017,
     "price": 928,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -495,10 +422,7 @@
     "available": false,
     "title": "Affaissement",
     "dimension": "36\" x 60\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2017,
     "price": null,
     "buy-ref": null,
@@ -512,10 +436,7 @@
     "available": null,
     "title": "@@untitled",
     "dimension": [],
-    "technique": [
-      "charcoal",
-      "on-paper"
-    ],
+    "technique": ["charcoal", "on-paper"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -529,10 +450,7 @@
     "available": null,
     "title": "@@untitled",
     "dimension": [],
-    "technique": [
-      "charcoal",
-      "on-paper"
-    ],
+    "technique": ["charcoal", "on-paper"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -546,10 +464,7 @@
     "available": null,
     "title": "@@untitled",
     "dimension": [],
-    "technique": [
-      "charcoal",
-      "on-paper"
-    ],
+    "technique": ["charcoal", "on-paper"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -563,10 +478,7 @@
     "available": null,
     "title": "@@untitled",
     "dimension": [],
-    "technique": [
-      "charcoal",
-      "on-paper"
-    ],
+    "technique": ["charcoal", "on-paper"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -580,10 +492,7 @@
     "available": false,
     "title": "La dépendance des formes",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -597,10 +506,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "graphite",
-      "paper-masonite"
-    ],
+    "technique": ["graphite", "paper-masonite"],
     "year": 2018,
     "price": 135,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -614,10 +520,7 @@
     "available": false,
     "title": "La dépendance des formes 2",
     "dimension": "8\" x 10\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -646,12 +549,7 @@
     "available": true,
     "title": "Semblant",
     "dimension": "24\" x 58\"",
-    "technique": [
-      "dry-pastel",
-      "charcoal",
-      "graphite",
-      "paper-masonite"
-    ],
+    "technique": ["dry-pastel", "charcoal", "graphite", "paper-masonite"],
     "year": 2018,
     "price": 2297,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -665,12 +563,7 @@
     "available": false,
     "title": "Faux-semblant",
     "dimension": "24\" x 58\"",
-    "technique": [
-      "dry-pastel",
-      "charcoal",
-      "graphite",
-      "paper-masonite"
-    ],
+    "technique": ["dry-pastel", "charcoal", "graphite", "paper-masonite"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -684,10 +577,7 @@
     "available": false,
     "title": "Chimère invisible",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2017,
     "price": null,
     "buy-ref": null,
@@ -746,10 +636,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 1",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -763,10 +650,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 2",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -780,10 +664,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 3",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -797,10 +678,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 4",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -814,10 +692,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 5",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -831,10 +706,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 6",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -848,10 +720,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 7",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -865,10 +734,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 8",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -882,10 +748,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 9",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -899,10 +762,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 10",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -916,10 +776,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 11",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -933,10 +790,7 @@
     "available": false,
     "title": "Ces lieux où l'on fait traces 12",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "canvas-wood"
-    ],
+    "technique": ["acrylic", "canvas-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -983,10 +837,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "acrylic",
-      "paper-wood"
-    ],
+    "technique": ["acrylic", "paper-wood"],
     "year": 2018,
     "price": 180,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1000,10 +851,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "acrylic",
-      "paper-wood"
-    ],
+    "technique": ["acrylic", "paper-wood"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -1017,10 +865,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "24\" x 24\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -1079,10 +924,7 @@
     "available": false,
     "title": "Passage",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2018,
     "price": 600,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1096,10 +938,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -1113,10 +952,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -1130,10 +966,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2018,
     "price": 928,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1188,10 +1021,7 @@
     "available": false,
     "title": "Autoportrait s'autoportant",
     "dimension": "21\" x 30\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2018,
     "price": null,
     "buy-ref": "https://champagneparadis.com/products/autoportrait-sautoportant?_pos=1&_sid=fe7451b26&_ss=r",
@@ -1234,10 +1064,7 @@
     "available": false,
     "title": "Marmonner le vide 2",
     "dimension": "10\" x 12\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2018,
     "price": 342,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1251,10 +1078,7 @@
     "available": false,
     "title": "Marmonner le vide 1",
     "dimension": "10\" x 12\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2018,
     "price": null,
     "buy-ref": null,
@@ -1268,10 +1092,7 @@
     "available": false,
     "title": "Marchander le fini",
     "dimension": "33.5\" x 60\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2019,
     "price": null,
     "buy-ref": null,
@@ -1291,10 +1112,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "36\" x 60\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2019,
     "price": 3283,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-1",
@@ -1308,10 +1126,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "4\" x 5.5\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2019,
     "price": 121,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1378,10 +1193,7 @@
     "available": true,
     "title": "S'effacer du vide 4",
     "dimension": "6\" x 10\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2019,
     "price": 300,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1395,10 +1207,7 @@
     "available": false,
     "title": "S'effacer du vide 6",
     "dimension": "6\" x 10\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2019,
     "price": null,
     "buy-ref": null,
@@ -1412,10 +1221,7 @@
     "available": true,
     "title": "S'effacer du vide 3",
     "dimension": "6\" x 10\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2019,
     "price": 300,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1429,10 +1235,7 @@
     "available": true,
     "title": "S'effacer du vide 2",
     "dimension": "6\" x 10\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2019,
     "price": 300,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1446,10 +1249,7 @@
     "available": true,
     "title": "S'effacer du vide 1",
     "dimension": "6\" x 10\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2019,
     "price": 300,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1463,10 +1263,7 @@
     "available": true,
     "title": "S'effacer du vide 5",
     "dimension": "6\" x 10\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2019,
     "price": 300,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1480,10 +1277,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "2.75\" x 3.5\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2019,
     "price": 87,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1497,11 +1291,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "21\" x 39\"",
-    "technique": [
-      "graphite",
-      "dry-pastel",
-      "paper-masonite"
-    ],
+    "technique": ["graphite", "dry-pastel", "paper-masonite"],
     "year": 2019,
     "price": null,
     "buy-ref": null,
@@ -1515,10 +1305,7 @@
     "available": false,
     "title": "Je m'arme",
     "dimension": "8\" x 8\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2019,
     "price": null,
     "buy-ref": null,
@@ -1532,10 +1319,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2019,
     "price": 928,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1549,10 +1333,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2019,
     "price": null,
     "buy-ref": null,
@@ -1566,10 +1347,7 @@
     "available": false,
     "title": "Rompre le vaste",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2019,
     "price": null,
     "buy-ref": null,
@@ -1583,10 +1361,7 @@
     "available": false,
     "title": "Déconstruire le fini",
     "dimension": "38\" x 47.5\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -1600,10 +1375,7 @@
     "available": false,
     "title": "S'adonner",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -1658,10 +1430,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -1675,10 +1444,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -1692,10 +1458,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "18\" x 24\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -1709,11 +1472,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "20\" x 30\"",
-    "technique": [
-      "acrylic",
-      "dry-pastel",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "dry-pastel", "on-canvas"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -1741,11 +1500,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "38\" x 60\"",
-    "technique": [
-      "graphite",
-      "dry-pastel",
-      "paper-masonite"
-    ],
+    "technique": ["graphite", "dry-pastel", "paper-masonite"],
     "year": 2020,
     "price": 3420,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1808,10 +1563,7 @@
     "available": false,
     "title": "Toute la même heure",
     "dimension": "30\" x 40\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -1849,10 +1601,7 @@
     "available": true,
     "title": "S'arracher la douceur",
     "dimension": "33.5\" x 60\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2020,
     "price": 3055,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -1876,11 +1625,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "24\" x 60\"",
-    "technique": [
-      "acrylic",
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "oil", "on-canvas"],
     "year": 2020,
     "price": null,
     "buy-ref": null,
@@ -1894,10 +1639,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "8.75\" x 11\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -1936,10 +1678,7 @@
     "available": false,
     "title": "Sous ta peau",
     "dimension": "8.75\" x 11\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -1953,10 +1692,7 @@
     "available": true,
     "title": "Le rouge vient des larmes",
     "dimension": "8.75\" x 11\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2021,
     "price": 428,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2019,10 +1755,7 @@
     "available": false,
     "title": "Astiquer les envies",
     "dimension": "8\" x 10\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2036,11 +1769,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "18\" x 24\"",
-    "technique": [
-      "graphite",
-      "dry-pastel",
-      "on-wood"
-    ],
+    "technique": ["graphite", "dry-pastel", "on-wood"],
     "year": 2021,
     "price": 1166,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2064,10 +1793,7 @@
     "available": false,
     "title": "Contenir l'oubli",
     "dimension": "46\" x 46\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2081,10 +1807,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "8\" x 10\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2108,10 +1831,7 @@
     "available": false,
     "title": "Soulever les heures",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2125,10 +1845,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "4\" x 4.5\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2142,10 +1859,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2021,
     "price": 2730,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-36-x-51",
@@ -2159,11 +1873,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "5.5\" x 6\"",
-    "technique": [
-      "graphite",
-      "oil",
-      "paper-wood"
-    ],
+    "technique": ["graphite", "oil", "paper-wood"],
     "year": 2022,
     "price": 198,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2226,10 +1936,7 @@
     "available": false,
     "title": "Se couvrir",
     "dimension": "8.75\" x 10.75\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2243,10 +1950,7 @@
     "available": false,
     "title": "Enjamber les eaux III",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "oil",
-      "canvas-masonite"
-    ],
+    "technique": ["oil", "canvas-masonite"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2260,10 +1964,7 @@
     "available": false,
     "title": "Enjamber les eaux II",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "oil",
-      "canvas-masonite"
-    ],
+    "technique": ["oil", "canvas-masonite"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2277,10 +1978,7 @@
     "available": false,
     "title": "Enjamber les eaux I",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "oil",
-      "canvas-masonite"
-    ],
+    "technique": ["oil", "canvas-masonite"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2294,11 +1992,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "12\" x 16\"",
-    "technique": [
-      "acrylic",
-      "dry-pastel",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "dry-pastel", "on-canvas"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2312,10 +2006,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2329,10 +2020,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2346,10 +2034,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2021,
     "price": 180,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2363,10 +2048,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2380,10 +2062,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "4\" x 6\"",
-    "technique": [
-      "acrylic",
-      "canvas-masonite"
-    ],
+    "technique": ["acrylic", "canvas-masonite"],
     "year": 2021,
     "price": null,
     "buy-ref": null,
@@ -2397,10 +2076,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "12\" x 16\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2021,
     "price": 672,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2467,10 +2143,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "19\" x 24\"",
-    "technique": [
-      "graphite",
-      "paper-wood"
-    ],
+    "technique": ["graphite", "paper-wood"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -2484,11 +2157,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "11.5\" x 11.5\"",
-    "technique": [
-      "graphite",
-      "dry-pastel",
-      "paper-wood"
-    ],
+    "technique": ["graphite", "dry-pastel", "paper-wood"],
     "year": 2022,
     "price": 496,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2502,10 +2171,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "11.5\" x 11.5\"",
-    "technique": [
-      "charcoal",
-      "paper-wood"
-    ],
+    "technique": ["charcoal", "paper-wood"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -2519,11 +2185,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "11.5\" x 11.5\"",
-    "technique": [
-      "dry-pastel",
-      "graphite",
-      "paper-wood"
-    ],
+    "technique": ["dry-pastel", "graphite", "paper-wood"],
     "year": 2022,
     "price": 496,
     "buy-ref": null,
@@ -2551,10 +2213,7 @@
     "available": true,
     "title": "Les gadelles",
     "dimension": "24\" x 36\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": 1858,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2565,16 +2224,12 @@
   {
     "id": "LB00113",
     "src": "LB00113.jpg",
-    "available": true,
+    "available": false,
     "title": "@@untitled",
     "dimension": "18\" x 21\"",
-    "technique": [
-      "graphite",
-      "dry-pastel",
-      "paper-wood"
-    ],
+    "technique": ["graphite", "dry-pastel", "paper-wood"],
     "year": 2022,
-    "price": 1058,
+    "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-2",
@@ -2600,10 +2255,7 @@
     "available": false,
     "title": "Rompre",
     "dimension": "58\" x 96\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": 4000,
     "buy-ref": null,
@@ -2617,10 +2269,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "5.5\" x 6\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -2634,10 +2283,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "5.5\" x 6\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2022,
     "price": 198,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2661,10 +2307,7 @@
     "available": false,
     "title": "Effriter les songes",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -2692,10 +2335,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "46\" x 46\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": 3216,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2709,11 +2349,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "5.5\" x 6\"",
-    "technique": [
-      "graphite",
-      "dry-pastel",
-      "paper-wood"
-    ],
+    "technique": ["graphite", "dry-pastel", "paper-wood"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -2727,10 +2363,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "11\" x 11\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2022,
     "price": 484,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2744,10 +2377,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "11\" x 11\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -2761,10 +2391,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "12\" x 16\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": 672,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2778,10 +2405,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "18\" x 24\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2805,12 +2429,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "35\" x 55\"",
-    "technique": [
-      "graphite",
-      "charcoal",
-      "dry-pastel",
-      "paper-wood"
-    ],
+    "technique": ["graphite", "charcoal", "dry-pastel", "paper-wood"],
     "year": 2022,
     "price": 2984,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2824,10 +2443,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "11\" x 11\"",
-    "technique": [
-      "gouache",
-      "on-wood"
-    ],
+    "technique": ["gouache", "on-wood"],
     "year": 2022,
     "price": 484,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2851,10 +2467,7 @@
     "available": false,
     "title": "Tous les jours",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -2917,10 +2530,7 @@
     "available": true,
     "title": "Échapper l'autre",
     "dimension": "9.25\" x 10.25\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2022,
     "price": 422,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2934,10 +2544,7 @@
     "available": true,
     "title": "Construire la courbe",
     "dimension": "9.25\" x 10.25\"",
-    "technique": [
-      "crayon",
-      "on-paper"
-    ],
+    "technique": ["crayon", "on-paper"],
     "year": 2022,
     "price": 422,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2951,11 +2558,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "9.25\" x 10.25\"",
-    "technique": [
-      "graphite",
-      "crayon",
-      "on-paper"
-    ],
+    "technique": ["graphite", "crayon", "on-paper"],
     "year": 2022,
     "price": 422,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2969,10 +2572,7 @@
     "available": true,
     "title": "Combiner l'attente",
     "dimension": "9.25\" x 10.25\"",
-    "technique": [
-      "crayon",
-      "on-paper"
-    ],
+    "technique": ["crayon", "on-paper"],
     "year": 2022,
     "price": 422,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -2996,10 +2596,7 @@
     "available": false,
     "title": "Les autours",
     "dimension": "24\" x 60\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -3013,10 +2610,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "12\" x 16\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2022,
     "price": 672,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3048,10 +2642,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "38\" x 60\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -3065,10 +2656,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "8\" x 10\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -3082,10 +2670,7 @@
     "available": false,
     "title": "Saumurer",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -3099,10 +2684,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "11\" x 11\"",
-    "technique": [
-      "gouache",
-      "on-wood"
-    ],
+    "technique": ["gouache", "on-wood"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -3126,10 +2708,7 @@
     "available": true,
     "title": "Rompre les vertiges",
     "dimension": "43\" x 57\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": 2500,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/rompre-les-vertiges-44-x-57",
@@ -3143,10 +2722,7 @@
     "available": false,
     "title": "La forêt des autres",
     "dimension": "9\" x 12\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -3170,10 +2746,7 @@
     "available": false,
     "title": "Rassembler les espaces",
     "dimension": "43\" x 57\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": null,
@@ -3258,10 +2831,7 @@
     "available": false,
     "title": "Chercher le territoire",
     "dimension": "24\" x 30\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2022,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3275,10 +2845,7 @@
     "available": true,
     "title": "Aux jardins",
     "dimension": "8\" x 8\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 320,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3292,10 +2859,7 @@
     "available": false,
     "title": "Au-delà du repli",
     "dimension": "4\" x 5.5\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2022,
     "price": 121,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/au-dela-du-repli-4-x-5-5",
@@ -3309,10 +2873,7 @@
     "available": false,
     "title": "Si j'étais la nuit",
     "dimension": "4\" x 5.5\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2022,
     "price": 121,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/si-j-etais-la-nuit-4-x-5-5",
@@ -3326,10 +2887,7 @@
     "available": true,
     "title": "J'ai fleuri entre les rochers",
     "dimension": "10\" x 14\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 525,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3343,10 +2901,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "14\" x 17\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2022,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3360,10 +2915,7 @@
     "available": true,
     "title": "Ils ont pris la mer",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 407,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/ils-ont-pris-la-mer-8-5-x-10-75",
@@ -3377,10 +2929,7 @@
     "available": true,
     "title": "Perles et dystopie",
     "dimension": "24\" x 36\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 1858,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3404,10 +2953,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "24\" x 36\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 1858,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3421,10 +2967,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2023,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3438,10 +2981,7 @@
     "available": false,
     "title": "Reprendre",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2023,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3455,10 +2995,7 @@
     "available": false,
     "title": "L'obstacle des fleurs",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2023,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3478,10 +3015,7 @@
     "available": false,
     "title": "Détendre l'impression",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2023,
     "price": null,
     "buy-ref": null,
@@ -3505,10 +3039,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2023,
     "price": null,
     "buy-ref": "null",
@@ -3532,10 +3063,7 @@
     "available": true,
     "title": "J'ai récolté les reflets",
     "dimension": "5,5\" x 6\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2023,
     "price": 165,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3583,9 +3111,7 @@
     "available": null,
     "title": "Au-delà du repli",
     "dimension": "5\" x 5\"",
-    "technique": [
-      "artist-book"
-    ],
+    "technique": ["artist-book"],
     "year": 2023,
     "price": null,
     "buy-ref": null,
@@ -3609,10 +3135,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "12\" x 16\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 672,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3632,10 +3155,7 @@
     "available": true,
     "title": "J'ai traversé",
     "dimension": "36\" x 60\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 3283,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3649,10 +3169,7 @@
     "available": false,
     "title": "À l'abord des fleurs",
     "dimension": "8\" x 10\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": null,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/a-l-abord-des-fleurs-8-x-10",
@@ -3666,10 +3183,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "4\" x 4,5\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2023,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3697,10 +3211,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "39\" x 48\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 1995,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-39-x-48",
@@ -3767,10 +3278,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 928,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3794,10 +3302,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "8,5\" x 10,75\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 320,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-8-5-x-10-75",
@@ -3821,10 +3326,7 @@
     "available": false,
     "title": "J'ai pris la vague sans regarder",
     "dimension": "12\" x 18\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3838,11 +3340,7 @@
     "available": true,
     "title": "Ces lieux autres 2",
     "dimension": "19\" x 24\"",
-    "technique": [
-      "crayon",
-      "dry-pastel",
-      "on-paper"
-    ],
+    "technique": ["crayon", "dry-pastel", "on-paper"],
     "year": 2023,
     "price": 1186,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3856,11 +3354,7 @@
     "available": true,
     "title": "Ces lieux autres 3",
     "dimension": "19\" x 24\"",
-    "technique": [
-      "crayon",
-      "dry-pastel",
-      "on-paper"
-    ],
+    "technique": ["crayon", "dry-pastel", "on-paper"],
     "year": 2023,
     "price": 1186,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3874,11 +3368,7 @@
     "available": true,
     "title": "Ces lieux autres 4",
     "dimension": "19\" x 24\"",
-    "technique": [
-      "crayon",
-      "dry-pastel",
-      "on-paper"
-    ],
+    "technique": ["crayon", "dry-pastel", "on-paper"],
     "year": 2023,
     "price": 1186,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3892,11 +3382,7 @@
     "available": true,
     "title": "Ces lieux autres 5",
     "dimension": "19\" x 24\"",
-    "technique": [
-      "crayon",
-      "dry-pastel",
-      "on-paper"
-    ],
+    "technique": ["crayon", "dry-pastel", "on-paper"],
     "year": 2023,
     "price": 1186,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3910,11 +3396,7 @@
     "available": true,
     "title": "Ces lieux autres 6",
     "dimension": "19\" x 24\"",
-    "technique": [
-      "crayon",
-      "dry-pastel",
-      "on-paper"
-    ],
+    "technique": ["crayon", "dry-pastel", "on-paper"],
     "year": 2023,
     "price": 1186,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3928,11 +3410,7 @@
     "available": true,
     "title": "Ces lieux autres 7",
     "dimension": "19\" x 24\"",
-    "technique": [
-      "crayon",
-      "dry-pastel",
-      "on-paper"
-    ],
+    "technique": ["crayon", "dry-pastel", "on-paper"],
     "year": 2023,
     "price": 1186,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3960,11 +3438,7 @@
     "available": null,
     "title": "Ces lieux autres",
     "dimension": "Alternator Centre for Contemporary Art, Kelowna (BC)",
-    "technique": [
-      "crayon",
-      "dry-pastel",
-      "on-paper"
-    ],
+    "technique": ["crayon", "dry-pastel", "on-paper"],
     "year": 2023,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -3979,10 +3453,7 @@
     "available": false,
     "title": "Glissement",
     "dimension": "5.5\" x 6\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2024,
     "price": null,
     "buy-ref": null,
@@ -4006,10 +3477,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "8.75\" x 10.75\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2024,
     "price": null,
     "buy-ref": null,
@@ -4023,10 +3491,7 @@
     "available": true,
     "title": "À l'aube",
     "dimension": "5.5\" x 6\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2024,
     "price": 198,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4046,10 +3511,7 @@
     "available": false,
     "title": "Éffondrer le tendre",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2024,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4118,10 +3580,7 @@
     "available": true,
     "title": "La légèreté des strates II",
     "dimension": "14\" x 17\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2023,
     "price": 774,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4141,10 +3600,7 @@
     "available": true,
     "title": "La légèreté des strates I",
     "dimension": "14\" x 17\"",
-    "technique": [
-      "graphite",
-      "on-paper"
-    ],
+    "technique": ["graphite", "on-paper"],
     "year": 2023,
     "price": 774,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4158,10 +3614,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "4\" x 5.5\"",
-    "technique": [
-      "acrylic",
-      "on-wood"
-    ],
+    "technique": ["acrylic", "on-wood"],
     "year": 2023,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4181,10 +3634,7 @@
     "available": true,
     "title": "An Idea of Pink",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 2730,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4269,10 +3719,7 @@
     "available": true,
     "title": "Dans les bruines",
     "dimension": "12\" x 16\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2024,
     "price": 672,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4304,10 +3751,7 @@
     "available": true,
     "title": "Les coulées",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2024,
     "price": 928,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4335,10 +3779,7 @@
     "available": false,
     "title": "Mélancolie n.1",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2024,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4374,10 +3815,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": null,
     "buy-ref": null,
@@ -4391,10 +3829,7 @@
     "available": true,
     "title": "S'amouracher des détours",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2023,
     "price": 928,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4418,10 +3853,7 @@
     "available": true,
     "title": "Les traversées",
     "dimension": "12\" x 16\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2024,
     "price": 672,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/huile-sur-toile-12-x-16",
@@ -4435,10 +3867,7 @@
     "available": false,
     "title": "Rassembler les détails",
     "dimension": "5.5\" x 6\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2024,
     "price": null,
     "buy-ref": null,
@@ -4458,10 +3887,7 @@
     "available": false,
     "title": "Les récoltes",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2024,
     "price": null,
     "buy-ref": "null",
@@ -4489,10 +3915,7 @@
     "available": false,
     "title": "Suspendre les motifs",
     "dimension": "14\" x 18\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2024,
     "price": 575,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/suspendre-les-motifs-14-x-18?variant=45528280072384",
@@ -4520,10 +3943,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "crayon",
-      "on-wood"
-    ],
+    "technique": ["crayon", "on-wood"],
     "year": 2024,
     "price": 600,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/sans-titre-16-x-22",
@@ -4543,10 +3963,7 @@
     "available": true,
     "title": "Foulon",
     "dimension": "8\" x 10\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2024,
     "price": 380,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4566,10 +3983,7 @@
     "available": true,
     "title": "Les possibles",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "watercolor-graphite",
-      "on-canvas"
-    ],
+    "technique": ["watercolor-graphite", "on-canvas"],
     "year": 2024,
     "price": 407,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4589,11 +4003,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "watercolor-graphite",
-      "watercolor",
-      "on-canvas"
-    ],
+    "technique": ["watercolor-graphite", "watercolor", "on-canvas"],
     "year": 2024,
     "price": 407,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4613,11 +4023,7 @@
     "available": false,
     "title": "Découdre",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "acrylic",
-      "graphite",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "graphite", "on-canvas"],
     "year": 2024,
     "price": null,
     "buy-ref": null,
@@ -4645,11 +4051,7 @@
     "available": true,
     "title": "Les champs I",
     "dimension": "14\" x 17\"",
-    "technique": [
-      "crayon",
-      "dry-pastel",
-      "on-paper"
-    ],
+    "technique": ["crayon", "dry-pastel", "on-paper"],
     "year": 2024,
     "price": 774,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4685,11 +4087,7 @@
     "available": true,
     "title": "Les champs II",
     "dimension": "14\" x 17\"",
-    "technique": [
-      "graphite",
-      "dry-pastel",
-      "on-paper"
-    ],
+    "technique": ["graphite", "dry-pastel", "on-paper"],
     "year": 2024,
     "price": 774,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4709,10 +4107,7 @@
     "available": true,
     "title": "S'épancher",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2024,
     "price": 2730,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4744,10 +4139,7 @@
     "available": true,
     "title": "Les charbons III",
     "dimension": "14\" x 17\"",
-    "technique": [
-      "charcoal",
-      "on-paper"
-    ],
+    "technique": ["charcoal", "on-paper"],
     "year": 2024,
     "price": 774,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4772,10 +4164,7 @@
     "available": false,
     "title": "Les charbons II",
     "dimension": "14\" x 17\"",
-    "technique": [
-      "charcoal",
-      "on-paper"
-    ],
+    "technique": ["charcoal", "on-paper"],
     "year": 2024,
     "price": null,
     "buy-ref": null,
@@ -4812,10 +4201,7 @@
     "available": true,
     "title": "Les charbons I",
     "dimension": "14\" x 17\"",
-    "technique": [
-      "charcoal",
-      "on-paper"
-    ],
+    "technique": ["charcoal", "on-paper"],
     "year": 2024,
     "price": 774,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4852,10 +4238,7 @@
     "available": true,
     "title": "Les abîmes",
     "dimension": "54\" x 76\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2024,
     "price": 5746,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4891,11 +4274,7 @@
     "available": true,
     "title": "Goodwin",
     "dimension": "54\" x 76\"",
-    "technique": [
-      "acrylic",
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "oil", "on-canvas"],
     "year": 2024,
     "price": 5746,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4923,10 +4302,7 @@
     "available": true,
     "title": "The delicacy of lines II",
     "dimension": "18\" x 24\"",
-    "technique": [
-      "watercolor-graphite",
-      "on-canvas"
-    ],
+    "technique": ["watercolor-graphite", "on-canvas"],
     "year": 2024,
     "price": 1166,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -4954,10 +4330,7 @@
     "available": false,
     "title": "The delicacy of lines I",
     "dimension": "18\" x 24\"",
-    "technique": [
-      "watercolor-graphite",
-      "on-canvas"
-    ],
+    "technique": ["watercolor-graphite", "on-canvas"],
     "year": 2024,
     "price": null,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5038,10 +4411,7 @@
     "available": true,
     "title": "Les descentes",
     "dimension": "14\" x 20\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2024,
     "price": 854,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5065,10 +4435,7 @@
     "available": true,
     "title": "Luminescent",
     "dimension": "36\" x 48\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2024,
     "price": 2730,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/luminescent-36-x-48?variant=46135812751552",
@@ -5088,10 +4455,7 @@
     "available": false,
     "title": "S'immiscer",
     "dimension": "8.5\" x 12\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2024,
     "price": null,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/s-immiscer-8-5-x-12?variant=46139196670144",
@@ -5111,10 +4475,7 @@
     "available": true,
     "title": "Détourner les sensations",
     "dimension": "8.5\" x 12\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2024,
     "price": 428,
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/detourner-les-sensations-8-5-x-12",
@@ -5134,10 +4495,7 @@
     "available": true,
     "title": "Dumas I",
     "dimension": "8\" x 8\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2025,
     "price": 320,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5157,10 +4515,7 @@
     "available": true,
     "title": "Dumas II",
     "dimension": "8\" x 8\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2025,
     "price": 320,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5180,10 +4535,7 @@
     "available": false,
     "title": "@@untitled",
     "dimension": "8\" x 8\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2025,
     "price": null,
     "buy-ref": null,
@@ -5207,10 +4559,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "24\" x 30\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2025,
     "price": 1620,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5230,10 +4579,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "9\" x 12\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2025,
     "price": 454,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5253,10 +4599,7 @@
     "available": true,
     "title": "O'Keeffe I",
     "dimension": "9\" x 12\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2025,
     "price": 454,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5276,10 +4619,7 @@
     "available": true,
     "title": "O'Keeffe II (absence)",
     "dimension": "9\" x 12\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2025,
     "price": 454,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5299,10 +4639,7 @@
     "available": true,
     "title": "Membranes",
     "dimension": "8.5\" x 10.75\"",
-    "technique": [
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["acrylic", "on-canvas"],
     "year": 2025,
     "price": 407,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5322,11 +4659,7 @@
     "available": true,
     "title": "Snyder IV",
     "dimension": "8\" x 8\"",
-    "technique": [
-      "charcoal",
-      "acrylic",
-      "on-canvas"
-    ],
+    "technique": ["charcoal", "acrylic", "on-canvas"],
     "year": 2025,
     "price": 320,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5346,10 +4679,7 @@
     "available": true,
     "title": "Synder I",
     "dimension": "8\" x 8\"",
-    "technique": [
-      "mix-media",
-      "on-canvas"
-    ],
+    "technique": ["mix-media", "on-canvas"],
     "year": 2025,
     "price": 320,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5369,10 +4699,7 @@
     "available": true,
     "title": "Synder III",
     "dimension": "8\" x 8\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2025,
     "price": 320,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5392,10 +4719,7 @@
     "available": true,
     "title": "Synder II",
     "dimension": "8\" x 8\"",
-    "technique": [
-      "mix-media",
-      "on-canvas"
-    ],
+    "technique": ["mix-media", "on-canvas"],
     "year": 2025,
     "price": 320,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5415,10 +4739,7 @@
     "available": true,
     "title": "Tes plaies",
     "dimension": "16\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2025,
     "price": 928,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5438,10 +4759,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "12\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2025,
     "price": 780,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
@@ -5461,10 +4779,7 @@
     "available": true,
     "title": "@@untitled",
     "dimension": "14\" x 20\"",
-    "technique": [
-      "oil",
-      "on-canvas"
-    ],
+    "technique": ["oil", "on-canvas"],
     "year": 2025,
     "price": 854,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
