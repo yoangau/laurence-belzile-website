@@ -369,7 +369,7 @@
     "year": 2017,
     "price": null,
     "buy-ref": null,
-    "expo": false,
+    "expo": true,
     "photo-credit": "photo-credit-0",
     "width": "100%",
     "description": "LB00363-description"
