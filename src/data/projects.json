@@ -3640,7 +3640,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "60%"
+    "width": "85%"
   },
   {
     "id": "LB00234",
@@ -4400,6 +4400,26 @@
     "description": "LB00450-description"
   },
   {
+    "id": "LB00493",
+    "src": "LB00493.jpg",
+    "additional-images": [
+      {
+        "src": "LB00494.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Membranes",
+    "dimension": "8.5\" x 10.75\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 407,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "45%"
+  },
+  {
     "id": "LB00462",
     "src": "LB00462.jpg",
     "additional-images": [
@@ -4441,7 +4461,7 @@
     "buy-ref": "https://champagneparadis.com/collections/belzile-laurence/products/luminescent-36-x-48?variant=46135812751552",
     "expo": false,
     "photo-credit": "photo-credit-1",
-    "width": "60%"
+    "width": "85%"
   },
   {
     "id": "LB00466",
@@ -4544,48 +4564,40 @@
     "width": "50%"
   },
   {
-    "id": "LB00482",
-    "src": "LB00482.jpg",
+    "id": "LB00567",
+    "src": "LB00567.jpg",
     "additional-images": [
       {
-        "src": "LB00483.jpg",
+        "src": "LB00568.jpg",
         "photo-credit": "photo-credit-0"
       },
       {
-        "src": "LB00484.jpg",
+        "src": "LB00569.jpg",
         "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": true,
-    "title": "@@untitled",
-    "dimension": "24\" x 30\"",
-    "technique": ["acrylic", "on-canvas"],
-    "year": 2025,
-    "price": 1620,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-    "expo": false,
-    "photo-credit": "photo-credit-0",
-    "width": "65%"
-  },
-  {
-    "id": "LB00499",
-    "src": "LB00499.jpg",
-    "additional-images": [
+      },
       {
-        "src": "LB00500.jpg",
+        "src": "LB00570.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00571.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00572.jpg",
         "photo-credit": "photo-credit-0"
       }
     ],
     "available": true,
-    "title": "@@untitled",
-    "dimension": "9\" x 12\"",
+    "title": "O'Keeffe",
+    "dimension": "54\" x 76\"",
     "technique": ["acrylic", "on-canvas"],
     "year": 2025,
-    "price": 454,
+    "price": 5746,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "45%"
+    "width": "100%"
   },
   {
     "id": "LB00495",
@@ -4628,20 +4640,20 @@
     "width": "45%"
   },
   {
-    "id": "LB00493",
-    "src": "LB00493.jpg",
+    "id": "LB00499",
+    "src": "LB00499.jpg",
     "additional-images": [
       {
-        "src": "LB00494.jpg",
+        "src": "LB00500.jpg",
         "photo-credit": "photo-credit-0"
       }
     ],
     "available": true,
-    "title": "Membranes",
-    "dimension": "8.5\" x 10.75\"",
+    "title": "@@untitled",
+    "dimension": "9\" x 12\"",
     "technique": ["acrylic", "on-canvas"],
     "year": 2025,
-    "price": 407,
+    "price": 454,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
@@ -4887,6 +4899,30 @@
     "photo-credit": "photo-credit-0",
     "width": "100%",
     "description": "LB00501-description"
+  },
+  {
+    "id": "LB00482",
+    "src": "LB00482.jpg",
+    "additional-images": [
+      {
+        "src": "LB00483.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00484.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Redouter l'infini",
+    "dimension": "24\" x 30\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 1620,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "70%"
   },
   {
     "id": "LB00528",
