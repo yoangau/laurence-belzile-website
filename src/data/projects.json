@@ -4504,66 +4504,6 @@
     "width": "45%"
   },
   {
-    "id": "LB00474",
-    "src": "LB00474.jpg",
-    "additional-images": [
-      {
-        "src": "LB00475.jpg",
-        "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": true,
-    "title": "Dumas I",
-    "dimension": "8\" x 8\"",
-    "technique": ["oil", "on-canvas"],
-    "year": 2025,
-    "price": 320,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-    "expo": false,
-    "photo-credit": "photo-credit-0",
-    "width": "50%"
-  },
-  {
-    "id": "LB00476",
-    "src": "LB00476.jpg",
-    "additional-images": [
-      {
-        "src": "LB00477.jpg",
-        "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": true,
-    "title": "Dumas II",
-    "dimension": "8\" x 8\"",
-    "technique": ["oil", "on-canvas"],
-    "year": 2025,
-    "price": 320,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-    "expo": false,
-    "photo-credit": "photo-credit-0",
-    "width": "50%"
-  },
-  {
-    "id": "LB00478",
-    "src": "LB00478.jpg",
-    "additional-images": [
-      {
-        "src": "LB00479.jpg",
-        "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": false,
-    "title": "@@untitled",
-    "dimension": "8\" x 8\"",
-    "technique": ["oil", "on-canvas"],
-    "year": 2025,
-    "price": null,
-    "buy-ref": null,
-    "expo": false,
-    "photo-credit": "photo-credit-0",
-    "width": "50%"
-  },
-  {
     "id": "LB00567",
     "src": "LB00567.jpg",
     "additional-images": [
@@ -4768,7 +4708,7 @@
         "photo-credit": "photo-credit-0"
       }
     ],
-    "available": true,
+    "available": false,
     "title": "@@untitled",
     "dimension": "12\" x 20\"",
     "technique": ["oil", "on-canvas"],
@@ -4923,6 +4863,222 @@
     "expo": false,
     "photo-credit": "photo-credit-0",
     "width": "70%"
+  },
+  {
+    "id": "LB00589",
+    "src": "LB00589.jpg",
+    "additional-images": [
+      {
+        "src": "LB00584.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Études matérielles V",
+    "dimension": "11\" x 14\"",
+    "technique": ["ink", "acrylic-varnish", "on-paper"],
+    "year": 2025,
+    "price": 539,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "45%"
+  },
+  {
+    "id": "LB00588",
+    "src": "LB00588.jpg",
+    "additional-images": [
+      {
+        "src": "LB00584.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Études matérielles IV",
+    "dimension": "11\" x 14\"",
+    "technique": ["ink", "acrylic-varnish", "on-paper"],
+    "year": 2025,
+    "price": 539,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "45%"
+  },
+  {
+    "id": "LB00587",
+    "src": "LB00587.jpg",
+    "additional-images": [
+      {
+        "src": "LB00584.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Études matérielles III",
+    "dimension": "11\" x 14\"",
+    "technique": ["ink", "acrylic-varnish", "on-paper"],
+    "year": 2025,
+    "price": 539,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "45%"
+  },
+  {
+    "id": "LB00586",
+    "src": "LB00586.jpg",
+    "additional-images": [
+      {
+        "src": "LB00584.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Études matérielles II",
+    "dimension": "11\" x 14\"",
+    "technique": ["ink", "acrylic-varnish", "on-paper"],
+    "year": 2025,
+    "price": 539,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "45%"
+  },
+  {
+    "id": "LB00585",
+    "src": "LB00585.jpg",
+    "additional-images": [
+      {
+        "src": "LB00584.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Études matérielles I",
+    "dimension": "11\" x 14\"",
+    "technique": ["ink", "acrylic-varnish", "on-paper"],
+    "year": 2025,
+    "price": 539,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "45%"
+  },
+  {
+    "id": "LB00573",
+    "src": "LB00573.jpg",
+    "additional-images": [
+      {
+        "src": "LB00574.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00575.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00576.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00577.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00578.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00579.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00580.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00581.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00582.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00583.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Dumas",
+    "dimension": "54\" x 76\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 5746,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "100%"
+  },
+  {
+    "id": "LB00474",
+    "src": "LB00474.jpg",
+    "additional-images": [
+      {
+        "src": "LB00475.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Dumas I",
+    "dimension": "8\" x 8\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 320,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "50%"
+  },
+  {
+    "id": "LB00476",
+    "src": "LB00476.jpg",
+    "additional-images": [
+      {
+        "src": "LB00477.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Dumas II",
+    "dimension": "8\" x 8\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 320,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "50%"
+  },
+  {
+    "id": "LB00478",
+    "src": "LB00478.jpg",
+    "additional-images": [
+      {
+        "src": "LB00479.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": false,
+    "title": "@@untitled",
+    "dimension": "8\" x 8\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": null,
+    "buy-ref": null,
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "50%"
   },
   {
     "id": "LB00528",
@@ -5092,5 +5248,53 @@
     "photo-credit": "photo-credit-0",
     "width": "100%",
     "description": "LB00528-description"
+  },
+  {
+    "id": "LB00591",
+    "src": "LB00591.jpg",
+    "additional-images": [
+      {
+        "src": "LB00592.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00593.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Se soulever",
+    "dimension": "12\" x 16\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 672,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "65%"
+  },
+  {
+    "id": "LB00594",
+    "src": "LB00594.jpg",
+    "additional-images": [
+      {
+        "src": "LB00595.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00596.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Retomber",
+    "dimension": "12\" x 16\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 672,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "65%"
   }
 ]

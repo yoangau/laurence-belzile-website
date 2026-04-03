@@ -2635,9 +2635,9 @@
     "aspectRatio": 0.6667
   },
   "LB00484": {
-    "width": 1000,
-    "height": 1500,
-    "aspectRatio": 0.6667
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
   },
   "LB00485": {
     "width": 1500,
@@ -3075,6 +3075,126 @@
     "aspectRatio": 1.5
   },
   "LB00572": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00573": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00574": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00575": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00576": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00577": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00578": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00579": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00580": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00581": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00582": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00583": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00584": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00585": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00586": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00587": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00588": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00589": {
+    "width": 1000,
+    "height": 1501,
+    "aspectRatio": 0.6662
+  },
+  "LB00590": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00591": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00592": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00593": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00594": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00595": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00596": {
     "width": 1000,
     "height": 1500,
     "aspectRatio": 0.6667
