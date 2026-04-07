@@ -3218,5 +3218,55 @@
     "width": 1000,
     "height": 1500,
     "aspectRatio": 0.6667
+  },
+  "LB00601": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00602": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00603": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00604": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00605": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00606": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00607": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00608": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00609": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00610": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
   }
 }

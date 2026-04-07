@@ -4600,6 +4600,70 @@
     "width": "45%"
   },
   {
+    "id": "LB00605",
+    "src": "LB00605.jpg",
+    "additional-images": [
+      {
+        "src": "LB00606.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00607.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00608.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00609.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00610.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Snyder VI",
+    "dimension": "8\" x 8\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 320,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "50%"
+  },
+  {
+    "id": "LB00601",
+    "src": "LB00601.jpg",
+    "additional-images": [
+      {
+        "src": "LB00602.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00603.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00604.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Snyder V",
+    "dimension": "8\" x 8\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 320,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "50%"
+  },
+  {
     "id": "LB00487",
     "src": "LB00487.jpg",
     "additional-images": [
