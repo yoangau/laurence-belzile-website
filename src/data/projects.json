@@ -4540,6 +4540,26 @@
     "width": "100%"
   },
   {
+    "id": "LB00616",
+    "src": "LB00616.jpg",
+    "additional-images": [
+      {
+        "src": "LB00617.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "O’Keeffe (segment de Calla Lilies on Red, 1928, et Red Hills and Bones by Georgia O’Keeffe, 1941)",
+    "dimension": "25.75\" x 20\"",
+    "technique": ["dry-pastel", "crayon", "on-paper"],
+    "year": 2025,
+    "price": 1288,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "60%"
+  },
+  {
     "id": "LB00495",
     "src": "LB00495.jpg",
     "additional-images": [
@@ -4570,26 +4590,6 @@
     ],
     "available": true,
     "title": "O'Keeffe II (absence)",
-    "dimension": "9\" x 12\"",
-    "technique": ["acrylic", "on-canvas"],
-    "year": 2025,
-    "price": 454,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-    "expo": false,
-    "photo-credit": "photo-credit-0",
-    "width": "45%"
-  },
-  {
-    "id": "LB00499",
-    "src": "LB00499.jpg",
-    "additional-images": [
-      {
-        "src": "LB00500.jpg",
-        "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": true,
-    "title": "@@untitled",
     "dimension": "9\" x 12\"",
     "technique": ["acrylic", "on-canvas"],
     "year": 2025,
@@ -4633,7 +4633,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "50%"
+    "width": "40%"
   },
   {
     "id": "LB00601",
@@ -4661,7 +4661,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "50%"
+    "width": "40%"
   },
   {
     "id": "LB00487",
@@ -4681,7 +4681,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "50%"
+    "width": "40%"
   },
   {
     "id": "LB00491",
@@ -4701,7 +4701,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "50%"
+    "width": "40%"
   },
   {
     "id": "LB00485",
@@ -4721,7 +4721,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "50%"
+    "width": "40%"
   },
   {
     "id": "LB00489",
@@ -4741,7 +4741,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "50%"
+    "width": "40%"
   },
   {
     "id": "LB00597",
@@ -4830,6 +4830,58 @@
     "expo": false,
     "photo-credit": "photo-credit-0",
     "width": "60%"
+  },
+  {
+    "id": "LB00611",
+    "src": "LB00611.jpg",
+    "additional-images": [
+      {
+        "src": "LB00612.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00613.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00614.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00615.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "@@untitled",
+    "dimension": "16\" x 20\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 928,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "60%"
+  },
+  {
+    "id": "LB00499",
+    "src": "LB00499.jpg",
+    "additional-images": [
+      {
+        "src": "LB00500.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Blass",
+    "dimension": "9\" x 12\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 454,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "45%"
   },
   {
     "id": "LB00501",

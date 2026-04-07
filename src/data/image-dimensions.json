@@ -3268,5 +3268,40 @@
     "width": 1500,
     "height": 1000,
     "aspectRatio": 1.5
+  },
+  "LB00611": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00612": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00613": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00614": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00615": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00616": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
+  },
+  "LB00617": {
+    "width": 1500,
+    "height": 1000,
+    "aspectRatio": 1.5
   }
 }
