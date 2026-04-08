@@ -4211,6 +4211,38 @@
     "description": "LB00426-description"
   },
   {
+    "id": "LB00624",
+    "src": "LB00624.jpg",
+    "additional-images": [
+      {
+        "src": "LB00625.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00626.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00627.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00628.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "@@untitled",
+    "dimension": "39\" x 54\"",
+    "technique": ["dry-pastel", "crayon", "on-paper"],
+    "year": 2024,
+    "price": 3201,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "85%"
+  },
+  {
     "id": "LB00429",
     "src": "LB00429.jpg",
     "additional-images": [
