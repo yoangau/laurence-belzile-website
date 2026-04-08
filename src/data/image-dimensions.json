@@ -3303,5 +3303,35 @@
     "width": 1500,
     "height": 1000,
     "aspectRatio": 1.5
+  },
+  "LB00618": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00619": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00620": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00621": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00622": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
+  },
+  "LB00623": {
+    "width": 1000,
+    "height": 1500,
+    "aspectRatio": 0.6667
   }
 }

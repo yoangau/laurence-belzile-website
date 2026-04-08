@@ -4985,6 +4985,42 @@
     "description": "LB00501-description"
   },
   {
+    "id": "LB0618",
+    "src": "LB00618.jpg",
+    "additional-images": [
+      {
+        "src": "LB00619.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00623.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00622.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00621.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00620.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "À l'aube",
+    "dimension": "16\" x 20\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 928,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "60%"
+  },
+  {
     "id": "LB00482",
     "src": "LB00482.jpg",
     "additional-images": [
@@ -5006,7 +5042,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "70%"
+    "width": "75%"
   },
   {
     "id": "LB00589",
