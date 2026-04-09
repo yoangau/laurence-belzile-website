@@ -5250,7 +5250,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "50%"
+    "width": "40%"
   },
   {
     "id": "LB00476",
@@ -5270,7 +5270,7 @@
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "50%"
+    "width": "40%"
   },
   {
     "id": "LB00478",
@@ -5290,7 +5290,119 @@
     "buy-ref": null,
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "50%"
+    "width": "40%"
+  },
+  {
+    "id": "LB00629",
+    "src": "LB00629.jpg",
+    "additional-images": [
+      {
+        "src": "LB00642.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00631.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00632.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00630.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00633.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00634.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00636.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00637.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00638.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00639.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00640.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00641.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Ringgold",
+    "dimension": "54\" x 76\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 5746,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "100%"
+  },
+  {
+    "id": "LB00646",
+    "src": "LB00646.jpg",
+    "additional-images": [
+      {
+        "src": "LB00647.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00648.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Recommencer",
+    "dimension": "16\" x 20\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 928,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "60%"
+  },
+  {
+    "id": "LB00643",
+    "src": "LB00643.jpg",
+    "additional-images": [
+      {
+        "src": "LB00644.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00645.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Les étranges",
+    "dimension": "16\" x 20\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 928,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "60%"
   },
   {
     "id": "LB00528",
