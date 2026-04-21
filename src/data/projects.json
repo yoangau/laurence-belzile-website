@@ -5017,40 +5017,52 @@
     "description": "LB00501-description"
   },
   {
-    "id": "LB0618",
-    "src": "LB00618.jpg",
+    "id": "LB00591",
+    "src": "LB00591.jpg",
     "additional-images": [
       {
-        "src": "LB00619.jpg",
+        "src": "LB00592.jpg",
         "photo-credit": "photo-credit-0"
       },
       {
-        "src": "LB00623.jpg",
-        "photo-credit": "photo-credit-0"
-      },
-      {
-        "src": "LB00622.jpg",
-        "photo-credit": "photo-credit-0"
-      },
-      {
-        "src": "LB00621.jpg",
-        "photo-credit": "photo-credit-0"
-      },
-      {
-        "src": "LB00620.jpg",
+        "src": "LB00593.jpg",
         "photo-credit": "photo-credit-0"
       }
     ],
     "available": true,
-    "title": "À l'aube",
-    "dimension": "16\" x 20\"",
+    "title": "Se soulever",
+    "dimension": "12\" x 16\"",
     "technique": ["oil", "on-canvas"],
     "year": 2025,
-    "price": 928,
+    "price": 672,
     "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
     "expo": false,
     "photo-credit": "photo-credit-0",
-    "width": "60%"
+    "width": "50%"
+  },
+  {
+    "id": "LB00594",
+    "src": "LB00594.jpg",
+    "additional-images": [
+      {
+        "src": "LB00595.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00596.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Retomber",
+    "dimension": "12\" x 16\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 672,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "50%"
   },
   {
     "id": "LB00482",
@@ -5357,6 +5369,126 @@
     "width": "100%"
   },
   {
+    "id": "LB0618",
+    "src": "LB00618.jpg",
+    "additional-images": [
+      {
+        "src": "LB00619.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00623.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00622.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00621.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00620.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "À l'aube",
+    "dimension": "16\" x 20\"",
+    "technique": ["oil", "on-canvas"],
+    "year": 2025,
+    "price": 928,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "60%"
+  },
+  {
+    "id": "LB00661",
+    "src": "LB00661.jpg",
+    "additional-images": [
+      {
+        "src": "LB00662.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Dans les recoins",
+    "dimension": "5\" x 7\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 210,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "30%"
+  },
+  {
+    "id": "LB00658",
+    "src": "LB00658.jpg",
+    "additional-images": [
+      {
+        "src": "LB00659.jpg",
+        "photo-credit": "photo-credit-0"
+      },
+      {
+        "src": "LB00660.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Construire",
+    "dimension": "5\" x 7\"",
+    "technique": ["acrylic", "oil", "on-canvas"],
+    "year": 2025,
+    "price": 210,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "30%"
+  },
+  {
+    "id": "LB00656",
+    "src": "LB00656.jpg",
+    "additional-images": [
+      {
+        "src": "LB00657.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Floraison plastique",
+    "dimension": "5\" x 7\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 210,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "30%"
+  },
+  {
+    "id": "LB00654",
+    "src": "LB00654.jpg",
+    "additional-images": [
+      {
+        "src": "LB00655.jpg",
+        "photo-credit": "photo-credit-0"
+      }
+    ],
+    "available": true,
+    "title": "Retourner",
+    "dimension": "5\" x 7\"",
+    "technique": ["acrylic", "on-canvas"],
+    "year": 2025,
+    "price": 210,
+    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "expo": false,
+    "photo-credit": "photo-credit-0",
+    "width": "30%"
+  },
+  {
     "id": "LB00646",
     "src": "LB00646.jpg",
     "additional-images": [
@@ -5572,53 +5704,5 @@
     "photo-credit": "photo-credit-0",
     "width": "100%",
     "description": "LB00528-description"
-  },
-  {
-    "id": "LB00591",
-    "src": "LB00591.jpg",
-    "additional-images": [
-      {
-        "src": "LB00592.jpg",
-        "photo-credit": "photo-credit-0"
-      },
-      {
-        "src": "LB00593.jpg",
-        "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": true,
-    "title": "Se soulever",
-    "dimension": "12\" x 16\"",
-    "technique": ["oil", "on-canvas"],
-    "year": 2025,
-    "price": 672,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-    "expo": false,
-    "photo-credit": "photo-credit-0",
-    "width": "65%"
-  },
-  {
-    "id": "LB00594",
-    "src": "LB00594.jpg",
-    "additional-images": [
-      {
-        "src": "LB00595.jpg",
-        "photo-credit": "photo-credit-0"
-      },
-      {
-        "src": "LB00596.jpg",
-        "photo-credit": "photo-credit-0"
-      }
-    ],
-    "available": true,
-    "title": "Retomber",
-    "dimension": "12\" x 16\"",
-    "technique": ["oil", "on-canvas"],
-    "year": 2025,
-    "price": 672,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
-    "expo": false,
-    "photo-credit": "photo-credit-0",
-    "width": "65%"
   }
 ]
