@@ -1,6 +1,6 @@
 import { Handler } from '@netlify/functions';
-import { statusCodes } from '../utils/status';
-import { Metric, publishMetric, addEmail } from '../utils/aws';
+import { statusCodes } from './status';
+import { Metric, publishMetric, addEmail } from './aws';
 
 export const handler: Handler = async (event, context) => {
   try {
