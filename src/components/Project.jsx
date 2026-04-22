@@ -25,10 +25,14 @@ const StyledProject = styled.div`
 `;
 
 const ClickableImage = styled(Image)`
+  transition:
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     cursor: pointer;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: scale(1.03);
   }
 `;
 
