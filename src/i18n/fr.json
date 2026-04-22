@@ -229,6 +229,7 @@
   },
   "contact": {
     "subscribe": "S'abonner",
+    "subscribing": "Abonnement en cours...",
     "email": "Votre adresse courriel",
     "subscribed-success": "Vous êtes abonné.e à la liste d'envoi. Merci!",
     "subscribed-failed": "Une erreur est survenue. Veuillez réessayer.",

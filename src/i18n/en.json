@@ -228,6 +228,7 @@
   },
   "contact": {
     "subscribe": "Subscribe",
+    "subscribing": "Subscribing...",
     "email": "Your email address",
     "subscribed-success": "You are now subscribed to the newsletter. Thank you!",
     "subscribed-failed": "An error occurred while subscribing to the newsletter. Please try again.",

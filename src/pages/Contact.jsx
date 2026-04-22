@@ -59,6 +59,7 @@ export const Contact = () => {
   const [subEmail, setSubEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [thankyouToken, setThankyouToken] = useState('subscribed-success');
+  const [loading, setLoading] = useState(false);
   const { t } = useTranslation('contact');
 
   return (
@@ -76,8 +77,11 @@ export const Contact = () => {
             placeholder={t('email')}
           />
           <Button
+            disabled={loading}
             onClick={async () => {
+              setLoading(true);
               const result = await emailService.subscribe(subEmail);
+              setLoading(false);
               setThankyouToken(result ? 'subscribed-success' : 'subscribed-failed');
               setSubmitted(true);
               setTimeout(() => {
@@ -85,7 +89,7 @@ export const Contact = () => {
               }, [10000]);
             }}
           >
-            {t('subscribe')}
+            {loading ? t('subscribing') : t('subscribe')}
           </Button>
           {submitted && <StyledThankYou>{t(thankyouToken)}</StyledThankYou>}
         </div>
