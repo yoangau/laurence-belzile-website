@@ -2,17 +2,15 @@
 import AWS from 'aws-sdk';
 import { Converter } from 'aws-sdk/clients/dynamodb';
 
+const tableName = 'laurence-belzile-website-email-list';
+
 AWS.config.update({
   region: 'ca-central-1',
   accessKeyId: process.env.LB_AWS_ACCESS_KEY_ID,
   secretAccessKey: process.env.LB_AWS_SECRET_KEY,
 });
 
-const tableName = 'laurence-belzile-website-email-list';
-
 const dynamodb = new AWS.DynamoDB({ apiVersion: '2012-08-10' });
-
-const ddbDocumentClient = new AWS.DynamoDB.DocumentClient();
 
 const cloudwatch = new AWS.CloudWatch({ apiVersion: '2010-08-01' });
 
