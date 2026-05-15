@@ -61,6 +61,9 @@ export const Resume = () => {
         <StyledLink href={`${RESUME_FOLDER}/${t('file')}`} target="_blank">
           {t('download')}
         </StyledLink>
+        <StyledLink href={`${RESUME_FOLDER}/${t('file-press')}`} target="_blank">
+          {t('download-press')}
+        </StyledLink>
         {content.map((element, i) => (
           <div key={`${element.title}-${i}`}>
             <StyledTitle>{t(element.title)}</StyledTitle>
