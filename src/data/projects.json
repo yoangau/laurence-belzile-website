@@ -5437,13 +5437,13 @@
         "photo-credit": "photo-credit-0"
       }
     ],
-    "available": true,
+    "available": false,
     "title": "Construire",
     "dimension": "5\" x 7\"",
     "technique": ["acrylic", "oil", "on-canvas"],
     "year": 2025,
-    "price": 210,
-    "buy-ref": "mailto:laurence.belzile.arts@gmail.com",
+    "price": null,
+    "buy-ref": null,
     "expo": false,
     "photo-credit": "photo-credit-0",
     "width": "30%"
