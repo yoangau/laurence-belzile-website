@@ -148,7 +148,7 @@ def extract_image_dimensions(folder_path, output_path):
     # Write to JSON file
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w') as f:
-        json.dump(dimensions, f, indent=2)
+        json.dump(dimensions, f, indent=2, sort_keys=True)
 
     print(f"Saved dimensions for {len(dimensions)} images to {output_path}")
 
