@@ -76,6 +76,9 @@ export const NavBar = () => {
     <StyledNavbar expand="lg" sticky="top">
       <FitContentNav className="lg-column justify-content-end">
         <StyledLink onClick={() => handleClick(WORK)}>{t('work-header')}</StyledLink>
+        <StyledOutsideLink href="https://www.laurencebelzile.com/catalogue2026.pdf">
+          catalogue
+        </StyledOutsideLink>
         <StyledLink onClick={() => handleClick(EXHIBITIONS)}>{t('exhibitions-header')}</StyledLink>
         <StyledLink onClick={() => handleClick(CV)}>{t('resume-header')}</StyledLink>
         <StyledLink onClick={() => handleClick(ABOUT)}>{t('info-header')}</StyledLink>
