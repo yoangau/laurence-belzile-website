@@ -17,6 +17,12 @@
   ]
 
 [[redirects]]
+from = "/catalogue2026.pdf"
+to = "https://s3.us-east-1.amazonaws.com/laurencebelzile.com/catalogue2026.pdf"
+status = 302
+force = true
+
+[[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
