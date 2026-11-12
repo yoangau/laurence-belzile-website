@@ -97,7 +97,7 @@ The site is now on `https://laurence-belzile.<account>.workers.dev`. Laurence ca
    - R2 → `lb-media` → Custom Domains: add `media.laurencebelzile.com`.
    - `deploy.yml` → `PUBLIC_MEDIA_URL: https://media.laurencebelzile.com`, and drop the v2 branch from `push`.
    - Zero Trust → Access → "Admin Laurence Belzile": add `laurencebelzile.com/admin` and `laurencebelzile.com/api/admin`.
-   - `npx wrangler secret put GITHUB_TOKEN` (step 5), so "Publier" rebuilds automatically.
+   - `wrangler.jsonc` → `DEPLOY_BRANCH: "master"`, so "Publier" starts the production deploy.
    - Push to `master`, which deploys.
 8. Check: home page, an artwork page, `/en`, `/catalogue2026.pdf`, a link preview (e.g. paste an artwork URL in Messenger), `/admin` login, a test newsletter signup.
 9. In Google Search Console, submit `https://laurencebelzile.com/sitemap-index.xml`.
