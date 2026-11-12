@@ -1,11 +1,10 @@
 /**
  * Uploads the migration output to R2.
  *   local  → the Miniflare state used by `npm run dev` (no account needed)
- *   remote → the real buckets, through R2's S3 API
+ *   remote → the real buckets, through the Cloudflare API (CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID)
  */
 import { readdir, readFile } from 'node:fs/promises';
 import { join, relative } from 'node:path';
-import { AwsClient } from 'aws4fetch';
 import { mapLimit } from './images';
 
 export type Target = 'local' | 'remote';
@@ -49,25 +48,29 @@ export const createPut = async (target: Target): Promise<{ put: Put; dispose: ()
     };
   }
 
-  const { CLOUDFLARE_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY } = process.env;
-  if (!CLOUDFLARE_ACCOUNT_ID || !R2_ACCESS_KEY_ID || !R2_SECRET_ACCESS_KEY) {
-    throw new Error('Remote upload needs CLOUDFLARE_ACCOUNT_ID, R2_ACCESS_KEY_ID and R2_SECRET_ACCESS_KEY');
+  // Same API token as wrangler (Workers R2 Storage: Edit). No separate S3 keys needed.
+  const { CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_API_TOKEN } = process.env;
+  if (!CLOUDFLARE_ACCOUNT_ID || !CLOUDFLARE_API_TOKEN) {
+    throw new Error('Remote upload needs CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN');
   }
-  const client = new AwsClient({
-    accessKeyId: R2_ACCESS_KEY_ID,
-    secretAccessKey: R2_SECRET_ACCESS_KEY,
-    service: 's3',
-    region: 'auto',
-  });
-  const endpoint = `https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com`;
+  const endpoint = `https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/r2/buckets`;
   return {
     put: async (bucket, key, body, contentType) => {
-      const url = `${endpoint}/${BUCKET_NAMES[bucket]}/${key.split('/').map(encodeURIComponent).join('/')}`;
-      const headers: Record<string, string> = { 'content-type': contentType };
+      const url = `${endpoint}/${BUCKET_NAMES[bucket]}/objects/${key.split('/').map(encodeURIComponent).join('/')}`;
+      const headers: Record<string, string> = {
+        authorization: `Bearer ${CLOUDFLARE_API_TOKEN}`,
+        'content-type': contentType,
+      };
       if (bucket === 'MEDIA') headers['cache-control'] = cacheControlFor(key);
       const payload = typeof body === 'string' ? body : new Uint8Array(body); // ArrayBuffer-backed copy for fetch
-      const res = await client.fetch(url, { method: 'PUT', body: payload, headers });
-      if (!res.ok) throw new Error(`PUT ${key} failed: ${res.status} ${await res.text()}`);
+      for (let attempt = 1; ; attempt++) {
+        const res = await fetch(url, { method: 'PUT', body: payload, headers });
+        if (res.ok) return;
+        if (attempt >= 4 || (res.status < 500 && res.status !== 429)) {
+          throw new Error(`PUT ${key} failed: ${res.status} ${await res.text()}`);
+        }
+        await new Promise((r) => setTimeout(r, 1000 * 2 ** attempt));
+      }
     },
     dispose: async () => {},
   };
