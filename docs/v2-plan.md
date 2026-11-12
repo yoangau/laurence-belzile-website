@@ -8,7 +8,7 @@ Decisions made along the way:
 - **Only the owner merges into `master`**, never an AI agent (see `CLAUDE.md`).
 - Titles are plain text and always shown in italics (as on v1); other texts use a tiny markdown subset instead of HTML.
 - Public pages are pre-rendered; `/admin` and `/api` are the only Worker routes.
-- Until `deploy.yml` is on `master`, GitHub won't let "Publier" start it, so during staging the rebuild is run by hand with `npm run deploy`.
+- Two environments: `staging` (lb.inscape.xyz, its own data, a playground) and `master` (production). "Publier" works in both (tested end to end on staging).
 
 ## 1. What exists today (audit)
 

@@ -36,7 +36,7 @@ export const triggerDeploy = async (env: AppEnv): Promise<{ triggered: boolean; 
   });
   if (dispatch.ok) return { triggered: true };
 
-  // GitHub only starts workflow_dispatch for workflows on the default branch. Before the cutover
+  // Safety net: if GitHub refuses workflow_dispatch for this branch (e.g. the workflow isn't known there yet),
   // (deploy.yml not on master yet), rebuild by re-running the branch's latest deploy instead:
   // the rebuild downloads the newest published.json, so the result is the same.
   if (dispatch.status === 404 || dispatch.status === 422) {

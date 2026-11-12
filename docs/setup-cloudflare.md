@@ -76,7 +76,8 @@ PUBLIC_MEDIA_URL=/media npm run deploy       # pulls published.json, builds, dep
 
 The site is now on `https://laurence-belzile.<account>.workers.dev`. Laurence can try `/admin` there (with the Access application covering that hostname).
 
-⚠️ GitHub only lets the "Publier" button start `deploy.yml` once that file is on the default branch (`master`). Before the merge, "Publier" saves the published version but the rebuild has to be run by hand with `npm run deploy`. The admin says so when `GITHUB_TOKEN` is not set.
+"Publier" needs the `GITHUB_TOKEN` secret on that environment's Worker (step 5). Without it, the admin
+says the rebuild didn't start, and `npm run deploy` (or re-running the workflow on GitHub) does it by hand.
 
 ## 8. Cutover (the owner does this, not an AI agent)
 
