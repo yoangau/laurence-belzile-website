@@ -22,7 +22,9 @@ export const loadContentFile = (): Content => {
   const path = contentFilePath();
   const result = ContentSchema.safeParse(JSON.parse(readFileSync(path, 'utf8')));
   if (!result.success) {
-    throw new Error(`Invalid content in ${path}:\n${result.error.issues.map((i) => `  ${i.path.join('.')}: ${i.message}`).join('\n')}`);
+    throw new Error(
+      `Invalid content in ${path}:\n${result.error.issues.map((i) => `  ${i.path.join('.')}: ${i.message}`).join('\n')}`,
+    );
   }
   return result.data;
 };
@@ -39,7 +41,9 @@ export const contentPlugin = (): Plugin => ({
     const path = contentFilePath();
     this.addWatchFile(path);
     if (path.endsWith('content.sample.json')) {
-      this.warn('Using fixtures/content.sample.json — run `npm run content:pull` or `npm run migrate` for real content.');
+      this.warn(
+        'Using fixtures/content.sample.json — run `npm run content:pull` or `npm run migrate` for real content.',
+      );
     }
     return `export default ${JSON.stringify(loadContentFile())};`;
   },

@@ -17,7 +17,10 @@ export const PUT: APIRoute = async ({ params, request }) => {
 
   const bucket = target.bucket === 'MEDIA' ? env.MEDIA : env.CONTENT;
   const object = await bucket.put(key, request.body, {
-    httpMetadata: { contentType: target.contentType, ...(target.cacheControl ? { cacheControl: target.cacheControl } : {}) },
+    httpMetadata: {
+      contentType: target.contentType,
+      ...(target.cacheControl ? { cacheControl: target.cacheControl } : {}),
+    },
   });
   return json({ key, size: object?.size ?? 0 });
 };

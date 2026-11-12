@@ -17,8 +17,15 @@ const venue = work.kind === 'exhibition' ? work.venue : undefined;
 ---
 
 <div class="item">
-  {anchors.map((id) => <span id={id} class="anchor" />)}
-  <a href={localePath(locale, `/projet/${work.id}`)} class="card reveal" style={`width:${work.displayWidth}%`} data-astro-prefetch>
+  {anchors.map((id) => (
+    <span id={id} class="anchor" />
+  ))}
+  <a
+    href={localePath(locale, `/projet/${work.id}`)}
+    class="card reveal"
+    style={`width:${work.displayWidth}%`}
+    data-astro-prefetch
+  >
     <Picture
       image={work.images[0]!}
       alt={titlePlain(work, locale)}

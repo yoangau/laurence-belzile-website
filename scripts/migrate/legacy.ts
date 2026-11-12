@@ -46,8 +46,9 @@ export const loadLegacy = async (root: string): Promise<Legacy> => ({
   resume: await readJson(root, 'src/data/resume.json'),
   fr: await readJson(root, 'src/i18n/fr.json'),
   en: await readJson(root, 'src/i18n/en.json'),
-  priceMap: (await readJson<{ dimension_price_map: Record<string, number> }>(root, 'image_processing/price_config.json'))
-    .dimension_price_map,
+  priceMap: (
+    await readJson<{ dimension_price_map: Record<string, number> }>(root, 'image_processing/price_config.json')
+  ).dimension_price_map,
 });
 
 export const LEGACY_PATHS = {

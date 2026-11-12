@@ -39,5 +39,9 @@ export default defineConfig({
   vite: {
     plugins: [contentPlugin()],
     define: { 'import.meta.env.PUBLIC_MEDIA_URL': JSON.stringify(MEDIA_URL) },
+    // The admin's image worker uses dynamic imports and the WebP encoder loads its .wasm
+    // relative to its own module, which pre-bundling would break.
+    worker: { format: 'es' },
+    optimizeDeps: { exclude: ['@jsquash/webp'] },
   },
 });

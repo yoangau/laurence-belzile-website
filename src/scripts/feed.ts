@@ -50,5 +50,6 @@ if (feed) {
   };
 
   for (const button of filterButtons) button.addEventListener('click', () => applyFilter(button.dataset.filter!));
-  if (filterButtons.length && new URLSearchParams(location.search).get('filtre') === 'disponibles') applyFilter('available');
+  if (filterButtons.length && new URLSearchParams(location.search).get('filtre') === 'disponibles')
+    applyFilter('available');
 }

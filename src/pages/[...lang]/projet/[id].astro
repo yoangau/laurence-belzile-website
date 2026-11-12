@@ -35,7 +35,8 @@ const dimensions = work.kind === 'artwork' ? formatDimensions(work.dimensions) :
 const venue = work.kind === 'exhibition' ? work.venue : undefined;
 const description = pick(work.description, locale);
 const metaDescription =
-  [title, medium, dimensions, String(work.year)].filter(Boolean).join(', ') + (description ? ` — ${excerpt(description, 120)}` : '');
+  [title, medium, dimensions, String(work.year)].filter(Boolean).join(', ') +
+  (description ? ` — ${excerpt(description, 120)}` : '');
 
 const main = work.images[0]!;
 const ogSize = ogImageSize(main);
@@ -85,30 +86,33 @@ const credit = (id: string | undefined) => (id ? photographers.get(id) : undefin
 <Base locale={locale} title={title} description={metaDescription} image={ogImage} type="article" jsonLd={jsonLd}>
   <article class="artwork" data-artwork>
     <div class="images" data-gallery>
-      {
-        work.images.map((image, i) => {
-          const full = largestWidth(image);
-          return (
-            <figure>
-              <a
-                href={imageUrl(MEDIA_URL, image, full)}
-                data-pswp-width={full}
-                data-pswp-height={heightFor(image, full)}
-                target="_blank"
-                class="zoom"
-              >
-                <Picture image={image} alt={i === 0 ? title : `${title} (${i + 1})`} sizes="(max-width: 992px) 70vw, 45vw" eager={i === 0} />
-              </a>
-              {credit(image.credit) && (
-                <figcaption>
-                  {t('work.photoCredit')}
-                  {credit(image.credit)}
-                </figcaption>
-              )}
-            </figure>
-          );
-        })
-      }
+      {work.images.map((image, i) => {
+        const full = largestWidth(image);
+        return (
+          <figure>
+            <a
+              href={imageUrl(MEDIA_URL, image, full)}
+              data-pswp-width={full}
+              data-pswp-height={heightFor(image, full)}
+              target="_blank"
+              class="zoom"
+            >
+              <Picture
+                image={image}
+                alt={i === 0 ? title : `${title} (${i + 1})`}
+                sizes="(max-width: 992px) 70vw, 45vw"
+                eager={i === 0}
+              />
+            </a>
+            {credit(image.credit) && (
+              <figcaption>
+                {t('work.photoCredit')}
+                {credit(image.credit)}
+              </figcaption>
+            )}
+          </figure>
+        );
+      })}
     </div>
 
     <div class="meta">
@@ -125,17 +129,21 @@ const credit = (id: string | undefined) => (id ? photographers.get(id) : undefin
   <nav class="pager" aria-label={`${t('work.previous')} / ${t('work.next')}`}>
     <a rel="prev" href={localePath(locale, `/projet/${previous.id}`)} title={t('work.previous')} data-astro-prefetch>
       <span class="visually-hidden">{t('work.previous')}</span>
-      <svg viewBox="0 0 1024 1024" width="18" height="18" aria-hidden="true"
-        ><path fill="currentColor" d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-        ></path></svg
-      >
+      <svg viewBox="0 0 1024 1024" width="18" height="18" aria-hidden="true">
+        <path
+          fill="currentColor"
+          d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+        ></path>
+      </svg>
     </a>
     <a rel="next" href={localePath(locale, `/projet/${next.id}`)} title={t('work.next')} data-astro-prefetch>
       <span class="visually-hidden">{t('work.next')}</span>
-      <svg viewBox="0 0 1024 1024" width="18" height="18" aria-hidden="true"
-        ><path fill="currentColor" d="M765.7 486.8 314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-        ></path></svg
-      >
+      <svg viewBox="0 0 1024 1024" width="18" height="18" aria-hidden="true">
+        <path
+          fill="currentColor"
+          d="M765.7 486.8 314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+        ></path>
+      </svg>
     </a>
   </nav>
 

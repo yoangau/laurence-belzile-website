@@ -1,0 +1,679 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-12T03:56:20.408Z",
+  "works": [
+    {
+      "id": "LB00528",
+      "title": {
+        "fr": "Créatrices d'images",
+        "en": ""
+      },
+      "year": 2025,
+      "description": {
+        "fr": "«En décembre 2025, l’Alliance Française de Vancouver présente l'exposition Créatrices d'images, la nouvelle exposition solo de l’artiste canadienne Laurence Belzile l’une des artistes francophones qui travaillent au quotidien dans les nouveaux studios de l’AFV.\n\nInspirée par trois artistes femmes pionnières du XXᵉ siècle, Laurence Belzile dévoile une série de peintures abstraites et d’archives expérimentales où se rencontrent recherche, émotion et création. Chaque œuvre établit un dialogue poétique entre la pratique artistique de Laurence Belzile et celle des artistes qui l’inspirent.\n\nLaurence Belzile explore l’abstraction par la peinture et le dessin comme un espace de liberté et d’imaginaire. Ses compositions jouent avec la lumière, le mouvement et la couleur pour évoquer la sensibilité, la délicatesse et l’intensité. Sa pratique affirme la force d’une expression poétique et subjective au féminin.»",
+        "en": "\"In December 2025, Alliance Française Vancouver invites you to discover Créatrices d'images, the new solo exhibition by Laurence Belzile, a canadian artist and one of the francophone creators working daily in the AFV’s new studios.\n\nInspired by three pioneering women artists of the 20th century, Laurence Belzile presents a series of abstract paintings and experimental archives where research, emotion, and creation converge. Each work opens a poetic dialogue between Laurence Belzile’s artistic practice and that of the artists who inspire her.\n\nThrough painting and drawing, Laurence Belzile explores abstraction as a space of freedom and imagination. Her compositions play with light, movement, and color to evoke sensitivity, delicacy, and intensity. Her practice affirms the strength of a poetic and subjective form of feminine expression.\""
+      },
+      "images": [
+        {
+          "id": "LB00528",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADQAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JbACdMoACDxllzOzxP1AA/s2EgNOAn/3qUnXOTCE59eeVmYrpYEv5+hxdU184h3hlnImzNeKZdOPWAh9ydzZ/PjMWQ/JXdbC8lCdGLoUoVpQD8ny8SGgsxRNdPY2j7PBVaU24v7+rtlgOiEdbUQbhf+58ytrA9x/ycmfwJXuprYZFoH7//k2/YHf3BjIccC13RxHknoAAAA==",
+          "color": "#58a8f8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00529",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdDiACPAF3DpJNyjrqr4hjb01SQAD+plwd70cqJ1XYePowPGLQoKvxQ6C8q1Rvrk+fLA45744Rws1nZz0+i8WnCXAMFZl0xsq2AhLpksCwGZbi1Ao/iGM2SOM6pSNa6NM25a7SjlAJLwlOsFv9Dv5J1c1wpFQ09A2x4fPX7OQ241T6K9M1yrqbfVqO8s/zpPp6iAAAAA==",
+          "color": "#e8d8c8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00530",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdAB6rzG7/3W8ZspByzAD+0ky2aFAyYHvSSwWqATuMbLbaE+kKO7/XY2YKevHXsY0aYtHMgOdk62PYHcqq9gou167xMDWBoAx+e2HWnMGAiZaVhGtXld+txKJt8PQ30wZBqB7ZqaBnJZ73xutbxr2aLzn9+9QVfxa/37KEa6H8MRSb+8aj/PqKzt9DKMwAAA==",
+          "color": "#4898f8",
+          "credit": "laurence-belzile"
+        }
+      ],
+      "displayWidth": 100,
+      "hidden": false,
+      "kind": "exhibition",
+      "venue": "Alliance française Vancouver, Vancouver (BC)"
+    },
+    {
+      "id": "LB00643",
+      "title": {
+        "fr": "Les étranges",
+        "en": ""
+      },
+      "year": 2025,
+      "images": [
+        {
+          "id": "LB00643",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRgQBAABXRUJQVlA4IPgAAADQBQCdASoYACQAPu1qrVCppaQjpWzJMB2JbAC//f/2TARH5Rd7dlv1LY9L7BqgyBp0MmseiTJQAP72DKltXe/7GG9d2UNBM+TPuXJl4/5O1+6bvzrK0vifb0dRKl/NvpqcFmfWDg1SOhS8IMcVPcfCE69gV2joPMr/KxOJ3sDT49VBJZOJtaxgLmRnlTMVu/iPAZR/rEaw7FMRsa+xAiSkMTrwLpH/EJt0bXWy1AJCSkLP5rQUS1N0Oj+ZQ63J0ggsLb/HES440v0bRW812C1q27a06VKjDnE+T0FMl8nkRTftcS1pLFCruUcLkqNdv0YdfmlP+JEQAA==",
+          "color": "#f8f8f8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00644",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRhoBAABXRUJQVlA4IA4BAADwBgCdASoYACQAPu1orlAppaQqJWzJQB2JbAC+AzEWk7zGvwKo7vwAgSdOcjjKZDS922BS8I+jctvrIuZRlpvgAP73Ag+MK1kwU0wSf7f2p+J5lstAa0webbCDPtvAc5zEbRR/6VJepPEs7DXgUgTyodRdBDtj/5IirIig7EDrA2VHiPmPeuCqdry5YK8xvwFugl97z3p/LA4gS16v55vjxMWgO812+K1sesuMXW928T1mxUNKPB7ZFnStlkG8T5i3U9qo6Bz+Sw82Ko9JcUCGp2VxGRJj83/jAF9H3wUgShmh2WwJThBPpENS/MDUhEUdN205CBw0d2Jo4mrrFXOML3wSWPNuuZqn8ZYAAAA=",
+          "color": "#f8f8f8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00645",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRhgBAABXRUJQVlA4IAwBAAAQBwCdASoYACQAPu1grU+ppSQiKrgMATAdiWwAuyEhMFe8zFeB7vUPuehP5OQFkibr1LfcWOiNloKJIIa5p32WAAD+83ptw+tOzTSAc7s3eh+bv0l1OFyP1BpDftKha54GGOqHsBsONZEmzIb4WE9/8/KfhxO7e0Afj9QG4KJQLCtsfhnEd0tDcJiUz+O3RJdgOIGd/4sDY5eeuqr03F8OJJZe0CTn10eizpATows4XcPcAJgVJ9kW3OWhBPc9jK/a+oSp0MbohZAEihWaxLH3PpcFzH7JUx5f3JGuu9vGtOECFdtCi6PFi7mdo70s7UDJ4wzh7I3vR5gxN6AyQYhDTRTBe21ArrjraAAA",
+          "color": "#f8f8f8",
+          "credit": "laurence-belzile"
+        }
+      ],
+      "displayWidth": 60,
+      "hidden": false,
+      "kind": "artwork",
+      "medium": {
+        "fr": "acrylique sur toile",
+        "en": "acrylic on canvas"
+      },
+      "dimensions": [
+        16,
+        20
+      ],
+      "availability": "available",
+      "price": 928
+    },
+    {
+      "id": "LB00646",
+      "title": {
+        "fr": "Recommencer",
+        "en": ""
+      },
+      "year": 2025,
+      "images": [
+        {
+          "id": "LB00646",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRgYBAABXRUJQVlA4IPoAAACwBQCdASoYACQAPu1qrlAppaQipWzJMB2JbADN78FV/8lmBUkHHYXw6PbqsOysHkxw+Cf/cgAA/vYCX7a3gR6n7GmuIrFGffPKjH3OSj/BpOEm1r+T/vxlDksbCCSzDFnBzqsKu/JWNP6KtwvVwNytqSfgkUr/6Z8O9pwXzyUtK54l871cdn2CvXcDI6TP2AStIcaRlh2mgSaGkF9k4sDb3Jalra+yiA+dGhh01G1gq66cNFgiW9T3ORbEOTf8CeZPm8/0BUIHvog1PZ5rAw766T7JC/qbdqKcWVmZJYwt5Yf/LA08qh0tVg9ZuVvcuku36ISAGGOQAAAA",
+          "color": "#f8f8f8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00647",
+          "width": 2400,
+          "height": 3601,
+          "widths": [
+            480,
+            960,
+            1600,
+            2400
+          ],
+          "lqip": "data:image/webp;base64,UklGRvgAAABXRUJQVlA4IOwAAAAwBgCdASoYACQAPu1irVAppSQtqrgMAbAdiWwAuxUALsrHLSQ+0cvzf7s9tGmKy/3STaVMSCwI1PQAAP7zd+3B7UB/vSCAH/YC4WsduwvuGgI/JBdhdO0IbEiFDwT/KbAz5qa2riVfJToGpMV33Unjeya5yk8K5OHNcZMKb2P3ydvAmvfrnz+WyqnZYqnOtvAhmucDI0GaI0PZHd5xXUJyrMt4Bet4oq/ewgiCK43Ic7iDwTQ3Rqf87kBUAZfd8nA0KjfafBdW1khI2zwMTbyX6OClVRr6K0jArFvuzpXypMfxesbAUxSE/AAAAA==",
+          "color": "#f8f8f8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00648",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRvoAAABXRUJQVlA4IO4AAACwBQCdASoYACQAPu1ork8ppiSiKrgMATAdiWwANQAA7SKLSNw1SkUV8AoHEawe4EDubSigpwAA/vNr/6lLBta3KhW2CbVmY06Cxsnyfn78GvcAn4p1qk2hUhacT+zc8EDNyftONHDwBLMWwlIRORVh7X2Ecz6QdbnFn/b8NqObPFhvIu7jU7iK2dI8rvFpA1YEZIGA6+FU5n9aMWwtm8JEJy3j2Vyg7YhlKoMT53b6/6leVcYGrNULI62b6FFGfoA2qwAOQVwsHCnIpNu0thZUmvkLDaXKf66n/oalmVNRkOx4ejjqhr1zIxYAAAAA",
+          "color": "#f8f8f8",
+          "credit": "laurence-belzile"
+        }
+      ],
+      "displayWidth": 60,
+      "hidden": false,
+      "kind": "artwork",
+      "medium": {
+        "fr": "acrylique sur toile",
+        "en": "acrylic on canvas"
+      },
+      "dimensions": [
+        16,
+        20
+      ],
+      "availability": "available",
+      "price": 928
+    },
+    {
+      "id": "LB00654",
+      "title": {
+        "fr": "Retourner",
+        "en": ""
+      },
+      "year": 2025,
+      "images": [
+        {
+          "id": "LB00654",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABwBQCdASoYACQAPulgpk2pJaOiNVgIASAdCWUAyngWbRwYmbihkaJVsmbqi7aYjTHVUxYiAP7vvNO586kjcLSpBKHGqF8TMr4P0H7UwcSzW5ZdmAjhq9O8t99+Lw48LqvwdsHIi6LcKCFOfHd6cYmMOC2Qg7Js+r7p4xCG6CRyY0izJMl913xfUw+rcsYo3EKI9g+1hZTlCAAA",
+          "color": "#f8f8f8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00655",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBQCdASoYACQAPu1mp04ppaMiKq35MB2JZQDPoBZtfpz2H8p7FaeURs0sEGbwadMhgAD+7U2Ctv1z6Sb9MqXBPXf4WjcBlUc7P91tNjw2vI/o1FUAsOi2RueQHc+Sp8KiFsEHO9xXz11S5D8+QDhk+bbLMQv9US/vWmFLicBhcHtWfSsf+QVtEVg8r91YfQ3tR12/Rut4zy9GQC9AAAAA",
+          "color": "#f8f8f8",
+          "credit": "laurence-belzile"
+        }
+      ],
+      "displayWidth": 30,
+      "hidden": false,
+      "kind": "artwork",
+      "medium": {
+        "fr": "acrylique sur toile",
+        "en": "acrylic on canvas"
+      },
+      "dimensions": [
+        5,
+        7
+      ],
+      "availability": "available",
+      "price": 210
+    },
+    {
+      "id": "LB00658",
+      "title": {
+        "fr": "Construire",
+        "en": ""
+      },
+      "year": 2025,
+      "images": [
+        {
+          "id": "LB00658",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADQBACdASoYACQAPu1kp02ppaMiNVQIATAdiUAZqQcr8O/6aC+EfE0Wm8mDVpdIAAD+8cqYD9rxccHR1CnTHVeTMlRrqkjNYI8oQ0Wyb7aOnmL5WuBNuJseK42aj0Rvdej1VokTIBvtfIIE7GSff5weReJFUiW6QZT1WRjvel72qXwxwHAA+1o2Bfc36VTuOxLu9h5MKPI34UcvniFY/Dg5clPHErEAAAA=",
+          "color": "#e8e8e8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00659",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAACQBQCdASoYACQAPuleqE2pJSQiNVgIASAdCWMAyywWbRy+l15xywrs6fSu9wBb/yfAnbf0AAD+6oEERlU7cv3eTwUW4li1oiPN/IFiBWhzqWX2qNEJCCzgGyPEOOKKbVAbtrPWjVgmN6If3yNM1k9jcWpxNUsRWJfVznsac2vXq3v2+I+YCqIdI0BANNfmDzczB99s0vQL/FIBVwWbj9kQJugAAA==",
+          "color": "#e8e8e8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00660",
+          "width": 2400,
+          "height": 1600,
+          "widths": [
+            480,
+            960,
+            1600,
+            2400
+          ],
+          "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZgAAV5ue/hBnB5DieAD+5z+LbTlxnvx9boj1q+zolJ2JDr67SnxmSWzurn0CcxD5G8LgTWQ/5YmndKwsyHAvASDZ82/VdS7y9wSXAjdeE9b5EU1uxsgm0xg3e5pMqQZ0B4AA",
+          "color": "#e8e8e8",
+          "credit": "laurence-belzile"
+        }
+      ],
+      "displayWidth": 30,
+      "hidden": false,
+      "kind": "artwork",
+      "medium": {
+        "fr": "acrylique et huile sur toile",
+        "en": "acrylic and oil on canvas"
+      },
+      "dimensions": [
+        5,
+        7
+      ],
+      "availability": "sold"
+    },
+    {
+      "id": "LB00478",
+      "title": {
+        "fr": "",
+        "en": ""
+      },
+      "year": 2025,
+      "images": [
+        {
+          "id": "LB00478",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoYABAAPu1kqU4ppaOiMAgBMB2JbAC/OCFr/k4GC2o9AdVPKgAA/uqF7iqtXco6KVQhFYRqW1tQrm6i32qJRUs7m64iHEZ6zSwF7WRDiItJRhlZaohqWngMFhHVix5UmxGxORcFniRVo5skeTgAAA==",
+          "color": "#e8e8e8",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00479",
+          "width": 960,
+          "height": 1440,
+          "widths": [
+            480,
+            960
+          ],
+          "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAABwBQCdASoYACQAPu1kpk2ppaMiNVQIATAdiWYAAJ3wAPFRKRxtwjBcUDEJa9I81ZAs7L0AAP7vxuKvpSNLN8i86K4zW/keQo45zrhCb+SlP4MGdmIPQUbMMOzmTzwzpiKU4o+50BodHl7wa8A2D4VCvaZvBBsXXazIMsltGiI5XzUGjg6JKzv3b0TviKIGAAA=",
+          "color": "#e8e8e8",
+          "credit": "laurence-belzile"
+        }
+      ],
+      "displayWidth": 40,
+      "hidden": false,
+      "kind": "artwork",
+      "medium": {
+        "fr": "huile sur toile",
+        "en": "oil on canvas"
+      },
+      "dimensions": [
+        8,
+        8
+      ],
+      "availability": "sold"
+    },
+    {
+      "id": "LB00501",
+      "title": {
+        "fr": "Rencontre avec les Thuyas Géants",
+        "en": ""
+      },
+      "year": 2025,
+      "description": {
+        "fr": "« Rencontre avec les Thuyas géants » est une traversée picturale inspirée du séjour de l’artiste en Colombie-Britannique, où la verticalité des pay­sages devient langage plastique. À travers une série d’oeuvres abstraites, elle traduit l’expérience sensorielle d’un territoire vaste et contrasté, en entremêlant le mouvement, la lumière et la densité des formes. Ses compositions, dominées par des formes organiques, évoquent des sensations d’élévation, de chute, de suspension pour rappeler les forêts monumentales de l’Ouest canadien, les sous-bois humides et les étendues arides. Par le pastel sec, le graphite et la peinture à l’huile, Belzile explore les liens subtils entre abstraction, territoire et sensibilité. Chaque toile devient, tour à tour, un espace de ré­sonance entre mémoire, matière et imaginaire.  Par une approche résolument féministe, Laurence Bélzile réha­bilite l’émotion comme vecteur de pensée et moteur de création, affirmant la légitimité de l’intime vers l’espace public. Dans l’ex­position « Rencontre avec les Thuyas géants » l’abstraction devient ici un outil de traduction des intensités vécues, transposées en rythmes visuels. Cette pratique affirme la puissance du ressenti comme forme de connaissance.",
+        "en": "This exhibition is inspired by the artist’s time in British Columbia, where the verticality of the landscape becomes a visual language. Through a series of abstract works, Laurence Belzile translates the sensory experience of a vast and contrasting territory, intertwining movement, light, and the density of forms. Her compositions, dominated by organic shapes, evoke sensations of elevation, descent, and suspension, recalling the monumental forests of Western Canada, the damp undergrowth, and arid lands. Using dry pastel, graphite, and oil paint, Belzile explores the subtle relationships between abstraction, territory, and sensitivity. Each canvas becomes a space of resonance between memory, material, and imagination. Grounded in a feminist approach, the exhibition reclaims emotion as a vector of thought and a driving force of creation, affirming the legitimacy of the intimate within the public sphere. In «Rencontre avec les Thuyas géants » (Encounter with the Giant Thujas), abstraction functions as a tool for translating lived emotions into visual rhythms. The work asserts the power of embodied experience and feeling as forms of knowledge."
+      },
+      "images": [
+        {
+          "id": "LB00501",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoYABAAPu1Ct1apoqakGAEwHYllAJ0AFKZ7+emGa7B8AAD5zV17ZpxN4MsLX6iFa6M4EYbeBNXDb5kMbvXLJNeVONRzBSsCXtyjK8yi702ZDfOlhjiOdtFyN6L9BcAA",
+          "color": "#787868",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00502",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAwCdASoYABAAPu1iqk2ppaQiMAgBMB2JYwC7ABXyhOQCryp5CeAA/uTqgOiqlfDpA8RAXOe3I3r+xEzaHyomfEOrjk9so8VPBQmgCB6u7yI5AmouGKBNMu25DTTWkf0G/TLcIh7WuGbxLgw7NaXPjH/oNdp/4yAMoj2dfs/f4MvGgAA=",
+          "color": "#887868",
+          "credit": "laurence-belzile"
+        },
+        {
+          "id": "LB00503",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZwAAXFiCD7t/Y8Bn4AAA/rxkcemJOMqlSjx+GqLYLNhCLstrjWVGfYRgVNAVupJoNyU6bySzKZuKS/IHsC9TwSQ1OTOhnEQYe2AA",
+          "color": "#888878",
+          "credit": "laurence-belzile"
+        }
+      ],
+      "displayWidth": 100,
+      "hidden": false,
+      "kind": "exhibition",
+      "venue": "Centre national d'exposition, Jonquière (QC)"
+    },
+    {
+      "id": "LB00199",
+      "title": {
+        "fr": "Au-delà du repli",
+        "en": ""
+      },
+      "year": 2023,
+      "images": [
+        {
+          "id": "LB00199",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAgCdASoYABAAA4BaJaQAAp1U7xNIIzAX59YxMAD+0ZTyC0Y3b6AzWCU4cy+0cWjNARh9mkzBZn4FYociXTtIpNcrcmw86LEqRa2BYDuaMNoBxREq7rAA",
+          "color": "#b8b8b8",
+          "credit": "champagne-paradis"
+        },
+        {
+          "id": "LB00200",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBACdASoYABAAPu1kqk2ppaQiMAgBMB2JZwC7AB6LwHqKDi2tG/v5vIAA/qtnut7FB1YAWtvk+jrlP3US+W7gl5Cpl1yMpanCvhZ+s+hbvgJWWdsh5nI+vKkTzZ0hMk0aNWIhfRKTde5F2SFHTp+O2XPvqzSZgAA=",
+          "color": "#b8b8b8",
+          "credit": "champagne-paradis"
+        },
+        {
+          "id": "LB00201",
+          "width": 1500,
+          "height": 1000,
+          "widths": [
+            480,
+            960,
+            1500
+          ],
+          "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAQBACdASoYABAAPu1yrU+pp6QiMAgBMB2JZADCgYvYn3LQaE3zHbqF0AD+8bMOw+3eMwLp1jo93nMzOpb+3eSKJuPv2jHYyA5S9kfjAGZYH28tqwRUIPVC/cc8ZsVayjhfnn5fsafnNPQIX1Qshj+ey/7tQj/tMXgPQjFXqImyglq5BU1R0nUNipbJzSP0e/ag74AA",
+          "color": "#b8b8b8",
+          "credit": "champagne-paradis"
+        }
+      ],
+      "displayWidth": 70,
+      "hidden": false,
+      "kind": "artwork",
+      "medium": {
+        "fr": "Livre d'artiste",
+        "en": "Artist Book"
+      },
+      "dimensions": [
+        5,
+        5
+      ],
+      "availability": "none"
+    }
+  ],
+  "cv": [
+    {
+      "id": "studies",
+      "title": {
+        "fr": "Éducation",
+        "en": "Education"
+      },
+      "entries": [
+        {
+          "year": "2019",
+          "text": {
+            "fr": "Maîtrise en arts visuels, Université Laval, QC, Canada",
+            "en": "Master of Fine Arts, Laval University, QC, Canada"
+          }
+        },
+        {
+          "year": "2019",
+          "text": {
+            "fr": "(Cliquer ici pour accéder à ma thèse)",
+            "en": "(Click here to access my thesis)"
+          },
+          "url": "https://recherche-collection-search.bac-lac.gc.ca/fra/accueil/preservica?pid=adbda15e-a1fb-497f-b9c1-debda8a6e848&app=laccat&resource=folderlist"
+        },
+        {
+          "year": "2016",
+          "text": {
+            "fr": "Baccalauréat en arts visuels avec majeure en peinture et dessin, Université Concordia, QC, Canada",
+            "en": "Bachelor of Fine Arts with a Major in Painting and Drawing, Concordia University, QC, Canada"
+          }
+        }
+      ]
+    },
+    {
+      "id": "expo-ind",
+      "title": {
+        "fr": "Expositions individuelles",
+        "en": "Solo Exhibitions"
+      },
+      "entries": [
+        {
+          "year": "2026",
+          "text": {
+            "fr": "*Créatrices d'images*, Centre culturel franco-manitobain, Winnipeg, MB, Canada (à venir)",
+            "en": "*Créatrices d'images*, Centre culturel franco-manitobain, Winnipeg, MB, Canada (upcoming)"
+          }
+        },
+        {
+          "year": "2026",
+          "text": {
+            "fr": "*Créatrices d'images*,  ACT Art Gallery, Maple Ridge, BC, Canada (à venir)",
+            "en": "*Créatrices d'images*,  ACT Art Gallery, Maple Ridge, BC, Canada (upcoming)"
+          }
+        },
+        {
+          "year": "2025",
+          "text": {
+            "fr": "*Créatrices d'images*, Alliance Française Vancouver, Vancouver, BC, Canada",
+            "en": ""
+          },
+          "url": "/projet/LB00528"
+        }
+      ]
+    },
+    {
+      "id": "expo-col",
+      "title": {
+        "fr": "Expositions collectives sélectionnées",
+        "en": "Selected Group Exhibitions"
+      },
+      "entries": [
+        {
+          "year": "2025",
+          "text": {
+            "fr": "*Similkameen Artist Residency: The Guest Book*, The Alternator Centre for Contemporary Art, Kelowna, BC, Canada",
+            "en": ""
+          },
+          "url": "https://www.alternatorcentre.com/events/similkameen-artist-residency-the-guest-book"
+        },
+        {
+          "year": "2025",
+          "text": {
+            "fr": "*Members show 2025*, Access Gallery, Vancouver, BC, Canada",
+            "en": ""
+          },
+          "url": "https://accessgallery.ca/programming/members-show-2025"
+        },
+        {
+          "year": "2025",
+          "text": {
+            "fr": "*Exposition des ateliers d'artistes*, Alliance Française Vancouver, Vancouver, BC, Canada",
+            "en": "*Artist Studios Exhibition*, Alliance Française Vancouver, Vancouver, BC, Canada"
+          },
+          "url": "https://www.alliancefrancaise.ca/community/event-rsvp/?event_id=1088"
+        }
+      ]
+    }
+  ],
+  "bio": {
+    "fr": "## Biographie\n\nNée en 1994 sur les territoires non-cédés des peuples Mi'kmaq, soit en Gaspésie (QC), l’artiste canadienne Laurence Belzile détient un baccalauréat en arts visuels de l’Université Concordia (2016), avec une majeure en peinture et dessin, ainsi qu’une maîtrise en arts visuels de l'Université Laval (2019). Depuis 2016, Laurence Belzile présente ses œuvres dans le cadre d’expositions collectives et individuelles à travers le Canada, notamment à la Vernon Public Art Gallery (C.-B.), la Richmond Art Gallery (C.-B.), à l’Alliance Française Vancouver (C.-B.), au Centre national d’exposition (QC), la Galerie Montcalm (QC) et le Centre d’art de Kamouraska (QC). Son travail a été soutenu entre autres par le Conseil des arts du Canada. Ses œuvres font partie de la collection publique de la Ville de Boucherville ainsi que de la Collection Méduse de la Ville de Québec.\n\n## Démarche artistique\n\nMa pratique s’articule autour de la peinture et du dessin abstraits dans une perspective féministe.\n\nL’abstraction est pour moi un espace poétique, en dehors de la productivité constante imposée par le contexte contemporain. Je construis des images où les sensations et émotions prennent forme à travers des relations entre les couleurs, le rythme et les gestes. Mes œuvres se caractérisent par des formes organiques, des lignes courbes et des contrastes chromatiques qui délimitent des zones distinctes au sein de la surface picturale. Les compositions, majoritairement verticales, sont pensées comme des mises en tension : élévation, chute, suspension, renfermement et ouverture y coexistent.\n\nMa pratique s’appuie sur la conviction que les émotions et la subjectivité constituent des modes de connaissance à part entière, historiquement sous-valorisés dans les récits dominants de l’art, particulièrement lorsqu’ils sont associés aux pratiques des femmes. Mon travail vise à déplacer ces dimensions du registre de l’intime vers celui de l’espace public, en les considérant comme des expériences partagées et politiquement signifiantes.\n\nLa mélancolie traverse mon travail comme une intensité contenue. Elle est présente dans la retenue du geste, par des marques interrompues ou compressées, et par des associations de couleurs où la lumière demeure présente malgré la densité. L’œuvre devient un espace où l’émotion est mise en œuvre.\n\nL’échelle joue un rôle déterminant dans l’expérience des œuvres. Les formats plus intimes favorisent une relation attentive et introspective, tandis que les œuvres de grand format engagent le corps et le déplacement du regard. Dans les deux cas, je cherche à créer des situations où le spectateur est invité à ralentir, à circuler entre les détails et l’ensemble, et à habiter temporairement un espace sensible. Le partage de sensations, plus que la transmission d’un message précis, constitue le cœur de ma démarche.\n\nMon travail s’inscrit dans un dialogue avec les pratiques de femmes artistes du passé dans une perspective féministe fondée sur la circulation des savoirs, des formes et des imaginaires. Je remets en question l’idée de l’artiste comme figure singulière et isolée, au profit d’une conception de la création comme espace partagé. En ce sens, mon travail participe à une réflexion critique sur l’histoire de l’art, ses hiérarchies et ses exclusions, tout en réaffirmant la capacité de l’abstraction à générer des expériences émotionnelles complexes, actuelles et collectives.\n\n",
+    "en": "## Biography\n\nBorn in 1994 in Gaspésie (QC), on the unceded territory of the Mi'kmaq Nation, Canadian artist Laurence Belzile holds a Bachelor of Fine Arts from Concordia University (2016), with a major in painting and drawing, as well as a Master of Fine Arts from Université Laval (2019). Since 2016, Laurence Belzile has presented her work in both group and solo exhibitions across Canada, including at the Vernon Public Art Gallery (BC), the Richmond Art Gallery (BC), Galerie Montcalm (QC), the Centre d’art de Kamouraska (QC), and Galerie Champagne et Paradis (QC). Her work has been supported, among others, by the Canada Council for the Arts. Her artworks are part of the public collection of the City of Boucherville and the Méduse Collection of the City of Québec.\n\n## Artist Statement\n\nMy practice centers on abstract painting and drawing from a feminist perspective.\n\nIt is grounded in the belief that emotions and subjectivity constitute forms of knowledge in their own right, forms that have historically been undervalued in dominant narratives of art, particularly when associated with women’s practices. My work seeks to move these dimensions from the realm of the intimate into the public sphere, considering them as shared meaningful experiences.\n\nFor me, abstraction is a poetic space, outside the constant productivity imposed by the contemporary context. I construct images in which sensations take shape through color, rhythm, and gesture interrelations. My works are characterized by organic forms, curved lines, and chromatic contrasts that delineate distinct zones within the pictorial surface. The compositions, mostly vertical, are conceived as tensions: elevation, descent, suspension, enclosure, and openness coexist.\n\nMelancholy runs through my work as a contained intensity. It appears in the restraint of gesture, through interrupted or compressed marks, and in color combinations where light remains present despite density. The work becomes a space where emotion is set into motion.\n\nScale plays a determining role in the experience of the works. More intimate formats encourage an attentive and introspective relationship, while large-scale works engage the body and the movement of the gaze. In both cases, I seek to create situations in which the viewer is invited to slow down, to move between details and the whole, and to temporarily inhabit a sensitive space. The sharing of sensations, more than the transmission of a precise message, lies at the heart of my practice.\n\nMy work exists in dialogue with the practices of women artists of the past within a feminist perspective grounded in the circulation of knowledge, forms, and creativity. I question the idea of the artist as a singular and isolated figure, favoring instead a conception of creation as a shared space. In this sense, my work participates in a critical reflection on art history, its hierarchies and exclusions, while reaffirming the capacity of abstraction to generate complex, contemporary, and collective emotional experiences.\n\n"
+  },
+  "documents": [
+    {
+      "id": "catalogue",
+      "label": {
+        "fr": "catalogue",
+        "en": ""
+      },
+      "file": {
+        "fr": "docs/catalogue2026.pdf",
+        "en": "docs/catalogue2026.pdf"
+      },
+      "placement": "nav",
+      "legacyPaths": [
+        "/catalogue2026.pdf"
+      ]
+    },
+    {
+      "id": "cv",
+      "label": {
+        "fr": "Télécharger le CV",
+        "en": "Download resume"
+      },
+      "file": {
+        "fr": "docs/Belzile_CV_FR.pdf",
+        "en": "docs/Belzile_CV_EN.pdf"
+      },
+      "placement": "cv",
+      "legacyPaths": [
+        "/resume/Belzile_CV_FR.pdf",
+        "/resume/Belzile_CV_EN.pdf"
+      ]
+    },
+    {
+      "id": "press",
+      "label": {
+        "fr": "Télécharger la revue de presse",
+        "en": "Download press review"
+      },
+      "file": {
+        "fr": "docs/Belzile_press_FR.pdf",
+        "en": "docs/Belzile_press_EN.pdf"
+      },
+      "placement": "cv",
+      "legacyPaths": [
+        "/resume/Belzile_press_FR.pdf",
+        "/resume/Belzile_press_EN.pdf"
+      ]
+    }
+  ],
+  "settings": {
+    "email": "laurence.belzile.arts@gmail.com",
+    "instagramUrl": "https://www.instagram.com/laurencebelzile/",
+    "facebookUrl": "https://www.facebook.com/laurence.belzile.art/",
+    "photographers": [
+      {
+        "id": "laurence-belzile",
+        "name": "Laurence Belzile"
+      },
+      {
+        "id": "champagne-paradis",
+        "name": "Galerie Champage et Paradis"
+      },
+      {
+        "id": "debora-flor",
+        "name": "Débora Flor"
+      },
+      {
+        "id": "macb",
+        "name": "MACB"
+      }
+    ],
+    "priceTable": [
+      {
+        "dimensions": [
+          2.75,
+          3.5
+        ],
+        "price": 87
+      },
+      {
+        "dimensions": [
+          4,
+          4.5
+        ],
+        "price": 135
+      },
+      {
+        "dimensions": [
+          4,
+          6
+        ],
+        "price": 180
+      },
+      {
+        "dimensions": [
+          5,
+          7
+        ],
+        "price": 210
+      },
+      {
+        "dimensions": [
+          5.5,
+          6
+        ],
+        "price": 198
+      }
+    ],
+    "portrait": {
+      "id": "Laurence_Belzile_profil",
+      "width": 1875,
+      "height": 1250,
+      "widths": [
+        480,
+        960,
+        1600,
+        1875
+      ],
+      "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACw7CHhKKcWZsCA80XrbTwAAP7WoKn99Kp7TtnVAxXqEgD53p/E+H78LEe/fFfJ4zShvbb9Bk9xEe0cYT7xVhu89ROyGzv0e6RLJMzlceZcXqq3yAGyO37rOTOOZI341wj3oK7crH2Hpk9bmxxZO43wkDaQbQAAAA==",
+      "color": "#f8f8f8"
+    },
+    "analyticsId": "G-1JWD7MJCTV"
+  }
+}

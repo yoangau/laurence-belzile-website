@@ -16,7 +16,8 @@ export const POST: APIRoute = async ({ request, redirect }) => {
   const isJson = request.headers.get('content-type')?.includes('application/json');
   const raw = isJson ? await request.json().catch(() => null) : Object.fromEntries(await request.formData());
   const parsed = Body.safeParse(raw);
-  const back = (ok: boolean) => redirect(`${parsed.data?.locale === 'en' ? '/en' : ''}/contact?subscribed=${ok ? 1 : 0}`, 303);
+  const back = (ok: boolean) =>
+    redirect(`${parsed.data?.locale === 'en' ? '/en' : ''}/contact?subscribed=${ok ? 1 : 0}`, 303);
 
   if (!parsed.success) return isJson ? errorResponse(400, 'Adresse courriel invalide') : back(false);
 

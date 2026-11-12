@@ -26,50 +26,47 @@ const groupByYear = (entries: CvEntry[]) =>
   <h1 class="visually-hidden">{t('cv.title')}</h1>
   <div class="reveal">
     <ul class="downloads">
-      {
-        documentsFor('cv').map((doc) => (
-          <li>
-            <a href={docUrl(MEDIA_URL, doc.file[locale])} target="_blank" rel="noopener">
-              {pick(doc.label, locale)}
-            </a>
-          </li>
-        ))
-      }
+      {documentsFor('cv').map((doc) => (
+        <li>
+          <a href={docUrl(MEDIA_URL, doc.file[locale])} target="_blank" rel="noopener">
+            {pick(doc.label, locale)}
+          </a>
+        </li>
+      ))}
     </ul>
-    {
-      content.cv.map((section) => (
-        <section>
-          <h2>{pick(section.title, locale)}</h2>
-          {groupByYear(section.entries).map((group) => (
-            <div class="year">
-              <div class="date">{group.year}</div>
-              <ul>
-                {group.entries.map((entry) => {
-                  const html = inlineHtml(pick(entry.text, locale), link);
-                  return (
-                    <li>
-                      {entry.url ? (
-                        <a href={link(entry.url)} {...(entry.url.startsWith('/') ? {} : { target: '_blank', rel: 'noopener' })} set:html={html} />
-                      ) : (
-                        <Fragment set:html={html} />
-                      )}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          ))}
-        </section>
-      ))
-    }
+    {content.cv.map((section) => (
+      <section>
+        <h2>{pick(section.title, locale)}</h2>
+        {groupByYear(section.entries).map((group) => (
+          <div class="year">
+            <div class="date">{group.year}</div>
+            <ul>
+              {group.entries.map((entry) => {
+                const html = inlineHtml(pick(entry.text, locale), link);
+                return (
+                  <li>
+                    {entry.url ? (
+                      <a
+                        href={link(entry.url)}
+                        {...(entry.url.startsWith('/') ? {} : { target: '_blank', rel: 'noopener' })}
+                        set:html={html}
+                      />
+                    ) : (
+                      <Fragment set:html={html} />
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
+      </section>
+    ))}
   </div>
 </Base>
 
 <style>
   .downloads {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em 2em;
     margin: 0;
     padding: 0;
     list-style: none;

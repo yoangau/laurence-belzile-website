@@ -26,7 +26,11 @@ const description = excerpt(bio.replace(/^##[^\n]*\n+/, ''));
 >
   <h1 class="visually-hidden">{t('info.title')}</h1>
   <div class="reveal">
-    {portrait && <div class="portrait"><Picture image={portrait} alt="Laurence Belzile" sizes="(max-width: 768px) 63vw, 56vw" eager /></div>}
+    {portrait && (
+      <div class="portrait">
+        <Picture image={portrait} alt="Laurence Belzile" sizes="(max-width: 768px) 63vw, 56vw" eager />
+      </div>
+    )}
     <div class="bio" set:html={blockHtml(bio, (u) => localePath(locale, u))} />
   </div>
 </Base>

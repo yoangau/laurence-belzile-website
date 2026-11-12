@@ -28,7 +28,11 @@ const { values } = parseArgs({
 });
 
 const log = (msg: string) => console.log(msg);
-const exists = (p: string) => stat(p).then(() => true, () => false);
+const exists = (p: string) =>
+  stat(p).then(
+    () => true,
+    () => false,
+  );
 
 const main = async () => {
   if (!values.legacy) throw new Error('Usage: npm run migrate -- --legacy <path to a checkout of master>');
@@ -40,10 +44,14 @@ const main = async () => {
 
   // Pass 1: find every image the content references.
   const paths = new Set<string>();
-  convert(legacy, (path) => {
-    paths.add(path);
-    return { id: 'x', width: 1, height: 1, widths: [1], lqip: 'data:image/', color: '#000000' };
-  }, { warnings: [] });
+  convert(
+    legacy,
+    (path) => {
+      paths.add(path);
+      return { id: 'x', width: 1, height: 1, widths: [1], lqip: 'data:image/', color: '#000000' };
+    },
+    { warnings: [] },
+  );
 
   log(`Processing ${paths.size} images (cached ones are skipped)…`);
   const processed = new Map<string, ProcessedImage>();
@@ -61,7 +69,8 @@ const main = async () => {
   // Images on disk that nothing references.
   const onDisk = (await readdir(join(root, LEGACY_PATHS.projects))).filter((f) => /\.(jpe?g|png)$/i.test(f));
   const unused = onDisk.filter((f) => !paths.has(`${LEGACY_PATHS.projects}/${f}`));
-  if (unused.length) report.warnings.push(`${unused.length} images in public/projects are not used by any work: ${unused.join(', ')}`);
+  if (unused.length)
+    report.warnings.push(`${unused.length} images in public/projects are not used by any work: ${unused.join(', ')}`);
 
   // Documents.
   await mkdir(join(mediaDir, 'docs'), { recursive: true });
@@ -110,7 +119,12 @@ const main = async () => {
       if (values['with-originals']) {
         log('  originals…');
         await mapLimit([...paths], 8, async (path) => {
-          await put('CONTENT', `originals/${path.split('/').pop()}`, await readFile(join(root, path)), contentTypeFor(path));
+          await put(
+            'CONTENT',
+            `originals/${path.split('/').pop()}`,
+            await readFile(join(root, path)),
+            contentTypeFor(path),
+          );
         });
       }
     } finally {

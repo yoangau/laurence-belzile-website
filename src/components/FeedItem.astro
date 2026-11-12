@@ -19,7 +19,9 @@ const width = `${work.displayWidth}%`;
 ---
 
 <div class="item" data-available={String(available)}>
-  {anchors.map((id) => <span id={id} class="anchor" />)}
+  {anchors.map((id) => (
+    <span id={id} class="anchor" />
+  ))}
   <a href={localePath(locale, `/projet/${work.id}`)} class="link reveal" style={`width:${width}`} data-astro-prefetch>
     <Picture
       image={work.images[0]!}

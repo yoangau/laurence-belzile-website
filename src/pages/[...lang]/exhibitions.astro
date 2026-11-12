@@ -9,15 +9,17 @@ export const getStaticPaths = localeParams;
 
 const locale = localeFromParam(Astro.params.lang);
 const t = useTranslations(locale);
-// Newest first, keeping the curated order within a year.
-const sorted = [...exhibitions].sort((a, b) => b.year - a.year);
+// Newest year first; within a year, in the order they were added (as on the v1 site).
+const sorted = [...exhibitions].reverse().sort((a, b) => b.year - a.year);
 const first = sorted[0];
 ---
 
 <Base
   locale={locale}
   title={t('exhibitions.title')}
-  image={first && { url: absoluteUrl(ogImageUrl(MEDIA_URL, first.images[0]!), Astro.site!), alt: titlePlain(first, locale) }}
+  image={
+    first && { url: absoluteUrl(ogImageUrl(MEDIA_URL, first.images[0]!), Astro.site!), alt: titlePlain(first, locale) }
+  }
 >
   <h1 class="visually-hidden">{t('exhibitions.title')}</h1>
   <Feed works={sorted} locale={locale} variant="exhibition" />

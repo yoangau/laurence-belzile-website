@@ -15,7 +15,9 @@ const first = artworks[0];
 <Base
   locale={locale}
   title={t('work.title')}
-  image={first && { url: absoluteUrl(ogImageUrl(MEDIA_URL, first.images[0]!), Astro.site!), alt: titlePlain(first, locale) }}
+  image={
+    first && { url: absoluteUrl(ogImageUrl(MEDIA_URL, first.images[0]!), Astro.site!), alt: titlePlain(first, locale) }
+  }
 >
   <h1 class="visually-hidden">{t('work.title')}</h1>
   <Feed works={artworks} locale={locale} filterable />

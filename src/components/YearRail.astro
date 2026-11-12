@@ -13,19 +13,17 @@ interface Props {
 const { years, idPrefix = '', name, hidden = false, label } = Astro.props;
 ---
 
-{
-  years.length > 1 && (
-    <nav class="rail" data-year-rail={name} hidden={hidden} aria-label={label}>
-      <ul>
-        {years.map((year) => (
-          <li>
-            <a href={`#${idPrefix}${year}`}>{year}</a>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  )
-}
+{years.length > 1 && (
+  <nav class="rail" data-year-rail={name} hidden={hidden} aria-label={label}>
+    <ul>
+      {years.map((year) => (
+        <li>
+          <a href={`#${idPrefix}${year}`}>{year}</a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
 
 <style>
   .rail {

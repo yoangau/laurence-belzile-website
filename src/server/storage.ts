@@ -59,7 +59,12 @@ export const saveDraft = async (env: AppEnv, data: unknown, ifMatch: string | nu
   });
   if (!written) throw new ConflictError('Le contenu a été modifié ailleurs (autre onglet ?). Rechargez la page.');
   const published = await env.CONTENT.head(PUBLISHED_KEY);
-  return { content, etag: written.etag, publishedAt: published?.uploaded.toISOString() ?? null, hasUnpublishedChanges: true };
+  return {
+    content,
+    etag: written.etag,
+    publishedAt: published?.uploaded.toISOString() ?? null,
+    hasUnpublishedChanges: true,
+  };
 };
 
 /** Copies the draft to published.json and keeps a copy in history/. */

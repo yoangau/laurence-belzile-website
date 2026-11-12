@@ -15,20 +15,18 @@ const { availability, price } = artwork;
 ---
 
 <div class="availability">
-  {
-    availability === 'available' && price ? (
-      <>
-        <a href={saleHref(artwork, content.settings.email, locale)} target="_blank" rel="noopener">
-          {t('work.available')}
-        </a>
-        <p>{formatPrice(price, locale)}</p>
-      </>
-    ) : availability === 'sold' ? (
-      <p>{t('work.sold')}</p>
-    ) : availability === 'unavailable' ? (
-      <p>{t('work.unavailable')}</p>
-    ) : null
-  }
+  {availability === 'available' && price ? (
+    <>
+      <a href={saleHref(artwork, content.settings.email, locale)} target="_blank" rel="noopener">
+        {t('work.available')}
+      </a>
+      <p>{formatPrice(price, locale)}</p>
+    </>
+  ) : availability === 'sold' ? (
+    <p>{t('work.sold')}</p>
+  ) : availability === 'unavailable' ? (
+    <p>{t('work.unavailable')}</p>
+  ) : null}
 </div>
 
 <style>

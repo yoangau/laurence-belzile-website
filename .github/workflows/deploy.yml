@@ -1,0 +1,50 @@
+# Builds the site from the published content and deploys it to Cloudflare.
+#
+# Runs when:
+#   - Laurence clicks "Publier" in /admin (workflow_dispatch from the Worker), or
+#   - code is pushed to master.
+#
+# Needs repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (see docs/setup-cloudflare.md)
+# and optionally the repository variable PUBLIC_MEDIA_URL.
+name: Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: Why this deploy was started
+        required: false
+        default: manual
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+# Publishing twice quickly queues the second deploy instead of running both at once.
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      PUBLIC_MEDIA_URL: ${{ vars.PUBLIC_MEDIA_URL || 'https://media.laurencebelzile.com' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Download the published content
+        run: npm run content:pull
+      - run: npm test
+      - run: npm run build
+      - name: Apply database migrations
+        run: npx wrangler d1 migrations apply lb --remote
+      - name: Deploy
+        run: npx wrangler deploy

@@ -10,7 +10,12 @@ import { mapLimit } from './images';
 
 export type Target = 'local' | 'remote';
 
-export type Put = (bucket: 'MEDIA' | 'CONTENT', key: string, body: Uint8Array | string, contentType: string) => Promise<void>;
+export type Put = (
+  bucket: 'MEDIA' | 'CONTENT',
+  key: string,
+  body: Uint8Array | string,
+  contentType: string,
+) => Promise<void>;
 
 const CONTENT_TYPES: Record<string, string> = {
   webp: 'image/webp',
@@ -20,7 +25,8 @@ const CONTENT_TYPES: Record<string, string> = {
   pdf: 'application/pdf',
   json: 'application/json',
 };
-export const contentTypeFor = (key: string) => CONTENT_TYPES[key.split('.').pop()!.toLowerCase()] ?? 'application/octet-stream';
+export const contentTypeFor = (key: string) =>
+  CONTENT_TYPES[key.split('.').pop()!.toLowerCase()] ?? 'application/octet-stream';
 
 /** Image keys are immutable (a replaced image gets a new id); documents can be replaced in place. */
 export const cacheControlFor = (key: string) =>
@@ -47,14 +53,20 @@ export const createPut = async (target: Target): Promise<{ put: Put; dispose: ()
   if (!CLOUDFLARE_ACCOUNT_ID || !R2_ACCESS_KEY_ID || !R2_SECRET_ACCESS_KEY) {
     throw new Error('Remote upload needs CLOUDFLARE_ACCOUNT_ID, R2_ACCESS_KEY_ID and R2_SECRET_ACCESS_KEY');
   }
-  const client = new AwsClient({ accessKeyId: R2_ACCESS_KEY_ID, secretAccessKey: R2_SECRET_ACCESS_KEY, service: 's3', region: 'auto' });
+  const client = new AwsClient({
+    accessKeyId: R2_ACCESS_KEY_ID,
+    secretAccessKey: R2_SECRET_ACCESS_KEY,
+    service: 's3',
+    region: 'auto',
+  });
   const endpoint = `https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com`;
   return {
     put: async (bucket, key, body, contentType) => {
       const url = `${endpoint}/${BUCKET_NAMES[bucket]}/${key.split('/').map(encodeURIComponent).join('/')}`;
       const headers: Record<string, string> = { 'content-type': contentType };
       if (bucket === 'MEDIA') headers['cache-control'] = cacheControlFor(key);
-      const res = await client.fetch(url, { method: 'PUT', body, headers });
+      const payload = typeof body === 'string' ? body : new Uint8Array(body); // ArrayBuffer-backed copy for fetch
+      const res = await client.fetch(url, { method: 'PUT', body: payload, headers });
       if (!res.ok) throw new Error(`PUT ${key} failed: ${res.status} ${await res.text()}`);
     },
     dispose: async () => {},

@@ -1,6 +1,14 @@
 # laurencebelzile.com — V2 plan
 
-Status: proposal, nothing built yet. Branch for the work: `v2` (long-lived integration branch, merged into `master` at cutover).
+Status: **built on the v2 branch, not deployed.** The code (phases 0–4) is done and tested locally. Phases 5–6 (Cloudflare account, staging, cutover) follow `docs/setup-cloudflare.md`.
+
+Decisions made along the way:
+
+- npm instead of yarn.
+- **Only the owner merges into `master`**, never an AI agent (see `CLAUDE.md`).
+- Titles are plain text and always shown in italics (as on v1); other texts use a tiny markdown subset instead of HTML.
+- Public pages are pre-rendered; `/admin` and `/api` are the only Worker routes.
+- Until `deploy.yml` is on `master`, GitHub won't let "Publier" start it, so during staging the rebuild is run by hand with `npm run deploy`.
 
 ## 1. What exists today (audit)
 
@@ -8,14 +16,14 @@ Status: proposal, nothing built yet. Branch for the work: `v2` (long-lived integ
 
 **Content lives in 4 places that have to be edited together by hand:**
 
-| What | Where | How Laurence changes it today |
-|---|---|---|
-| 264 artworks / exhibitions | `src/data/projects.json` | edit JSON in git |
-| Titles, descriptions, techniques, credits, CV lines, bio | `src/i18n/fr.json`, `en.json` (keys like `@@expo-title-LB00035`, `LB00234-description`, `expo-ind-2025-0`) | edit 2 JSON files in git, keys must match |
-| CV structure | `src/data/resume.json` (only references i18n keys) | edit JSON in git |
-| Images | `public/projects/*.jpg` + `compressed/` + `placeholders/` + `src/data/image-dimensions.json` | run `image_processing/compress.py` (Python, OpenCV), commit 3 copies of every image |
-| Prices | `image_processing/price_config.json` + `update_prices.py` | run a script |
-| PDFs (CV, press, catalogue) | `public/resume/`, S3 bucket (catalogue), `netlify.toml` redirect, hard-coded nav link | git + AWS console |
+| What                                                     | Where                                                                                                      | How Laurence changes it today                                                       |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| 264 artworks / exhibitions                               | `src/data/projects.json`                                                                                   | edit JSON in git                                                                    |
+| Titles, descriptions, techniques, credits, CV lines, bio | `src/i18n/fr.json`, `en.json` (keys like `@@expo-title-LB00035`, `LB00234-description`, `expo-ind-2025-0`) | edit 2 JSON files in git, keys must match                                           |
+| CV structure                                             | `src/data/resume.json` (only references i18n keys)                                                         | edit JSON in git                                                                    |
+| Images                                                   | `public/projects/*.jpg` + `compressed/` + `placeholders/` + `src/data/image-dimensions.json`               | run `image_processing/compress.py` (Python, OpenCV), commit 3 copies of every image |
+| Prices                                                   | `image_processing/price_config.json` + `update_prices.py`                                                  | run a script                                                                        |
+| PDFs (CV, press, catalogue)                              | `public/resume/`, S3 bucket (catalogue), `netlify.toml` redirect, hard-coded nav link                      | git + AWS console                                                                   |
 
 The commit history confirms the pain: most of her commits are one-line JSON edits ("oeuvre vendue" = flip `available` + null `price`), image batches (3 files per artwork), bio/CV text changes, and PDF swaps. She also had to commit AWS/Netlify config.
 
@@ -24,6 +32,7 @@ The commit history confirms the pain: most of her commits are one-line JSON edit
 **The "SEO thumbnail SSR":** there is no SSR in the code. `react-helmet` sets per-page `og:` tags in the browser, and social crawlers (Facebook, iMessage, Slack) don't run JS, so the per-artwork thumbnails can only work through Netlify's prerendering setting (bots get a headless-browser render). V2 makes this native: every page is real HTML with its tags already in it.
 
 **Convoluted logic and bugs found** (all disappear with the new data model):
+
 - `available` is tri-state (`true` / `false` / `null`), `buy-ref` is `null` or the string `"null"`, and `price` must also be nulled when sold.
 - Titles starting with `@@` are translation keys; others are literal; some contain raw `<i>` HTML parsed with `react-html-parser`.
 - Exhibitions are artworks with `expo: true` whose **`dimension` field holds the venue**; `expo-only` is another flag; one stray key `LB00292-description: ""`.
@@ -66,6 +75,7 @@ The commit history confirms the pain: most of her commits are one-line JSON edit
 ```
 
 **Framework: Astro 5 + TypeScript**, with the `@astrojs/cloudflare` adapter.
+
 - Public pages are **pre-rendered at build time** from `published.json`. Every artwork page is real HTML with its own title, description, `og:image`, Twitter card, JSON-LD (`VisualArtwork`, plus an `Offer` when available), canonical URL, and `hreflang`.
   - Why pre-render instead of rendering on each request: the free Workers plan allows 10 ms CPU per request, and a 260-image gallery rendered per request risks exceeding it. Pre-rendered pages cost no CPU, are fastest for SEO, and the only cost is that a change takes ~1–2 min to go live after "Publier".
 - `/admin` and `/api/*` are on-demand routes (`prerender = false`) in the same Worker.
@@ -73,6 +83,7 @@ The commit history confirms the pain: most of her commits are one-line JSON edit
 - **i18n:** French at the existing URLs (`/work`, `/projet/LB00012`), English at `/en/work`, `/en/projet/LB00012`, with `hreflang` linking both. The language toggle switches URL.
 
 **Content storage: one validated JSON document**, not a database. ~264 artworks, one editor, small payload:
+
 - `draft.json` is what the admin edits (saved with an ETag so two tabs can't overwrite each other).
 - "Publier" copies draft → `published.json`, writes `history/<timestamp>.json`, and triggers the deploy. The admin lists the history with "Restaurer", which replaces what git gave her for undo.
 - One Zod schema (`src/content/schema.ts`) is shared by the site, the admin, the API, and the migration script.
@@ -140,15 +151,15 @@ type Content = {
 
 Every phase ends with something runnable and is verified locally with `wrangler dev` (it emulates R2/D1, so none of this needs the Cloudflare account until phase 5).
 
-| # | Phase | Output | Who |
-|---|---|---|---|
-| 0 | Scaffold | Astro + TS strict + Cloudflare adapter + wrangler config (R2/D1 bindings), ESLint/Prettier, Vitest, Playwright, GitHub Actions CI (typecheck, test, build) | me |
-| 1 | Schema + migration | `schema.ts`; `scripts/migrate.ts` converts `projects.json` + `fr/en.json` + `resume.json` + `price_config.json` into `content.json` (resolves `@@` keys, `<i>` → markdown, venue out of `dimension`, parses dimensions, normalizes `4,5`), uses `sharp` for all variants/LQIP, and uploads to R2 (local or remote). **Idempotent**, so it can be re-run at cutover. Tests: every artwork, image, CV line, and translation accounted for; a report of anything ambiguous | me |
-| 2 | Public site | All pages at parity, both languages, SEO (meta/OG/JSON-LD/sitemap/robots/hreflang/canonical), redirects for old URLs (`/projects/*`, PDFs). Playwright screenshots of old vs new for a visual diff | sub-agent A |
-| 3 | API + admin | `/api/admin/*` (content GET/PUT with ETag, upload, publish, history, subscribers) + JWT check; `/api/subscribe` → D1; the admin app; browser image pipeline | sub-agent B (in parallel with 2, since both only depend on `schema.ts`) |
-| 4 | Publish pipeline | Workflow on `repository_dispatch: content-published` + push to master: fetch `published.json` → build → `wrangler deploy`. Fine-grained GitHub token (dispatch only) stored as a Worker secret | me |
-| 5 | Staging on Cloudflare | Deploy `v2` to `*.workers.dev`, set up Access, R2 custom domain; Laurence tries the admin on real content while Netlify still serves production | you + me |
-| 6 | Cutover | Content freeze → re-run migration → move DNS → verify → disable Netlify → merge `v2` → `master`. Optional: delete the DynamoDB table and old S3 buckets after export | you + me |
+| #   | Phase                 | Output                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Who                                                                     |
+| --- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 0   | Scaffold              | Astro + TS strict + Cloudflare adapter + wrangler config (R2/D1 bindings), ESLint/Prettier, Vitest, Playwright, GitHub Actions CI (typecheck, test, build)                                                                                                                                                                                                                                                                                                              | me                                                                      |
+| 1   | Schema + migration    | `schema.ts`; `scripts/migrate.ts` converts `projects.json` + `fr/en.json` + `resume.json` + `price_config.json` into `content.json` (resolves `@@` keys, `<i>` → markdown, venue out of `dimension`, parses dimensions, normalizes `4,5`), uses `sharp` for all variants/LQIP, and uploads to R2 (local or remote). **Idempotent**, so it can be re-run at cutover. Tests: every artwork, image, CV line, and translation accounted for; a report of anything ambiguous | me                                                                      |
+| 2   | Public site           | All pages at parity, both languages, SEO (meta/OG/JSON-LD/sitemap/robots/hreflang/canonical), redirects for old URLs (`/projects/*`, PDFs). Playwright screenshots of old vs new for a visual diff                                                                                                                                                                                                                                                                      | sub-agent A                                                             |
+| 3   | API + admin           | `/api/admin/*` (content GET/PUT with ETag, upload, publish, history, subscribers) + JWT check; `/api/subscribe` → D1; the admin app; browser image pipeline                                                                                                                                                                                                                                                                                                             | sub-agent B (in parallel with 2, since both only depend on `schema.ts`) |
+| 4   | Publish pipeline      | Workflow on `repository_dispatch: content-published` + push to master: fetch `published.json` → build → `wrangler deploy`. Fine-grained GitHub token (dispatch only) stored as a Worker secret                                                                                                                                                                                                                                                                          | me                                                                      |
+| 5   | Staging on Cloudflare | Deploy `v2` to `*.workers.dev`, set up Access, R2 custom domain; Laurence tries the admin on real content while Netlify still serves production                                                                                                                                                                                                                                                                                                                         | you + me                                                                |
+| 6   | Cutover               | Content freeze → re-run migration → move DNS → verify → disable Netlify → merge `v2` → `master`. Optional: delete the DynamoDB table and old S3 buckets after export                                                                                                                                                                                                                                                                                                    | you + me                                                                |
 
 Phases 0–4 are doable in one long session: I do 0–1, then run A and B in parallel as sub-agents against the frozen schema, then integrate, test end-to-end in a local browser, and push. Phases 5–6 need your Cloudflare account, so they become a short checklist.
 
@@ -167,4 +178,4 @@ Phases 0–4 are doable in one long session: I do 0–1, then run A and B in par
 - **Publish delay** is ~1–2 min (build + deploy). If that ever annoys her, switching artwork pages to on-demand rendering with edge caching is a config change, not a rewrite.
 - **Free-tier limits** are far above this site's scale: 10 GB R2 (needs ~1.5 GB with originals), 100k Worker invocations/day (only `/api` and `/admin` count, not static pages), 2,000 GitHub Actions min/month (or unlimited if the repo stays public).
 - **Analytics:** keep the existing GA4 tag, or swap for Cloudflare Web Analytics (free, no cookie banner). Your call.
-- **Newsletter:** today the site only *collects* emails; nothing sends them. CSV export makes it easy to paste into Mailchimp or Brevo (both have free tiers) when she wants to send.
+- **Newsletter:** today the site only _collects_ emails; nothing sends them. CSV export makes it easy to paste into Mailchimp or Brevo (both have free tiers) when she wants to send.

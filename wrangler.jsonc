@@ -4,7 +4,8 @@
   "compatibility_date": "2026-10-01",
   "compatibility_flags": ["nodejs_compat"],
   "main": "@astrojs/cloudflare/entrypoints/server",
-  "assets": { "binding": "ASSETS", "directory": "./dist" },
+  // Static pages are served by the assets layer; only /api, /admin, /media and /projects reach the Worker.
+  "assets": { "binding": "ASSETS" },
   "observability": { "enabled": true },
   // Public media (images, PDFs). Served from https://media.laurencebelzile.com (R2 custom domain).
   "r2_buckets": [

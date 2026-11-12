@@ -14,7 +14,8 @@ const headers = (token: string) => ({
 });
 
 export const triggerDeploy = async (env: AppEnv): Promise<{ triggered: boolean; reason?: string }> => {
-  if (!env.GITHUB_TOKEN) return { triggered: false, reason: 'GITHUB_TOKEN non configuré (publication locale seulement)' };
+  if (!env.GITHUB_TOKEN)
+    return { triggered: false, reason: 'GITHUB_TOKEN non configuré (publication locale seulement)' };
   const res = await fetch(`https://api.github.com/repos/${env.GITHUB_REPO}/actions/workflows/${WORKFLOW}/dispatches`, {
     method: 'POST',
     headers: headers(env.GITHUB_TOKEN),
@@ -43,6 +44,8 @@ export const deployStatus = async (env: AppEnv): Promise<DeployStatus> => {
   };
   const run = runs[0];
   if (!run) return { status: 'unknown', conclusion: null, startedAt: null, url: null };
-  const status = ['queued', 'in_progress', 'completed'].includes(run.status) ? (run.status as DeployStatus['status']) : 'in_progress';
+  const status = ['queued', 'in_progress', 'completed'].includes(run.status)
+    ? (run.status as DeployStatus['status'])
+    : 'in_progress';
   return { status, conclusion: run.conclusion, startedAt: run.run_started_at, url: run.html_url };
 };

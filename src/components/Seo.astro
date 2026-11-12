@@ -44,16 +44,14 @@ const ogLocale = (l: Locale) => HTML_LANG[l].replace('-', '_');
 <meta property="og:url" content={canonical} />
 <meta property="og:locale" content={ogLocale(locale)} />
 <meta property="og:locale:alternate" content={ogLocale(locale === 'fr' ? 'en' : 'fr')} />
-{
-  image && (
-    <>
-      <meta property="og:image" content={image.url} />
-      <meta property="og:image:alt" content={image.alt} />
-      {image.width && <meta property="og:image:width" content={String(image.width)} />}
-      {image.height && <meta property="og:image:height" content={String(image.height)} />}
-    </>
-  )
-}
+{image && (
+  <>
+    <meta property="og:image" content={image.url} />
+    <meta property="og:image:alt" content={image.alt} />
+    {image.width && <meta property="og:image:width" content={String(image.width)} />}
+    {image.height && <meta property="og:image:height" content={String(image.height)} />}
+  </>
+)}
 <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />

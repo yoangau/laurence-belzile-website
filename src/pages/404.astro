@@ -8,5 +8,7 @@ const t = useTranslations(locale);
 
 <Base locale={locale} title={t('notFound.title')} noindex>
   <h1>{t('notFound.title')}</h1>
-  <p><a href={localePath(locale, '/')}>{t('notFound.back')}</a></p>
+  <p>
+    <a href={localePath(locale, '/')}>{t('notFound.back')}</a>
+  </p>
 </Base>

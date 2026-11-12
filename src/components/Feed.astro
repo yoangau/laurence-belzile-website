@@ -26,33 +26,37 @@ const anchorsFor = (work: Work) => [
 ];
 ---
 
-{
-  filterable && (
-    <div class="filters" role="group">
-      <button type="button" data-filter="all" aria-pressed="true">
-        {t('work.filterAll')}
-      </button>
-      <button type="button" data-filter="available" aria-pressed="false">
-        {t('work.filterAvailable')}
-      </button>
-    </div>
-  )
-}
+{filterable && (
+  <div class="filters" role="group">
+    <button type="button" data-filter="all" aria-pressed="true">
+      {t('work.filterAll')}
+    </button>
+    <button type="button" data-filter="available" aria-pressed="false">
+      {t('work.filterAvailable')}
+    </button>
+  </div>
+)}
 
 <div data-feed data-filter="all">
-  {
-    works.map((work, i) =>
-      variant === 'exhibition' ? (
-        <ExhibitionCard work={work} locale={locale} anchors={anchorsFor(work)} eager={i === 0} />
-      ) : (
-        <FeedItem work={work} locale={locale} anchors={anchorsFor(work)} eager={i === 0} />
-      ),
-    )
-  }
+  {works.map((work, i) =>
+    variant === 'exhibition' ? (
+      <ExhibitionCard work={work} locale={locale} anchors={anchorsFor(work)} eager={i === 0} />
+    ) : (
+      <FeedItem work={work} locale={locale} anchors={anchorsFor(work)} eager={i === 0} />
+    ),
+  )}
 </div>
 
 <YearRail years={[...allAnchors.keys()]} name="all" label={t('work.years')} />
-{filterable && <YearRail years={[...availableAnchors.keys()]} idPrefix="available-" name="available" hidden label={t('work.years')} />}
+{filterable && (
+  <YearRail
+    years={[...availableAnchors.keys()]}
+    idPrefix="available-"
+    name="available"
+    hidden
+    label={t('work.years')}
+  />
+)}
 
 <script>
   import '../scripts/feed';

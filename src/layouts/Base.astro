@@ -28,7 +28,9 @@ const analyticsId = content.settings.analyticsId;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script is:inline>document.documentElement.classList.add('js');</script>
+    <script is:inline>
+      document.documentElement.classList.add('js');
+    </script>
     <Seo
       locale={locale}
       title={fullTitle}
@@ -44,26 +46,26 @@ const analyticsId = content.settings.analyticsId;
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    {
-      analyticsId && (
-        <>
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${analyticsId}`} />
-          <script is:inline define:vars={{ analyticsId }}>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-              dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', analyticsId);
-          </script>
-        </>
-      )
-    }
+    {analyticsId && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${analyticsId}`} />
+        <script is:inline define:vars={{ analyticsId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', analyticsId);
+        </script>
+      </>
+    )}
   </head>
   <body>
     <Nav locale={locale} />
     <header>
-      <a class="name reveal" href={localePath(locale, '/')}>Laurence Belzile</a>
+      <a class="name reveal" href={localePath(locale, '/')}>
+        Laurence Belzile
+      </a>
     </header>
     <main>
       <slot />
@@ -75,14 +77,11 @@ const analyticsId = content.settings.analyticsId;
 </html>
 
 <style>
-  header {
-    margin-top: 0.7em;
-    padding-bottom: 0.5em;
-  }
   .name {
     display: inline-block;
-    margin-left: -0.2em;
-    color: var(--ink);
+    margin: 0.4em 0 0.5rem -0.2em;
+    padding-bottom: 0.5em;
+    color: var(--text);
     font-size: 7vw;
     font-weight: 500;
     line-height: 1.2;

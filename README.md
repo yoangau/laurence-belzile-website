@@ -1,139 +1,73 @@
-# Laurence Belzile Portfolio Website
+# laurencebelzile.com
 
-A React-based portfolio webs### Installation
+Portfolio of the visual artist Laurence Belzile, built with **Astro + TypeScript** and hosted on **Cloudflare** (free plan).
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+- **Laurence edits everything at `/admin`**: artworks, exhibitions, CV, bio, PDFs, prices and subscribers. Then she clicks **Publier**, and the site is rebuilt and live about 2 minutes later.
+- **Public pages are static HTML**, generated at build time with full SEO: per-page titles, Open Graph/Twitter previews, JSON-LD, `hreflang`, and the sitemap. French is at `/`, English at `/en`.
+- **Images and PDFs live in Cloudflare R2**, not in git. The admin creates the web sizes in the browser when an image is uploaded.
 
-3. Set up environment variables:
-   ```bash
-   # Create .env file with:
-   REACT_APP_FUNCTION_URL=your_netlify_functions_url
-   ```
-
-4. Start development server:
-   ```bash
-   npm start
-   ```t Laurence Belzile, featuring an elegant gallery of artwork with multilingual support and integrated e-commerce functionality.
-
-## Features
-
-- **Responsive Portfolio Gallery**: Browse artwork with lazy loading, image optimization, and touch/swipe navigation
-- **Multilingual Support**: Full French/English internationalization using react-i18next
-- **Project Details**: Individual project pages with metadata (technique, dimensions, year, availability)
-- **E-commerce Integration**: Purchase inquiries and availability tracking
-- **Email Newsletter**: Subscription functionality with AWS backend integration
-- **SEO Optimized**: React Helmet for meta tags and social media sharing
-- **Interactive Navigation**: Touch gestures, keyboard shortcuts, and year-based anchoring
-- **Contact & Resume**: Dedicated pages with social media integration and downloadable CV
-
-## Tech Stack
-
-- **Frontend**: React 16.9, React Router, Emotion (CSS-in-JS)
-- **UI Components**: Ant Design, React Bootstrap
-- **Animations**: React Spring, React Reveal
-- **Internationalization**: i18next, react-i18next
-- **Backend**: Netlify Functions (TypeScript)
-- **Database**: AWS DynamoDB (email subscriptions)
-- **Monitoring**: AWS CloudWatch
-- **Deployment**: Netlify
-
-## Project Structure
+## How it fits together
 
 ```
-src/
-├── components/          # Reusable UI components
-│   ├── NavBar.jsx      # Navigation with language switching
-│   ├── Project.jsx     # Gallery project thumbnail
-│   ├── ProjectAvailability.jsx  # Purchase/availability status
-│   └── lib/            # Styled components library
-├── pages/              # Route components
-│   ├── Work.jsx        # Main gallery with filtering
-│   ├── Project.jsx     # Individual project view
-│   ├── Contact.jsx     # Contact form and social links
-│   ├── Info.jsx        # Artist biography
-│   └── Resume.jsx      # CV/resume page
-├── hooks/              # Custom React hooks
-│   └── useProjects.jsx # Project data management
-├── service/            # API integrations
-│   └── email-service.js # Newsletter subscription
-├── utils/              # Helper functions
-├── data/               # JSON data files (projects, resume)
-├── i18n/               # Translation files (en.json, fr.json)
-└── constants/          # App constants (routes, folders)
-
-functions/              # Netlify serverless functions
-├── email/              # Email subscription handler
-└── utils/              # AWS integrations
-
-public/
-├── projects/           # Artwork images
-├── resume/             # CV files
-└── ...                 # Static assets
+/admin (React, behind Cloudflare Access)
+   │  save → draft.json        publish → published.json + history/
+   ▼
+R2 lb-content (private) ──► GitHub Actions deploy.yml: download published.json → astro build → wrangler deploy
+R2 lb-media  (public)   ──► media.laurencebelzile.com: img/<id>/<width>.webp, docs/*.pdf
+D1 lb                   ──► newsletter subscribers (/api/subscribe)
 ```
 
-## Getting Started
+| Path                                                 | What                                                                                             |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `src/content/schema.ts`                              | **The content model** (Zod). Source of truth for the site, the admin, the API and the migration. |
+| `src/content/format.ts`, `text.ts`                   | Shared helpers: titles, prices, image URLs, the small markdown subset.                           |
+| `src/pages/[...lang]/`                               | Public pages; each one builds for both `/…` (fr) and `/en/…`.                                    |
+| `src/components/`, `src/layouts/`, `src/styles/`     | Public UI (plain Astro + CSS, very little JS).                                                   |
+| `src/scripts/`                                       | The bits of client JS: fade-in, year rail and filter, lightbox and swipe, newsletter form.       |
+| `src/admin/`                                         | The admin app (React + Mantine), French UI.                                                      |
+| `src/server/`, `src/middleware.ts`, `src/pages/api/` | Worker code: Access auth, R2 storage, publish, uploads, subscribers.                             |
+| `scripts/migrate/`                                   | One-off migration from the v1 site (`master` before v2).                                         |
+| `fixtures/content.sample.json`                       | Small sample content, so a fresh clone builds without Cloudflare access.                         |
+| `docs/`                                              | `v2-plan.md` (architecture and decisions), `setup-cloudflare.md` (setup and cutover runbook).    |
 
-### Prerequisites
-- Node.js (>= 14.x)
-- npm or yarn
+## Develop
 
-### Installation
+Requirements: Node 22+ and npm.
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+```bash
+npm ci
+cp .dev.vars.example .dev.vars   # lets you open /admin on localhost without logging in
+npm run db:migrate:local
+npm run dev                      # http://localhost:4321 (uses fixtures/content.sample.json)
+```
 
-3. Set up environment variables:
-   ```bash
-   # Create .env file with:
-   REACT_APP_FUNCTION_URL=your_netlify_functions_url
-   ```
+For the real content and images locally, either migrate from the v1 site (no Cloudflare account needed):
 
-4. Start development server:
-   ```bash
-   npm start
-   ```
+```bash
+git worktree add --detach ../legacy-master <a commit of the v1 site>
+npm run migrate -- --legacy ../legacy-master --upload local
+```
 
-## Development Commands
+…or pull the production content (needs `wrangler login`): `npm run content:pull`. Images then load from `media.laurencebelzile.com` if you also set `PUBLIC_MEDIA_URL=https://media.laurencebelzile.com`.
 
-- `npm start` - Development server
-- `npm build` - Production build  
-- `npm test` - Run tests
+Other commands:
 
-## Key Features Implementation
+| Command            |                                                                             |
+| ------------------ | --------------------------------------------------------------------------- |
+| `npm run check`    | Type-check everything (Astro + TS).                                         |
+| `npm test`         | Unit tests (Vitest).                                                        |
+| `npm run test:e2e` | Browser tests (Playwright) against `npm run dev`.                           |
+| `npm run build`    | Build the static site into `dist/`.                                         |
+| `npm run preview`  | Build, then serve exactly like Cloudflare (`wrangler dev`).                 |
+| `npm run deploy`   | Pull published content, build and deploy (normally done by GitHub Actions). |
 
-### Gallery System
-- Projects loaded from JSON data with lazy loading
-- Multiple image support per project
-- Touch/swipe navigation with React Spring animations
-- Year-based filtering and anchor navigation
+## Content model in two minutes
 
-### Internationalization
-- Dynamic language switching (French/English)
-- Localized content for all text, including project descriptions
-- Browser language detection
+- `works` is in **display order, newest first**. Each work is an `artwork` (medium, dimensions in inches, availability, price) or an `exhibition` (venue). Both have `/projet/<id>` pages. **Ids never change** once published, because they're in URLs and purchase e-mails.
+- Every text is `{ fr, en }`. An empty `en` shows the French text.
+- Text fields accept `*italique*`, `**gras**`, `[lien](https://…)`; long texts also accept blank-line paragraphs and `## Titre`.
+- An image is `{ id, width, height, widths, lqip, color, credit }`; its files are `img/<id>/<w>.webp` and `img/<id>/og.jpg`. A replaced image gets a new id, so files can be cached forever.
 
-### E-commerce Integration
-- Project availability status tracking
-- Direct purchase inquiry links with pre-filled subject lines
-- Price display with currency formatting
+## Rules
 
-### Backend Integration
-- Serverless functions for email subscriptions
-- AWS DynamoDB for data persistence
-- CloudWatch monitoring and metrics
-
-## Deployment
-
-The application is deployed on Netlify with:
-- Automatic builds from the repository
-- Serverless functions for backend functionality
-- Environment variable configuration for AWS services
-
-
+See [`CLAUDE.md`](./CLAUDE.md). In short: nobody but the owner merges into `master`, no images or secrets in git, npm only.
