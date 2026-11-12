@@ -24,7 +24,8 @@ const readToken = (request: Request) =>
     ?.slice('CF_Authorization='.length);
 
 export const allowedEmails = (env: AppEnv) =>
-  env.ADMIN_EMAILS.split(',')
+  (env.ADMIN_EMAILS ?? '')
+    .split(',')
     .map((e) => e.trim().toLowerCase())
     .filter(Boolean);
 

@@ -35,18 +35,19 @@ Read `.migration/report.md`. It lists anything that couldn't be converted automa
 
 ## 4. Admin login (Cloudflare Access)
 
-1. Zero Trust dashboard → choose a team name (e.g. `laurencebelzile`), free plan.
-2. **Access → Applications → Add → Self-hosted**:
-   - Domain: `laurencebelzile.com`, path `admin`. Add a second destination with path `api/admin`. During staging, also add your `*.workers.dev` hostname with the same paths.
-   - Login methods: _One-time PIN_ (e-mail code), and _Google_ if you want.
-   - Policy: **Allow** → Emails → Laurence's address and yours.
-3. Copy the application's **AUD tag**, then:
-   ```bash
-   npx wrangler secret put CF_ACCESS_AUD           # paste the AUD tag
-   ```
-4. In `wrangler.jsonc`, set `CF_ACCESS_TEAM_DOMAIN` to `<team>.cloudflareaccess.com` and check `ADMIN_EMAILS` (comma-separated).
+Already set up through the API (Zero Trust team `laurencebelzile`, free plan):
 
-The Worker verifies the Access token itself and refuses any e-mail not in `ADMIN_EMAILS`, even if the Access policy is misconfigured.
+- Login method: **one-time code by e-mail** (no password to remember or leak).
+- Policy "Admins laurencebelzile": the allowed e-mails, with a 30-day session.
+- Application "Admin Laurence Belzile": protects `/admin` and `/api/admin` on the staging domain. **At cutover, add** `laurencebelzile.com/admin` and `laurencebelzile.com/api/admin` to its destinations (Zero Trust → Access → Applications → edit).
+
+`CF_ACCESS_TEAM_DOMAIN` and `CF_ACCESS_AUD` (the application's audience tag, not a secret) are in `wrangler.jsonc`. The allowed e-mails are a Worker secret, so they stay out of this public repo:
+
+```bash
+echo "laurence.belzile.arts@gmail.com,you@example.com" | npx wrangler secret put ADMIN_EMAILS
+```
+
+The Worker verifies the Access token itself and refuses any e-mail not in `ADMIN_EMAILS`, even if the Access policy is misconfigured. To add or remove someone, change **both** the Access policy and this secret.
 
 ## 5. The "Publier" button
 

@@ -4,8 +4,8 @@ import { env as workerEnv } from 'cloudflare:workers';
 export type AppEnv = Env & {
   /** Fine-grained GitHub token (Actions: write) used by "Publier". Secret. */
   GITHUB_TOKEN?: string;
-  /** Application Audience (AUD) tag of the Cloudflare Access application. Secret. */
-  CF_ACCESS_AUD?: string;
+  /** Comma-separated e-mails allowed in the admin (kept out of the public repo). Secret. */
+  ADMIN_EMAILS?: string;
   /** `1` in .dev.vars only: skip the Access check on localhost. */
   DEV_AUTH_BYPASS?: string;
 };

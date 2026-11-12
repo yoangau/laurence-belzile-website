@@ -20,12 +20,13 @@
   "d1_databases": [
     { "binding": "DB", "database_name": "lb", "database_id": "33cdd599-45bd-466f-be72-982219b11cfa", "migrations_dir": "migrations" }
   ],
-  // Non-secret settings. Secrets (GITHUB_TOKEN, CF_ACCESS_AUD) are set with `wrangler secret put`.
+  // Non-secret settings. Secrets (GITHUB_TOKEN, ADMIN_EMAILS) are set with `wrangler secret put`.
   "vars": {
     "GITHUB_REPO": "yoangau/laurence-belzile-website",
     // Branch whose deploy workflow "Publier" runs. Use the v2 branch while testing, `master` after cutover.
     "DEPLOY_BRANCH": "master",
-    "ADMIN_EMAILS": "laurence.belzile.arts@gmail.com",
-    "CF_ACCESS_TEAM_DOMAIN": "REPLACE_ME.cloudflareaccess.com"
+    // Cloudflare Access (Zero Trust) application protecting /admin and /api/admin.
+    "CF_ACCESS_TEAM_DOMAIN": "laurencebelzile.cloudflareaccess.com",
+    "CF_ACCESS_AUD": "aab0bd6ee66ec8219caa1a9de86e8ecf529560d81d5b3662be946e5ecf39b05f"
   }
 }
