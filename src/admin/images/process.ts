@@ -7,6 +7,7 @@
 import encodeWebp from '@jsquash/webp/encode';
 import { OG_MAX, variantWidths } from '../../content/format';
 import { IMAGE_WIDTHS } from '../../content/schema';
+import { ImageError } from './errors';
 
 export type ProcessedImage = {
   /** Size of the largest variant. */
@@ -19,8 +20,6 @@ export type ProcessedImage = {
   color: string;
 };
 
-/** An error whose message is meant for Laurence. */
-export class ImageError extends Error {}
 
 const decode = async (file: Blob): Promise<ImageBitmap> => {
   try {

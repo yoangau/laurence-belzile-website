@@ -1,5 +1,6 @@
 /** Web Worker running processImage() off the main thread, so the page stays responsive. */
-import { ImageError, processImage, type ProcessedImage } from './process';
+import { ImageError } from './errors';
+import { processImage, type ProcessedImage } from './process';
 
 export type WorkerRequest = { job: number; file: Blob };
 export type WorkerResponse =

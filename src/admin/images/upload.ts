@@ -5,7 +5,8 @@
  */
 import type { Image } from '../../content/schema';
 import { api } from '../api';
-import { ImageError, processImage, type ProcessedImage } from './process';
+import { ImageError } from './errors';
+import type { ProcessedImage } from './process';
 import type { WorkerRequest, WorkerResponse } from './worker';
 
 const ORIGINAL_EXTENSIONS = /^(jpe?g|png|webp|heic|heif|tiff?)$/;
@@ -18,9 +19,11 @@ let worker: Worker | null = null;
 let nextJob = 0;
 const jobs = new Map<number, { resolve: (r: ProcessedImage) => void; reject: (e: Error) => void; onProgress: (f: number) => void }>();
 
-const getWorker = (): Worker | null => {
+const getWorker = (): Worker => {
   if (worker) return worker;
-  if (typeof Worker === 'undefined' || typeof OffscreenCanvas === 'undefined') return null;
+  if (typeof Worker === 'undefined' || typeof OffscreenCanvas === 'undefined') {
+    throw new ImageError('Ce navigateur est trop ancien pour préparer les images. Mettez Safari ou Chrome à jour.');
+  }
   worker = new Worker(new URL('./worker.ts', import.meta.url), { type: 'module' });
   worker.onmessage = ({ data }: MessageEvent<WorkerResponse>) => {
     const job = jobs.get(data.job);
@@ -30,12 +33,21 @@ const getWorker = (): Worker | null => {
     if (data.type === 'done') job.resolve(data.result);
     else job.reject(data.friendly ? new ImageError(data.message) : new Error(data.message));
   };
+  // The worker could not start or crashed (e.g. out of memory on a huge photo): fail the pending jobs.
+  worker.onerror = (event) => {
+    event.preventDefault();
+    for (const job of jobs.values()) {
+      job.reject(new Error('Le traitement de l’image a échoué. Rechargez la page et réessayez, ou utilisez une photo plus petite.'));
+    }
+    jobs.clear();
+    worker?.terminate();
+    worker = null;
+  };
   return worker;
 };
 
 const processInWorker = (file: File, onProgress: (fraction: number) => void): Promise<ProcessedImage> => {
   const w = getWorker();
-  if (!w) return processImage(file, onProgress);
   return new Promise((resolve, reject) => {
     const job = nextJob++;
     jobs.set(job, { resolve, reject, onProgress });

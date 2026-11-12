@@ -108,7 +108,10 @@ export const edit = (recipe: (draft: Draft<Content>) => void) => {
   if (!state.content) return;
   const content = produce(state.content, recipe);
   if (content === state.content) return;
-  setState({ content, ...(state.issues.length ? { issues: validateContent(content) } : {}) });
+  if (!state.issues.length) return setState({ content });
+  const issues = validateContent(content);
+  setState({ content, issues });
+  if (!issues.length) notifications.hide('validation');
 };
 
 const showIssues = (issues: ValidationIssue[]) => {
