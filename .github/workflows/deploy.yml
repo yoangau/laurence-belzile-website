@@ -2,10 +2,9 @@
 #
 # Runs when:
 #   - Laurence clicks "Publier" in /admin (workflow_dispatch from the Worker), or
-#   - code is pushed to master.
+#   - code is pushed to master (production) or to the v2 branch (staging, until the cutover).
 #
-# Needs repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (see docs/setup-cloudflare.md)
-# and optionally the repository variable PUBLIC_MEDIA_URL.
+# Needs the repository secret CLOUDFLARE_API_TOKEN (see docs/setup-cloudflare.md).
 name: Deploy
 
 on:
@@ -16,7 +15,7 @@ on:
         required: false
         default: manual
   push:
-    branches: [master]
+    branches: [master, claude/bold-rubin-nurhro]
 
 permissions:
   contents: read
@@ -31,8 +30,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      PUBLIC_MEDIA_URL: ${{ vars.PUBLIC_MEDIA_URL || 'https://media.laurencebelzile.com' }}
+      # Public R2 domain for images and PDFs. Switch to https://media.laurencebelzile.com at cutover.
+      PUBLIC_MEDIA_URL: https://lb-media.inscape.xyz
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -42,6 +41,7 @@ jobs:
       - run: npm ci
       - name: Download the published content
         run: npm run content:pull
+      - run: npm run check
       - run: npm test
       - run: npm run build
       - name: Apply database migrations

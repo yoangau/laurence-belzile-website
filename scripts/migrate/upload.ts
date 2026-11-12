@@ -33,7 +33,14 @@ export const cacheControlFor = (key: string) =>
 
 const BUCKET_NAMES = { MEDIA: 'lb-media', CONTENT: 'lb-content' } as const;
 
-export const createPut = async (target: Target): Promise<{ put: Put; dispose: () => Promise<void> }> => {
+export type Uploader = {
+  put: Put;
+  /** Keys already in the bucket (remote only), so an interrupted upload can resume. */
+  existing: (bucket: 'MEDIA' | 'CONTENT') => Promise<Set<string>>;
+  dispose: () => Promise<void>;
+};
+
+export const createPut = async (target: Target): Promise<Uploader> => {
   if (target === 'local') {
     const { getPlatformProxy } = await import('wrangler');
     type Bucket = { put: (key: string, body: Uint8Array | string, options: object) => Promise<unknown> };
@@ -44,6 +51,7 @@ export const createPut = async (target: Target): Promise<{ put: Put; dispose: ()
           httpMetadata: { contentType, ...(bucket === 'MEDIA' ? { cacheControl: cacheControlFor(key) } : {}) },
         });
       },
+      existing: async () => new Set(),
       dispose: () => proxy.dispose(),
     };
   }
@@ -66,11 +74,29 @@ export const createPut = async (target: Target): Promise<{ put: Put; dispose: ()
       for (let attempt = 1; ; attempt++) {
         const res = await fetch(url, { method: 'PUT', body: payload, headers });
         if (res.ok) return;
-        if (attempt >= 4 || (res.status < 500 && res.status !== 429)) {
+        if (attempt >= 8 || (res.status < 500 && res.status !== 429)) {
           throw new Error(`PUT ${key} failed: ${res.status} ${await res.text()}`);
         }
-        await new Promise((r) => setTimeout(r, 1000 * 2 ** attempt));
+        // Rate limited (429) or transient error: wait as asked, or back off exponentially.
+        const retryAfter = Number(res.headers.get('retry-after')) || 2 ** attempt;
+        await new Promise((r) => setTimeout(r, Math.min(retryAfter, 60) * 1000));
       }
+    },
+    existing: async (bucket) => {
+      const keys = new Set<string>();
+      let cursor = '';
+      do {
+        const url = `${endpoint}/${BUCKET_NAMES[bucket]}/objects?per_page=1000${cursor ? `&cursor=${cursor}` : ''}`;
+        const res = await fetch(url, { headers: { authorization: `Bearer ${CLOUDFLARE_API_TOKEN}` } });
+        if (!res.ok) throw new Error(`Listing ${bucket} failed: ${res.status} ${await res.text()}`);
+        const page = (await res.json()) as {
+          result: { key: string }[];
+          result_info?: { cursor?: string; is_truncated?: boolean };
+        };
+        for (const o of page.result) keys.add(o.key);
+        cursor = page.result_info?.is_truncated ? (page.result_info.cursor ?? '') : '';
+      } while (cursor);
+      return keys;
     },
     dispose: async () => {},
   };
@@ -85,10 +111,20 @@ const walk = async (dir: string): Promise<string[]> => {
 };
 
 /** Uploads every file under `mediaDir` (except meta.json caches) to the media bucket. */
-export const uploadMedia = async (put: Put, mediaDir: string, log: (msg: string) => void) => {
-  const files = (await walk(mediaDir)).filter((f) => !f.endsWith('meta.json'));
+export const uploadMedia = async (
+  { put, existing }: Pick<Uploader, 'put' | 'existing'>,
+  mediaDir: string,
+  log: (msg: string) => void,
+) => {
+  const already = await existing('MEDIA');
+  const keyOf = (file: string) => relative(mediaDir, file).split('\\').join('/');
+  // Documents can be replaced in place, so always re-upload them; images are immutable.
+  const files = (await walk(mediaDir)).filter(
+    (f) => !f.endsWith('meta.json') && (!already.has(keyOf(f)) || keyOf(f).startsWith('docs/')),
+  );
+  if (already.size) log(`  ${already.size} files already uploaded, ${files.length} to go`);
   let done = 0;
-  await mapLimit(files, 16, async (file) => {
+  await mapLimit(files, 6, async (file) => {
     const key = relative(mediaDir, file).split('\\').join('/');
     await put('MEDIA', key, await readFile(file), contentTypeFor(key));
     if (++done % 250 === 0 || done === files.length) log(`  media ${done}/${files.length}`);

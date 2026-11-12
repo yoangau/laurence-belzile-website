@@ -111,14 +111,17 @@ const main = async () => {
     const target = values.upload as Target;
     if (target !== 'local' && target !== 'remote') throw new Error('--upload must be "local" or "remote"');
     log(`Uploading to ${target} R2…`);
-    const { put, dispose } = await createPut(target);
+    const uploader = await createPut(target);
+    const { put, dispose } = uploader;
     try {
-      await uploadMedia(put, mediaDir, log);
+      await uploadMedia(uploader, mediaDir, log);
       await put('CONTENT', 'draft.json', json, 'application/json');
       await put('CONTENT', 'published.json', json, 'application/json');
       if (values['with-originals']) {
         log('  originals…');
-        await mapLimit([...paths], 8, async (path) => {
+        const archived = await uploader.existing('CONTENT');
+        const todo = [...paths].filter((path) => !archived.has(`originals/${path.split('/').pop()}`));
+        await mapLimit(todo, 6, async (path) => {
           await put(
             'CONTENT',
             `originals/${path.split('/').pop()}`,

@@ -56,11 +56,11 @@ The Worker verifies the Access token itself and refuses any e-mail not in `ADMIN
 
 ## 6. GitHub Actions
 
-Repository → Settings → Secrets and variables → Actions:
+Repository → Settings → Secrets and variables → Actions → **New repository secret**:
 
-- Secret `CLOUDFLARE_API_TOKEN`: create it in Cloudflare → My Profile → API Tokens with the template _Edit Cloudflare Workers_, and add the permissions **Workers R2 Storage: Edit** and **D1: Edit**.
-- Secret `CLOUDFLARE_ACCOUNT_ID`.
-- Variable `PUBLIC_MEDIA_URL`: leave unset once `media.laurencebelzile.com` works. During staging, set it to `/media`.
+- `CLOUDFLARE_API_TOKEN`: a Cloudflare API token with Workers Scripts, Workers R2 Storage and D1 (Edit) permissions. The account id is in `wrangler.jsonc`.
+
+`deploy.yml` then deploys on every push to `master` (production) and to the v2 branch (staging, until the cutover), and when Laurence clicks "Publier". It needs no other secret. The media domain is set at the top of the workflow (`PUBLIC_MEDIA_URL`).
 
 ## 7. 🧪 Staging (test before switching the domain)
 
