@@ -30,6 +30,15 @@ D1 lb                   ──► newsletter subscribers (/api/subscribe)
 | `fixtures/content.sample.json`                       | Small sample content, so a fresh clone builds without Cloudflare access.                         |
 | `docs/`                                              | `v2-plan.md` (architecture and decisions), `setup-cloudflare.md` (setup and cutover runbook).    |
 
+## Branches and environments
+
+| Branch    | Site                             | Content and media                  |
+| --------- | -------------------------------- | ---------------------------------- |
+| `master`  | laurencebelzile.com (production) | the real content                   |
+| `staging` | lb.inscape.xyz                   | a separate copy, safe to play with |
+
+Pushing to either branch deploys it (`.github/workflows/deploy.yml`). Code goes feature branch → `staging` (test) → `master` (merged by the owner only). Content never goes through git: each environment's `/admin` edits that environment's data, and "Publier" rebuilds that environment.
+
 ## Develop
 
 Requirements: Node 22+ and npm.

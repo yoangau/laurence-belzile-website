@@ -3,7 +3,7 @@ name: CI
 
 on:
   push:
-    branches-ignore: [master, claude/bold-rubin-nurhro]
+    branches-ignore: [master, staging] # those two run the same checks in deploy.yml
   pull_request:
 
 permissions:

@@ -24,6 +24,8 @@ const { values } = parseArgs({
     out: { type: 'string', default: '.migration' },
     upload: { type: 'string' },
     'with-originals': { type: 'boolean', default: false },
+    /** Wrangler environment to upload to (`staging`). Omitted = production. */
+    env: { type: 'string' },
   },
 });
 
@@ -110,8 +112,8 @@ const main = async () => {
   if (values.upload) {
     const target = values.upload as Target;
     if (target !== 'local' && target !== 'remote') throw new Error('--upload must be "local" or "remote"');
-    log(`Uploading to ${target} R2…`);
-    const uploader = await createPut(target);
+    log(`Uploading to ${target} R2${values.env ? ` (${values.env})` : ''}…`);
+    const uploader = await createPut(target, values.env);
     const { put, dispose } = uploader;
     try {
       await uploadMedia(uploader, mediaDir, log);

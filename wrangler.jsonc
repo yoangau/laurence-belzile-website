@@ -1,3 +1,8 @@
+// Two environments, one per git branch:
+//   master  → production: laurencebelzile.com          (top-level settings below)
+//   staging → staging:    lb.inscape.xyz, its own data   (`env.staging`)
+// Build for staging with CLOUDFLARE_ENV=staging (see .github/workflows/deploy.yml).
+// Wrangler does not inherit bindings or vars into an environment, so `env.staging` repeats them.
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "laurence-belzile",
@@ -8,26 +13,58 @@
   // Static pages are served by the assets layer; only /api, /admin, /media and /projects reach the Worker.
   "assets": { "binding": "ASSETS" },
   "observability": { "enabled": true },
-  // Staging on the owner's other domain. At cutover, add laurencebelzile.com and www.laurencebelzile.com
-  // (see docs/setup-cloudflare.md); the staging domain can stay or be removed.
-  "routes": [{ "pattern": "lb.inscape.xyz", "custom_domain": true }],
   "workers_dev": false,
-  // Public media (images, PDFs). Served from https://media.laurencebelzile.com (R2 custom domain).
+  // Production domains are added at cutover, once the zone is active (docs/setup-cloudflare.md, step 7):
+  //   [{ "pattern": "laurencebelzile.com", "custom_domain": true }, { "pattern": "www.laurencebelzile.com", "custom_domain": true }]
+  "routes": [],
   "r2_buckets": [
+    // Public media (images, PDFs), served from https://media.laurencebelzile.com (R2 custom domain).
     { "binding": "MEDIA", "bucket_name": "lb-media" },
     // Private: draft.json, published.json, history/, originals/.
-    { "binding": "CONTENT", "bucket_name": "lb-content" }
+    { "binding": "CONTENT", "bucket_name": "lb-content" },
   ],
   "d1_databases": [
-    { "binding": "DB", "database_name": "lb", "database_id": "33cdd599-45bd-466f-be72-982219b11cfa", "migrations_dir": "migrations" }
+    {
+      "binding": "DB",
+      "database_name": "lb",
+      "database_id": "33cdd599-45bd-466f-be72-982219b11cfa",
+      "migrations_dir": "migrations",
+    },
   ],
-  // Non-secret settings. Secrets (GITHUB_TOKEN, ADMIN_EMAILS) are set with `wrangler secret put`.
+  // Non-secret settings. Secrets (GITHUB_TOKEN, ADMIN_EMAILS) are set per Worker with `wrangler secret put`.
   "vars": {
     "GITHUB_REPO": "yoangau/laurence-belzile-website",
-    // Branch whose deploy workflow "Publier" runs. Use the v2 branch while testing, `master` after cutover.
-    "DEPLOY_BRANCH": "claude/bold-rubin-nurhro",
+    // Branch whose deploy "Publier" runs.
+    "DEPLOY_BRANCH": "master",
     // Cloudflare Access (Zero Trust) application protecting /admin and /api/admin.
     "CF_ACCESS_TEAM_DOMAIN": "laurencebelzile.cloudflareaccess.com",
-    "CF_ACCESS_AUD": "aab0bd6ee66ec8219caa1a9de86e8ecf529560d81d5b3662be946e5ecf39b05f"
-  }
+    // Set at cutover: the AUD tag of the production Access application.
+    "CF_ACCESS_AUD": "REPLACE_AT_CUTOVER",
+  },
+
+  "env": {
+    "staging": {
+      "name": "laurence-belzile-staging",
+      "routes": [{ "pattern": "lb.inscape.xyz", "custom_domain": true }],
+      "r2_buckets": [
+        // Served from https://lb-media.inscape.xyz.
+        { "binding": "MEDIA", "bucket_name": "lb-media-staging" },
+        { "binding": "CONTENT", "bucket_name": "lb-content-staging" },
+      ],
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "lb-staging",
+          "database_id": "8fd69211-a48e-4ba3-8e29-98546550d3e5",
+          "migrations_dir": "migrations",
+        },
+      ],
+      "vars": {
+        "GITHUB_REPO": "yoangau/laurence-belzile-website",
+        "DEPLOY_BRANCH": "staging",
+        "CF_ACCESS_TEAM_DOMAIN": "laurencebelzile.cloudflareaccess.com",
+        "CF_ACCESS_AUD": "aab0bd6ee66ec8219caa1a9de86e8ecf529560d81d5b3662be946e5ecf39b05f",
+      },
+    },
+  },
 }

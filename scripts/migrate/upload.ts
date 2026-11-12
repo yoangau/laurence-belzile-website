@@ -31,7 +31,11 @@ export const contentTypeFor = (key: string) =>
 export const cacheControlFor = (key: string) =>
   key.startsWith('img/') ? 'public, max-age=31536000, immutable' : 'public, max-age=3600';
 
-const BUCKET_NAMES = { MEDIA: 'lb-media', CONTENT: 'lb-content' } as const;
+/** Bucket names per wrangler environment (see wrangler.jsonc). */
+const bucketNames = (env: string | undefined) => {
+  const suffix = env ? `-${env}` : '';
+  return { MEDIA: `lb-media${suffix}`, CONTENT: `lb-content${suffix}` } as const;
+};
 
 export type Uploader = {
   put: Put;
@@ -40,7 +44,9 @@ export type Uploader = {
   dispose: () => Promise<void>;
 };
 
-export const createPut = async (target: Target): Promise<Uploader> => {
+/** `env` is a wrangler environment name (`staging`); omitted = production. */
+export const createPut = async (target: Target, env?: string): Promise<Uploader> => {
+  const BUCKET_NAMES = bucketNames(env);
   if (target === 'local') {
     const { getPlatformProxy } = await import('wrangler');
     type Bucket = { put: (key: string, body: Uint8Array | string, options: object) => Promise<unknown> };

@@ -13,7 +13,7 @@
     "format": "prettier --write .",
     "postinstall": "wrangler types --include-runtime=true > /dev/null",
     "migrate": "tsx scripts/migrate/index.ts",
-    "content:pull": "mkdir -p .content && wrangler r2 object get lb-content/published.json --remote --file .content/published.json",
+    "content:pull": "mkdir -p .content && wrangler r2 object get lb-content${CLOUDFLARE_ENV:+-$CLOUDFLARE_ENV}/published.json --remote --file .content/published.json",
     "content:pull:local": "mkdir -p .content && wrangler r2 object get lb-content/published.json --local --file .content/published.json",
     "db:migrate:local": "wrangler d1 migrations apply lb --local",
     "subscribers:import": "tsx scripts/import-subscribers.ts",

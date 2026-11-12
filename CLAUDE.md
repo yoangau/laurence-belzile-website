@@ -2,9 +2,18 @@
 
 Portfolio of visual artist Laurence Belzile. Astro + TypeScript on Cloudflare Workers; content is edited through `/admin`, not git. See `docs/v2-plan.md` for the architecture and `README.md` for day-to-day commands.
 
+## Branches
+
+| Branch    | Deploys to                      | Data                                             |
+| --------- | ------------------------------- | ------------------------------------------------ |
+| `master`  | production, laurencebelzile.com | real content (`lb-content`, `lb-media`, D1 `lb`) |
+| `staging` | lb.inscape.xyz                  | separate copy (`*-staging`) where anything goes  |
+
+Work happens on feature branches → merged into `staging` and tested on lb.inscape.xyz → the owner merges `staging` into `master`.
+
 ## Hard rules (for AI agents and automation)
 
-1. **Never merge into `master`.** Do not merge, rebase onto, push to, fast-forward, or open-and-merge a PR into `master`, by any route (git, GitHub API, auto-merge). Only the repository owner merges into `master`, after they have tested and agreed with Laurence. Opening a PR targeting `master` is allowed only when explicitly asked; merging it never is.
+1. **Never merge into `master`.** Pushing to `staging` is allowed only when the owner asks for it. Do not merge, rebase onto, push to, fast-forward, or open-and-merge a PR into `master`, by any route (git, GitHub API, auto-merge). Only the repository owner merges into `master`, after they have tested and agreed with Laurence. Opening a PR targeting `master` is allowed only when explicitly asked; merging it never is.
 2. **Never enable auto-merge** or change branch protection.
 3. **Never commit images or PDFs.** Media lives in Cloudflare R2. The repo holds code only (plus the small sample fixture in `fixtures/`).
 4. **Never commit secrets.** Local secrets go in `.dev.vars` (gitignored); production secrets are Worker secrets / GitHub Actions secrets.

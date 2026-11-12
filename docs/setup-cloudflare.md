@@ -2,6 +2,11 @@
 
 One-time steps to put v2 online. Everything here is on the free plans. Follow it in order. Steps marked 🧪 can be done while the old Netlify site is still live.
 
+**Environments.** `master` → production (laurencebelzile.com, buckets `lb-media`/`lb-content`, D1 `lb`, Worker
+`laurence-belzile`). `staging` → lb.inscape.xyz (buckets `lb-media-staging`/`lb-content-staging`, D1 `lb-staging`,
+Worker `laurence-belzile-staging`, `env.staging` in `wrangler.jsonc`). Each has its own data, admin and "Publier".
+Status: staging is live; production resources exist but the domain is not switched yet.
+
 ## 1. Account and domain
 
 1. Create a Cloudflare account (free plan).
