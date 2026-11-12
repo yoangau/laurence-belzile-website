@@ -1,0 +1,83 @@
+---
+/** A vertical feed of works with the year rail; optionally the "all / available" filter (/work). */
+import type { Locale, Work } from '../content/schema';
+import { useTranslations } from '../i18n/ui';
+import { yearAnchors } from '../site/content';
+import FeedItem from './FeedItem.astro';
+import ExhibitionCard from './ExhibitionCard.astro';
+import YearRail from './YearRail.astro';
+
+interface Props {
+  works: Work[];
+  locale: Locale;
+  filterable?: boolean;
+  variant?: 'plain' | 'exhibition';
+}
+
+const { works, locale, filterable = false, variant = 'plain' } = Astro.props;
+const t = useTranslations(locale);
+const allAnchors = yearAnchors(works);
+const available = works.filter((w) => w.kind === 'artwork' && w.availability === 'available');
+const availableAnchors = yearAnchors(available);
+
+const anchorsFor = (work: Work) => [
+  ...(allAnchors.get(work.year) === work.id ? [String(work.year)] : []),
+  ...(filterable && availableAnchors.get(work.year) === work.id ? [`available-${work.year}`] : []),
+];
+---
+
+{
+  filterable && (
+    <div class="filters" role="group">
+      <button type="button" data-filter="all" aria-pressed="true">
+        {t('work.filterAll')}
+      </button>
+      <button type="button" data-filter="available" aria-pressed="false">
+        {t('work.filterAvailable')}
+      </button>
+    </div>
+  )
+}
+
+<div data-feed data-filter="all">
+  {
+    works.map((work, i) =>
+      variant === 'exhibition' ? (
+        <ExhibitionCard work={work} locale={locale} anchors={anchorsFor(work)} eager={i === 0} />
+      ) : (
+        <FeedItem work={work} locale={locale} anchors={anchorsFor(work)} eager={i === 0} />
+      ),
+    )
+  }
+</div>
+
+<YearRail years={[...allAnchors.keys()]} name="all" label={t('work.years')} />
+{filterable && <YearRail years={[...availableAnchors.keys()]} idPrefix="available-" name="available" hidden label={t('work.years')} />}
+
+<script>
+  import '../scripts/feed';
+</script>
+
+<style>
+  .filters {
+    display: flex;
+    gap: 20px;
+    padding-left: 15px;
+  }
+  .filters button {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .filters button[aria-pressed='true'],
+  .filters button:hover {
+    color: var(--ink);
+  }
+  @media (max-width: 768px) {
+    .filters {
+      padding-left: 0;
+    }
+  }
+</style>

@@ -1,0 +1,83 @@
+---
+/** Exhibition in the /exhibitions feed: image with title, year and venue over a gradient. */
+import type { Locale, Work } from '../content/schema';
+import { titleHtml, titlePlain } from '../content/format';
+import { localePath } from '../i18n/ui';
+import Picture from './Picture.astro';
+
+interface Props {
+  work: Work;
+  locale: Locale;
+  anchors?: string[];
+  eager?: boolean;
+}
+
+const { work, locale, anchors = [], eager = false } = Astro.props;
+const venue = work.kind === 'exhibition' ? work.venue : undefined;
+---
+
+<div class="item">
+  {anchors.map((id) => <span id={id} class="anchor" />)}
+  <a href={localePath(locale, `/projet/${work.id}`)} class="card reveal" style={`width:${work.displayWidth}%`} data-astro-prefetch>
+    <Picture
+      image={work.images[0]!}
+      alt={titlePlain(work, locale)}
+      sizes={`(max-width: 768px) calc(70vw * ${work.displayWidth / 100}), calc(80vw * ${work.displayWidth / 100})`}
+      eager={eager}
+    />
+    <div class="overlay">
+      <div class="title" set:html={titleHtml(work, locale)} />
+      <div class="year">{work.year}</div>
+      {venue && <div class="venue">{venue}</div>}
+    </div>
+  </a>
+</div>
+
+<style>
+  .item {
+    position: relative;
+    width: var(--column);
+    margin: 4em 0 8em;
+  }
+  .anchor {
+    position: absolute;
+    top: -4em;
+  }
+  .card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+  }
+  .card:hover,
+  .card:focus-visible {
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2em 1em 1em;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    pointer-events: none;
+  }
+  .title {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  .year {
+    font-size: 1.2em;
+  }
+  .venue {
+    opacity: 0.9;
+  }
+  @media (max-width: 768px) {
+    .item {
+      margin: 2em 0 4em;
+    }
+  }
+</style>

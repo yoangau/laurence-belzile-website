@@ -1,0 +1,42 @@
+---
+/** Responsive image from the media bucket, with a blurred placeholder while it loads. */
+import type { Image } from '../content/schema';
+import { heightFor, imageUrl, srcset } from '../content/format';
+import { MEDIA_URL } from '../site/content';
+
+interface Props {
+  image: Image;
+  alt: string;
+  sizes: string;
+  /** Load immediately (first image above the fold). */
+  eager?: boolean;
+  class?: string;
+}
+
+const { image, alt, sizes, eager = false, class: className } = Astro.props;
+const fallbackWidth = image.widths.includes(960) ? 960 : Math.max(...image.widths);
+---
+
+<img
+  class:list={['picture', className]}
+  src={imageUrl(MEDIA_URL, image, fallbackWidth)}
+  srcset={srcset(MEDIA_URL, image)}
+  sizes={sizes}
+  width={fallbackWidth}
+  height={heightFor(image, fallbackWidth)}
+  alt={alt}
+  loading={eager ? 'eager' : 'lazy'}
+  fetchpriority={eager ? 'high' : undefined}
+  decoding="async"
+  style={`background-color:${image.color};background-image:url(${image.lqip})`}
+/>
+
+<style>
+  .picture {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>

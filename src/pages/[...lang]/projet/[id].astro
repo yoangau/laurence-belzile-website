@@ -1,0 +1,217 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Picture from '../../../components/Picture.astro';
+import Availability from '../../../components/Availability.astro';
+import {
+  formatDimensions,
+  imageUrl,
+  largestWidth,
+  heightFor,
+  ogImageSize,
+  ogImageUrl,
+  pick,
+  titleHtml,
+  titlePlain,
+} from '../../../content/format';
+import { LOCALES, type Work } from '../../../content/schema';
+import { blockHtml, excerpt } from '../../../content/text';
+import { localeFromParam, localePath, useTranslations } from '../../../i18n/ui';
+import { absoluteUrl, content, MEDIA_URL, neighbors, works } from '../../../site/content';
+
+export const getStaticPaths = () =>
+  LOCALES.flatMap((locale) =>
+    works.map((work) => ({ params: { lang: locale === 'fr' ? undefined : locale, id: work.id }, props: { work } })),
+  );
+
+const { work } = Astro.props as { work: Work };
+const locale = localeFromParam(Astro.params.lang);
+const t = useTranslations(locale);
+const { previous, next } = neighbors(work.id);
+const photographers = new Map(content.settings.photographers.map((p) => [p.id, p.name]));
+
+const title = titlePlain(work, locale);
+const medium = work.kind === 'artwork' ? pick(work.medium, locale) : '';
+const dimensions = work.kind === 'artwork' ? formatDimensions(work.dimensions) : '';
+const venue = work.kind === 'exhibition' ? work.venue : undefined;
+const description = pick(work.description, locale);
+const metaDescription =
+  [title, medium, dimensions, String(work.year)].filter(Boolean).join(', ') + (description ? ` — ${excerpt(description, 120)}` : '');
+
+const main = work.images[0]!;
+const ogSize = ogImageSize(main);
+const ogImage = { url: absoluteUrl(ogImageUrl(MEDIA_URL, main), Astro.site!), ...ogSize, alt: title };
+
+const pageUrl = new URL(localePath(locale, `/projet/${work.id}`), Astro.site).href;
+const jsonLd =
+  work.kind === 'artwork'
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'VisualArtwork',
+        name: title,
+        url: pageUrl,
+        image: ogImage.url,
+        dateCreated: String(work.year),
+        ...(medium && { artMedium: medium }),
+        ...(work.dimensions && {
+          width: { '@type': 'Distance', name: `${work.dimensions[0]} in` },
+          height: { '@type': 'Distance', name: `${work.dimensions[1]} in` },
+        }),
+        creator: { '@type': 'Person', name: 'Laurence Belzile', url: Astro.site!.origin },
+        ...(work.availability === 'available' &&
+          work.price && {
+            offers: {
+              '@type': 'Offer',
+              price: work.price,
+              priceCurrency: 'CAD',
+              availability: 'https://schema.org/InStock',
+              url: pageUrl,
+            },
+          }),
+      }
+    : {
+        '@context': 'https://schema.org',
+        '@type': 'ExhibitionEvent',
+        name: title,
+        url: pageUrl,
+        image: ogImage.url,
+        startDate: String(work.year),
+        ...(venue && { location: { '@type': 'Place', name: venue } }),
+        performer: { '@type': 'Person', name: 'Laurence Belzile' },
+      };
+
+const credit = (id: string | undefined) => (id ? photographers.get(id) : undefined);
+---
+
+<Base locale={locale} title={title} description={metaDescription} image={ogImage} type="article" jsonLd={jsonLd}>
+  <article class="artwork" data-artwork>
+    <div class="images" data-gallery>
+      {
+        work.images.map((image, i) => {
+          const full = largestWidth(image);
+          return (
+            <figure>
+              <a
+                href={imageUrl(MEDIA_URL, image, full)}
+                data-pswp-width={full}
+                data-pswp-height={heightFor(image, full)}
+                target="_blank"
+                class="zoom"
+              >
+                <Picture image={image} alt={i === 0 ? title : `${title} (${i + 1})`} sizes="(max-width: 992px) 70vw, 45vw" eager={i === 0} />
+              </a>
+              {credit(image.credit) && (
+                <figcaption>
+                  {t('work.photoCredit')}
+                  {credit(image.credit)}
+                </figcaption>
+              )}
+            </figure>
+          );
+        })
+      }
+    </div>
+
+    <div class="meta">
+      <h1 class="entry" set:html={titleHtml(work, locale)} />
+      {medium && <p class="entry">{medium}</p>}
+      {dimensions && <p class="entry">{dimensions}</p>}
+      {venue && <p class="entry">{venue}</p>}
+      <p class="entry">{work.year}</p>
+      {description && <div class="entry description" set:html={blockHtml(description, (u) => localePath(locale, u))} />}
+      {work.kind === 'artwork' && <Availability artwork={work} locale={locale} />}
+    </div>
+  </article>
+
+  <nav class="pager" aria-label={`${t('work.previous')} / ${t('work.next')}`}>
+    <a rel="prev" href={localePath(locale, `/projet/${previous.id}`)} title={t('work.previous')} data-astro-prefetch>
+      <span class="visually-hidden">{t('work.previous')}</span>
+      <svg viewBox="0 0 1024 1024" width="18" height="18" aria-hidden="true"
+        ><path fill="currentColor" d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+        ></path></svg
+      >
+    </a>
+    <a rel="next" href={localePath(locale, `/projet/${next.id}`)} title={t('work.next')} data-astro-prefetch>
+      <span class="visually-hidden">{t('work.next')}</span>
+      <svg viewBox="0 0 1024 1024" width="18" height="18" aria-hidden="true"
+        ><path fill="currentColor" d="M765.7 486.8 314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+        ></path></svg
+      >
+    </a>
+  </nav>
+
+  <script>
+    import '../../../scripts/artwork';
+  </script>
+</Base>
+
+<style>
+  .artwork {
+    display: grid;
+    grid-template-columns: minmax(0, 50%) minmax(0, 25%);
+    column-gap: 4.1667%;
+    align-items: start;
+    margin: 5vh 0;
+    touch-action: pan-y;
+  }
+  figure {
+    margin: 0 0 50px;
+  }
+  .zoom {
+    display: block;
+    cursor: zoom-in;
+  }
+  figcaption {
+    color: var(--muted);
+    text-align: right;
+  }
+  .meta {
+    min-height: 50vh;
+  }
+  .entry {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .description {
+    margin-top: 3vh;
+  }
+  .description :global(p) {
+    margin-bottom: 1em;
+  }
+  .pager {
+    position: fixed;
+    right: 24px;
+    bottom: 48px;
+    z-index: 10;
+    display: flex;
+    gap: 8px;
+  }
+  .pager a {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow:
+      0 6px 16px 0 rgba(0, 0, 0, 0.08),
+      0 3px 6px -4px rgba(0, 0, 0, 0.12),
+      0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.88);
+  }
+  .pager a:hover {
+    background: #f5f5f5;
+  }
+  @media (max-width: 992px) {
+    .artwork {
+      grid-template-columns: minmax(0, 83.333%);
+      row-gap: 50px;
+    }
+  }
+  @media (hover: none) {
+    .pager {
+      display: none;
+    }
+  }
+</style>

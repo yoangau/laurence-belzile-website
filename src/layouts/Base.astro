@@ -1,0 +1,95 @@
+---
+import '../styles/global.css';
+import type { Locale } from '../content/schema';
+import Seo, { type SeoImage } from '../components/Seo.astro';
+import Nav from '../components/Nav.astro';
+import { HTML_LANG, localePath, useTranslations } from '../i18n/ui';
+import { content } from '../site/content';
+
+interface Props {
+  locale: Locale;
+  /** Page title, without the artist's name. Omit on the home page. */
+  title?: string | undefined;
+  description?: string | undefined;
+  image?: SeoImage | undefined;
+  type?: 'website' | 'article' | 'profile';
+  jsonLd?: object | undefined;
+  noindex?: boolean;
+}
+
+const { locale, title, description, image, type, jsonLd, noindex } = Astro.props;
+const t = useTranslations(locale);
+const fullTitle = title ? `${title} · Laurence Belzile` : 'Laurence Belzile';
+const analyticsId = content.settings.analyticsId;
+---
+
+<!doctype html>
+<html lang={HTML_LANG[locale]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>document.documentElement.classList.add('js');</script>
+    <Seo
+      locale={locale}
+      title={fullTitle}
+      description={description ?? `Laurence Belzile - ${t('site.description')}`}
+      image={image}
+      type={type}
+      jsonLd={jsonLd}
+      noindex={noindex}
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {
+      analyticsId && (
+        <>
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${analyticsId}`} />
+          <script is:inline define:vars={{ analyticsId }}>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', analyticsId);
+          </script>
+        </>
+      )
+    }
+  </head>
+  <body>
+    <Nav locale={locale} />
+    <header>
+      <a class="name reveal" href={localePath(locale, '/')}>Laurence Belzile</a>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <script>
+      import '../scripts/reveal';
+    </script>
+  </body>
+</html>
+
+<style>
+  header {
+    margin-top: 0.7em;
+    padding-bottom: 0.5em;
+  }
+  .name {
+    display: inline-block;
+    margin-left: -0.2em;
+    color: var(--ink);
+    font-size: 7vw;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  .name:hover,
+  .name:focus-visible {
+    color: var(--muted);
+  }
+</style>

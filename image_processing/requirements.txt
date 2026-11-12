@@ -1,4 +1,0 @@
-opencv-python
-blurhash-python
-tqdm
-Pillow

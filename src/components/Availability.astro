@@ -1,0 +1,49 @@
+---
+import type { Artwork, Locale } from '../content/schema';
+import { formatPrice, saleHref } from '../content/format';
+import { useTranslations } from '../i18n/ui';
+import { content } from '../site/content';
+
+interface Props {
+  artwork: Artwork;
+  locale: Locale;
+}
+
+const { artwork, locale } = Astro.props;
+const t = useTranslations(locale);
+const { availability, price } = artwork;
+---
+
+<div class="availability">
+  {
+    availability === 'available' && price ? (
+      <>
+        <a href={saleHref(artwork, content.settings.email, locale)} target="_blank" rel="noopener">
+          {t('work.available')}
+        </a>
+        <p>{formatPrice(price, locale)}</p>
+      </>
+    ) : availability === 'sold' ? (
+      <p>{t('work.sold')}</p>
+    ) : availability === 'unavailable' ? (
+      <p>{t('work.unavailable')}</p>
+    ) : null
+  }
+</div>
+
+<style>
+  .availability {
+    margin-top: 3vh;
+    font-size: 1.5em;
+  }
+  a {
+    color: var(--ink);
+    text-decoration: underline;
+  }
+  a:hover {
+    color: var(--muted);
+  }
+  p {
+    margin: 0;
+  }
+</style>

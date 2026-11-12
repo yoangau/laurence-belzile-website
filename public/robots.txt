@@ -1,2 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Disallow: /admin
+Disallow: /api/
+
+Sitemap: https://laurencebelzile.com/sitemap-index.xml

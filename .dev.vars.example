@@ -1,0 +1,5 @@
+# Local-only settings for `npm run dev` (copy to .dev.vars).
+# Skips the Cloudflare Access check on localhost so you can use /admin locally.
+DEV_AUTH_BYPASS=1
+# Optional: lets the local "Publier" button trigger the real GitHub workflow.
+# GITHUB_TOKEN=

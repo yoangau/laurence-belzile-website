@@ -1,0 +1,22 @@
+/** Typed access to the Worker bindings and secrets (see wrangler.jsonc). */
+import { env as workerEnv } from 'cloudflare:workers';
+
+export type AppEnv = Env & {
+  /** Fine-grained GitHub token (Actions: write) used by "Publier". Secret. */
+  GITHUB_TOKEN?: string;
+  /** Application Audience (AUD) tag of the Cloudflare Access application. Secret. */
+  CF_ACCESS_AUD?: string;
+  /** `1` in .dev.vars only: skip the Access check on localhost. */
+  DEV_AUTH_BYPASS?: string;
+};
+
+export const env = workerEnv as AppEnv;
+
+export const json = (data: unknown, init: ResponseInit = {}) =>
+  new Response(JSON.stringify(data), {
+    ...init,
+    headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store', ...init.headers },
+  });
+
+export const errorResponse = (status: number, message: string, details?: unknown) =>
+  json({ error: message, ...(details === undefined ? {} : { details }) }, { status });

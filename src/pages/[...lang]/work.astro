@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import Feed from '../../components/Feed.astro';
+import { ogImageUrl, titlePlain } from '../../content/format';
+import { localeFromParam, localeParams, useTranslations } from '../../i18n/ui';
+import { absoluteUrl, artworks, MEDIA_URL } from '../../site/content';
+
+export const getStaticPaths = localeParams;
+
+const locale = localeFromParam(Astro.params.lang);
+const t = useTranslations(locale);
+const first = artworks[0];
+---
+
+<Base
+  locale={locale}
+  title={t('work.title')}
+  image={first && { url: absoluteUrl(ogImageUrl(MEDIA_URL, first.images[0]!), Astro.site!), alt: titlePlain(first, locale) }}
+>
+  <h1 class="visually-hidden">{t('work.title')}</h1>
+  <Feed works={artworks} locale={locale} filterable />
+</Base>

@@ -1,0 +1,105 @@
+@import '@fontsource/rokkitt/400.css';
+@import '@fontsource/rokkitt/700.css';
+
+:root {
+  --ink: #000;
+  --text: #212529;
+  --muted: #aaa;
+  --bg: #fff;
+  --gutter: 10vw;
+  --column: 80vw;
+  --font: 'Rokkitt', Georgia, serif;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --column: 70vw;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 0 0 var(--gutter);
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--muted);
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Fade-in on scroll (replaces react-reveal). Only hidden when JS runs, so content never disappears. */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition:
+    opacity 1s ease,
+    transform 1s ease;
+}
+
+.js .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

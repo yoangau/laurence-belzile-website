@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import Feed from '../../components/Feed.astro';
+import { ogImageUrl } from '../../content/format';
+import { localeFromParam, localeParams, useTranslations } from '../../i18n/ui';
+import { absoluteUrl, content, MEDIA_URL, personJsonLd, works } from '../../site/content';
+
+export const getStaticPaths = localeParams;
+
+const locale = localeFromParam(Astro.params.lang);
+const t = useTranslations(locale);
+const portrait = content.settings.portrait;
+---
+
+<Base
+  locale={locale}
+  type="profile"
+  image={portrait && { url: absoluteUrl(ogImageUrl(MEDIA_URL, portrait), Astro.site!), alt: 'Laurence Belzile' }}
+  jsonLd={{ '@context': 'https://schema.org', ...personJsonLd(Astro.site!), jobTitle: t('site.description') }}
+>
+  <h1 class="visually-hidden">Laurence Belzile — {t('site.description')}</h1>
+  <Feed works={works} locale={locale} />
+</Base>

@@ -1,0 +1,108 @@
+---
+import Base from '../../layouts/Base.astro';
+import { docUrl, pick } from '../../content/format';
+import { inlineHtml } from '../../content/text';
+import { localeFromParam, localeParams, localePath, useTranslations } from '../../i18n/ui';
+import { content, documentsFor, MEDIA_URL } from '../../site/content';
+import type { CvEntry } from '../../content/schema';
+
+export const getStaticPaths = localeParams;
+
+const locale = localeFromParam(Astro.params.lang);
+const t = useTranslations(locale);
+const link = (url: string) => localePath(locale, url);
+
+/** Consecutive entries with the same year share one year label. */
+const groupByYear = (entries: CvEntry[]) =>
+  entries.reduce<{ year: string; entries: CvEntry[] }[]>((groups, entry) => {
+    const last = groups.at(-1);
+    if (last && last.year === entry.year) last.entries.push(entry);
+    else groups.push({ year: entry.year, entries: [entry] });
+    return groups;
+  }, []);
+---
+
+<Base locale={locale} title={t('cv.title')}>
+  <h1 class="visually-hidden">{t('cv.title')}</h1>
+  <div class="reveal">
+    <ul class="downloads">
+      {
+        documentsFor('cv').map((doc) => (
+          <li>
+            <a href={docUrl(MEDIA_URL, doc.file[locale])} target="_blank" rel="noopener">
+              {pick(doc.label, locale)}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    {
+      content.cv.map((section) => (
+        <section>
+          <h2>{pick(section.title, locale)}</h2>
+          {groupByYear(section.entries).map((group) => (
+            <div class="year">
+              <div class="date">{group.year}</div>
+              <ul>
+                {group.entries.map((entry) => {
+                  const html = inlineHtml(pick(entry.text, locale), link);
+                  return (
+                    <li>
+                      {entry.url ? (
+                        <a href={link(entry.url)} {...(entry.url.startsWith('/') ? {} : { target: '_blank', rel: 'noopener' })} set:html={html} />
+                      ) : (
+                        <Fragment set:html={html} />
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  .downloads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em 2em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  h2 {
+    margin: 3em 0 0.5em;
+    font-size: 1em;
+    font-weight: 700;
+  }
+  .year {
+    display: flex;
+    margin-bottom: 1em;
+  }
+  .date {
+    flex: 0 0 10ch;
+  }
+  .year ul {
+    margin: 0 7em 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .year li {
+    margin-bottom: 1em;
+  }
+  a {
+    color: inherit;
+  }
+  a:hover {
+    color: var(--muted);
+  }
+  @media (max-width: 768px) {
+    .year ul {
+      margin-right: 1em;
+    }
+  }
+</style>

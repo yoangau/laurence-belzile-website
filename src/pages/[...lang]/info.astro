@@ -1,0 +1,63 @@
+---
+import Base from '../../layouts/Base.astro';
+import Picture from '../../components/Picture.astro';
+import { ogImageUrl, pick } from '../../content/format';
+import { blockHtml, excerpt } from '../../content/text';
+import { localeFromParam, localeParams, localePath, useTranslations } from '../../i18n/ui';
+import { absoluteUrl, content, MEDIA_URL, personJsonLd } from '../../site/content';
+
+export const getStaticPaths = localeParams;
+
+const locale = localeFromParam(Astro.params.lang);
+const t = useTranslations(locale);
+const bio = pick(content.bio, locale);
+const portrait = content.settings.portrait;
+// Skip the first heading ("Biographie") for the meta description.
+const description = excerpt(bio.replace(/^##[^\n]*\n+/, ''));
+---
+
+<Base
+  locale={locale}
+  title={t('info.title')}
+  description={description}
+  type="profile"
+  image={portrait && { url: absoluteUrl(ogImageUrl(MEDIA_URL, portrait), Astro.site!), alt: 'Laurence Belzile' }}
+  jsonLd={{ '@context': 'https://schema.org', ...personJsonLd(Astro.site!), description }}
+>
+  <h1 class="visually-hidden">{t('info.title')}</h1>
+  <div class="reveal">
+    {portrait && <div class="portrait"><Picture image={portrait} alt="Laurence Belzile" sizes="(max-width: 768px) 63vw, 56vw" eager /></div>}
+    <div class="bio" set:html={blockHtml(bio, (u) => localePath(locale, u))} />
+  </div>
+</Base>
+
+<style>
+  .portrait {
+    width: 70%;
+  }
+  .bio {
+    margin-right: 7em;
+    padding-bottom: 3.5em;
+    text-align: justify;
+  }
+  .bio :global(h2) {
+    margin: 6em 0 0;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .bio :global(h2 + p) {
+    margin-top: 0.5em;
+  }
+  .bio :global(p) {
+    margin: 0;
+    padding-bottom: 0.5em;
+  }
+  @media (max-width: 768px) {
+    .bio {
+      margin-right: 1.5em;
+      text-align: left;
+    }
+  }
+</style>

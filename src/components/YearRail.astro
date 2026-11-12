@@ -1,0 +1,74 @@
+---
+/** Fixed list of years on the right edge, jumping to the first work of each year (replaces antd Anchor). */
+interface Props {
+  years: number[];
+  /** Prefix of the anchor ids (`2024` or `available-2024`). */
+  idPrefix?: string;
+  /** Matches `data-filter` on /work; the inactive rail is hidden. */
+  name: string;
+  hidden?: boolean;
+  label: string;
+}
+
+const { years, idPrefix = '', name, hidden = false, label } = Astro.props;
+---
+
+{
+  years.length > 1 && (
+    <nav class="rail" data-year-rail={name} hidden={hidden} aria-label={label}>
+      <ul>
+        {years.map((year) => (
+          <li>
+            <a href={`#${idPrefix}${year}`}>{year}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )
+}
+
+<style>
+  .rail {
+    position: fixed;
+    top: 50%;
+    right: 4%;
+    z-index: 5;
+    transform: translateY(-50%);
+    font-size: 14px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-left: 2px solid rgba(5, 5, 5, 0.06);
+  }
+  a {
+    display: block;
+    position: relative;
+    padding: 4px 0 4px 16px;
+    color: rgba(0, 0, 0, 0.88);
+    text-decoration: none;
+    line-height: 1.57;
+  }
+  a[aria-current] {
+    color: var(--ink);
+  }
+  a[aria-current]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -2px;
+    width: 2px;
+    background: var(--ink);
+  }
+  @media (max-width: 768px) {
+    .rail {
+      right: 2%;
+      font-size: 12px;
+    }
+    a {
+      padding-left: 8px;
+    }
+  }
+</style>
