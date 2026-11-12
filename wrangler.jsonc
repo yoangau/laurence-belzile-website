@@ -7,6 +7,10 @@
   // Static pages are served by the assets layer; only /api, /admin, /media and /projects reach the Worker.
   "assets": { "binding": "ASSETS" },
   "observability": { "enabled": true },
+  // Staging on the owner's other domain. At cutover, add laurencebelzile.com and www.laurencebelzile.com
+  // (see docs/setup-cloudflare.md); the staging domain can stay or be removed.
+  "routes": [{ "pattern": "lb.inscape.xyz", "custom_domain": true }],
+  "workers_dev": false,
   // Public media (images, PDFs). Served from https://media.laurencebelzile.com (R2 custom domain).
   "r2_buckets": [
     { "binding": "MEDIA", "bucket_name": "lb-media" },
