@@ -36,9 +36,9 @@ export const triggerDeploy = async (env: AppEnv): Promise<{ triggered: boolean; 
   });
   if (dispatch.ok) return { triggered: true };
 
-  // Safety net: if GitHub refuses workflow_dispatch for this branch (e.g. the workflow isn't known there yet),
-  // (deploy.yml not on master yet), rebuild by re-running the branch's latest deploy instead:
-  // the rebuild downloads the newest published.json, so the result is the same.
+  // Safety net: if GitHub refuses workflow_dispatch for this branch (e.g. the workflow isn't known there
+  // yet), re-run the branch's latest deploy instead. It downloads the newest published.json, so the result
+  // is the same.
   if (dispatch.status === 404 || dispatch.status === 422) {
     const run = await latestRun(env);
     if (!run) return { triggered: false, reason: 'Aucune mise en ligne précédente à relancer.' };
