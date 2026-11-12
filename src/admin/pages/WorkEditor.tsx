@@ -44,7 +44,7 @@ export function Section({ title, children, description }: { title: string; child
         {title}
       </Title>
       {description && (
-        <Text size="sm" c="dimmed" mb="sm">
+        <Text size="sm" c="dimmed" mb="sm" component="div">
           {description}
         </Text>
       )}

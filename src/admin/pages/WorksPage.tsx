@@ -117,7 +117,7 @@ export function WorksPage({ kind }: { kind: Kind }) {
           Aucun résultat.
         </Text>
       ) : (
-        <SortableList items={visible} getId={(w) => w.id} onMove={onMove}>
+        <SortableList items={visible} getId={(w) => w.id} onMove={onMove} container={(rows) => <Box>{rows}</Box>}>
           {(work, index, handle) => (
             <WorkRow
               work={work}

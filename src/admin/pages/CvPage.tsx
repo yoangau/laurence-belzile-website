@@ -115,7 +115,12 @@ function SectionItem({
               Supprimer la section
             </Button>
           </Group>
-          <SortableList items={section.entries} getId={entryId(section)} onMove={moveEntry}>
+          <SortableList
+            items={section.entries}
+            getId={entryId(section)}
+            onMove={moveEntry}
+            container={(rows) => <Box>{rows}</Box>}
+          >
             {(entry, entryIndex, handle) => (
               <EntryRow
                 entry={entry}

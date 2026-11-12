@@ -53,23 +53,25 @@ body {
 }
 .lb-sold-button {
   flex: none;
-  width: 124px;
+  width: 136px;
 }
 @media (max-width: 48em) {
   .lb-row > .mantine-Group-root {
     flex-wrap: wrap !important;
+    gap: 6px !important;
   }
   .lb-row-link {
     flex-basis: calc(100% - 48px);
   }
   .lb-row-badges {
-    margin-left: 40px;
+    margin-left: 34px;
   }
   .lb-sold-button[aria-hidden] {
     display: none;
   }
   .lb-row .lb-sold-button {
     margin-left: auto;
+    width: auto;
   }
 }
 
