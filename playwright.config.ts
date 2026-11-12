@@ -4,6 +4,9 @@
  */
 import { defineConfig, devices } from '@playwright/test';
 
+/** Set E2E_BASE_URL to test another server, e.g. the production build under `wrangler dev`. */
+const baseURL = process.env.E2E_BASE_URL ?? 'http://localhost:4321';
+
 export default defineConfig({
   testDir: 'tests/e2e',
   fullyParallel: false,
@@ -11,15 +14,12 @@ export default defineConfig({
   timeout: 60_000,
   reporter: [['list']],
   use: {
-    baseURL: 'http://localhost:4321',
+    baseURL,
     trace: 'off',
     ...devices['Desktop Chrome'],
     deviceScaleFactor: 1,
   },
-  webServer: {
-    command: 'npx astro dev --port 4321',
-    url: 'http://localhost:4321/api/admin/me',
-    reuseExistingServer: true,
-    timeout: 120_000,
-  },
+  webServer: process.env.E2E_BASE_URL
+    ? undefined
+    : { command: 'npx astro dev --port 4321', url: `${baseURL}/api/admin/me`, reuseExistingServer: true, timeout: 120_000 },
 });

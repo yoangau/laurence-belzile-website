@@ -80,6 +80,24 @@ test('mark a work as sold from the list', async ({ page, request }) => {
   expect(saved.kind === 'artwork' && saved.price).toBe(work.kind === 'artwork' ? work.price : undefined);
 });
 
+test('reorder works by keyboard drag and with the arrow buttons', async ({ page, request }) => {
+  const ids = original.content.works.filter((w) => w.kind === 'artwork').map((w) => w.id);
+  await page.goto('/admin/oeuvres');
+  // "Descendre" on the first artwork swaps it with the second: [1, 0, 2].
+  await page.getByRole('button', { name: 'Descendre' }).first().click();
+  // Keyboard drag of the (new) first row two places down: [0, 2, 1].
+  const handle = page.getByRole('button', { name: 'Glisser pour déplacer' }).first();
+  await handle.focus();
+  for (const key of ['Space', 'ArrowDown', 'ArrowDown', 'Space']) {
+    await page.keyboard.press(key);
+    await page.waitForTimeout(250); // dnd-kit measures and animates between steps
+  }
+  await saveAndWait(page);
+
+  const order = (await getState(request)).content.works.filter((w) => w.kind === 'artwork').map((w) => w.id);
+  expect(order.slice(0, 3)).toEqual([ids[0], ids[2], ids[1]]);
+});
+
 test('create an artwork with an uploaded image', async ({ page, request }) => {
   await page.goto('/admin/oeuvres');
   await page.getByRole('button', { name: 'Nouvelle œuvre' }).click();

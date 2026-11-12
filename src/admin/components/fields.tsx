@@ -135,7 +135,7 @@ export function MarkdownField({
 
 /** One-line help about the text syntax. */
 export const SyntaxHelp = ({ long = false }: { long?: boolean }) => (
-  <Text size="xs" c="dimmed">
+  <Text size="xs" c="dimmed" component="span">
     <code>*italique*</code> · <code>**gras**</code> · <code>[texte du lien](https://…)</code>
     {long && (
       <>

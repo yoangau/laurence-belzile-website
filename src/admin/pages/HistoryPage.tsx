@@ -90,7 +90,7 @@ export function HistoryPage() {
                     {index === 0 && (
                       <Text span size="xs" c="dimmed">
                         {' '}
-                        (en ligne)
+                        (la plus récente)
                       </Text>
                     )}
                   </Table.Td>
