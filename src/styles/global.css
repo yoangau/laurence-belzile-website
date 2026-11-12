@@ -83,24 +83,34 @@ input {
   white-space: nowrap;
 }
 
-/* Fade-in on scroll (replaces react-reveal). Only hidden when JS runs, so content never disappears. */
+/*
+ * Fade-in on scroll, same as v1's react-reveal <Fade bottom>: the element rises from one full
+ * height below while fading in, over 1s. Hidden only when JS runs, so content never disappears.
+ * Elements are not transformed while waiting, so the trigger sees their real position.
+ */
 .js .reveal {
   opacity: 0;
-  transform: translateY(40px);
-  transition:
-    opacity 1s ease,
-    transform 1s ease;
 }
 
 .js .reveal.is-visible {
-  opacity: 1;
-  transform: none;
+  animation: reveal-up 1s ease both;
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .js .reveal {
+  .js .reveal,
+  .js .reveal.is-visible {
     opacity: 1;
-    transform: none;
-    transition: none;
+    animation: none;
   }
 }
