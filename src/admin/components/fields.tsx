@@ -13,7 +13,10 @@ export function NumberField({
   value,
   onChange,
   ...props
-}: Omit<NumberInputProps, 'value' | 'onChange'> & { value: number | undefined; onChange: (value: number | undefined) => void }) {
+}: Omit<NumberInputProps, 'value' | 'onChange'> & {
+  value: number | undefined;
+  onChange: (value: number | undefined) => void;
+}) {
   const [text, setText] = useState<string | number>(value ?? '');
   useEffect(() => {
     setText((current) => (Number(current) === value && current !== '' ? current : (value ?? '')));
@@ -49,7 +52,16 @@ export function L10nInput({
   description?: ReactNode;
   placeholderEn?: string;
   /** Custom input, e.g. an Autocomplete. */
-  render?: (locale: 'fr' | 'en', props: { label: string; value: string; onChange: (v: string) => void; error?: string | undefined; placeholder?: string }) => ReactNode;
+  render?: (
+    locale: 'fr' | 'en',
+    props: {
+      label: string;
+      value: string;
+      onChange: (v: string) => void;
+      error?: string | undefined;
+      placeholder?: string;
+    },
+  ) => ReactNode;
 }) {
   const errorFr = useFieldError(`${path}.fr`);
   const errorEn = useFieldError(`${path}.en`);
@@ -61,7 +73,11 @@ export function L10nInput({
       error: locale === 'fr' ? errorFr : errorEn,
       ...(locale === 'en' ? { placeholder: placeholderEn } : {}),
     };
-    return render ? render(locale, props) : <TextInput {...props} onChange={(e) => props.onChange(e.currentTarget.value)} />;
+    return render ? (
+      render(locale, props)
+    ) : (
+      <TextInput {...props} onChange={(e) => props.onChange(e.currentTarget.value)} />
+    );
   };
   return (
     <Box>
@@ -79,7 +95,15 @@ export function L10nInput({
 }
 
 /** Rendered markdown, styled like the public site. */
-export function Preview({ text, mode = 'block', empty = 'Aperçu' }: { text: string; mode?: 'block' | 'inline'; empty?: string }) {
+export function Preview({
+  text,
+  mode = 'block',
+  empty = 'Aperçu',
+}: {
+  text: string;
+  mode?: 'block' | 'inline';
+  empty?: string;
+}) {
   if (!text.trim()) {
     return (
       <Text size="sm" c="dimmed" fs="italic">

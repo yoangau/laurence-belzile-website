@@ -128,9 +128,7 @@ function ConflictModal() {
           Une autre fenêtre (ou un autre appareil) a enregistré des modifications entre-temps. Rechargez la page pour
           repartir de la dernière version. Les modifications faites ici depuis le dernier enregistrement seront perdues.
         </Text>
-        <Button onClick={() => window.location.reload()}>
-          Recharger la page
-        </Button>
+        <Button onClick={() => window.location.reload()}>Recharger la page</Button>
       </Stack>
     </Modal>
   );

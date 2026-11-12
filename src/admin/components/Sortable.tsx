@@ -74,7 +74,9 @@ export function SortableList<T>({ items, getId, onMove, layout = 'list', childre
 }
 
 function SortableItem({ id, children }: { id: string; children: (handle: ReactNode) => ReactNode }) {
-  const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform, transition, isDragging } = useSortable({ id });
+  const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform, transition, isDragging } = useSortable({
+    id,
+  });
   const style: CSSProperties = {
     transform: CSS.Translate.toString(transform),
     transition,

@@ -57,7 +57,11 @@ export function SubscribersPage() {
           setSubscribers((list) => list?.filter((s) => s.email !== subscriber.email) ?? null);
           notifications.show({ color: 'dark', message: `${subscriber.email} a été retiré.` });
         } catch (e) {
-          notifications.show({ color: 'red', title: 'Suppression impossible', message: e instanceof Error ? e.message : String(e) });
+          notifications.show({
+            color: 'red',
+            title: 'Suppression impossible',
+            message: e instanceof Error ? e.message : String(e),
+          });
         }
       },
     });
@@ -112,7 +116,12 @@ export function SubscribersPage() {
                     <Table.Td>{s.locale === 'en' ? 'Anglais' : 'Français'}</Table.Td>
                     <Table.Td>{formatDate(s.createdAt)}</Table.Td>
                     <Table.Td>
-                      <ActionIcon variant="subtle" color="red" aria-label={`Retirer ${s.email}`} onClick={() => remove(s)}>
+                      <ActionIcon
+                        variant="subtle"
+                        color="red"
+                        aria-label={`Retirer ${s.email}`}
+                        onClick={() => remove(s)}
+                      >
                         <IconTrash size={16} />
                       </ActionIcon>
                     </Table.Td>

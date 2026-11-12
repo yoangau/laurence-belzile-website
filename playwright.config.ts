@@ -21,5 +21,10 @@ export default defineConfig({
   },
   webServer: process.env.E2E_BASE_URL
     ? undefined
-    : { command: 'npx astro dev --port 4321', url: `${baseURL}/api/admin/me`, reuseExistingServer: true, timeout: 120_000 },
+    : {
+        command: 'npx astro dev --port 4321',
+        url: `${baseURL}/api/admin/me`,
+        reuseExistingServer: true,
+        timeout: 120_000,
+      },
 });

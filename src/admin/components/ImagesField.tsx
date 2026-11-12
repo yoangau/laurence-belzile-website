@@ -50,7 +50,11 @@ export function ImagesField({ workId, images, path }: { workId: string; images: 
           {(image, index, handle) => (
             <Paper withBorder radius="sm" p={6} h="100%">
               <Box className="lb-image-tile" style={{ backgroundColor: image.color }}>
-                <img src={imageUrl(mediaUrl, image, Math.min(...image.widths))} alt={`Image ${index + 1}`} loading="lazy" />
+                <img
+                  src={imageUrl(mediaUrl, image, Math.min(...image.widths))}
+                  alt={`Image ${index + 1}`}
+                  loading="lazy"
+                />
                 {index === 0 && (
                   <Badge className="lb-image-main" size="sm" color="dark">
                     Principale
@@ -120,8 +124,8 @@ export function ImagesField({ workId, images, path }: { workId: string; images: 
       />
       {images.length > 1 && (
         <Text size="xs" c="dimmed">
-          La première image est l’image principale (dans le fil et pour les partages). Glissez les images ou utilisez les
-          flèches pour changer l’ordre.
+          La première image est l’image principale (dans le fil et pour les partages). Glissez les images ou utilisez
+          les flèches pour changer l’ordre.
         </Text>
       )}
     </Stack>

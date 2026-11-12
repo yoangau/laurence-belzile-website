@@ -93,7 +93,12 @@ function SectionItem({
             {hasErrors && <Badge color="red">À corriger</Badge>}
           </Group>
         </Accordion.Control>
-        <MoveButtons index={index} count={count} onMove={onMove} labels={['Monter la section', 'Descendre la section']} />
+        <MoveButtons
+          index={index}
+          count={count}
+          onMove={onMove}
+          labels={['Monter la section', 'Descendre la section']}
+        />
       </Group>
       <Accordion.Panel>
         <Stack gap="md">
@@ -229,4 +234,3 @@ function EntryRow({
     </Paper>
   );
 }
-

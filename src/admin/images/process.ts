@@ -20,7 +20,6 @@ export type ProcessedImage = {
   color: string;
 };
 
-
 const decode = async (file: Blob): Promise<ImageBitmap> => {
   try {
     return await createImageBitmap(file, { imageOrientation: 'from-image' });
@@ -92,7 +91,10 @@ const dominantColor = (canvas: OffscreenCanvas): string => {
 
 const heightAt = (bitmap: Source, width: number) => Math.max(1, Math.round((bitmap.height * width) / bitmap.width));
 
-export const processImage = async (file: Blob, onProgress: (fraction: number) => void = () => {}): Promise<ProcessedImage> => {
+export const processImage = async (
+  file: Blob,
+  onProgress: (fraction: number) => void = () => {},
+): Promise<ProcessedImage> => {
   const bitmap = await decode(file);
   try {
     const widths = variantWidths(bitmap.width, IMAGE_WIDTHS);

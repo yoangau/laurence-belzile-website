@@ -65,8 +65,8 @@ export function WorksPage({ kind }: { kind: Kind }) {
         <div>
           <Title order={1}>{KIND[kind].plural}</Title>
           <Text c="dimmed" size="sm">
-            {filtered ? `${visible.length} sur ${all.length}` : `${all.length} au total`} · dans l’ordre du site, la plus
-            récente en haut
+            {filtered ? `${visible.length} sur ${all.length}` : `${all.length} au total`} · dans l’ordre du site, la
+            plus récente en haut
           </Text>
         </div>
         <Button leftSection={<IconPlus size={18} />} onClick={() => setCreating(true)}>
@@ -145,7 +145,9 @@ const markSold = async (work: Work) => {
     updateArtwork(work.id, (a) => {
       a.availability = 'available';
     });
-    void save({ quiet: true }).then((ok) => ok && notifications.show({ message: `« ${title} » est de nouveau disponible.` }));
+    void save({ quiet: true }).then(
+      (ok) => ok && notifications.show({ message: `« ${title} » est de nouveau disponible.` }),
+    );
   };
   if (!(await save({ quiet: true }))) return;
   notifications.show({
@@ -288,4 +290,3 @@ function NewWorkModal({ kind, opened, onClose }: { kind: Kind; opened: boolean; 
     </Modal>
   );
 }
-

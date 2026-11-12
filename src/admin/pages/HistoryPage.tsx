@@ -51,7 +51,11 @@ export function HistoryPage() {
             message: 'Elle est maintenant votre brouillon. Publiez-la pour la remettre en ligne.',
           });
         } catch (e) {
-          notifications.show({ color: 'red', title: 'Restauration impossible', message: e instanceof Error ? e.message : String(e) });
+          notifications.show({
+            color: 'red',
+            title: 'Restauration impossible',
+            message: e instanceof Error ? e.message : String(e),
+          });
         }
       },
     });
@@ -96,7 +100,12 @@ export function HistoryPage() {
                   </Table.Td>
                   <Table.Td>{Math.round(entry.size / 1024)} Ko</Table.Td>
                   <Table.Td ta="right">
-                    <Button size="compact-sm" variant="default" leftSection={<IconRestore size={14} />} onClick={() => restore(entry)}>
+                    <Button
+                      size="compact-sm"
+                      variant="default"
+                      leftSection={<IconRestore size={14} />}
+                      onClick={() => restore(entry)}
+                    >
                       Restaurer
                     </Button>
                   </Table.Td>

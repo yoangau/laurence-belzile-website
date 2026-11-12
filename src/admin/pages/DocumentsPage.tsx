@@ -86,9 +86,16 @@ function FileRow({ doc, locale }: { doc: Document; locale: 'fr' | 'en' }) {
       updateDocument(doc.id, (d) => {
         d.file[locale] = uploaded;
       });
-      notifications.show({ color: 'dark', message: `PDF ${locale === 'fr' ? 'français' : 'anglais'} remplacé. Enregistrez puis publiez.` });
+      notifications.show({
+        color: 'dark',
+        message: `PDF ${locale === 'fr' ? 'français' : 'anglais'} remplacé. Enregistrez puis publiez.`,
+      });
     } catch (error) {
-      notifications.show({ color: 'red', title: 'Envoi impossible', message: error instanceof Error ? error.message : String(error) });
+      notifications.show({
+        color: 'red',
+        title: 'Envoi impossible',
+        message: error instanceof Error ? error.message : String(error),
+      });
     } finally {
       setBusy(false);
     }
@@ -97,7 +104,7 @@ function FileRow({ doc, locale }: { doc: Document; locale: 'fr' | 'en' }) {
     <Group justify="space-between" wrap="wrap" gap="xs">
       <Text size="sm">
         <b>{locale === 'fr' ? 'Français' : 'Anglais'} :</b>{' '}
-        <Anchor href={href} target="_blank" rel="noopener">
+        <Anchor href={href} target="_blank" rel="noopener" underline="always">
           {key.split('/').pop()}
         </Anchor>
       </Text>
@@ -118,7 +125,13 @@ function FileRow({ doc, locale }: { doc: Document; locale: 'fr' | 'en' }) {
         )}
         <FileButton onChange={(file) => void replace(file)} accept="application/pdf,.pdf">
           {(props) => (
-            <Button {...props} size="compact-sm" variant="default" loading={busy} leftSection={<IconFileUpload size={14} />}>
+            <Button
+              {...props}
+              size="compact-sm"
+              variant="default"
+              loading={busy}
+              leftSection={<IconFileUpload size={14} />}
+            >
               Remplacer
             </Button>
           )}
@@ -217,7 +230,11 @@ function AddDocumentModal({ opened, onClose }: { opened: boolean; onClose: () =>
       setFile(null);
       onClose();
     } catch (error) {
-      notifications.show({ color: 'red', title: 'Envoi impossible', message: error instanceof Error ? error.message : String(error) });
+      notifications.show({
+        color: 'red',
+        title: 'Envoi impossible',
+        message: error instanceof Error ? error.message : String(error),
+      });
     } finally {
       setBusy(false);
     }

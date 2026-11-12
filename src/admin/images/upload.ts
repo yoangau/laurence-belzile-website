@@ -17,7 +17,10 @@ export const randomSuffix = (length = 6) =>
 
 let worker: Worker | null = null;
 let nextJob = 0;
-const jobs = new Map<number, { resolve: (r: ProcessedImage) => void; reject: (e: Error) => void; onProgress: (f: number) => void }>();
+const jobs = new Map<
+  number,
+  { resolve: (r: ProcessedImage) => void; reject: (e: Error) => void; onProgress: (f: number) => void }
+>();
 
 const getWorker = (): Worker => {
   if (worker) return worker;
@@ -37,7 +40,11 @@ const getWorker = (): Worker => {
   worker.onerror = (event) => {
     event.preventDefault();
     for (const job of jobs.values()) {
-      job.reject(new Error('Le traitement de l’image a échoué. Rechargez la page et réessayez, ou utilisez une photo plus petite.'));
+      job.reject(
+        new Error(
+          'Le traitement de l’image a échoué. Rechargez la page et réessayez, ou utilisez une photo plus petite.',
+        ),
+      );
     }
     jobs.clear();
     worker?.terminate();
@@ -71,7 +78,10 @@ export type UploadOptions = {
   onProgress?: (fraction: number, label: string) => void;
 };
 
-export const uploadImage = async (file: File, { prefix, credit, onProgress = () => {} }: UploadOptions): Promise<Image> => {
+export const uploadImage = async (
+  file: File,
+  { prefix, credit, onProgress = () => {} }: UploadOptions,
+): Promise<Image> => {
   onProgress(0, 'En attente…');
   const processed = await enqueue(() =>
     processInWorker(file, (fraction) => onProgress(fraction * 0.5, 'Préparation des formats…')),

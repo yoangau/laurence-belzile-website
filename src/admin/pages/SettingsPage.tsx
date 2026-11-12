@@ -92,7 +92,10 @@ export function SettingsPage() {
 
 const creditUsage = (content: Content) => {
   const counts = new Map<string, number>();
-  const images = [...content.works.flatMap((w) => w.images), ...(content.settings.portrait ? [content.settings.portrait] : [])];
+  const images = [
+    ...content.works.flatMap((w) => w.images),
+    ...(content.settings.portrait ? [content.settings.portrait] : []),
+  ];
   for (const image of images) if (image.credit) counts.set(image.credit, (counts.get(image.credit) ?? 0) + 1);
   return counts;
 };
@@ -307,7 +310,9 @@ function PriceTable() {
           onClick={() =>
             updateSettings((s) => {
               s.priceTable.sort(
-                (a, b) => a.dimensions[0] * a.dimensions[1] - b.dimensions[0] * b.dimensions[1] || a.dimensions[0] - b.dimensions[0],
+                (a, b) =>
+                  a.dimensions[0] * a.dimensions[1] - b.dimensions[0] * b.dimensions[1] ||
+                  a.dimensions[0] - b.dimensions[0],
               );
             })
           }

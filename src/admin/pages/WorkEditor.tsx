@@ -37,7 +37,15 @@ import {
   type Kind,
 } from '../works';
 
-export function Section({ title, children, description }: { title: string; children: ReactNode; description?: ReactNode }) {
+export function Section({
+  title,
+  children,
+  description,
+}: {
+  title: string;
+  children: ReactNode;
+  description?: ReactNode;
+}) {
   return (
     <Paper withBorder p={{ base: 'sm', sm: 'lg' }} radius="sm">
       <Title order={2} size="h4" mb={description ? 2 : 'sm'}>
@@ -63,7 +71,9 @@ export function WorkEditor({ kind, id }: { kind: Kind; id: string }) {
     return (
       <Stack align="flex-start">
         <Title order={1}>Introuvable</Title>
-        <Text>Aucune {KIND[kind].one} ne porte le numéro {id}.</Text>
+        <Text>
+          Aucune {KIND[kind].one} ne porte le numéro {id}.
+        </Text>
         <Button {...linkProps(back)} component="a" variant="default">
           Retour à la liste
         </Button>
@@ -165,7 +175,11 @@ export function WorkEditor({ kind, id }: { kind: Kind; id: string }) {
           }
         />
         <YearField work={work} path={path} />
-        {work.kind === 'artwork' ? <ArtworkFields work={work} path={path} /> : <ExhibitionFields work={work} path={path} />}
+        {work.kind === 'artwork' ? (
+          <ArtworkFields work={work} path={path} />
+        ) : (
+          <ExhibitionFields work={work} path={path} />
+        )}
       </Section>
 
       <Section title="Description" description={<SyntaxHelp long />}>
@@ -451,6 +465,7 @@ function DisplayWidth({ work }: { work: Work }) {
         label={(v) => `${v} %`}
         marks={[25, 50, 75, 100].map((value) => ({ value, label: `${value} %` }))}
         mb="xl"
+        mr="md"
       />
       <Box className="lb-feed-preview" aria-hidden>
         {image ? (

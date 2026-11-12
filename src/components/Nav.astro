@@ -99,4 +99,13 @@ const { instagramUrl } = content.settings;
   .icon {
     display: flex;
   }
+  /* On phones the menu wraps to two lines: give it a background so text doesn't scroll under it. */
+  @media (max-width: 768px) {
+    .nav {
+      margin-left: calc(-1 * var(--gutter));
+      padding-left: var(--gutter);
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(6px);
+    }
+  }
 </style>
