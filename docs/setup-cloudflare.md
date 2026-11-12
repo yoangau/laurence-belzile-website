@@ -75,12 +75,30 @@ The site is now on `https://laurence-belzile.<account>.workers.dev`. Laurence ca
 
 ## 8. Cutover (the owner does this, not an AI agent)
 
+> **Staging is a playground.** Until the cutover, Laurence keeps editing the old site (git) and
+> uses the staging admin only to try things. Step 2 below **replaces** everything done on staging.
+
 1. Tell Laurence to stop editing the old site.
-2. Re-run the migration (step 3) to pick up the last changes made on `master`.
-3. Import the newsletter list. DynamoDB → table → _Explore items_ → select all → _Download results to CSV_, then `npm run subscribers:import -- export.csv --remote`.
-4. Merge the `v2` branch into `master` **yourself**, after reviewing the PR. The push to `master` triggers `deploy.yml`.
-5. At the domain registrar, switch the nameservers to Cloudflare's. Then add the Worker route: Workers → `laurence-belzile` → Settings → **Domains & Routes** → add `laurencebelzile.com` and `www.laurencebelzile.com`.
-6. Once `media.laurencebelzile.com` resolves, remove the `PUBLIC_MEDIA_URL` variable and publish once from the admin.
-7. Check: home page, an artwork page, `/en`, `/catalogue2026.pdf`, a link preview (e.g. paste an artwork URL in Messenger), `/admin` login, a test newsletter signup.
-8. In Google Search Console, submit `https://laurencebelzile.com/sitemap-index.xml`.
-9. After a week without problems: delete the Netlify site, the DynamoDB table and the old S3 buckets (`laulau`, `laurencebelzile.com`), and the IAM keys used by the old Netlify function.
+2. Re-run the migration (step 3) to pick up the last changes made on `master`. This overwrites
+   `draft.json` and `published.json` with the real content; images already uploaded are skipped.
+3. Clear the playground leftovers:
+   - Published versions made on staging (Historique):
+     `npx wrangler r2 object delete` each `lb-content/history/…` key, or empty the `history/` folder
+     from the R2 dashboard.
+   - Test sign-ups: `npx wrangler d1 execute lb --remote --command "DELETE FROM subscribers"`
+     (do this **before** importing the real list).
+   - Images Laurence uploaded while testing stay in `lb-media` unused. They're harmless and can stay.
+4. Import the newsletter list. DynamoDB → table → _Explore items_ → select all → _Download results to CSV_, then `npm run subscribers:import -- export.csv --remote`.
+5. Merge the `v2` branch into `master` **yourself**, after reviewing the PR. The push to `master` triggers `deploy.yml`.
+6. At Namecheap (Domain List → `laurencebelzile.com` → Nameservers → _Custom DNS_), set
+   `algin.ns.cloudflare.com` and `mimi.ns.cloudflare.com`. Wait until Cloudflare shows the zone as **Active**.
+7. Point everything at the real domain (an AI agent can do this through the API if you ask):
+   - `wrangler.jsonc` → `routes`: add `laurencebelzile.com` and `www.laurencebelzile.com` (custom domains).
+   - R2 → `lb-media` → Custom Domains: add `media.laurencebelzile.com`.
+   - `deploy.yml` → `PUBLIC_MEDIA_URL: https://media.laurencebelzile.com`, and drop the v2 branch from `push`.
+   - Zero Trust → Access → "Admin Laurence Belzile": add `laurencebelzile.com/admin` and `laurencebelzile.com/api/admin`.
+   - `npx wrangler secret put GITHUB_TOKEN` (step 5), so "Publier" rebuilds automatically.
+   - Push to `master`, which deploys.
+8. Check: home page, an artwork page, `/en`, `/catalogue2026.pdf`, a link preview (e.g. paste an artwork URL in Messenger), `/admin` login, a test newsletter signup.
+9. In Google Search Console, submit `https://laurencebelzile.com/sitemap-index.xml`.
+10. After a week without problems: delete the Netlify site, the DynamoDB table and the old S3 buckets (`laulau`, `laurencebelzile.com`), and the IAM keys used by the old Netlify function.
