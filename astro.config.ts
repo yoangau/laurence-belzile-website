@@ -27,7 +27,7 @@ export default defineConfig({
   build: { format: 'file' },
   adapter: cloudflare(),
   integrations: [
-    react({ include: ['src/admin/**'] }),
+    react({ include: ['src/admin/**/*.{ts,tsx}'] }),
     sitemap({
       filter: (page) => !page.includes('/admin'),
       i18n: { defaultLocale: 'fr', locales: { fr: 'fr-CA', en: 'en-CA' } },

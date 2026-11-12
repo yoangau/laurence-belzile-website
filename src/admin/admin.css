@@ -1,0 +1,147 @@
+/* Admin-only styles (Mantine handles the rest). */
+body {
+  background: #fafafa;
+}
+
+.lb-brand {
+  font-family: Rokkitt, Georgia, serif;
+  font-size: 1.35rem;
+  white-space: nowrap;
+}
+
+.lb-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  vertical-align: 1px;
+}
+
+@media (max-width: 48em) {
+  .lb-hide-mobile {
+    display: none !important;
+  }
+}
+
+/* Works list */
+.lb-row-link {
+  display: flex;
+  align-items: center;
+  gap: var(--mantine-spacing-sm);
+  flex: 1;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+.lb-row:hover {
+  border-color: var(--mantine-color-gray-5);
+}
+.lb-thumb {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.lb-thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.lb-sold-button {
+  flex: none;
+  width: 124px;
+}
+@media (max-width: 48em) {
+  .lb-row > .mantine-Group-root {
+    flex-wrap: wrap !important;
+  }
+  .lb-row-link {
+    flex-basis: calc(100% - 48px);
+  }
+  .lb-row-badges {
+    margin-left: 40px;
+  }
+  .lb-sold-button[aria-hidden] {
+    display: none;
+  }
+  .lb-row .lb-sold-button {
+    margin-left: auto;
+  }
+}
+
+/* Images of a work */
+.lb-image-tile {
+  position: relative;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.lb-image-tile img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.lb-image-main {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+.lb-dropzone {
+  border-style: dashed;
+}
+
+/* Feed preview for the display width */
+.lb-feed-preview {
+  border: 1px dashed var(--mantine-color-gray-5);
+  background: #fff;
+  padding: 16px 0;
+  max-width: 520px;
+}
+.lb-feed-preview img {
+  display: block;
+  height: auto;
+}
+.lb-feed-placeholder {
+  aspect-ratio: 4 / 3;
+  background: var(--mantine-color-gray-2);
+}
+
+@media (max-width: 36em) {
+  .lb-segmented .mantine-SegmentedControl-label {
+    font-size: 12px;
+    padding-inline: 4px;
+    white-space: normal;
+  }
+}
+
+/* Markdown previews, styled like the public site */
+.lb-preview-box {
+  border-left: 3px solid var(--mantine-color-gray-3);
+  padding: 4px 12px;
+  background: #fff;
+}
+.lb-preview {
+  font-family: Rokkitt, Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.45;
+}
+.lb-preview p {
+  margin: 0 0 0.8em;
+}
+.lb-preview h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0.6em 0 0.4em;
+}
+.lb-preview a {
+  color: inherit;
+}
+.lb-preview-inline {
+  font-size: 1rem;
+}
